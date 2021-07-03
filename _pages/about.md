@@ -16,14 +16,12 @@ Computer Science and Mathematics from the Texas A&M University.
 
 # Research Interests
 
-# News
+# Selected News
 ---
-<span style='color:red'>New!</span> I was selected to receive an Illinois GEM
+* <span style='color:red'>New!</span> I was selected to receive an Illinois GEM
 Associate Fellowship
-
-I passed my Ph.D. qualifying exam!
-
-I was selected to receive a 2020 Beckman Institute Graduate
+* I passed my Ph.D. qualifying exam!
+* I was selected to receive a 2020 Beckman Institute Graduate
 Fellowship [(news)](https://beckman.illinois.edu/about/news/article/2020/05/08/seven-named-2020-beckman-institute-graduate-fellows?fbclid=IwAR1XYI8PpzFLfAsAmQdurMZrywwTyHtTuhpkI3ZlaNUQPNcrY00SZJH0muU)
 
 
