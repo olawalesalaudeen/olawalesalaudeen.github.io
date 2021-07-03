@@ -81,15 +81,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  name             : "Olawale Salaudeen"
+  avatar           : "Salaudeen_Olawale.jpg"
+  bio              : &description
+  location         : "Urbana, IL"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  pubmed           :
+  googlescholar    :
+  email            : oes2<at>illinois<dot>edu
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -101,16 +101,16 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "walesalaudeen96"
   vine             :
   weibo            :
   xing             :
