@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 ---
-My name is Olawale E. Salaudeen and I am a Ph.D. candidate in Computer Science
+My name is Olawale E. Salaudeen, and I am a Ph.D. candidate in Computer Science
 at the University of Illinois at Urbana Champaign, advised by [Sanmi
 Koyejo]("http://sanmi.cs.illinois.edu/"). Prior to moving to IL, I
 obtained a Bachelors of Science in Mechanical Engineering and minors in
