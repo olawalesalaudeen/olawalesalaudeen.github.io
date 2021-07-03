@@ -5,4 +5,6 @@ excerpt: "Contact"
 author_profile: true
 ---
 
-Email: oes2@illinois.edu
+email     : oes2@illinois.edu
+linkedin  : "olawalesalaudeen"
+
