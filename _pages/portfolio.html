@@ -1,14 +1,20 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Experience"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
-
-{% for post in site.portfolio %}
+Academic
+======
+{% for post in site.academic%}
   {% include archive-single.html %}
 {% endfor %}
 
+Internships
+======
+{% for post in site.interships%}
+  {% include archive-single.html %}
+{% endfor %}
