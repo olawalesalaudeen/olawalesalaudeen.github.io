@@ -4,7 +4,7 @@ collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2018-fall-engr
 venue: "Texas A&M University, College of Engineering"
-date: 2019-01-01
+date: 2018-01-01
 location: "College Station, TX"
 ---
 
