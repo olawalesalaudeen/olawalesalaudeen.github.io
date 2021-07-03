@@ -83,12 +83,13 @@ analytics:
 author:
   name             : "Olawale Salaudeen"
   avatar           : "Salaudeen_Olawale.jpg"
-  bio              : &description
+  bio              : "Ph.D. Candidate in Computer Science at \
+the University of Illinois at Urbana-Champaign" 
   location         : "Urbana, IL"
   employer         :
   pubmed           :
   googlescholar    :
-  email            : oes2<at>illinois<dot>edu
+  email            : "oes2@illinois.edu"
   researchgate     :
   uri              :
   bitbucket        :
