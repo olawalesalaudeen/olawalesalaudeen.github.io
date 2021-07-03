@@ -9,4 +9,4 @@ author_profile: true
 <span class="icon"> <i class="fas fa-envelope"></i> </span> Email: <a href="mailto:oes2@illinois.edu">oes2@illinois.edu</a>
 
 <span class="icon"> <i class="fab fa-linkedin"></i> </span> LinkedIn:
-[@olawalesalaudeen]("https://www.linkedin.com/in/olawalesalaudeen/")
+<a href="https://www.linkedin.com/in/olawalesalaudeen/">@olawalesalaudeen</a>
