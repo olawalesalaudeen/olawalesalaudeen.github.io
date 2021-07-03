@@ -15,14 +15,14 @@ Koyejo]("http://sanmi.cs.illinois.edu/"). Prior to moving to IL, I
 obtained a Bachelors of Science in Mechanical Engineering and minors in
 Computer Science and Mathematics from the Texas A&M University.
 
-#Research Interests
+# Research Interests
 ---
 I am broadly interested machine learning in general and causal
 inference/discovery. In particulary, I work on transfer learning and causal
 structure learning - the latter under measurement error. 
 Additionally, I am interested in applications to neuroscience, healthcare, and fairness. 
 
-#Selected Recent News
+# Selected Recent News
 ---
 * <span style='color:red'>New!</span> I was selected to receive an Illinois GEM
 Associate Fellowship
