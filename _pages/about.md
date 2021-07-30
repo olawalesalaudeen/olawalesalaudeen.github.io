@@ -12,14 +12,14 @@ redirect_from:
 My name is Olawale E. Salaudeen, and I am a Ph.D. candidate in Computer Science
 at the University of Illinois at Urbana Champaign, advised by 
 <a href="http://sanmi.cs.illinois.edu/">Sanmi Koyejo.</a> 
-Prior to moving to IL, I
-obtained a Bachelors of Science in Mechanical Engineering and minors in
+Prior to moving to Illinois, I
+received a Bachelors of Science in Mechanical Engineering and minors in
 Computer Science and Mathematics from the Texas A&M University.
 
 # Research Interests
 ---
 I am broadly interested machine learning in general and causal
-inference/discovery. In particulary, I work on domain generalization and causal
+inference/discovery. In particular, I work on domain generalization and causal
 structure learning (under measurement error). 
 Additionally, I am interested in applications to neuroscience, healthcare, and fairness. 
 
