@@ -25,7 +25,9 @@ Additionally, I am interested in applications to neuroscience, healthcare, and f
 
 # Selected Recent News
 ---
-* <span style='color:red'>New!</span> I was selected to receive an Illinois GEM
+* I was selected to be a [Miniature Brain Machinery
+ Trainee](https://minibrain.beckman.illinois.edu/)
+* I was selected to receive an Illinois GEM
 Associate Fellowship
 * I passed my Ph.D. qualifying exam!
 * I was selected to receive a 2020 Beckman Institute Graduate
