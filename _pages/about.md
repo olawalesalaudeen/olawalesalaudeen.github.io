@@ -25,8 +25,8 @@ Additionally, I am interested in applications to neuroscience, healthcare, and f
 
 # Selected Recent News
 ---
-* I was awarded a [Miniature Brain Machinery
- Traineeship](https://minibrain.beckman.illinois.edu/)
+* I was awarded an NSF Fellowship through the [Miniature Brain Machinery
+ (MBM) Program](https://minibrain.beckman.illinois.edu/)
 * I was selected to receive an Illinois GEM
 Associate Fellowship
 * I passed my Ph.D. qualifying exam!
