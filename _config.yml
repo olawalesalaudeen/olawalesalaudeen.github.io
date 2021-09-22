@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Olawale Salaudeen"
+title                    : "Olawale (Wale) Salaudeen"
 title_separator          : "-"
-name                     : &name "Olawale Salaudeen"
+name                     : &name "Olawale (Wale) Salaudeen"
 description              : &description "Ph.D. Candidate in Computer Science at \
 the University of Illinois at Urbana-Champaign"
 url                      : https://olawalesalaudeen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
