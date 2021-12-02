@@ -40,7 +40,7 @@ Associate Fellowship.
 Fellowship
 [(news)](https://beckman.illinois.edu/about/news/article/2020/05/08/seven-named-2020-beckman-institute-graduate-fellows?fbclid=IwAR1XYI8PpzFLfAsAmQdurMZrywwTyHtTuhpkI3ZlaNUQPNcrY00SZJH0muU).
 
-# Research Mentorship
+# Research Mentees
 ---
 * [Ahmed Elsayed](https://www.linkedin.com/in/elsayeaa-2023/) (DREU 2021)
 * [Vikram Duvvur](https://www.linkedin.com/in/vikram-duvvur/)
