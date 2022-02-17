@@ -30,7 +30,7 @@ Additionally, I am interested in applications to neuroscience/neuroimaging, heal
  accepted at the 2021 [NeurIPS Workshop on Distribution
  Shift](https://sites.google.com/view/distshift2021).
 * I was selected as a [Miniature Brain Machinery
- (MBM) trainee](https://minibrain.beckman.illinois.edu/).
+ (MBM) NSF trainee](https://minibrain.beckman.illinois.edu/).
 * I was selected to receive an Illinois GEM
 Associate Fellowship.
 * I passed my Ph.D. qualifying exam!
