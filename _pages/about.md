@@ -19,18 +19,16 @@ Computer Science and Mathematics from the Texas A&M University.
 # Research Interests
 ---
 I am broadly interested machine learning in general and causal
-inference/discovery. In particular, I work on domain adaptation/generalization and causal
-structure learning (under measurement error). 
-Additionally, I am interested in applications to neuroscience, healthcare, and fairness. 
+inference/discovery. In particular, I work on robustness to distribution shifts
+(domain adaptation/generalization) and causal
+structure learning. 
+Additionally, I am interested in applications to neuroscience/neuroimaging, healthcare, and fairness. 
 
 # Selected Recent News
 ---
-<!---
-* I am serving as a reviewer for the 5th Black in AI Workshop at NeurIPS 2021.
 * Our paper titled "Domain Generalization for Chain Generative Processes" is
- accepted at the [NeurIPS Workshop on Distribution
+ accepted at the 2021 [NeurIPS Workshop on Distribution
  Shift](https://sites.google.com/view/distshift2021).
---->
 * I was selected as a [Miniature Brain Machinery
  (MBM) trainee](https://minibrain.beckman.illinois.edu/).
 * I was selected to receive an Illinois GEM
