@@ -40,5 +40,5 @@ Fellowship
 
 # Mentorship
 ---
-* [Ahmed Elsayed](https://www.linkedin.com/in/elsayeaa-2023/) (DREU 2021)
-* [Vikram Duvvur](https://www.linkedin.com/in/vikram-duvvur/)
+* [Vikram Duvvur](https://www.linkedin.com/in/vikram-duvvur/) (UIUC, 2021-2022)
+* [Ahmed Elsayed](https://www.linkedin.com/in/elsayeaa-2023/) (DREU @ UIUC, 2021)
