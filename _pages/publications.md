@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-ML=Machine Learning, BI=Biological Imaging</br>
+ML=Machine Learning, BI=Biological Imaging
 ## Workshop Papers
 [ML] **Exploiting Causal Chains for Domain Generalization**<br>
 **Olawale Salaudeen**, Oluwasanmi Koyejo. <br>
