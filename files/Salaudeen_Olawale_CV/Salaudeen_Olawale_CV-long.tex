@@ -1,0 +1,203 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+
+%----------------------------------------------------------------------------------------
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{enumitem}
+
+\usepackage{hyperref}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{\href{https://olawalesalaudeen.com}{Olawale Salaudeen}} % Your name
+\address{201 N. Goodwin Ave \\ Urbana, IL 61801} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{\href{https://olawalesalaudeen.com}{https://olawalesalaudeen.com} \\ \href{mailto:olasalaudeen96@gmail.com}{olasalaudeen96@gmail.com} \\ \href{mailto:oes2@illinois.edu}{oes2@illinois.edu}} % Your phone number and email
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy} 
+\cfoot{\thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of Illinois at Urbana-Champaign} \hfill {\em August 2019 - Present} 
+\\ Ph.D. Candidate
+\\ Department of Computer Science
+\\Advisor: \href{http://sanmi.cs.illinois.edu/}{Sanmi Koyejo}\\
+\\{\bf Texas A\&M University} \hfill {\em August 2015 - May 2019} 
+\\ Bachelor of Science with Honors, Mechanical Engineering
+\\ Minors in Computer Science and Mathematics
+\end{rSection}
+
+\begin{rSection}{Research Interests}
+Deep Learning, Transfer Learning (Domain Adaptation/Generalization), Causal Inference/Discovery, Causality-Inspired Machine Learning, Probabilistic Graphical Models
+\end{rSection}
+
+\begin{rSection}{Publications}
+\textbf{Workshop Papers}
+\begin{enumerate}[label={\arabic*.}]
+\item \textbf{Olawale Salaudeen}, Oluwasanmi Koyejo. \textbf{Exploiting Causal Chains for Domain Generalization}\\
+\textit{Conference on Neural Information Processing Systems (NeurIPS), 2021. Workshop on Distribution Shifts -- Connecting Methods and Applications}
+\end{enumerate}
+\textbf{Abstracts}
+\begin{enumerate}[label={\arabic*.}]
+\item Brad Sutton, Aaron Anderson, Benjamin Zimmerman, Paul Camacho, Riwei Jin, Charles Marchini, \textbf{Olawale Salaudeen}, Natalie Ramsy, Davide Boido, Serge Charpak, Andrew Webb, Luisa Ciobanu . \textbf{Ultra-fast 3D fMRI to explore cardiac-induced fluctuations in BOLD-based functional imaging}\\
+\textit{International Society for Magnetic Resonance in Medicine (ISMRM), 2022 (To Appear)}
+\end{enumerate}
+ %\textbf{Preprints and Manuscripts}
+ %\begin{enumerate}[label={\arabic*.}]
+ %\item \textbf{Olawale Salaudeen}, Oluwasanmi Koyejo. \textbf{Target Conditioned Representation Independence (TCRI) -- Exploiting Causal Chains for Domain Generalization}\\
+ %\textit{Under Review, 2022}
+\end{enumerate}
+\end{rSection}
+
+%--------------------------------------------------------------------------------
+%   Experience 
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Research Experience}
+\begin{rSubsection}{University of Illinois at Urbana-Champaign}{September 2021 - Present}{Miniature Brain Machinery NSF Trainee -- Champaign, Illinois} 
+
+\begin{itemize}
+    \item An NSF-funded research traineeship that combines cognitive and behavior studies with brain cell and tissue biology
+    \item Developing machine learning algorithms to detect and remove nuisance artifacts, such as the effects of breathing, from brain scans
+\end{itemize}
+\end{rSubsection}
+\begin{rSubsection}{University of Illinois at Urbana-Champaign}{August 2020 - August 2021}{Beckman Institute Graduate Research Fellow -- Champaign, Illinois} 
+
+\begin{itemize}
+    \item Developed a causal structure learning framework to isolate and remove motion artifacts in functional Magnetic Resonance Images (fMRI)
+\end{itemize}
+\end{rSubsection}
+\begin{rSubsection}{University of Illinois at Urbana-Champaign}{August 2019 - Present}{Graduate Research Assistant -- Champaign, Illinois} 
+
+\begin{itemize}
+    \item Developed a learning framework for estimating multi-modal individual treatment effects, correlated changes, and counterfactuals in the context of human performance optimization
+\end{itemize}
+\end{rSubsection}
+\begin{rSubsection}{Texas A\&M University Multi-Robotic Laboratory}{October 2018 - May 2019}{Undergraduate Researcher under Professor Dylan Shell -- College Station, TX}
+
+\begin{itemize}
+    \item Created and analyzed a novel geometry-based motion planning algorithm for tethered robots
+\end{itemize}
+\end{rSubsection}
+\begin{rSubsection}{Texas A\&M University Energy Systems Laboratory}{August 2016 - October 2018}{Undergraduate Researcher under Professor Charles Culp -- College Station, TX}
+
+\begin{itemize}
+    \item Developed probabilistic algorithms for fault detection and diagnosis in industrial Heating Ventilation and Air Condition systems
+\end{itemize}
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Internships}
+\begin{rSubsection}{Sandia National Laboratories}{May 2017 - Present}{Year-Round R\&D Intern - Albuquerque, NM}
+
+\begin{itemize}
+    \item \textbf{2021.} Developed a deep set predictor with configurable mean and pairwise errors (Type I/II) for multiclass prediction in the context of contraband detection in images
+    \item \textbf{2020.} Working on a team to develop models to classify organic materials in X-ray images
+    \item \textbf{2020.} Designed and executed experiments to investigate the effectiveness of Reinforcement Learning in sequence to sequence generation -- Deep Q Network in the context of automated code generation
+    \item \textbf{2019.} Implemented a rationale generating Recurrent Convolutional Neural Network model for triage classification of triggered network security alerts
+    \item \textbf{2019.} Prototyped a Convolutional Neural Network framework for semantic segmentation of X-Ray images of Improvised Explosive Devices and generation of a graphical model of designs of the devices
+    \item \textbf{2018.} Developed and implemented a multi-modal deep Recurrent Neural Network framework for classifying safety rules for maintenance tasks from mixed numerical and textual tasks descriptions
+    \item \textbf{2018.} Extended a 2D Simultaneous Localization and Mapping (SLAM) algorithm for ground systems to 3D for air systems equipped with 3D-LIDAR, IMU/GPS
+    \item \textbf{2017.} Designed and prototyped an intrusion detection and localization system using fiber-optic disturbances 
+    \item \textbf{2017.} Researched and presented applications of big data analysis to learn physical properties of a configuration space based on electromagnetic disturbances in transmitted wireless signals
+\end{itemize}
+
+\end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Skills
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Skills}
+\textbf{Programming:} C/C++/C\#, Python, Matlab, Javascript, Bash, with practical experiences.\\
+\textbf{Language:} English (native), Yoruba (native), Spanish (conversational)\\
+\textbf{Misc:} Solidworks (CAD) 
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Service
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Service}
+\textbf{Reviewing}
+\begin{itemize}
+    \item  International Conference on Machine Learning (ICML): 2022
+    \item NeurIPS Black In AI (BAI) Workshop: 2021
+\end{itemize}
+
+\textbf{University of Illinois at Urbana-Champaign}
+\begin{itemize}
+    \item \textbf{2022-.} Department of Computer Science - Graduate Study Committee, 1 of 2 Graduate Student Members
+    \item \textbf{2021-.} Department of Computer Science - Broadening Participation in Computing, Engagement Subcommittee Member
+    \item \textbf{2020-.} UIUC Graduates Engineers Diversifying Illinois, mentor upperclassmen undergraduate students in goal setting, career planning, and academic development
+    \item \textbf{2020-.} UIUC Institute for Inclusion, Diversity, Equity, and Access (IDEA), Affiliate Member
+\end{itemize}
+
+\textbf{Other}
+\begin{itemize}
+    \item \textbf{2017-2019} HMTech, mentored underrepresented High School students interested in STEM
+    \item \textbf{2016-.} Pi Tau Sigma, Sigma Delta (National Mechanical Engineering Honors Society), External VP
+    \item \textbf{2015-2019} Craig and Galen Brown Honors College of Engineering, Student Executive Committee Chair
+    \item \textbf{2015-2019} Regents Scholar Program, mentored first generation college students in Engineering
+\end{itemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   Publications	
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Publications} 
+% \end{rSection}
+
+% \begin{rSection}{Conference Presentations} 
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Honors and Awards
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Honors and Awards}
+\begin{itemize}
+    \item \textbf{2021-.} NSF Miniature Brain Machinery Research Trainee, the University of Illinois at Urbana-Champaign
+    \item \textbf{2021-.} GEM Associate Fellow, the University of Illinois at Urbana-Champaign
+    \item \textbf{2020-2021} Beckman Institute Graduate Fellow, the University of Illinois at Urbana-Champaign
+    \item \textbf{2019-.} Sloan Scholar, Alfred P. Sloan Foundation's Minority Ph.D. (MPHD) Program
+    \item \textbf{2019.} Masters Fellowship Program, Sandia National Laboratories (declined)
+    \item \textbf{2018.} Texas A\&M University Mechanical Engineering Advisory Council Scholarship
+    \item \textbf{2017.} Texas A\&M University Foundation Excellence Award
+    \item \textbf{2016-.} Pi Tau Sigma, Sigma Delta (National Mechanical Engineering Honors Society)
+    \item \textbf{2015-2019} Craig and Galen Brown Honors College of Engineering
+    \item \textbf{2015-2019} Regents Scholar Program, Texas A\&M University
+\end{itemize}
+\end{rSection}
+
+\end{document}
