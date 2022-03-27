@@ -10,7 +10,7 @@ ML=Machine Learning, BI=Biological Imaging
 # Workshop Papers
 ---
 [ML] **Exploiting Causal Chains for Domain Generalization**<br>
-**Olawale Salaudeen**, Oluwasanmi Koyej(DistShift)o. <br>
+**Olawale Salaudeen**, Oluwasanmi Koyejo. <br>
 *Conference on Neural Information Processing Systems (NeurIPS), 2021. Workshop on Distribution Shifts -- Connecting Methods and Applications (DistShift)*
 
 # Abstracts
