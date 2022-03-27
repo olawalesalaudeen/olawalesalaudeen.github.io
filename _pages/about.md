@@ -9,20 +9,11 @@ redirect_from:
 ---
 
 ---
-My name is Olawale (Wale) E. Salaudeen, and I am a Ph.D. candidate in Computer Science
-at the University of Illinois at Urbana Champaign, advised by 
-<a href="http://sanmi.cs.illinois.edu/">Sanmi Koyejo.</a> 
-Prior to moving to Illinois, I
-received a Bachelors of Science in Mechanical Engineering and minors in
-Computer Science and Mathematics from the Texas A&M University.
+My name is Olawale (Wale) E. Salaudeen, and I am a Ph.D. candidate in Computer Science at the University of Illinois at Urbana Champaign, advised by  <a href="http://sanmi.cs.illinois.edu/">Sanmi Koyejo.</a>  Prior to moving to Illinois, I received a Bachelors of Science in Mechanical Engineering and minors in Computer Science and Mathematics from the Texas A&M University.
 
 # Research Interests
 ---
-I am broadly interested machine learning in general and causal
-inference/discovery. In particular, I work on robustness to distribution shifts
-(domain adaptation/generalization) and causal
-structure learning. 
-Additionally, I am interested in applications to neuroscience/neuroimaging, healthcare, and fairness. 
+I am broadly interested machine learning in general and causal inference/discovery. In particular, I work on robustness to distribution shifts (domain adaptation/generalization) and causal structure learning.  Additionally, I am interested in applications to neuroscience/neuroimaging, healthcare, and fairness. 
 
 # Selected Recent News
 ---
