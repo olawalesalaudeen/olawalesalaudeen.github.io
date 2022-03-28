@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 ---
-My name is Olawale (Wale) E. Salaudeen, and I am a Ph.D. candidate in Computer Science at the University of Illinois at Urbana-Champaign, advised by <a href="http://sanmi.cs.illinois.edu/">Sanmi Koyejo.</a> Prior to Illinois, I received a Bachelors of Science in Mechanical Engineering with minors in Computer Science and Mathematics from the Texas A&M University.
+My name is Olawale (Wale) Salaudeen, and I am a Ph.D. candidate in Computer Science at the University of Illinois at Urbana-Champaign, advised by <a href="http://sanmi.cs.illinois.edu/">Sanmi Koyejo.</a> Prior to Illinois, I received a Bachelors of Science in Mechanical Engineering with minors in Computer Science and Mathematics from the Texas A&M University.
 
 # Research Interests
 ---
