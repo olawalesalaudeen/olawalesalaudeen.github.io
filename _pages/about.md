@@ -17,20 +17,15 @@ I am broadly interested machine learning, causality, and the intersection betwee
 
 # Selected Recent News
 ---
-* Spring 2021. I will give a talk on leveraging causal discovery for fMRI denoising at the [Beckman Institute Graduate Student Seminar](https://beckman.illinois.edu/visit/events-at-beckman/graduate-student-seminar).
+* Spring 2021. I will give a talk on leveraging causal discovery for fMRI denoising at the <a href="https://beckman.illinois.edu/visit/events-at-beckman/graduate-student-seminar" target="_blank">Beckman Institute Graduate Student Seminar</a>.
 * Fall 2021. Our paper titled "Domain Generalization for Chain Generative Processes" is
- accepted at the 2021 [NeurIPS Workshop on Distribution
- Shift](https://sites.google.com/view/distshift2021).
-* Fall 2021. I was selected as a [Miniature Brain Machinery
- (MBM) NSF Research Trainee](https://minibrain.beckman.illinois.edu/).
-* Summer 2021. I was selected to receive an Illinois GEM
-Associate Fellowship.
+ accepted at the 2021 <a href="https://sites.google.com/view/distshift2021" target="_blank">NeurIPS Workshop on Distribution Shift</a>.
+* Fall 2021. I was selected as a <a href="https://minibrain.beckman.illinois.edu/" target="_blank">Miniature Brain Machinery (MBM) NSF Research Trainee</a>.
+* Summer 2021. I was selected to receive an Illinois GEM Associate Fellowship.
 * Spring 2021. I passed my Ph.D. qualifying exam!
-* Spring 2020. I was selected to receive a 2020 Beckman Institute Graduate
-Fellowship
-[(news)](https://beckman.illinois.edu/about/news/article/2020/05/08/seven-named-2020-beckman-institute-graduate-fellows?fbclid=IwAR1XYI8PpzFLfAsAmQdurMZrywwTyHtTuhpkI3ZlaNUQPNcrY00SZJH0muU).
+* Spring 2020. I was selected to receive a 2020 Beckman Institute Graduate Fellowship <a href="https://beckman.illinois.edu/about/news/article/2020/05/08/seven-named-2020-beckman-institute-graduate-fellows?fbclid=IwAR1XYI8PpzFLfAsAmQdurMZrywwTyHtTuhpkI3ZlaNUQPNcrY00SZJH0muU" target="_blank">(news)</a>.
 
 # Mentorship
 ---
-* [Vikram Duvvur](https://www.linkedin.com/in/vikram-duvvur/) (UIUC, 2021-2022)
-* [Ahmed Elsayed](https://www.linkedin.com/in/elsayeaa-2023/) (DREU @ UIUC, 2021)
+* <a href="https://www.linkedin.com/in/vikram-duvvur/" target="_blank">Vikram Duvvur]</a> (UIUC, 2021-2022)
+* <a href="https://www.linkedin.com/in/elsayeaa-2023/" target="_blank">Ahmed Elsayed</a> (DREU @ UIUC, 2021)
