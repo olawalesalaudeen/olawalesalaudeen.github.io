@@ -14,8 +14,8 @@ ML=Machine Learning, BI=Biological Imaging
 ---
 [ML] **Automated Incorporation of Machine Learning (AIM)**<br>
 *Sandia National Laboratories MARTIANS End of Summer Symposia, 2020*<br>
-[[poster](https://www.osti.gov/servlets/purl/1811429)]
+[<a href="https://www.osti.gov/servlets/purl/1811429" target="_blank">poster</a>]
 
 [ML] **Interpretable Recurrent Convolutional Neural Networks for Cyber Alert Triaging**<br>
 *Sandia National Laboratories MARTIANS End of Summer Symposia, 2019*<br>
-[[poster](https://www.osti.gov/biblio/1645642-interpretable-recurrent-convolutional-neural-networks-cyber-alert-triaging)]
+[<a href="https://www.osti.gov/biblio/1645642-interpretable-recurrent-convolutional-neural-networks-cyber-alert-triaging" target="_blank">poster</a>]
