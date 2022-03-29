@@ -27,5 +27,5 @@ I am broadly interested machine learning, causality, and the intersection betwee
 
 # Mentorship
 ---
-* <a href="https://www.linkedin.com/in/vikram-duvvur/" target="_blank">Vikram Duvvur]</a> (UIUC, 2021-2022)
+* <a href="https://www.linkedin.com/in/vikram-duvvur/" target="_blank">Vikram Duvvur</a> (UIUC, 2021-2022)
 * <a href="https://www.linkedin.com/in/elsayeaa-2023/" target="_blank">Ahmed Elsayed</a> (DREU @ UIUC, 2021)
