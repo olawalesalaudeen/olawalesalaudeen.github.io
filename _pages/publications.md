@@ -13,4 +13,4 @@ ML=Machine Learning, BI=Biological Imaging
 
 [BI] **Ultra-fast 3D fMRI to explore cardiac-induced fluctuations in BOLD-based functional imaging**<br>
 Brad Sutton, Aaron Anderson, Benjamin Zimmerman, Paul Camacho, Riwei Jin, Charles Marchini, **Olawale Salaudeen**, Natalie Ramsy, Davide Boido, Serge Charpak, Andrew Webb, Luisa Ciobanu.<br>
-*International Society for Magnetic Resonance in Medicine (ISMRM), 2022 (To Appear)*
+*International Society for Magnetic Resonance in Medicine (ISMRM), 2022* (abstract)
