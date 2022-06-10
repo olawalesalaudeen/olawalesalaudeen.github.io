@@ -13,7 +13,7 @@ My name is Olawale (Wale) Salaudeen, and I am a Ph.D. candidate in Computer Scie
 
 # Research Interests
 ---
-I am broadly interested machine learning, causality, and the intersection between the two. My work focuses on robustness in machine learning using principles from causality. In addition, I am interested in applications to neuroscience/neuroimaging, healthcare, and fairness.
+I am broadly interested in machine learning, causality, and the intersection between the two. My work focuses on robustness in machine learning using principles from causality. In addition, I am interested in applications to neuroscience/neuroimaging, healthcare, and fairness.
 
 # Selected Recent News
 ---
