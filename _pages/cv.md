@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="/files/Salaudeen_Olawale_CV/Salaudeen_Olawale_CV.pdf" target="_blank">View my CV here (updated as of 04/2022)</a>.
+<a href="/files/Salaudeen_Olawale_CV/Salaudeen_Olawale_CV.pdf" target="_blank">View my CV here (as of 08/2022)</a>.
