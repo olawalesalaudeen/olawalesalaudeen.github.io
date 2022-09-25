@@ -37,6 +37,7 @@
 
 \usepackage{lastpage}
 \usepackage{fancyhdr}
+\usepackage{dirtytalk}
 \pagestyle{fancy} 
 \cfoot{\thepage\ of \pageref{LastPage}}
 \renewcommand{\headrulewidth}{0pt}
@@ -50,7 +51,11 @@
 
 \begin{rSection}{Education}
 
-{\bf University of Illinois at Urbana-Champaign} \hfill {\em August 2019 - Present} 
+{\bf Stanford University} \hfill {\em September 2022 - Present} 
+\\ Visiting Ph.D. Student Researcher
+\\ Department of Computer Science
+\\Advisor: \href{http://sanmi.cs.illinois.edu/}{Sanmi Koyejo}\\
+\\{\bf University of Illinois at Urbana-Champaign} \hfill {\em August 2019 - Present} 
 \\ Ph.D. Candidate
 \\ Department of Computer Science
 \\Advisor: \href{http://sanmi.cs.illinois.edu/}{Sanmi Koyejo}\\
@@ -65,16 +70,20 @@ Deep Learning, Transfer Learning (Domain Adaptation/Generalization), Causal Infe
 
 \begin{rSection}{Peer-Reviewed Publications}
 \begin{etaremune}[label={\arabic*.}]
-\item Brad Sutton, Aaron Anderson, Benjamin Zimmerman, Paul Camacho, Riwei Jin, Charles Marchini, \textbf{Olawale Salaudeen}, Natalie Ramsy, Davide Boido, Serge Charpak, Andrew Webb, Luisa Ciobanu . \textbf{Ultra-fast 3D fMRI to explore cardiac-induced fluctuations in BOLD-based functional imaging}\\
-\textit{International Society for Magnetic Resonance in Medicine (ISMRM), 2022 (abstract)}
-\item \textbf{Olawale Salaudeen}, Oluwasanmi Koyejo. \textbf{Exploiting Causal Chains for Domain Generalization}\\
-\textit{Conference on Neural Information Processing Systems (NeurIPS), 2021. Workshop on Distribution Shifts -- Connecting Methods and Applications}
+\item Matt J. Kusner, Ibrahim Alabdulmohsin, Stephen Pfohl, \textbf{\underline{Olawale Salaudeen}},
+Arthur Gretton, Sanmi Koyejo, Jessica Schrouff, Alexander D’Amour.
+\textit{\say{Adapting to Shifts in Latent Confounders using Observed Concepts and Proxies}}.
+International Conference on Machine Learning, 2022. Workshop on Principles of Distribution Shift (PODS)
+
+\item Brad Sutton, Aaron Anderson, Benjamin Zimmerman, Paul Camacho, Riwei Jin, Charles Marchini,
+\textbf{\underline{Olawale Salaudeen}}, Natalie Ramsy, Davide Boido, Serge Charpak, Andrew Webb, Luisa Ciobanu.
+\say{\textit{Ultra-fast 3D fMRI to explore cardiac-induced fluctuations in BOLD-based functional imaging}}.
+International Society for Magnetic Resonance in Medicine (ISMRM), 2022 (abstract)
+
+\item \textbf{\underline{Olawale Salaudeen}}, Oluwasanmi Koyejo.
+\say{\textit{Exploiting Causal Chains for Domain Generalization}}
+Conference on Neural Information Processing Systems (NeurIPS), 2021. Workshop on Distribution Shifts -- Connecting Methods and Applications (DistShift)
 \end{etaremune}
- %\textbf{Preprints and Manuscripts}
- %\begin{enumerate}[label={\arabic*.}]
- %\item \textbf{Olawale Salaudeen}, Oluwasanmi Koyejo. \textbf{Target Conditioned Representation Independence (TCRI) -- Exploiting Causal Chains for Domain Generalization}\\
- %\textit{Under Review, 2022}
-\end{enumerate}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -127,6 +136,15 @@ Deep Learning, Transfer Learning (Domain Adaptation/Generalization), Causal Infe
 \begin{rSection}{Internships}
 \begin{rSubsection}{Google Brain}{May 2022 - Present}{Student Researcher - Cambridge, MA}
 
+\begin{itemize}[label={}]
+    \item Worked on a team to develop a domain adaptation algorithm under latent confounder distribution shift;
+    developed semi-synthetic data for evaluation and implemented state-of-the-art domain adaptation algorithms
+    \item Developed foundations for generalization bounds under distribution shifts induced 
+     by unobserved interventions
+    \item Developed a procedure for empirically estimating domain-to-domain transferability from
+     unlabeled samples under distribution shifts induced by unobserved interventions
+\end{itemize}
+
 \end{rSubsection}
 
 \begin{rSubsection}{Sandia National Laboratories}{May 2017 - April 2022}{Year-Round R\&D Intern - Albuquerque, NM}
@@ -152,11 +170,21 @@ Deep Learning, Transfer Learning (Domain Adaptation/Generalization), Causal Infe
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Invited Talks}
-\begin{enumerate}
+\begin{etaremune}[label={\arabic*.}]
     \setlength\itemsep{0em}
     \item Denoising via probabilistic graphical model augmentation of ICA-AROMA\\
     \textit{University of Illinois at Urbana-Champaign Beckman Institute Graduate Student Seminar}
-\end{enumerate}
+\end{etaremune}
+\end{rSection}
+
+\begin{rSection}{Other Talks}
+\begin{etaremune}[label={\arabic*.}]
+    \setlength\itemsep{0em}
+    \item Automated Incorporation of Machine Learning (AIM) \\
+    \textit{Sandia National Laboratories MARTIANS End of Summer Symposia, 2020}
+    \item Interpretable Recurrent Convolutional Neural Networks for Cyber Alert Triaging \\
+    \textit{Sandia National Laboratories MARTIANS End of Summer Symposia, 2019}
+\end{etaremune}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
