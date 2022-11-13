@@ -9,11 +9,11 @@ redirect_from:
 ---
 
 ---
-My name is Olawale (Wale) Salaudeen, and I am a fourth-year Ph.D. candidate in Computer Science at the University of Illinois at Urbana-Champaign and a visiting student researcher at Stanford University (2022-Present), advised by <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo.</a> I am honored to have received a Sloan Scholarship, Beckman Graduate Research Fellowship, GEM Associate Fellowship, and an NSF Miniature Brain Machinery Traineeship. Prior to Illinois, I received a Bachelors of Science in Mechanical Engineering with minors in Computer Science and Mathematics from the Texas A&M University.
+My name is Olawale (Wale) Salaudeen, and I am a fourth-year Ph.D. candidate in Computer Science at the University of Illinois at Urbana-Champaign and a visiting student researcher at Stanford University (2022-present), advised by <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo.</a> I am honored to have received a Sloan Scholarship, Beckman Graduate Research Fellowship, GEM Associate Fellowship, and an NSF Miniature Brain Machinery Traineeship. Prior to Illinois, I received a Bachelors of Science in Mechanical Engineering with minors in Computer Science and Mathematics from the Texas A&M University.
 
 # Research Interests
 ---
-I am broadly interested in machine learning, causality, and the intersection of the two. My work focuses on robustness in machine learning using principles from causality -- currently I am interested in invariance/adaptation to compound distribution shifts and charaterizing settings of distribution shifts where transfer is naively possible from a learnin-theoretic perspective. In addition, I am interested in applications to neuroscience/neuroimaging, healthcare, and fairness.
+I am broadly interested in machine learning, causality, and the intersection of the two. My work focuses on robustness in machine learning using principles from causality -- currently I am interested in invariance/adaptation to compound distribution shifts and charaterizing settings of distribution shifts where transfer is naively possible from a learning-theoretic perspective. In addition, I am interested in applications to neuroscience/neuroimaging, healthcare, and fairness.
 
 # Selected Recent News
 ---
