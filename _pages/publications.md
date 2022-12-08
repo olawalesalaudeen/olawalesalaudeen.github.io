@@ -9,7 +9,7 @@ ML=Machine Learning, BI=Biological Imaging
 
 [ML] **Adapting to Shifts in Latent Confounders using Observed Concepts and Proxies**<br>
 Matt J. Kusner, Ibrahim Alabdulmohsin, Stephen Pfohl, **<u>Olawale Salaudeen</u>**, Arthur Gretton, Sanmi Koyejo, Jessica Schrouff, Alexander D’Amour.<br>
-*International Conference on Machine Learning, 2022. Workshop on Principles of Distribution Shift (PODS)*<br>
+*International Conference on Machine Learning (ICML), 2022. Workshop on Principles of Distribution Shift (PODS)*<br>
 [[paper](https://drive.google.com/file/d/1_itT_9SMeBRP_ScIxdrJ2Fi8HRoyfuVw/view?usp=sharing)] [[poster](../_publications/_posters/Neurips_22_PODS_latent_shifts.pdf)]
 
 [ML] **Exploiting Causal Chains for Domain Generalization**<br>
