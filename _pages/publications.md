@@ -22,7 +22,7 @@ Matt J. Kusner, Ibrahim Alabdulmohsin, Stephen Pfohl, **<u>Olawale Salaudeen</u>
 # Abstracts
 [ML] **Addressing Observational Biases in Algorithmic Fairness Assessments**<br>
 Chirag Nagpal, **<u>Olawale Salaudeen</u>**, Sanmi Koyejo, Stephen Pfohl.<br>
-*Conference on Neural Information Processing Systems (NeurIPS), 2022. Workshop on Algorithmick Fairness through the Lens of Causality and Privacy* (extended abstract)<br>
+*Conference on Neural Information Processing Systems (NeurIPS), 2022. Workshop on Algorithmic Fairness through the Lens of Causality and Privacy* (extended abstract)<br>
 [[poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/58452.png?t=1668451116.9552445)]
 
 [BI] **Ultra-fast 3D fMRI to explore cardiac-induced fluctuations in BOLD-based functional imaging**<br>
