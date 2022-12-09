@@ -10,12 +10,12 @@ ML=Machine Learning, BI=Biological Imaging
 [ML] **Adapting to Shifts in Latent Confounders using Observed Concepts and Proxies**<br>
 Matt J. Kusner, Ibrahim Alabdulmohsin, Stephen Pfohl, **<u>Olawale Salaudeen</u>**, Arthur Gretton, Sanmi Koyejo, Jessica Schrouff, Alexander D’Amour.<br>
 *International Conference on Machine Learning (ICML), 2022. Workshop on Principles of Distribution Shift (PODS)*<br>
-[[paper](https://drive.google.com/file/d/1_itT_9SMeBRP_ScIxdrJ2Fi8HRoyfuVw/view?usp=sharing)] [[poster](/publications/posters/Neurips_22_PODS_latent_shifts.pdf)]
+[[paper](https://drive.google.com/file/d/1_itT_9SMeBRP_ScIxdrJ2Fi8HRoyfuVw/view?usp=sharing)] [[poster](/files/publications/posters/Neurips_22_PODS_latent_shifts.pdf)]
 
 [ML] **Exploiting Causal Chains for Domain Generalization**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo. <br>
 *Conference on Neural Information Processing Systems (NeurIPS), 2021. Workshop on Distribution Shifts -- Connecting Methods and Applications (DistShift)*<br>
-[[paper](https://openreview.net/pdf?id=IwpCCB_e1h)] [[poster](/publications/posters/Neurips_21_DistShift_exploiting_causal_chains.pdf)]
+[[paper](https://openreview.net/pdf?id=IwpCCB_e1h)] [[poster](/files/publications/posters/Neurips_21_DistShift_exploiting_causal_chains.pdf)]
 
 # Preprints
 
