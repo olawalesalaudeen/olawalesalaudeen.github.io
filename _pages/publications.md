@@ -10,13 +10,13 @@ ML=Machine Learning, BI=Biological Imaging<br>
 
 [ML] **Target Conditioned Representation Independence (TCRI); From Domain-Invariant to Domain-General Representations**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
-*arXiv, 2022.*<br>
+*arXiv, 2022*<br>
 [[preprint](https://arxiv.org/abs/2212.11342)]
 
 [ML] **Adapting to Latent Subgroup Shifts via Concepts and Proxies**<br>
 Ibrahim Alabdulmohsin, Nicole Chiou, Alexander D'Amour, Arthur Gretton, Sanmi Koyejo, Matt J. Kusner, Stephen R. Pfohl, **<u>Olawale Salaudeen</u>**, Jessica Schrouff, Katherine Tsai.<br>
 Authors listed in alphabetical order<br>
-*arXiv, 2022.*<br>
+*arXiv, 2022*<br>
 [[preprint](https://arxiv.org/abs/2212.11254)]
 
 [ML] **Adapting to Shifts in Latent Confounders using Observed Concepts and Proxies**<br>
