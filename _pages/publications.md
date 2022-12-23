@@ -5,7 +5,19 @@ permalink: /publications/
 author_profile: true
 ---
 
-ML=Machine Learning, BI=Biological Imaging
+[Google Scholar](https://scholar.google.com/citations?user=F-ytPfAAAAAJ&hl=en&oi=ao), [arXiv](https://arxiv.org/search/stat?searchtype=author&query=Salaudeen%2C+Olawale)<br>
+ML=Machine Learning, BI=Biological Imaging<br>
+
+[ML] **Target Conditioned Representation Independence (TCRI); From Domain-Invariant to Domain-General Representations**<br>
+**<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
+*In Review*<br>
+[[preprint](https://arxiv.org/abs/2212.11342)]
+
+[ML] **Adapting to Latent Subgroup Shifts via Concepts and Proxies**<br>
+Ibrahim Alabdulmohsin, Nicole Chiou, Alexander D'Amour, Arthur Gretton, Sanmi Koyejo, Matt J. Kusner, Stephen R. Pfohl, **<u>Olawale Salaudeen</u>**, Jessica Schrouff, Katherine Tsai.<br>
+Authors listed in alphabetical order<br>
+*In Review*<br>
+[[preprint](https://arxiv.org/abs/2212.11254)]
 
 [ML] **Adapting to Shifts in Latent Confounders using Observed Concepts and Proxies**<br>
 Matt J. Kusner, Ibrahim Alabdulmohsin, Stephen Pfohl, **<u>Olawale Salaudeen</u>**, Arthur Gretton, Sanmi Koyejo, Jessica Schrouff, Alexander D’Amour.<br>
@@ -17,7 +29,6 @@ Matt J. Kusner, Ibrahim Alabdulmohsin, Stephen Pfohl, **<u>Olawale Salaudeen</u>
 *Conference on Neural Information Processing Systems (NeurIPS), 2021. Workshop on Distribution Shifts -- Connecting Methods and Applications (DistShift)*<br>
 [[paper](https://openreview.net/pdf?id=IwpCCB_e1h)] [[poster](/files/publications/posters/Neurips_21_DistShift_exploiting_causal_chains.pdf)]
 
-# Preprints
 
 # Abstracts
 [ML] **Addressing Observational Biases in Algorithmic Fairness Assessments**<br>
