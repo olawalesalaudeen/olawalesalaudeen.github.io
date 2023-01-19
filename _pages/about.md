@@ -17,9 +17,10 @@ I am broadly interested in machine learning, causality, and the intersection of 
 
 # Selected Recent News
 ---
+* Spring 2023. I will join Cruise's prediction team in San Francisco, CA this summer as a Machine Learning Intern!
 * Fall 2022. I have moved to Stanford University as a Visiting Student Researcher with <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo</a>! 
 * Summer 2022. Honored to be selected as a top reviewer (10%) of ICML 2022!
-* Summer 2022. I will work at Google Research in Cambridge, MA this summer as a Student Researcher!
+* Summer 2022. I will join Google Research in Cambridge, MA this summer as a Student Researcher!
 * Spring 2021. I gave a talk on leveraging causal discovery for fMRI
  denoising at the <a href="https://beckman.illinois.edu/about/news/article/2022/03/30/grad-students-to-present-research-april-6" target="_blank">Beckman Institute Graduate Student Seminar</a>. <a href="https://olawalesalaudeen.com/talks/"> Available here </a>!
 * Fall 2021. Our paper titled "Exploiting Causal Chains for Domain Generalization" is
