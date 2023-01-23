@@ -17,7 +17,6 @@ I am broadly interested in machine learning, causality, and the intersection of 
 
 # Selected Recent News
 ---
-* Spring 2023. I will join Cruise's prediction team in San Francisco, CA this summer as a Machine Learning Intern!
 * Fall 2022. I have moved to Stanford University as a Visiting Student Researcher with <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo</a>! 
 * Summer 2022. Honored to be selected as a top reviewer (10%) of ICML 2022!
 * Summer 2022. I will join Google Research in Cambridge, MA this summer as a Student Researcher!
