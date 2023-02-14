@@ -13,7 +13,7 @@ My name is Olawale (Wale) Salaudeen, and I am a fourth-year Ph.D. candidate in C
 
 # Research Interests
 ---
-I am broadly interested in machine learning, causality, and the intersection of the two -- specifically, robustness in machine learning using principles from causality. Currently, I work on algorithms for learning representations and predictors that do not fail when observations at test-time are sampled from a different distribution than at train time and how to evaluate/benchmark such algorithms in practice. In addition, I am interested in machine learning application areas where distribution shifts are common and model errors can lead to adverse real-world impacts, such as in neuroscience/neuroimaging, healthcare, and fairness.
+I am broadly interested in machine learning, causality, and the intersection of the two -- specifically, robustness in machine learning using principles from causality. Currently, I work on algorithms for learning representations and predictors that do not fail when observations at test-time are sampled from a different distribution than at train time and how to evaluate/benchmark such algorithms in practice. In addition, I am interested in machine learning application areas where distribution shifts are common and model errors can lead to adverse real-world impact, such as in neuroscience/neuroimaging, healthcare, and fairness.
 
 # Selected Recent News
 ---
