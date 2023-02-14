@@ -22,9 +22,10 @@
 %----------------------------------------------------------------------------------------
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 
-\documentclass{resume} % Use the custom resume.cls style
+\documentclass[11pt]{resume} % Use the custom resume.cls style
 \usepackage{enumitem}
 \usepackage{etaremune}
+\setlist{nosep}
 
 \usepackage{hyperref}
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
@@ -69,17 +70,17 @@ Deep Learning, Transfer Learning (Domain Adaptation/Generalization), Causal Infe
 \end{rSection}
 
 \begin{rSection}{Publications}
-\begin{etaremune}[label={\arabic*.}]
-
-\item \emph{Target Conditioned Representation Independence (TCRI); From Domain-Invariant to Domain-General Representations}\\
-\textbf{\underline{Olawale Salaudeen}}, Oluwasanmi Koyejo.\\
-arXiv, 2022
+\begin{etaremune}[label={\arabic*.},topsep=0pt,itemsep=0pt,partopsep=0pt,parsep=0pt]
 
 \item \emph{Adapting to Latent Subgroup Shifts via Concepts and Proxies}\\
 Ibrahim Alabdulmohsin, Nicole Chiou, Alexander D'Amour, Arthur Gretton, 
 Sanmi Koyejo, Matt J. Kusner, Stephen R. Pfohl, 
 \textbf{\underline{Olawale Salaudeen}}, Jessica Schrouff, Katherine Tsai.\\
 Authors listed in alphabetical order.\\
+The International Conference on Artificial Intelligence and Statistics (AISTATS), 2023.
+
+\item \emph{Target Conditioned Representation Independence (TCRI); From Domain-Invariant to Domain-General Representations}\\
+\textbf{\underline{Olawale Salaudeen}}, Oluwasanmi Koyejo.\\
 arXiv, 2022
 
 \item \emph{Addressing Observational Biases in Algorithmic Fairness
@@ -90,11 +91,11 @@ Conference on Neural Information Processing Systems (NeurIPS), 2022. Workshop
 on Algorithmic Fairness through the Lens of Causality and Privacy (AFCP)
 (extended abstract)
 
-\item \emph{Adapting to Shifts in Latent Confounders using Observed
-Concepts and Proxies}\\
-Matt J. Kusner, Ibrahim Alabdulmohsin, Stephen Pfohl, \textbf{\underline{Olawale Salaudeen}},
-Arthur Gretton, Sanmi Koyejo, Jessica Schrouff, Alexander D’Amour.\\
-International Conference on Machine Learning (ICML), 2022. Workshop on Principles of Distribution Shift (PODS)
+% \item \emph{Adapting to Shifts in Latent Confounders using Observed
+% Concepts and Proxies}\\
+% Matt J. Kusner, Ibrahim Alabdulmohsin, Stephen Pfohl, \textbf{\underline{Olawale Salaudeen}},
+% Arthur Gretton, Sanmi Koyejo, Jessica Schrouff, Alexander D’Amour.\\
+% International Conference on Machine Learning (ICML), 2022. Workshop on Principles of Distribution Shift (PODS)
 
 \item \emph{Ultra-fast 3D fMRI to explore cardiac-induced fluctuations
 in BOLD-based functional imaging}\\
@@ -142,6 +143,35 @@ Conference on Neural Information Processing Systems (NeurIPS), 2021. Workshop on
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
+%	Honors and Awards
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Honors and Awards}
+\begin{itemize}[]
+    \setlength\itemsep{0em}
+    \item NSF Miniature Brain Machinery Research Trainee \hfill 2021 \\ 
+    \textit{University of Illinois at Urbana-Champaign}
+    \item GEM Associate Fellow \hfill 2021 \\ 
+    \textit{University of Illinois at Urbana-Champaign}
+    \item Beckman Institute Graduate Fellow \hfill 2020 \\
+    \textit{University of Illinois at Urbana-Champaign}
+    \item Sloan Scholar \hfill 2019 \\
+    \textit{Alfred P. Sloan Foundation's Minority Ph.D. (MPHD) Program}
+    \item Masters Fellowship Program (declined) \hfill 2019 \\
+    \textit{Sandia National Laboratories}
+    \item Mechanical Engineering Advisory
+    Council Scholarship \hfill 2018 \\ \textit{Texas A\&M University}
+    \item Foundation Excellence Award \hfill 2017 \\ \textit{Texas A\&M
+    University}
+    \item Pi Tau Sigma, Sigma Delta \hfill \hfill 2016 \\ \textit{National Mechanical
+    Engineering Honors Society} 
+    \item Craig and Galen Brown Honors College of Engineering \hfill 2015 \\
+    \textit{Texas A\&M University}
+    \item Regents Scholar Program \hfill 2015\\ \textit{Texas A\&M University}
+\end{itemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
 %	RESEARCH EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
@@ -185,40 +215,11 @@ Conference on Neural Information Processing Systems (NeurIPS), 2021. Workshop on
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	Honors and Awards
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Honors and Awards}
-\begin{itemize}[label={}]
-    \setlength\itemsep{0em}
-    \item NSF Miniature Brain Machinery Research Trainee \hfill 2021 \\ 
-    \textit{University of Illinois at Urbana-Champaign}
-    \item GEM Associate Fellow \hfill 2021 \\ 
-    \textit{University of Illinois at Urbana-Champaign}
-    \item Beckman Institute Graduate Fellow \hfill 2020 \\
-    \textit{University of Illinois at Urbana-Champaign}
-    \item Sloan Scholar \hfill 2019 \\
-    \textit{Alfred P. Sloan Foundation's Minority Ph.D. (MPHD) Program}
-    \item Masters Fellowship Program (declined) \hfill 2019 \\
-    \textit{Sandia National Laboratories}
-    \item Mechanical Engineering Advisory
-    Council Scholarship \hfill 2018 \\ \textit{Texas A\&M University}
-    \item Foundation Excellence Award \hfill 2017 \\ \textit{Texas A\&M
-    University}
-    \item Pi Tau Sigma, Sigma Delta \hfill \hfill 2016 \\ \textit{National Mechanical
-    Engineering Honors Society} 
-    \item Craig and Galen Brown Honors College of Engineering \hfill 2015 \\
-    \textit{Texas A\&M University}
-    \item Regents Scholar Program \hfill 2015\\ \textit{Texas A\&M University}
-\end{itemize}
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
 %	TALKS SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Talks and Presentations}
-\begin{etaremune}[label={\arabic*.}]
+\begin{etaremune}[label={\arabic*.},topsep=0pt,itemsep=0pt,partopsep=0pt,parsep=0pt]
     \setlength\itemsep{0em}
 
     \item Denoising via probabilistic graphical model augmentation of ICA-AROMA\\

@@ -16,13 +16,13 @@ ML=Machine Learning, BI=Biological Imaging<br>
 [ML] **Adapting to Latent Subgroup Shifts via Concepts and Proxies**<br>
 Ibrahim Alabdulmohsin, Nicole Chiou, Alexander D'Amour, Arthur Gretton, Sanmi Koyejo, Matt J. Kusner, Stephen R. Pfohl, **<u>Olawale Salaudeen</u>**, Jessica Schrouff, Katherine Tsai.<br>
 Authors listed in alphabetical order<br>
-*arXiv, 2022*<br>
+*The International Conference on Artificial Intelligence and Statistics (AISTATS), 2023.*<br>
 [[preprint](https://arxiv.org/abs/2212.11254)]
 
-[ML] **Adapting to Shifts in Latent Confounders using Observed Concepts and Proxies**<br>
+<!-- [ML] **Adapting to Shifts in Latent Confounders using Observed Concepts and Proxies**<br>
 Matt J. Kusner, Ibrahim Alabdulmohsin, Stephen Pfohl, **<u>Olawale Salaudeen</u>**, Arthur Gretton, Sanmi Koyejo, Jessica Schrouff, Alexander D’Amour.<br>
 *International Conference on Machine Learning (ICML), 2022. Workshop on Principles of Distribution Shift (PODS)*<br>
-[[paper](https://drive.google.com/file/d/1_itT_9SMeBRP_ScIxdrJ2Fi8HRoyfuVw/view?usp=sharing)] [[poster](/files/publications/posters/Neurips_22_PODS_latent_shifts.pdf)]
+[[paper](https://drive.google.com/file/d/1_itT_9SMeBRP_ScIxdrJ2Fi8HRoyfuVw/view?usp=sharing)] [[poster](/files/publications/posters/Neurips_22_PODS_latent_shifts.pdf)] -->
 
 [ML] **Exploiting Causal Chains for Domain Generalization**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo. <br>

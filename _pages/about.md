@@ -13,10 +13,11 @@ My name is Olawale (Wale) Salaudeen, and I am a fourth-year Ph.D. candidate in C
 
 # Research Interests
 ---
-I am broadly interested in machine learning, causality, and the intersection of the two. My work focuses on robustness in machine learning using principles from causality -- currently I am interested in invariance/adaptation to compound distribution shifts and charaterizing settings of distribution shifts where transfer is naively possible from a learning-theoretic perspective. In addition, I am interested in applications to neuroscience/neuroimaging, healthcare, and fairness.
+I am broadly interested in machine learning, causality, and the intersection of the two -- specifically, robustness in machine learning using principles from causality. Currently, I work on algorithms for learning representations and predictors that do not fail when observations at test-time are sampled from a different distribution than at train time and how to evaluate/benchmark such algorithms in practice. In addition, I am interested in machine learning application areas where distribution shifts are common and model errors can lead to adverse real-world impacts, such as in neuroscience/neuroimaging, healthcare, and fairness.
 
 # Selected Recent News
 ---
+* Spring 2023. I will join Cruise's Autonomous Vehicles prediction team in San Francisco, CA this summer as a Machine Learning Intern!
 * Fall 2022. I have moved to Stanford University as a Visiting Student Researcher with <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo</a>! 
 * Summer 2022. Honored to be selected as a top reviewer (10%) of ICML 2022!
 * Summer 2022. I will join Google Research in Cambridge, MA this summer as a Student Researcher!
