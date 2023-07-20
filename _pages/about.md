@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 
+---
 My name is Olawale (Wale) Salaudeen, and I am a fourth-year Ph.D. candidate in Computer Science at the University of Illinois at Urbana-Champaign and a visiting student researcher at Stanford University (2022-present), advised by <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo.</a> Throughout my PhD, I am honored to have received a Sloan Scholarship, Beckman Graduate Research Fellowship, GEM Associate Fellowship, and an NSF Miniature Brain Machinery Traineeship. Prior to Illinois, I received a Bachelors of Science in Mechanical Engineering with minors in Computer Science and Mathematics from the Texas A&M University.
 
 # Research Interests
