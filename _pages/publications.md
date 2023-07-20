@@ -8,10 +8,22 @@ author_profile: true
 [Google Scholar](https://scholar.google.com/citations?user=F-ytPfAAAAAJ&hl=en&oi=ao), [arXiv](https://arxiv.org/search/?query=Olawale+Salaudeen&searchtype=all&source=header)<br>
 ML=Machine Learning, BI=Biological Imaging<br>
 
-[ML] **Target Conditioned Representation Independence (TCRI); From Domain-Invariant to Domain-General Representations**<br>
+[ML] **Towards Accurate Benchmarking of Domain Generalization**<br>
+**<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
+In Preparation, 2023.
+
+[ML/BI] **Causal-ICA-AROMA – Motion Denoising in fMRI via Causal Graphical Model Augmentation of ICA-AROMA”**<br>
+**<u>Olawale Salaudeen</u>** et al..<br>
+In Preparation, 2023.
+
+[ML] **Learning Domain General Predictors**<br>
+**<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
+Under Review, 2023.
+
+<!-- [ML] **Target Conditioned Representation Independence (TCRI); From Domain-Invariant to Domain-General Representations**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
 *arXiv, 2022*<br>
-[[preprint](https://arxiv.org/abs/2212.11342)]
+[[preprint](https://arxiv.org/abs/2212.11342)] -->
 
 [ML] **Adapting to Latent Subgroup Shifts via Concepts and Proxies**<br>
 Ibrahim Alabdulmohsin, Nicole Chiou, Alexander D'Amour, Arthur Gretton, Sanmi Koyejo, Matt J. Kusner, Stephen R. Pfohl, **<u>Olawale Salaudeen</u>**, Jessica Schrouff, Katherine Tsai.<br>
