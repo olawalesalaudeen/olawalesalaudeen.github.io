@@ -8,19 +8,23 @@ redirect_from:
   - /about.html
 ---
 
+Olawale (Wale) Salaudeen is a fourth-year Ph.D. candidate in Computer Science at the University of Illinois at Urbana-Champaign, specializing in statistical machine learning and causality. His research focuses on developing robust algorithms, model selection techniques, and model evaluation in the presence of distribution shifts. Wale's goal is to improve the reliability and performance of machine learning models for real-world decision-making. His research interests extend to diverse applications, including neuroscience/neuroimaging, healthcare, and fairness. Wale has received esteemed recognition, including the Sloan Scholarship, Beckman Graduate Research Fellowship, GEM Associate Fellowship, and NSF Miniature Brain Machinery Traineeship.
+
+Before pursuing his Ph.D. at the University of Illinois, Wale obtained a Bachelor of Science degree in Mechanical Engineering from Texas A&M University, with minors in Computer Science and Mathematics. Throughout his doctoral studies, Wale has further expanded his expertise through research internships at Sandia National Laboratories and Google Brain Causality. Additionally, he gained practical experience in machine learning through an internship at Cruise LLC.
 ---
-My name is Olawale (Wale) Salaudeen, and I am a fourth-year Ph.D. candidate in Computer Science at the University of Illinois at Urbana-Champaign and a visiting student researcher at Stanford University (2022-present), advised by <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo.</a> I am honored to have received a Sloan Scholarship, Beckman Graduate Research Fellowship, GEM Associate Fellowship, and an NSF Miniature Brain Machinery Traineeship. Prior to Illinois, I received a Bachelors of Science in Mechanical Engineering with minors in Computer Science and Mathematics from the Texas A&M University.
+My name is Olawale (Wale) Salaudeen, and I am a fourth-year Ph.D. candidate in Computer Science at the University of Illinois at Urbana-Champaign and a visiting student researcher at Stanford University (2022-present), advised by <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo.</a> Throughout my PhD, I am honored to have received a Sloan Scholarship, Beckman Graduate Research Fellowship, GEM Associate Fellowship, and an NSF Miniature Brain Machinery Traineeship. Prior to Illinois, I received a Bachelors of Science in Mechanical Engineering with minors in Computer Science and Mathematics from the Texas A&M University.
 
 # Research Interests
 ---
-I am broadly interested in machine learning, causality, and the intersection of the two -- specifically, robustness in machine learning using principles from causality. Currently, I work on algorithms for learning representations and predictors that do not fail when observations at test-time are sampled from a different distribution than at train time and how to evaluate/benchmark such algorithms in practice. In addition, I am interested in machine learning application areas where distribution shifts are common and model errors can lead to adverse real-world impact, such as in neuroscience/neuroimaging, healthcare, and fairness.
+I am broadly interested in developing robust algorithms, model selection, and model evaluation techniques in the presence of distribution shifts. My research goal is to improve the reliability and performance of machine learning models for real-world decision-making. I am also interested in diverse applications, including neuroscience/neuroimaging, healthcare, and fairness. My work and interests span statistical machine learning, deep learning, domain adaptation/generalization, causal inference and discovery, causality inspired machine learning, and probabiliaty graphical models.
 
 # Selected Recent News
 ---
-* Spring 2023. I will join Cruise's Autonomous Vehicles prediction team in San Francisco, CA this summer as a Machine Learning Intern!
+* Spring 2023. I passed my PhD Preliminary Exam!
+* Spring 2023. I will join Cruise's Autonomous Vehicles Behaviors team in San Francisco, CA this summer as a Machine Learning Intern!
 * Fall 2022. I have moved to Stanford University as a Visiting Student Researcher with <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo</a>! 
-* Summer 2022. Honored to be selected as a top reviewer (10%) of ICML 2022!
-* Summer 2022. I will join Google Research in Cambridge, MA this summer as a Student Researcher!
+* Summer 2022. I am honored to be selected as a top reviewer (10%) of ICML 2022!
+* Summer 2022. I will join Google Brain in Cambridge, MA this summer as a Research Intern!
 * Spring 2021. I gave a talk on leveraging causal discovery for fMRI
  denoising at the <a href="https://beckman.illinois.edu/about/news/article/2022/03/30/grad-students-to-present-research-april-6" target="_blank">Beckman Institute Graduate Student Seminar</a>. <a href="https://olawalesalaudeen.com/talks/"> Available here </a>!
 * Fall 2021. Our paper titled "Exploiting Causal Chains for Domain Generalization" is

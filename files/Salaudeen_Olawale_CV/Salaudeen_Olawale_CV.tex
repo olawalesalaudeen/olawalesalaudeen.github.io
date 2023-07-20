@@ -29,7 +29,7 @@
 
 \usepackage{hyperref}
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
-\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+% \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{\href{https://olawalesalaudeen.com}{Olawale Salaudeen}} % Your name
 % \address{201 N. Goodwin Ave \\ Urbana, IL 61801} % Your address
@@ -44,7 +44,7 @@
 \renewcommand{\headrulewidth}{0pt}
 
 \begin{document}
-\singlespacing
+% \singlespacing
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -52,15 +52,15 @@
 
 \begin{rSection}{Education}
 
-{\bf Stanford University} \hfill {\em September 2022 - Present} 
-\\ Visiting Ph.D. Student Researcher
-\\ Department of Computer Science
-\\Advisor: \href{http://sanmi.cs.illinois.edu/}{Sanmi Koyejo}\\
-\\{\bf University of Illinois at Urbana-Champaign} \hfill {\em August 2019 - Present} 
+\textbf{University of Illinois at Urbana-Champaign} \hfill {\em August 2019 - Present} 
 \\ Ph.D. Candidate
 \\ Department of Computer Science
 \\Advisor: \href{http://sanmi.cs.illinois.edu/}{Sanmi Koyejo}\\
-\\{\bf Texas A\&M University} \hfill {\em August 2015 - May 2019} 
+\\\textbf{Stanford University} \hfill {\em September 2022 - Present} 
+\\ Visiting Ph.D. Student Researcher
+\\ Department of Computer Science
+\\Host: \href{http://sanmi.cs.illinois.edu/}{Sanmi Koyejo}\\
+\\\textbf{Texas A\&M University} \hfill {\em August 2015 - May 2019} 
 \\ Bachelor of Science with Honors, Mechanical Engineering
 \\ Minors in Computer Science and Mathematics
 \end{rSection}
@@ -70,21 +70,45 @@ Deep Learning, Transfer Learning (Domain Adaptation/Generalization), Causal Infe
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	Honors and Awards
+%	INTERNSHIPS
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Selected Fellowships, Honors, and Awards}
+\begin{rSection}{Professional Experience}
+
+%% Cruise
+\begin{rSubsection}{Cruise LLC}{May 2023 - August 2023}{Machine Learning Intern - San Francisco, CA}
+
     \setlength\itemsep{0em}
-    Research Trainee, \textit{NSF Miniature Brain Machinery at UIUC} \hfill 2021\\
-    GEM Associate Fellow, \textit{University of Illinois at Urbana-Champaign} \hfill 2021\\
-    Beckman Institute Graduate Fellow, \textit{University of Illinois at Urbana-Champaign} \hfill 2020\\
-    Sloan Scholar, \textit{Alfred P. Sloan Foundation's Minority Ph.D. (MPHD) Program} \hfill 2019\\
-    Masters Fellowship Program (declined), \textit{Sandia National Laboratories} \hfill 2019\\
-    Mechanical Engineering Advisory Council Scholarship, \textit{Texas A\&M University} \hfill 2018\\
-    Foundation Excellence Award, \textit{Texas A\&M University} \hfill 2017\\
-    Pi Tau Sigma -- Sigma Delta, \textit{National Mechanical Engineering Honors Society} \hfill 2016\\
-    Craig and Galen Brown Honors College of Engineering, \textit{Texas A\&M University} \hfill 2015\\
-    Regents Scholar Program, \textit{Texas A\&M University} \hfill 2015
+    \item  Worked on a team to develop, evaluate, and deploy a rich representation space (transformer based multitask/multimodal model) of the  perception data of Autonomous Vehicles that is used for real time vehicle behavior decision making
+
+\end{rSubsection}
+
+%% Google
+\begin{rSubsection}{Google Brain}{May 2022 - December 2022}{Research Intern - Cambridge, MA}
+
+    \setlength\itemsep{0em}
+    \item Worked on a team to develop a domain adaptation algorithm under latent confounder distribution shift;
+    developed semi-synthetic data for evaluation and implemented state-of-the-art domain adaptation algorithms
+
+\end{rSubsection}
+
+%% Sandia
+\begin{rSubsection}{Sandia National Laboratories}{May 2017 - April 2022}{Year-Round R\&D Intern - Albuquerque, NM}
+
+    \setlength\itemsep{0em}
+    \item Developed multimodel deep learning algorithms for threat detection in various contexts including X-ray images,
+    network traffic, and enclosed physical systems
+    % \item \textbf{2021.} Developed a deep set predictor with configurable mean and pairwise errors (Type I/II) for multiclass prediction in the context of contraband detection in images
+    % \item \textbf{2020.} Worked on a team to develop models to classify organic materials in X-ray images
+    % \item \textbf{2020.} Designed and executed experiments to investigate the effectiveness of Reinforcement Learning in sequence to sequence generation -- Deep Q Network in the context of automated code generation
+    % \item \textbf{2019.} Implemented a rationale generating Recurrent Convolutional Neural Network model for triage classification of triggered network security alerts
+    % \item \textbf{2019.} Prototyped a Convolutional Neural Network framework for semantic segmentation of X-Ray images of Improvised Explosive Devices and generation of a graphical model of designs of the devices
+    % \item \textbf{2018.} Developed and implemented a multi-modal deep Recurrent Neural Network framework for classifying safety rules for maintenance tasks from mixed numerical and textual tasks descriptions
+    % \item \textbf{2018.} Extended a 2D Simultaneous Localization and Mapping (SLAM) algorithm for ground systems to 3D for air systems equipped with 3D-LIDAR, IMU/GPS
+    % \item \textbf{2017.} Designed and prototyped an intrusion detection and localization system using fiber-optic disturbances 
+    % \item \textbf{2017.} Researched and presented applications of big data analysis to learn physical properties of a configuration space based on electromagnetic disturbances in transmitted wireless signals
+
+\end{rSubsection}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -92,10 +116,18 @@ Deep Learning, Transfer Learning (Domain Adaptation/Generalization), Causal Infe
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Publications}
-\begin{etaremune}[label={\arabic*.},topsep=0pt,itemsep=5pt,partopsep=0pt,parsep=0pt]
+\begin{etaremune}
 
 \item \textbf{\underline{Olawale Salaudeen}}, Oluwasanmi Koyejo.
-\say{Target Conditioned Representation Independence (TCRI); From Domain-Invariant to Domain-General Representations.}
+\say{Towards Accurate Benchmarking of Domain Generalization.}
+\emph{In Preparation, 2023.}
+
+\item \textbf{\underline{Olawale Salaudeen}} et al.
+\say{Causal-ICA-AROMA -- Motion Denoising in fMRI via Causal Graphical Model Augmentation of ICA-AROMA}
+\emph{In Preparation, 2023.}
+
+\item \textbf{\underline{Olawale Salaudeen}}, Oluwasanmi Koyejo.
+\say{Learning Domain General Predictors}
 \emph{Under Review, 2023.}
 
 \item Ibrahim Alabdulmohsin, Nicole Chiou, Alexander D'Amour, Arthur Gretton, 
@@ -113,11 +145,10 @@ Conference on Neural Information Processing Systems (NeurIPS), 2022. Workshop
 on Algorithmic Fairness through the Lens of Causality and Privacy (AFCP) 
 \emph{(extended abstract)}.
 
-% \item \emph{Adapting to Shifts in Latent Confounders using Observed
-% Concepts and Proxies}\\
-% Matt J. Kusner, Ibrahim Alabdulmohsin, Stephen Pfohl, \textbf{\underline{Olawale Salaudeen}},
-% Arthur Gretton, Sanmi Koyejo, Jessica Schrouff, Alexander D’Amour.\\
-% International Conference on Machine Learning (ICML), 2022. Workshop on Principles of Distribution Shift (PODS)
+\item Matt J. Kusner, Ibrahim Alabdulmohsin, Stephen Pfohl, \textbf{\underline{Olawale Salaudeen}},
+Arthur Gretton, Sanmi Koyejo, Jessica Schrouff, Alexander D’Amour.\\
+Adapting to Shifts in Latent Confounders using Observed Concepts and Proxies
+International Conference on Machine Learning (ICML), 2022. Workshop on Principles of Distribution Shift (PODS)
 
 \item Brad Sutton, Aaron Anderson, Benjamin Zimmerman, Paul Camacho, Riwei Jin, Charles Marchini,
 \textbf{\underline{Olawale Salaudeen}}, Natalie Ramsy, Davide Boido, Serge
@@ -137,8 +168,9 @@ Conference on Neural Information Processing Systems (NeurIPS), 2021. Workshop on
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Talks and Presentations}
-\begin{etaremune}[label={\arabic*.},topsep=0pt,itemsep=5pt,partopsep=0pt,parsep=0pt]
-
+\begin{etaremune}
+    \item Learning Domain General Predictors \\
+    \textit{Simons Institute -- Information-Theoretic Methods for Trustworthy Machine Learning} \hfill 2023
     \item Separating Neural Encoding and Decoding Pathways in fMRI by Disentangling Causal and Anticausal Mechanisms \\
     \textit{University of Illinois at Urbana-Champaign Minitature Brain Machinery Retreat} \hfill 2022
 
@@ -147,7 +179,7 @@ Conference on Neural Information Processing Systems (NeurIPS), 2021. Workshop on
     \textit{University of Illinois at Urbana-Champaign Minitature Brain Machinery Retreat} \hfill 2021
 
     \item Exploiting Causal Chains for Domain Generalization\\
-    \texit{Conference on Neural Information Processing Systems (NeurIPS),
+    \textit{Conference on Neural Information Processing Systems (NeurIPS),
      2021. Workshop on Distribution Shifts -- Connecting Methods and Applications (DistShift).} \hfill 2021 
 
     \item Automated Incorporation of Machine Learning (AIM)\\
@@ -159,38 +191,20 @@ Conference on Neural Information Processing Systems (NeurIPS), 2021. Workshop on
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	INTERNSHIPS
+%	Honors and Awards
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Professional Experience}
-\begin{rSubsection}{Google Research}{May 2022 - December 2022}{Student Researcher - Cambridge, MA}
-
-\begin{itemize}[label={}]
-    \setlength\itemsep{0em}
-    \item Worked on a team to develop a domain adaptation algorithm under latent confounder distribution shift;
-    developed semi-synthetic data for evaluation and implemented state-of-the-art domain adaptation algorithms
-\end{itemize}
-
-\end{rSubsection}
-
-\begin{rSubsection}{Sandia National Laboratories}{May 2017 - April 2022}{Year-Round R\&D Intern - Albuquerque, NM}
-
-\begin{itemize}[label={}]
-    \setlength\itemsep{0em}
-    \item Developed multimodel deep learning algorithms for threat detection in various contexts including X-ray images,
-    network traffic, and enclosed physical systems
-    % \item \textbf{2021.} Developed a deep set predictor with configurable mean and pairwise errors (Type I/II) for multiclass prediction in the context of contraband detection in images
-    % \item \textbf{2020.} Worked on a team to develop models to classify organic materials in X-ray images
-    % \item \textbf{2020.} Designed and executed experiments to investigate the effectiveness of Reinforcement Learning in sequence to sequence generation -- Deep Q Network in the context of automated code generation
-    % \item \textbf{2019.} Implemented a rationale generating Recurrent Convolutional Neural Network model for triage classification of triggered network security alerts
-    % \item \textbf{2019.} Prototyped a Convolutional Neural Network framework for semantic segmentation of X-Ray images of Improvised Explosive Devices and generation of a graphical model of designs of the devices
-    % \item \textbf{2018.} Developed and implemented a multi-modal deep Recurrent Neural Network framework for classifying safety rules for maintenance tasks from mixed numerical and textual tasks descriptions
-    % \item \textbf{2018.} Extended a 2D Simultaneous Localization and Mapping (SLAM) algorithm for ground systems to 3D for air systems equipped with 3D-LIDAR, IMU/GPS
-    % \item \textbf{2017.} Designed and prototyped an intrusion detection and localization system using fiber-optic disturbances 
-    % \item \textbf{2017.} Researched and presented applications of big data analysis to learn physical properties of a configuration space based on electromagnetic disturbances in transmitted wireless signals
-\end{itemize}
-
-\end{rSubsection}
+\begin{rSection}{Selected Fellowships, Honors, and Awards}
+    Research Trainee, \textit{NSF Miniature Brain Machinery at UIUC} \hfill 2021\\
+    GEM Associate Fellow, \textit{University of Illinois at Urbana-Champaign} \hfill 2021\\
+    Beckman Institute Graduate Fellow, \textit{University of Illinois at Urbana-Champaign} \hfill 2020\\
+    Sloan Scholar, \textit{Alfred P. Sloan Foundation's Minority Ph.D. (MPHD) Program} \hfill 2019\\
+    Masters Fellowship Program (declined), \textit{Sandia National Laboratories} \hfill 2019\\
+    Mechanical Engineering Advisory Council Scholarship, \textit{Texas A\&M University} \hfill 2018\\
+    Foundation Excellence Award, \textit{Texas A\&M University} \hfill 2017\\
+    Pi Tau Sigma -- Sigma Delta, \textit{National Mechanical Engineering Honors Society} \hfill 2016\\
+    Craig and Galen Brown Honors College of Engineering, \textit{Texas A\&M University} \hfill 2015\\
+    Regents Scholar Program, \textit{Texas A\&M University} \hfill 2015
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -200,39 +214,30 @@ Conference on Neural Information Processing Systems (NeurIPS), 2021. Workshop on
 \begin{rSection}{Research Experience}
 \begin{rSubsection}{University of Illinois at Urbana-Champaign}{September 2021 - Present}{Miniature Brain Machinery NSF Trainee with Prof. Sanmi Koyejo and Prof. Brad Sutton -- Champaign, Illinois} 
 
-\begin{itemize}[label={}]
     \setlength\itemsep{0em}
     % \item An NSF-funded research traineeship that combines cognitive and behavior studies with brain cell and tissue biology
     \item Established causal machine learning algorithms to detect and remove nuisance artifacts, such as the effects of motion , from fMRI scans
-\end{itemize}
 \end{rSubsection}
 \begin{rSubsection}{University of Illinois at Urbana-Champaign}{August 2020 - July 2021}{Beckman Institute Graduate Research Fellow with Prof. Sanmi Koyejo, Prof. Brad Sutton, and Prof. Aron Barbey -- Champaign, Illinois} 
 
-\begin{itemize}[label={}]
     \setlength\itemsep{0em}
     \item Developed a causal structure learning framework to isolate and remove motion artifacts in functional Magnetic Resonance Images (fMRI)
-\end{itemize}
 \end{rSubsection}
 \begin{rSubsection}{University of Illinois at Urbana-Champaign}{August 2019 - July 2020}{Graduate Research Assistant with Prof. Sanmi Koyejo and Prof. Aron Barbey -- Champaign, Illinois} 
 
-\begin{itemize}[label={}]
     \setlength\itemsep{0em}
     \item Teamed to create a learning framework for estimating multi-modal individual treatment effects, correlated changes, and counterfactuals in the context of human performance optimization
-\end{itemize}
 \end{rSubsection}
 \begin{rSubsection}{Texas A\&M University Multi-Robot Laboratory}{October 2018 - May 2019}{Undergraduate Researcher with Prof. Dylan Shell -- College Station, TX}
 
-\begin{itemize}[label={}]
     \setlength\itemsep{0em}
     \item Created and analyzed a novel geometry-based motion planning algorithm for tethered robots
-\end{itemize}
 \end{rSubsection}
+
 \begin{rSubsection}{Texas A\&M University Energy Systems Laboratory}{August 2016 - October 2018}{Undergraduate Researcher with Prof. Charles Culp -- College Station, TX}
 
-\begin{itemize}[label={}]
     \setlength\itemsep{0em}
     \item Developed probabilistic algorithms for fault detection and diagnosis in industrial Heating Ventilation and Air Condition systems
-\end{itemize}
 \end{rSubsection}
 \end{rSection}
 
@@ -242,30 +247,33 @@ Conference on Neural Information Processing Systems (NeurIPS), 2021. Workshop on
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Service}
-\textbf{Reviewing}
-\begin{itemize}[label={}]
-    \setlength\itemsep{0em}
-    \item Neural Information Processing Systems (NeurIPS) \hfill 2022
-    \item NeurIPS Algorithmic Fairness through the Lens of Causality and Privacy (AFCP) Workshop \hfill 2022
-    \item International Conference on Machine Learning (ICML) -- \textit{Top 10\% reviewer award} \hfill 2022
-    \item NeurIPS Black In AI (BAI) Workshop \hfill 2021
-\end{itemize}
+    
+\begin{rSubsection2}{Reviewing}
+%\textbf{Reviewing}
+    Journal of Machine Learning Research (JMLR) \hfill 2023\\
+    Neural Information Processing Systems (NeurIPS) \hfill 2022-2023\\
+    NeurIPS Algorithmic Fairness through the Lens of Causality and Privacy (AFCP) Workshop \hfill 2022\\
+    International Conference on Machine Learning (ICML) -- \textit{Top 10\% reviewer award} \hfill 2022-2023\\
+    NeurIPS Black In AI (BAI) Workshop \hfill 2021
+\end{rSubsection2}
 
-\textbf{University of Illinois at Urbana-Champaign}
-\begin{itemize}[label={}]
-    \setlength\itemsep{0em}
-    \item Directed Reading Program, Mentor \hfill 2022-Present
-    \item Graduate Study Committee, 1 of 2 Graduate Student
-    Members \hfill 2022
-    \item Broadening Participation in Computing, Engagement Subcommittee Member
-    \hfill 2021 - 2022
-    \item Graduates Engineers Diversifying Illinois, Mentor \hfill
-    2020 - 2022
-    \item Institute for Inclusion, Diversity, Equity, and
-    Access (IDEA), Affiliate Member \hfill 2020 - Present
-\end{itemize}
+\begin{rSubsection2}{University of Illinois at Urbana-Champaign}
+% \textbf{University of Illinois at Urbana-Champaign}
+    Directed Reading Program, Mentor \hfill 2022\\
+    Graduate Study Committee, 1 of 2 Graduate Student
+    Members \hfill 2022\\
+    Broadening Participation in Computing, Engagement Subcommittee Member
+    \hfill 2021 - 2022\\
+    Graduates Engineers Diversifying Illinois, Mentor \hfill
+    2020 - 2022\\
+    Institute for Inclusion, Diversity, Equity, and
+    Access (IDEA), Affiliate Member \hfill 2020 - Present\\
+\end{rSubsection2}
+
+\end{rSection}
 
 \begin{rSection}{Teaching}
+Data Visualization, Teaching Assistant -- University of Illinois at Urbana-Champaign \hfill 2023
 Foundations of Engineering, Peer Teacher -- Texas A\&M University \hfill 2018-2019\\
 Introduction to Microcontrollers, Co-Instructor -- Sandia National Labs HMTech \hfill 2018, 2019
 \end{rSection}
