@@ -8,10 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-Olawale (Wale) Salaudeen is a fourth-year Ph.D. candidate in Computer Science at the University of Illinois at Urbana-Champaign, specializing in statistical machine learning and causality. His research focuses on developing robust algorithms, model selection techniques, and model evaluation in the presence of distribution shifts. Wale's goal is to improve the reliability and performance of machine learning models for real-world decision-making. His research interests extend to diverse applications, including neuroscience/neuroimaging, healthcare, and fairness. Wale has received esteemed recognition, including the Sloan Scholarship, Beckman Graduate Research Fellowship, GEM Associate Fellowship, and NSF Miniature Brain Machinery Traineeship.
-
-Before pursuing his Ph.D. at the University of Illinois, Wale obtained a Bachelor of Science degree in Mechanical Engineering from Texas A&M University, with minors in Computer Science and Mathematics. Throughout his doctoral studies, Wale has further expanded his expertise through research internships at Sandia National Laboratories and Google Brain Causality. Additionally, he gained practical experience in machine learning through an internship at Cruise LLC.
----
 My name is Olawale (Wale) Salaudeen, and I am a fourth-year Ph.D. candidate in Computer Science at the University of Illinois at Urbana-Champaign and a visiting student researcher at Stanford University (2022-present), advised by <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo.</a> Throughout my PhD, I am honored to have received a Sloan Scholarship, Beckman Graduate Research Fellowship, GEM Associate Fellowship, and an NSF Miniature Brain Machinery Traineeship. Prior to Illinois, I received a Bachelors of Science in Mechanical Engineering with minors in Computer Science and Mathematics from the Texas A&M University.
 
 # Research Interests
