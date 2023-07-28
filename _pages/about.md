@@ -13,7 +13,7 @@ My name is Olawale (Wale) Salaudeen, and I am a fourth-year Ph.D. candidate in C
 
 # Research Interests
 ---
-I am broadly interested in developing robust algorithms, model selection, and model evaluation techniques in the presence of distribution shifts. My research goal is to improve the reliability and performance of machine learning models for real-world decision-making. I am also interested in diverse applications, including neuroscience/neuroimaging, healthcare, and fairness. My work and interests span statistical machine learning, deep learning, domain adaptation/generalization, causal inference and discovery, causality inspired machine learning, and probabiliaty graphical models.
+I am broadly interested in developing robust algorithms, model selection, and model evaluation techniques in the presence of distribution shifts. My research goal is to improve the reliability and performance of machine learning models for real-world decision-making. I am also interested in diverse applications, including neuroscience/neuroimaging, healthcare, and fairness. My work and interests span statistical machine learning, deep learning, domain adaptation/generalization, causal inference and discovery, causality inspired machine learning, and probabilistic graphical models.
 
 # Selected Recent News
 ---
