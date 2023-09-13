@@ -8,7 +8,7 @@ author_profile: true
 ML=Machine Learning, BI=Biological Imaging
 
 [ML] **Learning Domain General Predictors**<br>
-<a href="https://simons.berkeley.edu/workshops/asu-it-ml" target="_blank">*Simons Institute -- Information-Theoretic Methods for Trustworthy Machine Learning</a>, 2023*. (invited).<br>
+<a href="https://simons.berkeley.edu/workshops/asu-it-ml" target="_blank">*Simons Institute -- Information-Theoretic Methods for Trustworthy Machine Learning*</a>, 2023. (invited).<br>
 [poster]
 
 [ML, BI] **Separating Neural Encoding and Decoding Pathways in fMRI by Disentangling Causal and Anticausal Mechanisms**<br>
@@ -24,9 +24,9 @@ ML=Machine Learning, BI=Biological Imaging
 Conference on Neural Information Processing Systems (NeurIPS), Workshop on Distribution Shifts -- Connecting Methods and Applications (DistShift), 2021. 
 
 [ML] **Automated Incorporation of Machine Learning (AIM)**<br>
-*Sandia National Laboratories MARTIANS End of Summer Symposia, 2020. (invited).*<br>
+*Sandia National Laboratories MARTIANS End of Summer Symposia*, 2020. (invited).<br>
 [<a href="https://www.osti.gov/servlets/purl/1811429" target="_blank">poster</a>]
 
 [ML] **Interpretable Recurrent Convolutional Neural Networks for Cyber Alert Triaging**<br>
-*Sandia National Laboratories MARTIANS End of Summer Symposia, 2019. (invited).*<br>
+*Sandia National Laboratories MARTIANS End of Summer Symposia*, 2019. (invited).<br>
 [<a href="https://www.osti.gov/biblio/1645642-interpretable-recurrent-convolutional-neural-networks-cyber-alert-triaging" target="_blank">poster</a>]
