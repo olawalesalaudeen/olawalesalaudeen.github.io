@@ -17,6 +17,7 @@ I am broadly interested in developing robust algorithms, model selection, and mo
 
 # Selected Recent News
 ---
+* Fall 2023. I will join the <a href="https://sf.is.mpg.de/" target="_blank">Social Foundations of Computation</a> department at the <a href="https://is.mpg.de/" target="_blank">Max Planck Institute for Intelligent Systems</a> in Tübingen, Germany this fall as a Research Intern working with <a href="https://mrtz.org/" target="_blank">Moritz Hardt</a>!
 * Spring 2023. I passed my PhD Preliminary Exam!
 * Spring 2023. I will join Cruise's Autonomous Vehicles Behaviors team in San Francisco, CA this summer as a Machine Learning Intern!
 * Fall 2022. I have moved to Stanford University as a Visiting Student Researcher with <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo</a>! 
