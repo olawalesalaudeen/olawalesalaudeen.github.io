@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 [Google Scholar](https://scholar.google.com/citations?user=F-ytPfAAAAAJ&hl=en&oi=ao), [arXiv](https://arxiv.org/search/?query=Olawale+Salaudeen&searchtype=all&source=header)<br>
-ML=Machine Learning, BI=Biological Imaging<br>
+<span class="badge badge-pill badge-success">Machine Learning</span> <span class="badge badge-info">Biological Imaging</span> <span class="badge badge-warning">Preprints</span>
 
 [ML] **Towards Accurate Benchmarking of Domain Generalization**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
