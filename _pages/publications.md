@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 [Google Scholar](https://scholar.google.com/citations?user=F-ytPfAAAAAJ&hl=en&oi=ao), [arXiv](https://arxiv.org/search/?query=Olawale+Salaudeen&searchtype=all&source=header)<br>
-<span class="badge badge-pill badge-success">Machine Learning</span> <span class="badge badge-info">Biological Imaging</span> <span class="badge badge-warning">Preprints</span>
+ML=Machine Learning, BI=Biological Imaging<br>
 
 [ML] **Towards Accurate Benchmarking of Domain Generalization**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
@@ -18,7 +18,8 @@ In Preparation, 2023.
 
 [ML] **Learning Domain General Predictors**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
-Under Review, 2023.
+Under Review, 2023.<br>
+[[early preprint](https://arxiv.org/abs/2212.11342)]
 
 <!-- [ML] **Target Conditioned Representation Independence (TCRI); From Domain-Invariant to Domain-General Representations**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
@@ -29,12 +30,12 @@ Under Review, 2023.
 Ibrahim Alabdulmohsin, Nicole Chiou, Alexander D'Amour, Arthur Gretton, Sanmi Koyejo, Matt J. Kusner, Stephen R. Pfohl, **<u>Olawale Salaudeen</u>**, Jessica Schrouff, Katherine Tsai.<br>
 Authors listed in alphabetical order<br>
 *The International Conference on Artificial Intelligence and Statistics (AISTATS), 2023.*<br>
-[[preprint](https://arxiv.org/abs/2212.11254)]
+[[paper](https://proceedings.mlr.press/v206/alabdulmohsin23a/alabdulmohsin23a.pdf)]
 
-<!-- [ML] **Adapting to Shifts in Latent Confounders using Observed Concepts and Proxies**<br>
+[ML] **Adapting to Shifts in Latent Confounders using Observed Concepts and Proxies**<br>
 Matt J. Kusner, Ibrahim Alabdulmohsin, Stephen Pfohl, **<u>Olawale Salaudeen</u>**, Arthur Gretton, Sanmi Koyejo, Jessica Schrouff, Alexander D’Amour.<br>
 *International Conference on Machine Learning (ICML), 2022. Workshop on Principles of Distribution Shift (PODS)*<br>
-[[paper](https://drive.google.com/file/d/1_itT_9SMeBRP_ScIxdrJ2Fi8HRoyfuVw/view?usp=sharing)] [[poster](/files/publications/posters/Neurips_22_PODS_latent_shifts.pdf)] -->
+[[paper](https://drive.google.com/file/d/1_itT_9SMeBRP_ScIxdrJ2Fi8HRoyfuVw/view?usp=sharing)] [[poster](/files/publications/posters/Neurips_22_PODS_latent_shifts.pdf)]
 
 [ML] **Exploiting Causal Chains for Domain Generalization**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo. <br>
