@@ -8,23 +8,29 @@ author_profile: true
 [Google Scholar](https://scholar.google.com/citations?user=F-ytPfAAAAAJ&hl=en&oi=ao), [arXiv](https://arxiv.org/search/?query=Olawale+Salaudeen&searchtype=all&source=header)<br>
 ML=Machine Learning, BI=Biological Imaging<br>
 
+# Working Papers
 [ML] **Towards Accurate Benchmarking of Domain Generalization**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
-In Preparation, 2023.
+In Preparation.
 
 [ML/BI] **Causal-ICA-AROMA – Motion Denoising in fMRI via Causal Graphical Model Augmentation of ICA-AROMA”**<br>
-**<u>Olawale Salaudeen</u>** et al..<br>
-In Preparation, 2023.
+**<u>Olawale Salaudeen</u>** et al.<br>
+In Preparation.
 
-[ML] **Learning Domain General Predictors**<br>
+# Peer Reviewed
+[ML] **Target Conditioned Representation Independence (TCRI); From Domain-Invariant to Domain-General Representations**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
-Under Review, 2023.<br>
+*The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.*<br>
 [[early preprint](https://arxiv.org/abs/2212.11342)]
 
-<!-- [ML] **Target Conditioned Representation Independence (TCRI); From Domain-Invariant to Domain-General Representations**<br>
-**<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
-*arXiv, 2022*<br>
-[[preprint](https://arxiv.org/abs/2212.11342)] -->
+[ML] **Proxy Methods for Domain Adaptation**<br>
+Katherine Tsai, Stephen R. Pfohl, **<u>Olawale Salaudeen</u>**, Nicole Chiou, Matt J. Kustner, Alexander D'Amour, Sanmi Koyejo, Arthur Gretton.<br>
+*The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.*<br>
+
+[ML] **Understanding subgroup performance differences of fair predictors using causal models**<br>
+Stephen Robert Pfohl, Natalie Harris, Chirag Nagpal, David Madras, Vishwali Mhasawade, **<u>Olawale Elijah Salaudeen</u>**, Katherine A Heller, Sanmi Koyejo, Alexander Nicholas D'Amour<br>
+*Conference on Neural Information Processing Systems (NeurIPS), 2023. Workshop on Distribution Shifts (DistShift)*<br>
+[[paper](https://openreview.net/pdf?id=Fd00jISBD0)]
 
 [ML] **Adapting to Latent Subgroup Shifts via Concepts and Proxies**<br>
 Ibrahim Alabdulmohsin, Nicole Chiou, Alexander D'Amour, Arthur Gretton, Sanmi Koyejo, Matt J. Kusner, Stephen R. Pfohl, **<u>Olawale Salaudeen</u>**, Jessica Schrouff, Katherine Tsai.<br>
@@ -37,13 +43,6 @@ Matt J. Kusner, Ibrahim Alabdulmohsin, Stephen Pfohl, **<u>Olawale Salaudeen</u>
 *International Conference on Machine Learning (ICML), 2022. Workshop on Principles of Distribution Shift (PODS)*<br>
 [[paper](https://drive.google.com/file/d/1_itT_9SMeBRP_ScIxdrJ2Fi8HRoyfuVw/view?usp=sharing)] [[poster](/files/publications/posters/Neurips_22_PODS_latent_shifts.pdf)]
 
-[ML] **Exploiting Causal Chains for Domain Generalization**<br>
-**<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo. <br>
-*Conference on Neural Information Processing Systems (NeurIPS), 2021. Workshop on Distribution Shifts -- Connecting Methods and Applications (DistShift)*<br>
-[[paper](https://openreview.net/pdf?id=IwpCCB_e1h)] [[poster](/files/publications/posters/Neurips_21_DistShift_exploiting_causal_chains.pdf)]
-
-
-# Abstracts
 [ML] **Addressing Observational Biases in Algorithmic Fairness Assessments**<br>
 Chirag Nagpal, **<u>Olawale Salaudeen</u>**, Sanmi Koyejo, Stephen Pfohl.<br>
 *Conference on Neural Information Processing Systems (NeurIPS), 2022. Workshop on Algorithmic Fairness through the Lens of Causality and Privacy* (extended abstract)<br>
@@ -53,4 +52,9 @@ Chirag Nagpal, **<u>Olawale Salaudeen</u>**, Sanmi Koyejo, Stephen Pfohl.<br>
 Brad Sutton, Aaron Anderson, Benjamin Zimmerman, Paul Camacho, Riwei Jin, Charles Marchini, **<u>Olawale Salaudeen</u>**, Natalie Ramsy, Davide Boido, Serge Charpak, Andrew Webb, Luisa Ciobanu.<br>
 *International Society for Magnetic Resonance in Medicine (ISMRM), 2022* (abstract)<br>
 [[link](https://archive.ismrm.org/2022/2848.html)]
+
+[ML] **Exploiting Causal Chains for Domain Generalization**<br>
+**<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo. <br>
+*Conference on Neural Information Processing Systems (NeurIPS), 2021. Workshop on Distribution Shifts (DistShift)*<br>
+[[paper](https://openreview.net/pdf?id=IwpCCB_e1h)] [[poster](/files/publications/posters/Neurips_21_DistShift_exploiting_causal_chains.pdf)]
 
