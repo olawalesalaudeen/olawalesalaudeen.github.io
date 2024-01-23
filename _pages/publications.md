@@ -7,6 +7,7 @@ author_profile: true
 
 [Google Scholar](https://scholar.google.com/citations?user=F-ytPfAAAAAJ&hl=en&oi=ao), [arXiv](https://arxiv.org/search/?query=Olawale+Salaudeen&searchtype=all&source=header)<br>
 ML=Machine Learning, BI=Biological Imaging<br>
+\* denotes equal contribution
 
 ## Working Papers
 [ML] **Towards Accurate Benchmarking of Domain Generalization**<br>
@@ -33,7 +34,7 @@ Stephen Robert Pfohl, Natalie Harris, Chirag Nagpal, David Madras, Vishwali Mhas
 [[paper](https://openreview.net/pdf?id=Fd00jISBD0)]
 
 [ML] **Adapting to Latent Subgroup Shifts via Concepts and Proxies**<br>
-Ibrahim Alabdulmohsin, Nicole Chiou, Alexander D'Amour, Arthur Gretton, Sanmi Koyejo, Matt J. Kusner, Stephen R. Pfohl, **<u>Olawale Salaudeen</u>**, Jessica Schrouff, Katherine Tsai.<br>
+\*Ibrahim Alabdulmohsin, \*Nicole Chiou, \*Alexander D'Amour, \*Arthur Gretton, \*Sanmi Koyejo, \*Matt J. Kusner, \*Stephen R. Pfohl, \***<u>Olawale Salaudeen</u>**, \*Jessica Schrouff, \*Katherine Tsai.<br>
 Authors listed in alphabetical order<br>
 *The International Conference on Artificial Intelligence and Statistics (AISTATS), 2023.*<br>
 [[paper](https://proceedings.mlr.press/v206/alabdulmohsin23a/alabdulmohsin23a.pdf)]
