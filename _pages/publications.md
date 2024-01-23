@@ -8,7 +8,7 @@ author_profile: true
 [Google Scholar](https://scholar.google.com/citations?user=F-ytPfAAAAAJ&hl=en&oi=ao), [arXiv](https://arxiv.org/search/?query=Olawale+Salaudeen&searchtype=all&source=header)<br>
 ML=Machine Learning, BI=Biological Imaging<br>
 
-# Working Papers
+## Working Papers
 [ML] **Towards Accurate Benchmarking of Domain Generalization**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
 In Preparation.
@@ -17,7 +17,7 @@ In Preparation.
 **<u>Olawale Salaudeen</u>** et al.<br>
 In Preparation.
 
-# Peer Reviewed
+## Peer Reviewed
 [ML] **Target Conditioned Representation Independence (TCRI); From Domain-Invariant to Domain-General Representations**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
 *The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.*<br>
