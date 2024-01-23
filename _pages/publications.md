@@ -20,12 +20,12 @@ In Preparation.
 ## Peer Reviewed
 [ML] **Target Conditioned Representation Independence (TCRI); From Domain-Invariant to Domain-General Representations**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
-*The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.*<br>
+*The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.* (to appear)<br>
 [[early preprint](https://arxiv.org/abs/2212.11342)]
 
 [ML] **Proxy Methods for Domain Adaptation**<br>
 Katherine Tsai, Stephen R. Pfohl, **<u>Olawale Salaudeen</u>**, Nicole Chiou, Matt J. Kustner, Alexander D'Amour, Sanmi Koyejo, Arthur Gretton.<br>
-*The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.*<br>
+*The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.* (to appear)<br>
 
 [ML] **Understanding subgroup performance differences of fair predictors using causal models**<br>
 Stephen Robert Pfohl, Natalie Harris, Chirag Nagpal, David Madras, Vishwali Mhasawade, **<u>Olawale Elijah Salaudeen</u>**, Katherine A Heller, Sanmi Koyejo, Alexander Nicholas D'Amour<br>
