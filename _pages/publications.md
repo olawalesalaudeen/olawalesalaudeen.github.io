@@ -28,7 +28,7 @@ In Preparation.
 In Preparation.
 
 ## Peer Reviewed
-[ML] **Target Conditioned Representation Independence (TCRI); From Domain-Invariant to Domain-General Representations**<br>
+[ML] **Causally-Inspired Regularization Enables Domain General Representations**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
 *The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.* (to appear)<br>
 [[early preprint](https://arxiv.org/abs/2212.11342)]
