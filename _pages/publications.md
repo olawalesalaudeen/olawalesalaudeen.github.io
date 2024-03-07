@@ -12,7 +12,7 @@ ML=Machine Learning, BI=Biological Imaging<br>
 ## Preprints and Working Papers
 [ML] **ImageNot: A Contrast with ImageNet preserves model rankings**<br>
 **<u>Olawale Salaudeen</u>**, Moritz Hardt.<br>
-In Review.
+In Review (preprint imminent).
 
 [ML] **Ensemble-Learning for Counterfactual Estimation**<br>
 Pablo Robles-Granda, Evan D. Anderson, **<u>Olawale Salaudeen</u>**, Ethan Trewhitt, Christopher
@@ -25,7 +25,7 @@ In Preparation.
 
 [ML/BI] **Causal-ICA-AROMA – Motion Denoising in fMRI via Causal Graphical Model Augmentation of ICA-AROMA”**<br>
 **<u>Olawale Salaudeen</u>** et al.<br>
-In Preparation.
+In Preparation (preprint imminent).
 
 ## Peer Reviewed
 [ML] **Causally-Inspired Regularization Enables Domain General Representations**<br>
