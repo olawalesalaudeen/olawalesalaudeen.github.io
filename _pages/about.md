@@ -22,6 +22,9 @@ I am broadly interested in reliable and trustworthy machine learning. My researc
 * Fall 2023. I will join the <a href="https://sf.is.mpg.de/" target="_blank">Social Foundations of Computation</a> department at the <a href="https://is.mpg.de/" target="_blank">Max Planck Institute for Intelligent Systems</a> in Tübingen, Germany this fall as a Research Intern working with <a href="https://mrtz.org/" target="_blank">Moritz Hardt</a>!
 * Spring 2023. I passed my PhD Preliminary Exam!
 * Spring 2023. I will join <a href="https://getcruise.com/" target="_blank">Cruise's</a> Autonomous Vehicles Behaviors team in San Francisco, CA this summer as a Machine Learning Intern!
+<details>
+<summary><b>show more</b></summary>
+
 * Fall 2022. I have moved to <a href="https://www.cs.stanford.edu/" target="_blank">Stanford University</a> as a Visiting Student Researcher with <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo</a>! 
 * Summer 2022. I am honored to be selected as a top reviewer (10%) of ICML 2022!
 * Summer 2022. I will join <a href="https://research.google/teams/brain/" target="_blank">Google Brain</a> in Cambridge, MA this summer as a Research Intern!
@@ -33,6 +36,8 @@ I am broadly interested in reliable and trustworthy machine learning. My researc
 * Summer 2021. I was selected to receive an Illinois <a href="https://www.gemfellowship.org/gem-fellowship-program/" target="_blank">GEM</a> Associate Fellowship!
 * Spring 2021. I passed my Ph.D. qualifying exam!
 * Spring 2020. I was selected to receive a 2020 Beckman Institute Graduate Fellowship (<a href="https://beckman.illinois.edu/about/news/article/2020/05/08/seven-named-2020-beckman-institute-graduate-fellows?fbclid=IwAR1XYI8PpzFLfAsAmQdurMZrywwTyHtTuhpkI3ZlaNUQPNcrY00SZJH0muU" target="_blank">news</a>)!
+
+</details>
 
 # Mentorship
 ---
