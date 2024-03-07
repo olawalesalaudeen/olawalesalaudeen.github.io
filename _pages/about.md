@@ -24,19 +24,19 @@ I am broadly interested in reliable and trustworthy machine learning. My researc
 * Spring 2023. I will join <a href="https://getcruise.com/" target="_blank">Cruise's</a> Autonomous Vehicles Behaviors team in San Francisco, CA this summer as a Machine Learning Intern!
 <details>
 <summary><b>show more</b></summary>
-
-* Fall 2022. I have moved to <a href="https://www.cs.stanford.edu/" target="_blank">Stanford University</a> as a Visiting Student Researcher with <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo</a>! 
-* Summer 2022. I am honored to be selected as a top reviewer (10%) of ICML 2022!
-* Summer 2022. I will join <a href="https://research.google/teams/brain/" target="_blank">Google Brain</a> in Cambridge, MA this summer as a Research Intern!
-* Spring 2021. I gave a talk on leveraging causal discovery for fMRI
+<ul>
+  <li> Fall 2022. I have moved to <a href="https://www.cs.stanford.edu/" target="_blank">Stanford University</a> as a Visiting Student Researcher with <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo</a>! 
+  <li> Summer 2022. I am honored to be selected as a top reviewer (10%) of ICML 2022!
+  <li> Summer 2022. I will join <a href="https://research.google/teams/brain/" target="_blank">Google Brain</a> in Cambridge, MA this summer as a Research Intern!
+  <li> Spring 2021. I gave a talk on leveraging causal discovery for fMRI
  denoising at the <a href="https://beckman.illinois.edu/about/news/article/2022/03/30/grad-students-to-present-research-april-6" target="_blank">Beckman Institute Graduate Student Seminar</a>. <a href="https://olawalesalaudeen.com/talks/"> Available here </a>!
-* Fall 2021. Our paper titled "Exploiting Causal Chains for Domain Generalization" is
+  <li> Fall 2021. Our paper titled "Exploiting Causal Chains for Domain Generalization" is
  accepted at the 2021 <a href="https://sites.google.com/view/distshift2021" target="_blank">NeurIPS Workshop on Distribution Shift</a>!
-* Fall 2021. I was selected as a <a href="https://minibrain.beckman.illinois.edu/" target="_blank">Miniature Brain Machinery (MBM) NSF Research Trainee</a>!
-* Summer 2021. I was selected to receive an Illinois <a href="https://www.gemfellowship.org/gem-fellowship-program/" target="_blank">GEM</a> Associate Fellowship!
-* Spring 2021. I passed my Ph.D. qualifying exam!
-* Spring 2020. I was selected to receive a 2020 Beckman Institute Graduate Fellowship (<a href="https://beckman.illinois.edu/about/news/article/2020/05/08/seven-named-2020-beckman-institute-graduate-fellows?fbclid=IwAR1XYI8PpzFLfAsAmQdurMZrywwTyHtTuhpkI3ZlaNUQPNcrY00SZJH0muU" target="_blank">news</a>)!
-
+  <li> Fall 2021. I was selected as a <a href="https://minibrain.beckman.illinois.edu/" target="_blank">Miniature Brain Machinery (MBM) NSF Research Trainee</a>!
+  <li> Summer 2021. I was selected to receive an Illinois <a href="https://www.gemfellowship.org/gem-fellowship-program/" target="_blank">GEM</a> Associate Fellowship!
+  <li> Spring 2021. I passed my Ph.D. qualifying exam!
+  <li> Spring 2020. I was selected to receive a 2020 Beckman Institute Graduate Fellowship (<a href="https://beckman.illinois.edu/about/news/article/2020/05/08/seven-named-2020-beckman-institute-graduate-fellows?fbclid=IwAR1XYI8PpzFLfAsAmQdurMZrywwTyHtTuhpkI3ZlaNUQPNcrY00SZJH0muU" target="_blank">news</a>)!
+</ul>
 </details>
 
 # Mentorship
