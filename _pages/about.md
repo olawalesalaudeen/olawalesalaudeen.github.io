@@ -37,7 +37,6 @@ I am broadly interested in reliable and trustworthy machine learning. My researc
   <li> Spring 2020. I was selected to receive a 2020 Beckman Institute Graduate Fellowship (<a href="https://beckman.illinois.edu/about/news/article/2020/05/08/seven-named-2020-beckman-institute-graduate-fellows?fbclid=IwAR1XYI8PpzFLfAsAmQdurMZrywwTyHtTuhpkI3ZlaNUQPNcrY00SZJH0muU" target="_blank">news</a>)! </li>
 </ul>
 </details>
-<br>
 
 # Mentorship
 ---
