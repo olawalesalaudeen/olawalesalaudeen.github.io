@@ -36,7 +36,7 @@ In Preparation (preprint imminent).
 [ML] **Proxy Methods for Domain Adaptation**<br>
 Katherine Tsai, Stephen R. Pfohl, **<u>Olawale Salaudeen</u>**, Nicole Chiou, Matt J. Kusner, Alexander D'Amour, Sanmi Koyejo, Arthur Gretton.<br>
 *The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.* (to appear)<br>
-[[preprint]](https://arxiv.org/pdf/2403.07442.pdf)
+[[preprint](https://arxiv.org/pdf/2403.07442.pdf)]
 
 [ML] **Understanding subgroup performance differences of fair predictors using causal models**<br>
 Stephen Robert Pfohl, Natalie Harris, Chirag Nagpal, David Madras, Vishwali Mhasawade, **<u>Olawale Elijah Salaudeen</u>**, Katherine A Heller, Sanmi Koyejo, Alexander Nicholas D'Amour<br>
