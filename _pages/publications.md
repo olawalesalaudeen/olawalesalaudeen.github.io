@@ -10,7 +10,7 @@ ML=Machine Learning, BI=Biological Imaging<br>
 \* denotes equal contribution
 
 ## Preprints and Working Papers
-[ML] **ImageNot: A Contrast with ImageNet preserves model rankings**<br>
+[ML] **ImageNot: A contrast with ImageNet preserves model rankings**<br>
 **<u>Olawale Salaudeen</u>**, Moritz Hardt.<br>
 In Review (preprint imminent).
 
@@ -21,7 +21,7 @@ In Review.
 
 [ML] **Towards Accurate Benchmarking of Domain Generalization**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
-In Preparation.
+In Preparation (preprint imminent).
 
 [ML/BI] **Causal-ICA-AROMA – Motion Denoising in fMRI via Causal Graphical Model Augmentation of ICA-AROMA”**<br>
 **<u>Olawale Salaudeen</u>** et al.<br>
@@ -31,11 +31,12 @@ In Preparation (preprint imminent).
 [ML] **Causally-Inspired Regularization Enables Domain General Representations**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
 *The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.* (to appear)<br>
-[[early preprint](https://arxiv.org/abs/2212.11342)]
+[[early preprint](https://arxiv.org/pdf/2212.11342.pdf)].
 
 [ML] **Proxy Methods for Domain Adaptation**<br>
 Katherine Tsai, Stephen R. Pfohl, **<u>Olawale Salaudeen</u>**, Nicole Chiou, Matt J. Kusner, Alexander D'Amour, Sanmi Koyejo, Arthur Gretton.<br>
 *The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.* (to appear)<br>
+[[preprint]](https://arxiv.org/pdf/2403.07442.pdf)
 
 [ML] **Understanding subgroup performance differences of fair predictors using causal models**<br>
 Stephen Robert Pfohl, Natalie Harris, Chirag Nagpal, David Madras, Vishwali Mhasawade, **<u>Olawale Elijah Salaudeen</u>**, Katherine A Heller, Sanmi Koyejo, Alexander Nicholas D'Amour<br>
