@@ -12,7 +12,8 @@ ML=Machine Learning, BI=Biological Imaging<br>
 ## Preprints and Working Papers
 [ML] **ImageNot: A contrast with ImageNet preserves model rankings**<br>
 **<u>Olawale Salaudeen</u>**, Moritz Hardt.<br>
-In Review (preprint imminent).
+In Review, 2024.<br>
+[[arXiv](https://arxiv.org/pdf/2404.02112.pdf)]
 
 [ML] **Ensemble-Learning for Counterfactual Estimation**<br>
 Pablo Robles-Granda, Evan D. Anderson, **<u>Olawale Salaudeen</u>**, Ethan Trewhitt, Christopher
@@ -27,16 +28,21 @@ In Preparation (preprint imminent).
 **<u>Olawale Salaudeen</u>** et al.<br>
 In Preparation (preprint imminent).
 
+[ML] **Target Conditioned Representation Independence (TCRI); From Domain-Invariant to Domain-General Representations**<br>
+**<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
+arXiv, 2022.<br>
+[[arXiv](https://arxiv.org/pdf/2212.11342.pdf)]
+
 ## Peer Reviewed
 [ML] **Causally-Inspired Regularization Enables Domain General Representations**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
 *The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.* (to appear)<br>
-[[early preprint](https://arxiv.org/pdf/2212.11342.pdf)].
+<!-- [[early preprint](https://arxiv.org/pdf/2212.11342.pdf)]. -->
 
 [ML] **Proxy Methods for Domain Adaptation**<br>
 Katherine Tsai, Stephen R. Pfohl, **<u>Olawale Salaudeen</u>**, Nicole Chiou, Matt J. Kusner, Alexander D'Amour, Sanmi Koyejo, Arthur Gretton.<br>
 *The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.* (to appear)<br>
-[[preprint](https://arxiv.org/pdf/2403.07442.pdf)]
+[[arXiv](https://arxiv.org/pdf/2403.07442.pdf)]
 
 [ML] **Understanding subgroup performance differences of fair predictors using causal models**<br>
 Stephen Robert Pfohl, Natalie Harris, Chirag Nagpal, David Madras, Vishwali Mhasawade, **<u>Olawale Elijah Salaudeen</u>**, Katherine A Heller, Sanmi Koyejo, Alexander Nicholas D'Amour<br>
