@@ -17,7 +17,7 @@ I am broadly interested in reliable and trustworthy machine learning. My researc
 
 # Selected Recent News
 ---
-* Winter 2024. I am excited to give a talk on AI for critical systems at <a href="https://www.mobilit.ai/en/" target="_blank">MobiliT.AI forum</a> (May 28-29)!
+* Winter 2024. I am excited to give a talk on AI for critical systems at the <a href="https://www.mobilit.ai/en/" target="_blank">MobiliT.AI forum</a> (May 28-29)!
 * Winter 2024. I gave a talk at UIUC Machine Learning Seminar on the external validity of ImageNet; artifacts <a href="https://publish.illinois.edu/ml-seminar/" target="_blank">here</a>!
 * Winter 2024. Recent work demonstrating the external validity of ImageNet model/architecture rankings -- *ImageNot: A contrast with ImageNet preserves model ranking* -- is now available on <a href="https://arxiv.org/pdf/2404.02112.pdf" target="_blank">arXiv</a>!
 * Winter 2024. 2 papers on machine learning under distribution shift will appear at AISTATS 2024 (see [Publications](https://olawalesalaudeen.com/publications/))!
