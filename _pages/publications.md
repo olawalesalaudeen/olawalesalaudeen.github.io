@@ -28,21 +28,16 @@ In Preparation (preprint imminent).
 **<u>Olawale Salaudeen</u>** et al.<br>
 In Preparation (preprint imminent).
 
-[ML] **Target Conditioned Representation Independence (TCRI); From Domain-Invariant to Domain-General Representations**<br>
-**<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
-arXiv, 2022.<br>
-[[arXiv](https://arxiv.org/pdf/2212.11342.pdf)]
-
 ## Peer Reviewed
 [ML] **Causally-Inspired Regularization Enables Domain General Representations**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
 *The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.* (to appear)<br>
-<!-- [[early preprint](https://arxiv.org/pdf/2212.11342.pdf)]. -->
+[[arXiv](https://arxiv.org/pdf/2404.16277)] [[code](https://github.com/olawalesalaudeen/tcri)].
 
 [ML] **Proxy Methods for Domain Adaptation**<br>
 Katherine Tsai, Stephen R. Pfohl, **<u>Olawale Salaudeen</u>**, Nicole Chiou, Matt J. Kusner, Alexander D'Amour, Sanmi Koyejo, Arthur Gretton.<br>
 *The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.* (to appear)<br>
-[[arXiv](https://arxiv.org/pdf/2403.07442.pdf)]
+[[arXiv](https://arxiv.org/pdf/2403.07442.pdf)] [[code](https://github.com/stair-lab/ProxyDA)]
 
 [ML] **Understanding subgroup performance differences of fair predictors using causal models**<br>
 Stephen Robert Pfohl, Natalie Harris, Chirag Nagpal, David Madras, Vishwali Mhasawade, **<u>Olawale Elijah Salaudeen</u>**, Katherine A Heller, Sanmi Koyejo, Alexander Nicholas D'Amour<br>
@@ -53,7 +48,7 @@ Stephen Robert Pfohl, Natalie Harris, Chirag Nagpal, David Madras, Vishwali Mhas
 \*Ibrahim Alabdulmohsin, \*Nicole Chiou, \*Alexander D'Amour, \*Arthur Gretton, \*Sanmi Koyejo, \*Matt J. Kusner, \*Stephen R. Pfohl, \***<u>Olawale Salaudeen</u>**, \*Jessica Schrouff, \*Katherine Tsai.<br>
 Authors listed in alphabetical order<br>
 *The International Conference on Artificial Intelligence and Statistics (AISTATS), 2023.*<br>
-[[paper](https://proceedings.mlr.press/v206/alabdulmohsin23a/alabdulmohsin23a.pdf)]
+[[paper](https://proceedings.mlr.press/v206/alabdulmohsin23a/alabdulmohsin23a.pdf)] [[code](https://github.com/google-research/google-research/tree/master/latent_shift_adaptation)]
 
 [ML] **Adapting to Shifts in Latent Confounders using Observed Concepts and Proxies**<br>
 Matt J. Kusner, Ibrahim Alabdulmohsin, Stephen Pfohl, **<u>Olawale Salaudeen</u>**, Arthur Gretton, Sanmi Koyejo, Jessica Schrouff, Alexander D’Amour.<br>
