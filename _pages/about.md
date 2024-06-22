@@ -17,17 +17,18 @@ I am broadly interested in reliable and trustworthy machine learning. My researc
 
 # Selected Recent News
 ---
-* Spring 2024. I am excited to give a talk on AI for critical systems at the <a href="https://www.mobilit.ai/en/" target="_blank">MobiliT.AI forum</a> (May 28-29)!
+* Summer 2024. I successfully defended my PhD!
+* Spring 2024. I gave a talk on AI for critical systems at the <a href="https://www.mobilit.ai/en/" target="_blank">MobiliT.AI forum</a> (May 28-29)!
 * Spring 2024. I gave a talk at UIUC Machine Learning Seminar on the external validity of ImageNet; artifacts <a href="https://publish.illinois.edu/ml-seminar/" target="_blank">here</a>!
 * Spring 2024. Recent work demonstrating the external validity of ImageNet model/architecture rankings -- *ImageNot: A contrast with ImageNet preserves model ranking* -- is now available on <a href="https://arxiv.org/pdf/2404.02112.pdf" target="_blank">arXiv</a>!
 * Winter 2024. 2 papers on machine learning under distribution shift will appear at AISTATS 2024 (see [Publications](https://olawalesalaudeen.com/publications/))!
 * Winter 2024. I have returned to Stanford from MPI!
-* Fall 2023. I will join the <a href="https://sf.is.mpg.de/" target="_blank">Social Foundations of Computation</a> department at the <a href="https://is.mpg.de/" target="_blank">Max Planck Institute for Intelligent Systems</a> in Tübingen, Germany this fall as a Research Intern working with <a href="https://mrtz.org/" target="_blank">Moritz Hardt</a>!
-* Spring 2023. I passed my PhD Preliminary Exam!
-* Spring 2023. I will join <a href="https://getcruise.com/" target="_blank">Cruise's</a> Autonomous Vehicles Behaviors team in San Francisco, CA this summer as a Machine Learning Intern!
 <details>
 <summary><b>show more</b></summary>
 <ul>
+  <li> Fall 2023. I will join the <a href="https://sf.is.mpg.de/" target="_blank">Social Foundations of Computation</a> department at the <a href="https://is.mpg.de/" target="_blank">Max Planck Institute for Intelligent Systems</a> in Tübingen, Germany this fall as a Research Intern working with <a href="https://mrtz.org/" target="_blank">Moritz Hardt</a>! </li>
+  <li> Spring 2023. I passed my PhD Preliminary Exam! </li>
+  <li> Spring 2023. I will join <a href="https://getcruise.com/" target="_blank">Cruise's</a> Autonomous Vehicles Behaviors team in San Francisco, CA this summer as a Machine Learning Intern! </li>
   <li> Fall 2022. I have moved to <a href="https://www.cs.stanford.edu/" target="_blank">Stanford University</a> as a Visiting Student Researcher with <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo</a>! </li>
   <li> Summer 2022. I am honored to be selected as a top reviewer (10%) of ICML 2022! </li>
   <li> Summer 2022. I will join <a href="https://research.google/teams/brain/" target="_blank">Google Brain</a> in Cambridge, MA this summer as a Research Intern! </li>
