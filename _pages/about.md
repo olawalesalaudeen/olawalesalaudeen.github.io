@@ -17,7 +17,7 @@ I am broadly interested in reliable and trustworthy machine learning. My researc
 
 # Selected Recent News
 ---
-* Summer 2024. I successfully defended my PhD!
+* Summer 2024. I successfully defended my PhD dissertation!
 * Spring 2024. I gave a talk on AI for critical systems at the <a href="https://www.mobilit.ai/en/" target="_blank">MobiliT.AI forum</a> (May 28-29)!
 * Spring 2024. I gave a talk at UIUC Machine Learning Seminar on the external validity of ImageNet; artifacts <a href="https://publish.illinois.edu/ml-seminar/" target="_blank">here</a>!
 * Spring 2024. Recent work demonstrating the external validity of ImageNet model/architecture rankings -- *ImageNot: A contrast with ImageNet preserves model ranking* -- is now available on <a href="https://arxiv.org/pdf/2404.02112.pdf" target="_blank">arXiv</a>!
