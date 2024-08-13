@@ -9,26 +9,29 @@ author_profile: true
 ML=Machine Learning, BI=Biological Imaging<br>
 \* denotes equal contribution
 
-## Preprints and Working Papers
+## Selected
 [ML] **ImageNot: A contrast with ImageNet preserves model rankings**<br>
 **<u>Olawale Salaudeen</u>**, Moritz Hardt.<br>
-In Review, 2024.<br>
+Preprint.<br>
 [[arXiv](https://arxiv.org/pdf/2404.02112.pdf)] [[code](https://github.com/olawalesalaudeen/imagenot)]
 
-[ML] **Ensemble-Learning for Counterfactual Estimation**<br>
-Pablo Robles-Granda, Evan D. Anderson, **<u>Olawale Salaudeen</u>**, Ethan Trewhitt, Christopher
-E. Zwilling, Elizabeth Whitaker, Aron K. Barbey, Oluwasanmi Koyejo<br>
-In Review.
-
-[ML] **Towards Accurate Benchmarking of Domain Generalization**<br>
+[ML] **Causally-Inspired Regularization Enables Domain General Representations**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
-In Preparation (preprint imminent).
+*The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.* (to appear)<br>
+[[arXiv](https://arxiv.org/pdf/2404.16277)] [[code](https://github.com/olawalesalaudeen/tcri)].
 
-[ML/BI] **Causal-ICA-AROMA – Motion Denoising in fMRI via Causal Graphical Model Augmentation of ICA-AROMA”**<br>
-**<u>Olawale Salaudeen</u>** et al.<br>
-In Preparation (preprint imminent).
+[ML] **Adapting to Latent Subgroup Shifts via Concepts and Proxies**<br>
+\*Ibrahim Alabdulmohsin, \*Nicole Chiou, \*Alexander D'Amour, \*Arthur Gretton, \*Sanmi Koyejo, \*Matt J. Kusner, \*Stephen R. Pfohl, \***<u>Olawale Salaudeen</u>**, \*Jessica Schrouff, \*Katherine Tsai.<br>
+Authors listed in alphabetical order<br>
+*The International Conference on Artificial Intelligence and Statistics (AISTATS), 2023.*<br>
+[[paper](https://proceedings.mlr.press/v206/alabdulmohsin23a/alabdulmohsin23a.pdf)] [[code](https://github.com/google-research/google-research/tree/master/latent_shift_adaptation)]
 
-## Peer Reviewed
+## All
+[ML] **ImageNot: A contrast with ImageNet preserves model rankings**<br>
+**<u>Olawale Salaudeen</u>**, Moritz Hardt.<br>
+Preprint.<br>
+[[arXiv](https://arxiv.org/pdf/2404.02112.pdf)] [[code](https://github.com/olawalesalaudeen/imagenot)]
+
 [ML] **Causally-Inspired Regularization Enables Domain General Representations**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
 *The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.* (to appear)<br>

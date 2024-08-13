@@ -9,15 +9,17 @@ redirect_from:
 ---
 
 ---
-My name is Olawale (Wale) Salaudeen, and I am a final year Ph.D. candidate in <a href="https://cs.illinois.edu/" target="_blank">Computer Science at the University of Illinois at Urbana-Champaign</a> and a visiting Ph.D. candidate at Stanford University (2022-present), advised by <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo.</a> During my PhD, I am honored to have received a Sloan Scholarship, Beckman Graduate Research Fellowship, GEM Associate Fellowship, and an NSF Miniature Brain Machinery Traineeship.  Additionally, I am fortunate to have interned at Sandia National Laboratories, Google Brain, Cruise LLC, and the Max Planck Institute for Intelligent Systems.
+My name is Olawale (Wale) Salaudeen, and I am an (incoming) postdoctoral associate at MIT CSAIL in the <a href="https://healthyml.org" target="_blank">Healthy ML Lab</a>, led by <a href="https://healthyml.org/marzyeh/" target="_blank">Professor Marzyeh Ghassemi</a>. Prior to my postdoc, I earned a PhD in <a href="https://cs.illinois.edu/" target="_blank">Computer Science at the University of Illinois at Urbana-Champaign</a>, where I was also a visiting student in <a href="https://www.cs.stanford.edu/" target="_blank">Computer Science at Stanford University</a>, advised by <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo.</a> I am honored to have received a Sloan Scholarship, Beckman Graduate Research Fellowship, GEM Associate Fellowship, and an NSF Miniature Brain Machinery Traineeship.  Additionally, I am fortunate to have interned at Sandia National Laboratories, Google Brain, Cruise LLC, and the Max Planck Institute for Intelligent Systems.
+
 Before Illinois, I received a Bachelors of Science in Mechanical Engineering with minors in Computer Science and Mathematics from the <a href="https://engineering.tamu.edu/mechanical/index.html" target="_blank">Texas A&M University</a>.
 # Research Interests
 ---
-I am broadly interested in reliable and trustworthy machine learning. My research goal is to improve the robustness of machine learning models for real-world decision-making. I am currently focused on the principles and practices of machine learning evaluation, particularly the external validity of benchmarks. I also continue to work on developing robust algorithms, model selection, and model evaluation techniques in the presence of distribution shifts. Additionally, I am interested in diverse applications, including neuroscience/neuroimaging, healthcare, and algorithmic fairness. My work and interests span generative AI, statistical machine learning, deep learning, domain adaptation/generalization, causal inference and discovery, causality-inspired machine learning, and probabilistic graphical models.
+I am broadly interested in reliable and trustworthy machine learning. My research goal is to improve the robustness of machine learning models for real-world decision-making. Particularly, I aim to develop the principles and practices of robust generalization, adaptation, and evaluation in machine learning. Additionally, I am interested in diverse applications, including neuroscience/neuroimaging, healthcare, and algorithmic fairness. My experience and interests span generative AI, statistical machine learning, multi-modal deep learning, domain adaptation/generalization, causality-inspired machine learning, and probabilistic graphical models.
 
 # Selected Recent News
 ---
-* Summer 2024. I successfully defended my PhD dissertation!
+* Fall 2024. I will join the <a href="https://healthyml.org" target="_blank">Healthy ML Lab</a>, led by <a href="https://healthyml.org/marzyeh/" target="_blank">Professor Marzyeh Ghassemi</a>, at <a href="https://www.csail.mit.edu/" target="_blank">MIT CSAIL</a> as a postdoctoral associate!
+* Summer 2024. I successfully defended my PhD dissertation titled *"Towards External Valid Machine Learning: A Spurious Correlations Perspective"*!
 * Spring 2024. I gave a talk on AI for critical systems at the <a href="https://www.mobilit.ai/en/" target="_blank">MobiliT.AI forum</a> (May 28-29)!
 * Spring 2024. I gave a talk at UIUC Machine Learning Seminar on the external validity of ImageNet; artifacts <a href="https://publish.illinois.edu/ml-seminar/" target="_blank">here</a>!
 * Spring 2024. Recent work demonstrating the external validity of ImageNet model/architecture rankings -- *ImageNot: A contrast with ImageNet preserves model ranking* -- is now available on <a href="https://arxiv.org/pdf/2404.02112.pdf" target="_blank">arXiv</a>!
@@ -44,6 +46,7 @@ I am broadly interested in reliable and trustworthy machine learning. My researc
 
 # Mentorship
 ---
+* Uzma Hamid (LINXS @ Stanford, 2024).
 * <a href="https://www.linkedin.com/in/vikram-duvvur/" target="_blank">Vikram Duvvur</a> (UIUC, 2021-2022), Next MS in Machine Learning @ CMU
-* <a href="https://www.linkedin.com/in/elsayeaa-2023/" target="_blank">Ahmed Elsayed</a> (DREU @ UIUC, 2021, Next Software Engineer at Microsoft)
+* <a href="https://www.linkedin.com/in/elsayeaa-2023/" target="_blank">Ahmed Elsayed</a> (DREU @ UIUC, 2021), Next Software Engineer at Microsoft
 
