@@ -20,7 +20,6 @@ ML=Machine Learning, BI=Biological Imaging
 [ML, BI] **PGM-augmented-ICA-AROMA: Denoising via probabilistic graphical model augmentation of ICA-AROMA**<br>
 <a href="https://beckman.illinois.edu/about/news/article/2022/03/30/grad-students-to-present-research-april-6">*Beckman Institute Graduate Student Seminar*</a>, 2021. (invited).<br>
 <a href="https://minibrain.beckman.illinois.edu/events/2021-mbm-retreat/">*University of Illinois at Urbana-Champaign Miniature Brain Machinery Retreat*</a>, 2021.<br>
-[<a href="https://www.youtube.com/watch?v=KDcbwxsRB98" target="_blank">video</a>]
 [<a href="/talks/causal_fmri_denoising-beckman_seminar-040622.pptx" target="_blank">slides</a>]
 
 [ML] **Automated Incorporation of Machine Learning (AIM)**<br>
