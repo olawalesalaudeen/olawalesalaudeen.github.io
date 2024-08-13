@@ -2,24 +2,24 @@
 main:
   - title: "CV"
     url: /cv/
-    
+
   - title: "Publications"
     url: /publications/
 
   # - title: "Projects"
     # url: /portfolio/
-        
+
   - title: "Talks"
-    url: /talks/    
+    url: /talks/
 
   # - title: "Teaching"
-    # url: /teaching/    
+    # url: /teaching/
 
-  - title: "Blog Posts"
-    url: /blog-posts/
+  # - title: "Blog Posts"
+  #   url: /blog-posts/
 
   # - title: "Contact"
     # url: /contact/
-    
+
   # - title: "Guide"
     # url: /markdown/
