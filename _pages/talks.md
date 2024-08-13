@@ -1,15 +1,18 @@
 ---
 layout: archive
-title: "Talks"
+title: "Selected Talks and Presentations"
 permalink: /talks/
 author_profile: true
 ---
 
 ML=Machine Learning, BI=Biological Imaging
 
+[ML] **Towards Externally Valid Evaluation of AI Systems**<br>
+<a href="mobilit.ai" target="_blank">MobiliT.AI</a> forum. 2024. (invited).<br>
+<a href="https://shahlab.stanford.edu/" target="_blank">Shah Lab, Stanford University. 2024. https://shahlab.stanford.edu/</a>(invited).<br>
+
 [ML] **Learning Domain General Predictors**<br>
 <a href="https://simons.berkeley.edu/workshops/asu-it-ml" target="_blank">*Simons Institute -- Information-Theoretic Methods for Trustworthy Machine Learning*</a>, 2023. (invited).<br>
-[poster]
 
 [ML, BI] **Separating Neural Encoding and Decoding Pathways in fMRI by Disentangling Causal and Anticausal Mechanisms**<br>
 <a href="https://minibrain.beckman.illinois.edu/events/2021-mbm-retreat/">*University of Illinois at Urbana-Champaign Miniature Brain Machinery Retreat*</a>, 2022.<br>
@@ -21,7 +24,7 @@ ML=Machine Learning, BI=Biological Imaging
 [<a href="/talks/causal_fmri_denoising-beckman_seminar-040622.pptx" target="_blank">slides</a>]
 
 [ML] **Exploiting Causal Chains for Domain Generalization**<br>
-Conference on Neural Information Processing Systems (NeurIPS), Workshop on Distribution Shifts -- Connecting Methods and Applications (DistShift), 2021. 
+Conference on Neural Information Processing Systems (NeurIPS), Workshop on Distribution Shifts -- Connecting Methods and Applications (DistShift), 2021.
 
 [ML] **Automated Incorporation of Machine Learning (AIM)**<br>
 *Sandia National Laboratories MARTIANS End of Summer Symposia*, 2020. (invited).<br>
