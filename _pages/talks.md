@@ -9,7 +9,8 @@ ML=Machine Learning, BI=Biological Imaging
 
 [ML] **Towards Externally Valid Evaluation of AI Systems**<br>
 <a href="mobilit.ai" target="_blank">MobiliT.AI</a> forum. 2024. (invited).<br>
-<a href="https://shahlab.stanford.edu/" target="_blank">Shah Lab, Stanford University. 2024. https://shahlab.stanford.edu/</a>(invited).<br>
+<a href="https://publish.illinois.edu/ml-seminar/" target="_blank">Machine Learning Seminar</a>, University of Illinois at Urbana-Champaign, 2024.<br>
+<a href="https://shahlab.stanford.edu/" target="_blank">Shah Lab</a>, Stanford University, 2024.(invited).<br>
 
 [ML] **Learning Domain General Predictors**<br>
 <a href="https://simons.berkeley.edu/workshops/asu-it-ml" target="_blank">*Simons Institute -- Information-Theoretic Methods for Trustworthy Machine Learning*</a>, 2023. (invited).<br>
