@@ -7,6 +7,10 @@ author_profile: true
 
 ML=Machine Learning, BI=Biological Imaging
 
+[ML] **Clued-in to Clueless: Navigating Distribution Shifts with Varying Levels of Target Distribution Information**<br>
+<a href="https://www.ifml.institute/events/clued-clueless-navigating-distribution-shifts-varying-levels-target-distribution-information" target="_blank">Institute for Foundations of Machine Learning (IFML)</a>, UT Austin. 2024. (invited).<br>
+
+
 [ML] **Towards Externally Valid Evaluation of AI Systems**<br>
 <a href="mobilit.ai" target="_blank">MobiliT.AI</a> forum. 2024. (invited).<br>
 <a href="https://publish.illinois.edu/ml-seminar/" target="_blank">Machine Learning Seminar</a>, University of Illinois at Urbana-Champaign, 2024. (invited).<br>
