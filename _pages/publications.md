@@ -10,11 +10,6 @@ ML=Machine Learning, BI=Biological Imaging<br>
 \* denotes equal contribution
 
 ## Selected
-[ML] **ImageNot: A contrast with ImageNet preserves model rankings**<br>
-**<u>Olawale Salaudeen</u>**, Moritz Hardt.<br>
-Preprint.<br>
-[[arXiv](https://arxiv.org/pdf/2404.02112.pdf)] [[code](https://github.com/olawalesalaudeen/imagenot)]
-
 [ML] **Causally-Inspired Regularization Enables Domain General Representations**<br>
 **<u>Olawale Salaudeen</u>**, Oluwasanmi Koyejo.<br>
 *The International Conference on Artificial Intelligence and Statistics (AISTATS), 2024.*<br>
@@ -25,6 +20,12 @@ Preprint.<br>
 Authors listed in alphabetical order<br>
 *The International Conference on Artificial Intelligence and Statistics (AISTATS), 2023.*<br>
 [[paper](https://proceedings.mlr.press/v206/alabdulmohsin23a/alabdulmohsin23a.pdf)] [[code](https://github.com/google-research/google-research/tree/master/latent_shift_adaptation)]
+
+[ML] **ImageNot: A contrast with ImageNet preserves model rankings**<br>
+**<u>Olawale Salaudeen</u>**, Moritz Hardt.<br>
+Preprint.<br>
+[[arXiv](https://arxiv.org/pdf/2404.02112.pdf)] [[code](https://github.com/olawalesalaudeen/imagenot)]
+
 
 ## All
 [ML] **ImageNot: A contrast with ImageNet preserves model rankings**<br>
