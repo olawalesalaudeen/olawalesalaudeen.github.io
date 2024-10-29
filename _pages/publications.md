@@ -24,7 +24,7 @@ Authors listed in alphabetical order. \* denotes equal contribution.<br>
 
 [ML, DS, BM] **On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning**
 **<u>Olawale Salaudeen</u>**, Nicole Chiou, Sanmi Koyejo<br>
-*Conference on Neural Information Processing Systems (NeurIPS), 2024. Workshop on Causal Representation Learning Workshop.* ***(Oral Presentation)*** (to appear)<br>
+*Conference on Neural Information Processing Systems (NeurIPS), 2024. Workshop on Causal Representation Learning.* ***(Oral Presentation)*** (to appear)<br>
 
 [ML, DS, BM] **ImageNot: A contrast with ImageNet preserves model rankings**<br>
 **<u>Olawale Salaudeen</u>**, Moritz Hardt.<br>
@@ -34,7 +34,7 @@ Preprint.<br>
 ## All
 [ML, DS, BM] **On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning**
 **<u>Olawale Salaudeen</u>**, Nicole Chiou, Sanmi Koyejo<br>
-*Conference on Neural Information Processing Systems (NeurIPS), 2024. Workshop on Causal Representation Learning Workshop.* ***(Oral Presentation)*** (to appear)<br>
+*Conference on Neural Information Processing Systems (NeurIPS), 2024. Workshop on Causal Representation Learning.* ***(Oral Presentation)*** (to appear)<br>
 
 [BI] **MRI Motion Denoising Reimagined: ICA-AROMA meets Causality**
 **<u>Olawale Salaudeen</u>**, Paul Camacho, Aron Barbey, Brad Sutton, Sanmi Koyejo<br>
