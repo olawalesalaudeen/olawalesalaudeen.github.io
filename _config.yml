@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Olawale (Wale) Salaudeen"
 title_separator          : "-"
 name                     : &name "Olawale (Wale) Salaudeen"
-description              : &description "Postdoctoral Associate at MIT CSAIL"
+description              : &description "Postdoctoral Associate at MIT"
 url                      : https://olawalesalaudeen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "olawalesalaudeen/olawalesalaudeen.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Olawale (Wale) Salaudeen"
   avatar           : "Salaudeen_Olawale.jpg"
-  bio              : "Postdoc @ MIT CSAIL"
+  bio              : "Postdoc @ MIT"
   location         : "Cambridge MA"
   employer         :
   pubmed           :
