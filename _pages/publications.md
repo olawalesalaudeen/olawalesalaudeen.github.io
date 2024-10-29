@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-[Google Scholar](https://scholar.google.com/citations?user=F-ytPfAAAAAJ&hl=en&oi=ao), [pdf](https://arxiv.org/search/?query=Olawale+Salaudeen&searchtype=all&source=header)<br>
+[Google Scholar](https://scholar.google.com/citations?user=F-ytPfAAAAAJ&hl=en&oi=ao), [arXiv](https://arxiv.org/search/?query=Olawale+Salaudeen&searchtype=all&source=header)<br>
 **Core Areas.** ML=Machine Learning, DS=Distribution Shift, BM: Benchmarking<br>
 **Applications Areas.** AF=Algorithmic Fairness, BI=Biological Imaging<br>
 \* denotes equal contribution
