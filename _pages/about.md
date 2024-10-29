@@ -19,17 +19,18 @@ I am broadly interested in reliable and trustworthy machine learning. My researc
 I am very happy to discuss new research directions; please reach out if there is shared interest!
 
 ## Mentorship
-I am happy to mentor students at MIT with overlapping research interests. Particularly for undergrads, programs like <a href="https://urop.mit.edu/" target="_blank">UROP</a> are a great mechanism for mentorship. More generally, I am very happy and available to give advice and feedback on applying to and navigating both undergraduate and graduate programs in computer science and related disciplines -- especially for those to whom this type of feedback and guidance would be otherwise unavailable.
+I am happy to mentor students with overlapping research interests. Particularly for undergrads at MIT, programs like <a href="https://urop.mit.edu/" target="_blank">UROP</a> are a great mechanism for mentorship. More generally, I am very happy and available to give advice and feedback on applying to and navigating both undergraduate and graduate programs in computer science and related disciplines -- especially for those to whom this type of feedback and guidance would be otherwise unavailable.
 
-You can reach me at [full firstname] [at] mit [dot] edu.
+You can reach me at olawale [at] mit [dot] edu.
 
 ## Selected Recent News
+* Fall 2024. Our paper titled "On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning" will appear at the Neurips 2024 workshop on causal reprsentation learning as an Oral Presentation.
 * Fall 2024. I joined the <a href="https://healthyml.org" target="_blank">Healthy ML Lab</a>, led by <a href="https://healthyml.org/marzyeh/" target="_blank">Professor Marzyeh Ghassemi</a>, at <a href="https://www.csail.mit.edu/" target="_blank">MIT</a> as a postdoctoral associate!
 * Summer 2024. I successfully defended my PhD dissertation titled *"Towards External Valid Machine Learning: A Spurious Correlations Perspective"*!
 * Spring 2024. I gave a talk on AI for critical systems at the <a href="https://www.mobilit.ai/en/" target="_blank">MobiliT.AI forum</a> (May 28-29)!
 * Spring 2024. I gave a talk at UIUC Machine Learning Seminar on the external validity of ImageNet; artifacts <a href="https://publish.illinois.edu/ml-seminar/" target="_blank">here</a>!
 * Spring 2024. Recent work demonstrating the external validity of ImageNet model/architecture rankings -- *ImageNot: A contrast with ImageNet preserves model ranking* -- is now available on <a href="https://arxiv.org/pdf/2404.02112.pdf" target="_blank">arXiv</a>!
-* Winter 2024. 2 papers on machine learning under distribution shift will appear at AISTATS 2024 (see [Publications](https://olawalesalaudeen.com/publications/))!
+* Winter 2024. Two papers on machine learning under distribution shift will appear at AISTATS 2024 (see [Publications](https://olawalesalaudeen.com/publications/))!
 * Winter 2024. I have returned to Stanford from MPI!
 <details>
 <summary><b>show more</b></summary>
@@ -37,7 +38,7 @@ You can reach me at [full firstname] [at] mit [dot] edu.
   <li> Fall 2023. I will join the <a href="https://sf.is.mpg.de/" target="_blank">Social Foundations of Computation</a> department at the <a href="https://is.mpg.de/" target="_blank">Max Planck Institute for Intelligent Systems</a> in Tübingen, Germany this fall as a Research Intern working with <a href="https://mrtz.org/" target="_blank">Moritz Hardt</a>! </li>
   <li> Spring 2023. I passed my PhD Preliminary Exam! </li>
   <li> Spring 2023. I will join <a href="https://getcruise.com/" target="_blank">Cruise's</a> Autonomous Vehicles Behaviors team in San Francisco, CA this summer as a Machine Learning Intern! </li>
-  <li> Fall 2022. I have moved to <a href="https://www.cs.stanford.edu/" target="_blank">Stanford University</a> as a Visiting Student Researcher with <a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo</a>! </li>
+  <li> Fall 2022. I have moved to <a href="https://www.cs.stanford.edu/" target="_blank">Stanford University</a> as a Visiting Student Researcher with <a href="http://sanmi.cs.illinois.edu/" target="_blank">Professor Sanmi Koyejo</a>! </li>
   <li> Summer 2022. I am honored to be selected as a top reviewer (10%) of ICML 2022! </li>
   <li> Summer 2022. I will join <a href="https://research.google/teams/brain/" target="_blank">Google Brain</a> in Cambridge, MA this summer as a Research Intern! </li>
   <li> Spring 2021. I gave a talk on leveraging causal discovery for fMRI </li>
