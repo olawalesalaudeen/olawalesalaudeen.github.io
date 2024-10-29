@@ -22,7 +22,7 @@ Authors listed in alphabetical order. \* denotes equal contribution.<br>
 *The International Conference on Artificial Intelligence and Statistics (AISTATS), 2023.*<br>
 [[pdf](https://proceedings.mlr.press/v206/alabdulmohsin23a/alabdulmohsin23a.pdf)] [[code](https://github.com/google-research/google-research/tree/master/latent_shift_adaptation)]
 
-[ML, DS, BM] **On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning**
+[ML, DS, BM] **On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning**<br>
 **<u>Olawale Salaudeen</u>**, Nicole Chiou, Sanmi Koyejo<br>
 *Conference on Neural Information Processing Systems (NeurIPS), 2024. Workshop on Causal Representation Learning.* ***(Oral Presentation)*** (to appear)<br>
 
@@ -32,11 +32,11 @@ Preprint.<br>
 [[pdf](https://arxiv.org/pdf/2404.02112.pdf)] [[code](https://github.com/olawalesalaudeen/imagenot)]
 
 ## All
-[ML, DS, BM] **On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning**
+[ML, DS, BM] **On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning**<br>
 **<u>Olawale Salaudeen</u>**, Nicole Chiou, Sanmi Koyejo<br>
 *Conference on Neural Information Processing Systems (NeurIPS), 2024. Workshop on Causal Representation Learning.* ***(Oral Presentation)*** (to appear)<br>
 
-[BI] **MRI Motion Denoising Reimagined: ICA-AROMA meets Causality**
+[BI] **fMRI Motion Denoising Reimagined: ICA-AROMA meets Causality**
 **<u>Olawale Salaudeen</u>**, Paul Camacho, Aron Barbey, Brad Sutton, Sanmi Koyejo<br>
 Under Review.<br>
 
