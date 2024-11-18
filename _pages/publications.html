@@ -125,11 +125,36 @@ author_profile: true
   <br>
 
   <!-- Authors -->
-  {{ post.authors }}<br>
+  {% assign my_name = "Olawale Salaudeen" %}
+  {% assign my_name_with_star = "Olawale Salaudeen*" %}
+  {% assign authors_list = post.authors | split: ", " %}
+  {% capture formatted_authors %}
+  {% for author in authors_list %}
+  {% assign trimmed_author = author | strip %}
+
+  {% if trimmed_author == my_name or trimmed_author == my_name_with_star %}
+  {% if forloop.last == false %}
+  <strong>{{ trimmed_author }}</strong>,
+  {% endif %}
+  {% if forloop.last == true %}
+  <strong>{{ trimmed_author }}</strong>
+  {% endif %}
+  {% else %}
+  {% if forloop.last == false %}
+  {{ trimmed_author }},
+  {% endif %}
+  {% if forloop.last == true %}
+  {{ trimmed_author }}
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+  {% endcapture %}
+  {{ formatted_authors | strip }}<br>
 
   {% if post.authnote %}
   {{ post.authnote }}<br>
   {% endif %}
+
 
   <!-- Conference/Venue -->
   <em>{{ post.conference }}</em><br>
@@ -189,7 +214,31 @@ author_profile: true
     <br>
 
     <!-- Authors -->
-    {{ post.authors }}<br>
+    {% assign my_name = "Olawale Salaudeen" %}
+    {% assign my_name_with_star = "Olawale Salaudeen*" %}
+    {% assign authors_list = post.authors | split: ", " %}
+    {% capture formatted_authors %}
+    {% for author in authors_list %}
+    {% assign trimmed_author = author | strip %}
+
+    {% if trimmed_author == my_name or trimmed_author == my_name_with_star %}
+    {% if forloop.last == false %}
+    <strong>{{ trimmed_author }}</strong>,
+    {% endif %}
+    {% if forloop.last == true %}
+    <strong>{{ trimmed_author }}</strong>
+    {% endif %}
+    {% else %}
+    {% if forloop.last == false %}
+    {{ trimmed_author }},
+    {% endif %}
+    {% if forloop.last == true %}
+    {{ trimmed_author }}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% endcapture %}
+    {{ formatted_authors | strip }}<br>
 
     {% if post.authnote %}
     {{ post.authnote }}<br>
