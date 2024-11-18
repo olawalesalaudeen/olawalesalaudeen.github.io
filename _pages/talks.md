@@ -8,6 +8,7 @@ author_profile: true
 ML=Machine Learning, BI=Biological Imaging
 
 [ML] **Clued-in to Clueless: Navigating Distribution Shifts with Varying Levels of Target Distribution Information**<br>
+Computer Science Seminar, Texas State University, 2024. (invited)<br>
 <a href="https://www.ifml.institute/events/clued-clueless-navigating-distribution-shifts-varying-levels-target-distribution-information" target="_blank">Institute for Foundations of Machine Learning (IFML)</a>, UT Austin, 2024. (invited).<br>
 
 

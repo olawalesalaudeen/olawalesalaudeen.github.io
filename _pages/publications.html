@@ -1,0 +1,226 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+<style>
+  body {
+    font-size: 16px;
+    /* Adjust for smaller or larger font size */
+  }
+
+  /* Tag Styles */
+  .tag-ml {
+    display: inline-block;
+    background-color: #757575;
+    /* Darker gray for better contrast */
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin-right: 3px;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+
+  .tag-ds {
+    display: inline-block;
+    background-color: #F57C00;
+    /* Slightly darker muted orange */
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin-right: 3px;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+
+  .tag-bm {
+    display: inline-block;
+    background-color: #42A5F5;
+    /* Slightly darker blue for better contrast */
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin-right: 3px;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+
+  .tag-af {
+    display: inline-block;
+    background-color: #66BB6A;
+    /* Slightly darker green */
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin-right: 3px;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+
+  .tag-bi {
+    display: inline-block;
+    background-color: #A4A4A4;
+    /* Medium gray for BI with better contrast */
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin-right: 3px;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+
+  .tag-ca {
+    display: inline-block;
+    background-color: #BA68C8;
+    /* Lighter purple for a softer appearance */
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin-right: 3px;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+</style>
+
+{% if site.author.googlescholar %}
+<div class="wordwrap">You can find a more complete set of my papers on <a href="{{site.author.googlescholar}}"
+    target="_blank">my Google
+    Scholar profile</a>.</div><br>
+{% endif %}
+
+{% include base_path %}
+
+<b>Core Areas.</b> Robust Machine/Deep Learning, Biological Imaging<br>
+<b>Topics.</b> Distribution Shift, Causality, AI Benchmarking, Algorithmic Fairness, Denoising fMRI<br>
+<b>Applications Areas.</b> Healthcare, AI Governance, Neuroscience
+
+<h2>Selected</h2>
+<!-- Render publications -->
+{% if site.publications_selected %}
+{% for post in site.publications_selected reversed %}
+<div class="publication-entry">
+  <!-- Title -->
+  <strong>{{ post.title }}</strong>
+  <!-- Note -->
+  {% if post.pubnote %}
+  <span style="color:red; font-weight: bold;">{{ post.pubnote }}</span>
+  {% endif %}
+
+  <!-- Links -->
+  {% if post.pdf %}
+  <a href="{{ post.pdf }}" target="_blank">[PDF]</a>
+  {% endif %}
+  {% if post.link %}
+  <a href="{{ post.link }}" target="_blank">[Link]</a>
+  {% endif %}
+  {% if post.code %}
+  <a href="{{ post.code }}" target="_blank">[Code]</a>
+  {% endif %}
+  {% if post.poster %}
+  <a href="{{ post.poster }}" target="_blank">[Poster]</a>
+  {% endif %}
+  <br>
+
+  <!-- Authors -->
+  {{ post.authors }}<br>
+
+  {% if post.authnote %}
+  {{ post.authnote }}<br>
+  {% endif %}
+
+  <!-- Conference/Venue -->
+  <em>{{ post.conference }}</em><br>
+
+  <!-- Tags as styled labels -->
+  {% if post.tags %}
+  <div class="tags">
+    {% for tag in post.tags %}
+    {% case tag %}
+    {% when "ML" %}
+    <span class="tag-ml">Machine Learning</span>
+    {% when "DS" %}
+    <span class="tag-ds">Distribution Shift</span>
+    {% when "BM" %}
+    <span class="tag-bm">Benchmarking</span>
+    {% when "AF" %}
+    <span class="tag-af">Algorithmic Fairness</span>
+    {% when "BI" %}
+    <span class="tag-bi">Biological Imaging</span>
+    {% when "CA" %}
+    <span class="tag-ca">Causality</span>
+    {% else %}
+    <span class="tag">{{ tag }}</span>
+    {% endcase %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  <br>
+  {% endfor %}
+  {% endif %}
+
+  <h2>All</h2>
+  <!-- Render publications -->
+  {% if site.publications %}
+  {% for post in site.publications reversed %}
+  <div class="publication-entry">
+    <!-- Title -->
+    <strong>{{ post.title }}</strong>
+    <!-- Note -->
+    {% if post.pubnote %}
+    <span style="color:red; font-weight: bold;">{{ post.pubnote }}</span>
+    {% endif %}
+
+    <!-- Links -->
+    {% if post.pdf %}
+    <a href="{{ post.pdf }}" target="_blank">[PDF]</a>
+    {% endif %}
+    {% if post.link %}
+    <a href="{{ post.link }}" target="_blank">[Link]</a>
+    {% endif %}
+    {% if post.code %}
+    <a href="{{ post.code }}" target="_blank">[Code]</a>
+    {% endif %}
+    {% if post.poster %}
+    <a href="{{ post.poster }}" target="_blank">[Poster]</a>
+    {% endif %}
+    <br>
+
+    <!-- Authors -->
+    {{ post.authors }}<br>
+
+    {% if post.authnote %}
+    {{ post.authnote }}<br>
+    {% endif %}
+
+    <!-- Conference/Venue -->
+    <em>{{ post.conference }}</em><br>
+
+    <!-- Tags as styled labels -->
+    {% if post.tags %}
+    <div class="tags">
+      {% for tag in post.tags %}
+      {% case tag %}
+      {% when "ML" %}
+      <span class="tag-ml">Machine Learning</span>
+      {% when "DS" %}
+      <span class="tag-ds">Distribution Shift</span>
+      {% when "BM" %}
+      <span class="tag-bm">Benchmarking</span>
+      {% when "AF" %}
+      <span class="tag-af">Algorithmic Fairness</span>
+      {% when "BI" %}
+      <span class="tag-bi">Biological Imaging</span>
+      {% when "CA" %}
+      <span class="tag-ca">Causality</span>
+      {% else %}
+      <span class="tag">{{ tag }}</span>
+      {% endcase %}
+      {% endfor %}
+    </div>
+    {% endif %}
+    <br>
+    {% endfor %}
+    {% endif %}
