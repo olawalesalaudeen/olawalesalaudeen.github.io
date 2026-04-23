@@ -1,0 +1,97 @@
+# ============================================================================
+# Writing — Single source of truth
+# ============================================================================
+# Adding an entry here automatically updates the Talks & Writing page.
+#
+# Fields:
+#   title    : post / essay title
+#   date     : display date
+#   year     : numeric year for sorting
+#   summary  : short description
+#   link     : URL to the blog post or essay
+#   featured : true to highlight on homepage (future use)
+#   tags     : list of topic tags
+# ============================================================================
+
+- title: "Aggregation Hides Out-of-Distribution Generalization Failures from Spurious Correlations"
+  date: "2025"
+  year: 2025
+  summary: >
+    By focusing on aggregated performance metrics, standard domain generalization
+    benchmarks inadvertently mask critical failures in which models rely on
+    spurious correlations, underscoring the need for more granular evaluation to
+    ensure true robustness.
+  link: "https://www.olawalesalaudeen.com/blogs"
+  featured: true
+  tags: [measurement, generalization]
+
+- title: "Measurement to Meaning: A Validity-Centered Framework for AI Evaluation"
+  date: "2025"
+  year: 2025
+  summary: >
+    AI progress isn't just about better scores, but about understanding what
+    those scores mean—turning raw measurements of behavior into real insight
+    about what AI systems actually know and can do. This post explores the
+    shift from measurement to meaning in how we evaluate AI.
+  link: "https://www.olawalesalaudeen.com/blogs"
+  featured: true
+  tags: [measurement]
+
+- title: "Are Domain Generalization Benchmarks with Accuracy on the Line Misspecified?"
+  date: "2025"
+  year: 2025
+  summary: >
+    Domain generalization benchmarks with accuracy on the line aren't testing
+    the kinds of challenging shifts we actually care about. This post explores
+    how such benchmarks can be misspecified—rewarding stability over true
+    robustness and obscuring the harder problems the field aims to solve.
+  link: "https://www.olawalesalaudeen.com/blogs"
+  featured: false
+  tags: [measurement, generalization]
+
+- title: "On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning"
+  date: "2024"
+  year: 2024
+  summary: >
+    Not every distribution shift benchmark is a good test of causal
+    representation learning? This post argues that while causal representations
+    aim for worst-case robustness, many domain generalization datasets capture
+    easier kinds of shifts—so using them as proxy benchmarks can misrepresent
+    what causal representation learning is really meant to achieve.
+  link: "https://www.olawalesalaudeen.com/blogs"
+  featured: false
+  tags: [measurement, generalization]
+
+- title: "ImageNot: A contrast with ImageNet preserves model rankings"
+  date: "2024"
+  year: 2024
+  summary: >
+    ImageNot tests a counterfactual universe of ImageNet to ask whether the
+    scientific advances we make on public benchmarks truly generalize.
+  link: "https://www.olawalesalaudeen.com/blogs"
+  featured: false
+  tags: [measurement]
+
+- title: "Adapting to Latent Subgroup Shifts via Concepts and Proxies"
+  date: "2023"
+  year: 2023
+  summary: >
+    This post explores how concepts and proxies can help models handle latent
+    subgroup shifts—cases where hidden subpopulations change in ways that degrade
+    performance—by enabling adaptation to latent structure even without explicit
+    group labels.
+  link: "https://www.olawalesalaudeen.com/blogs"
+  featured: false
+  tags: [intervention]
+
+- title: "Causally Inspired Regularization Enables Domain General Representations"
+  date: "2024"
+  year: 2024
+  summary: >
+    This post explains how causally inspired regularization can promote
+    representations that generalize across domains—by encouraging models to
+    capture stable, causally relevant features rather than spurious patterns
+    tied to specific environments.
+  link: "https://www.olawalesalaudeen.com/blogs"
+  featured: false
+  tags: [intervention, generalization]

@@ -1,0 +1,10 @@
+---
+title: "Talks"
+listing:
+  - id: talk-full-list
+    contents: data/talks.yml
+    template: _templates/talk-list.ejs.md
+---
+
+:::{#talk-full-list}
+:::

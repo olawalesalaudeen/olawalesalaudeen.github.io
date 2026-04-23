@@ -1,0 +1,167 @@
+# ============================================================================
+# Talks — Single source of truth
+# ============================================================================
+# kind: invited | contributed   (use "kind" — Quarto listings reserve "type")
+#
+# Each talk:
+#   title  : talk title
+#   kind   : invited | contributed
+#   note   : optional (shown for contributed oral lines)
+#   venues : list of { event, date, year, link? }
+# ============================================================================
+
+# ── Invited Talks (match olawalesalaudeen.com/presentations) ─────────────
+
+- title: "Building and Evaluating AI Systems for New Post-Deployment Tasks and Distributions"
+  kind: invited
+  venues:
+    - event: "Machine Learning Scholars Workshop, MBZUAI"
+      date: "2026"
+      year: 2026
+      link: "https://ai-nexus.mbzuai.ac.ae/?panel=ML-Scholars-Workshop"
+
+- title: "Benchmarks to Bedside: Opportunities and Challenges in Evaluating AI's Clinical Utility"
+  kind: invited
+  venues:
+    - event: "School of Data Science Colloquium, University of Virginia"
+      date: "2025"
+      year: 2025
+
+- title: "What Benchmarks Really Measure: From Methods to Models in AI Evaluation"
+  kind: invited
+  venues:
+    - event: "Princeton University"
+      date: "2026"
+      year: 2026
+    - event: "Microsoft Research (NYC)"
+      date: "2025"
+      year: 2025
+
+- title: "AI 101"
+  kind: invited
+  venues:
+    - event: "Schmidt Sciences"
+      date: "2025"
+      year: 2025
+
+- title: "Measurement to Meaning"
+  kind: invited
+  venues:
+    - event: "MIT LIDS Postdoc Nexus Meeting, MIT"
+      date: "2025"
+      year: 2025
+
+- title: "Hitting the Wrong Target: Are Domain Generalization Benchmarks with Accuracy on the Line Misspecified?"
+  kind: invited
+  venues:
+    - event: "Laboratory for Information Decision Systems Autonomy Tea Talk, MIT"
+      date: "2025"
+      year: 2025
+      link: "https://lids.mit.edu/news-and-events/events/autonomy-tea-talk-1"
+
+- title: "Hitting the Right Target: From AI in the Lab to AI in the Real World"
+  kind: invited
+  venues:
+    - event: "Computer Science and Engineering Seminar, Georgia Institute of Technology"
+      date: "2025"
+      year: 2025
+    - event: "Tandon College of Engineering Faculty First Look Program, New York University"
+      date: "2025"
+      year: 2025
+
+- title: "Clued-in to Clueless: Navigating Distribution Shifts with Varying Levels of Target Distribution Information"
+  kind: invited
+  venues:
+    - event: "Computer Science Seminar, Texas State University"
+      date: "2024"
+      year: 2024
+    - event: "Institute for Foundations of Machine Learning (IFML), UT Austin"
+      date: "2024"
+      year: 2024
+      link: "https://www.ifml.institute/events/clued-clueless-navigating-distribution-shifts-varying-levels-target-distribution-information"
+
+- title: "Towards Externally Valid Evaluation of AI Systems"
+  kind: invited
+  venues:
+    - event: "MobiliT.AI Forum"
+      date: "2024"
+      year: 2024
+    - event: "Machine Learning Seminar, University of Illinois at Urbana-Champaign"
+      date: "2024"
+      year: 2024
+      link: "https://publish.illinois.edu/ml-seminar/"
+    - event: "Shah Lab, Stanford University"
+      date: "2024"
+      year: 2024
+      link: "https://shahlab.stanford.edu/"
+
+- title: "Denoising fMRI via Probabilistic Graphical Model Augmentation of ICA-AROMA"
+  kind: invited
+  venues:
+    - event: "Beckman Institute Graduate Student Seminar, University of Illinois at Urbana-Champaign"
+      date: "2022"
+      year: 2022
+      link: "https://beckman.illinois.edu/about/news/article/2022/03/30/grad-students-to-present-research-april-6"
+
+# ── Contributed Talks ──────────────────────────────────────────────────────
+
+- title: "On (using benchmarks for) Evaluating Methods vs. Evaluating Models"
+  kind: contributed
+  venues:
+    - event: "Workshop on Evaluating the Evolving LLM Lifecycle: Benchmarks, Emergent Abilities, and Scaling @ Conference on Neural Information Processing Systems (NeurIPS), 2025 — Oral Presentation"
+      date: "2025"
+      year: 2025
+
+- title: "Hitting the Wrong Target: Are Domain Generalization Benchmarks with Accuracy on the Line Misspecified?"
+  kind: contributed
+  venues:
+    - event: "Sanjoy K. Mitter Laboratory for Information Decision Systems Conference, MIT"
+      date: "2025"
+      year: 2025
+      link: "https://lidsconf.mit.edu/2025/abstracts.html"
+
+- title: "On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning"
+  kind: contributed
+  venues:
+    - event: "Workshop on Causal Representation Learning (CRL) @ Conference on Neural Information Processing Systems (NeurIPS), 2024 — Oral Presentation"
+      date: "2024"
+      year: 2024
+
+- title: "Learning Domain General Predictors"
+  kind: contributed
+  venues:
+    - event: "Simons Institute – Information-Theoretic Methods for Trustworthy Machine Learning"
+      date: "2023"
+      year: 2023
+      link: "https://simons.berkeley.edu/workshops/asu-it-ml"
+
+- title: "Separating Neural Encoding and Decoding Pathways in fMRI by Disentangling Causal and Anticausal Mechanisms"
+  kind: contributed
+  venues:
+    - event: "University of Illinois at Urbana-Champaign Miniature Brain Machinery Retreat"
+      date: "2022"
+      year: 2022
+
+- title: "Denoising fMRI via Probabilistic Graphical Model Augmentation of ICA-AROMA"
+  kind: contributed
+  venues:
+    - event: "University of Illinois at Urbana-Champaign Miniature Brain Machinery Retreat"
+      date: "2022"
+      year: 2022
+    - event: "University of Illinois at Urbana-Champaign Miniature Brain Machinery Retreat"
+      date: "2021"
+      year: 2021
+
+- title: "Automated Incorporation of Machine Learning (AIM)"
+  kind: contributed
+  venues:
+    - event: "Sandia National Laboratories MARTIANS End of Summer Symposia"
+      date: "2020"
+      year: 2020
+
+- title: "Interpretable Recurrent Convolutional Neural Networks for Cyber Alert Triaging"
+  kind: contributed
+  venues:
+    - event: "Sandia National Laboratories MARTIANS End of Summer Symposia"
+      date: "2019"
+      year: 2019

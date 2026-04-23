@@ -1,0 +1,263 @@
+# ============================================================================
+# News — Single source of truth
+# ============================================================================
+# Adding an entry here automatically updates the Homepage news section.
+# Entries are displayed in the order listed (newest first).
+#
+# Fields:
+#   period   : display date string (e.g. "Winter 2025")
+#   text     : news item HTML (supports <a> links, <em>, etc.)
+#   year     : numeric year for sorting
+#   recent   : true for "Selected Recent News", false for "Older News"
+#   type     : paper | service | honors | position | talk
+# ============================================================================
+
+# ── Recent News ─────────────────────────────────────────────────────────────
+
+- period: "Fall 2025"
+  text: 'Our NeurIPS spotlight paper, <a href="https://arxiv.org/abs/2510.24884">Aggregation Hides OOD Generalization Failures from Spurious Correlations</a>, was featured in <a href="https://news.mit.edu/2026/why-its-critical-to-move-beyond-overly-aggregated-machine-learning-metrics-0120">MIT News</a>.'
+  year: 2025
+  recent: true
+  type: paper
+
+- period: "Fall 2025"
+  text: 'Our work <a href="https://openreview.net/forum?id=8yg3XadfIZ">On Evaluating Methods vs. Evaluating Models</a> received a best paper award at the NeurIPS Workshop on Evaluating the Evolving LLM Lifecycle.'
+  year: 2025
+  recent: true
+  type: paper
+
+- period: "Fall 2025"
+  text: 'Our <a href="https://hai.stanford.edu/policy/validating-claims-about-ai-a-policymakers-guide">policy brief</a> on validating claims about AI is now available.'
+  year: 2025
+  recent: true
+  type: paper
+
+- period: "Fall 2025"
+  text: 'Three papers accepted to NeurIPS 2025 (main track), including one spotlight: (i) <a href="https://arxiv.org/abs/2510.24884">Aggregation Hides OOD Generalization Failures from Spurious Correlations</a> (Spotlight), (ii) <a href="https://openreview.net/forum?id=xRb0taq0pD">On Group Sufficiency Under Label Bias</a>, and (iii) <a href="https://arxiv.org/abs/2506.04193">Understanding challenges to the interpretation of disaggregated evaluations of algorithmic fairness</a>.'
+  year: 2025
+  recent: true
+  type: paper
+
+- period: "Fall 2025"
+  text: 'Two papers accepted at the NeurIPS Workshop on Evaluating the Evolving LLM Lifecycle, including one oral: (i) <a href="https://openreview.net/forum?id=8yg3XadfIZ">On Evaluating Methods vs. Evaluating Models</a> (Oral) and (ii) <a href="https://arxiv.org/abs/2505.10573">Measurement to Meaning: A Validity-Centered Framework for AI Evaluation</a>.'
+  year: 2025
+  recent: true
+  type: paper
+
+- period: "Fall 2025"
+  text: 'I am co-organizing the <a href="https://sites.google.com/view/benchmarking-and-evaluating-ai">workshop on The Science of Benchmarking and Evaluating AI</a> at EurIPS 25 in Copenhagen.'
+  year: 2025
+  recent: true
+  type: service
+
+- period: "Fall 2025"
+  text: 'Our paper <a href="https://openreview.net/forum?id=Vthqn5VE7L">Improving Single-round Active Adaptation: A Prediction Variability Perspective</a> is accepted at TMLR.'
+  year: 2025
+  recent: true
+  type: paper
+
+- period: "Summer 2025"
+  text: 'Our paper on the limitations of domain generalization benchmarks — <a href="https://arxiv.org/abs/2504.00186">Are Domain Generalization Benchmarks with Accuracy on the Line Misspecified?</a> — is accepted at TMLR with J2C certification (ICLR 2026 Journal Track).'
+  year: 2025
+  recent: true
+  type: paper
+
+- period: "Summer 2025"
+  text: 'Our preprint <a href="https://arxiv.org/abs/2507.23009">Stop Evaluating AI with Human Tests, Develop Principled, AI-specific Tests instead</a> is now available on arXiv.'
+  year: 2025
+  recent: true
+  type: paper
+
+- period: "Summer 2025"
+  text: 'Our preprint <a href="https://arxiv.org/abs/2506.04193">Understanding challenges to the interpretation of disaggregated evaluations of algorithmic fairness</a> is now available on arXiv.'
+  year: 2025
+  recent: true
+  type: paper
+
+- period: "Summer 2025"
+  text: 'I am serving as a program chair for the <a href="https://ahli.cc/ml4h/">Machine Learning for Health (ML4H) conference</a> in San Diego.'
+  year: 2025
+  recent: true
+  type: service
+
+- period: "Summer 2025"
+  text: 'I will spend the next year at <a href="https://www.schmidtsciences.org/">Schmidt Sciences</a> in NYC as a Visiting AI Scientist and AI Center Fellow in Residence.'
+  year: 2025
+  recent: true
+  type: position
+
+- period: "Spring 2025"
+  text: 'I joined the <a href="https://www.ericandwendyschmidtcenter.org/">Eric and Wendy Schmidt Center</a> at the <a href="https://www.broadinstitute.org/">Broad Institute</a> of MIT and Harvard as a postdoctoral scholar.'
+  year: 2025
+  recent: true
+  type: position
+
+- period: "Spring 2025"
+  text: 'Our paper <a href="https://arxiv.org/abs/2503.05336">Toward an Evaluation Science for Generative AI Systems</a> appeared in The Bridge (National Academy of Engineering).'
+  year: 2025
+  recent: true
+  type: paper
+
+- period: "Spring 2025"
+  text: 'I gave a talk on addressing distribution shifts at the MIT LIDS Postdoc NEXUS meeting.'
+  year: 2025
+  recent: true
+  type: talk
+
+- period: "Winter 2025"
+  text: 'I am co-organizing the <a href="https://ai4society.mit.edu/seminar/">AI for Society seminar</a> at MIT.'
+  year: 2025
+  recent: false
+  type: service
+
+- period: "Winter 2025"
+  text: 'Our paper <a href="https://arxiv.org/abs/2502.11429">What''s in a Query: Polarity-Aware Distribution-Based Fair Ranking</a> will appear at WWW 2025.'
+  year: 2025
+  recent: false
+  type: paper
+
+- period: "Winter 2025"
+  text: 'I was selected as an NYU <a href="https://engineering.nyu.edu/about/diversity-inclusion/tandon-faculty-first-look">Tandon Faculty First-Look Fellow</a>.'
+  year: 2025
+  recent: false
+  type: honors
+
+- period: "Winter 2025"
+  text: 'I am co-organizing the <a href="https://lids.mit.edu/news-and-events/events/30th-annual-sanjoy-k-mitter-lids-student-conference">30th Annual Sanjoy K. Mitter LIDS Student Conference</a> at MIT.'
+  year: 2025
+  recent: false
+  type: service
+
+- period: "Winter 2025"
+  text: 'I was selected as a Georgia Tech <a href="https://focus.gatech.edu/">FOCUS Fellow</a>.'
+  year: 2025
+  recent: false
+  type: honors
+
+- period: "Fall 2024"
+  text: 'Our paper <a href="https://openreview.net/pdf?id=LbFK9pUlA5">On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning</a> will appear at the NeurIPS 2024 Workshop on Causal Representation Learning as an oral presentation.'
+  year: 2024
+  recent: false
+  type: paper
+
+- period: "Fall 2024"
+  text: 'I joined the <a href="https://healthyml.org/">Healthy ML Lab</a>, led by Prof. Marzyeh Ghassemi, at MIT as a postdoctoral associate.'
+  year: 2024
+  recent: false
+  type: position
+
+# ── Older News ──────────────────────────────────────────────────────────────
+
+- period: "Spring 2025"
+  text: 'Our preprint on domain generalization benchmarks — <a href="https://arxiv.org/abs/2504.00186">Are Domain Generalization Benchmarks with Accuracy on the Line Misspecified?</a> — is now available on arXiv.'
+  year: 2025
+  recent: false
+  type: paper
+
+- period: "Summer 2024"
+  text: 'I gave a talk on our work on distribution shift at Texas State''s Computer Science seminar.'
+  year: 2024
+  recent: false
+  type: talk
+
+- period: "Summer 2024"
+  text: 'I gave a talk on our work on distribution shift at <a href="https://www.ifml.institute/events/clued-clueless-navigating-distribution-shifts-varying-levels-target-distribution-information">UT Austin''s Institute for Foundations of Machine Learning</a> (IFML).'
+  year: 2024
+  recent: false
+  type: talk
+
+- period: "Summer 2024"
+  text: 'I successfully defended my PhD dissertation, "Towards Externally Valid Machine Learning: A Spurious Correlations Perspective."'
+  year: 2024
+  recent: false
+  type: honors
+
+- period: "Spring 2024"
+  text: 'I gave a talk on AI for critical systems at the MobiliT.AI forum.'
+  year: 2024
+  recent: false
+  type: talk
+
+- period: "Spring 2024"
+  text: 'I gave a talk at UIUC Machine Learning Seminar on our work on the external validity of ImageNet.'
+  year: 2024
+  recent: false
+  type: talk
+
+- period: "Spring 2024"
+  text: 'Our preprint <a href="https://arxiv.org/abs/2404.02112">ImageNot: A contrast with ImageNet preserves model rankings</a> is now available on arXiv.'
+  year: 2024
+  recent: false
+  type: paper
+
+- period: "Winter 2024"
+  text: 'Two papers on machine learning under distribution shift will appear at AISTATS 2024.'
+  year: 2024
+  recent: false
+  type: paper
+
+- period: "Fall 2023"
+  text: 'I joined the Social Foundations of Computation department at the <a href="https://is.mpg.de/">Max Planck Institute for Intelligent Systems</a> as a Research Intern working with <a href="https://mrtz.org/">Dr. Moritz Hardt</a>.'
+  year: 2023
+  recent: false
+  type: position
+
+- period: "Spring 2023"
+  text: 'I passed my PhD Preliminary Exam.'
+  year: 2023
+  recent: false
+  type: honors
+
+- period: "Spring 2023"
+  text: 'I will join Cruise LLC''s Autonomous Vehicles Behaviors team as a Machine Learning Intern.'
+  year: 2023
+  recent: false
+  type: position
+
+- period: "Fall 2022"
+  text: 'I moved to <a href="https://www.cs.stanford.edu/">Stanford University</a> as a visiting student with <a href="https://cs.stanford.edu/~sanmi/">Prof. Sanmi Koyejo</a>.'
+  year: 2022
+  recent: false
+  type: position
+
+- period: "Summer 2022"
+  text: 'Honored to be selected as a top reviewer (10%) of ICML 2022.'
+  year: 2022
+  recent: false
+  type: honors
+
+- period: "Summer 2022"
+  text: 'Joining Google Brain (now <a href="https://deepmind.google/">Google DeepMind</a>) in Cambridge, MA as a Research Intern.'
+  year: 2022
+  recent: false
+  type: position
+
+- period: "Fall 2021"
+  text: 'Our paper <a href="https://openreview.net/pdf?id=IwpCCB_e1h">Exploiting Causal Chains for Domain Generalization</a> was accepted at the NeurIPS 2021 Workshop on Distribution Shifts.'
+  year: 2021
+  recent: false
+  type: paper
+
+- period: "Fall 2021"
+  text: 'Selected as a <a href="https://minibrain.beckman.illinois.edu/">Miniature Brain Machinery (MBM) NSF Research Trainee</a>.'
+  year: 2021
+  recent: false
+  type: honors
+
+- period: "Summer 2021"
+  text: 'I was selected to receive an Illinois <a href="https://www.gemfellowship.org/gem-fellowship-program">GEM Associate Fellowship</a>.'
+  year: 2021
+  recent: false
+  type: honors
+
+- period: "Spring 2021"
+  text: 'I passed my Ph.D. qualifying exam.'
+  year: 2021
+  recent: false
+  type: honors
+
+- period: "Spring 2020"
+  text: 'I was selected to receive a 2020 <a href="https://beckman.illinois.edu/about/news/article/2020/05/08/seven-named-2020-beckman-institute-graduate-fellows">Beckman Institute Graduate Fellowship</a>.'
+  year: 2020
+  recent: false
+  type: honors

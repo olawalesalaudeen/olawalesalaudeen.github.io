@@ -1,0 +1,460 @@
+# ============================================================================
+# Publications — Single source of truth
+# ============================================================================
+# Adding an entry here automatically updates:
+#   - Publications page (always)
+#   - Homepage research directions (if featured)
+#
+# File location: data/publications.yml
+#
+# Fields:
+#   id         : unique key (used for anchors)
+#   title      : paper title
+#   authors    : author string (* = equal contribution, α-β = alphabetical)
+#   venue      : journal / conference name
+#   note       : optional extra (e.g. "Spotlight", "Oral", "Best Paper")
+#   year       : publication year (used for grouping)
+#   featured   : true to show on homepage Research Directions
+#   tags       : list from [measurement, generalization, intervention, applications]
+#   links      : map of label → URL (paper, code, webpage, slides, etc.)
+#   abstract   : short description (optional)
+#   bibtex     : BibTeX citation string (shown in dropdown)
+#   status     : "preprint" or "published" (preprints grouped separately)
+#                workshops count as published
+# ============================================================================
+
+# ── In Review / In Preparation ─────────────────────────────────────────────
+
+- id: salaudeen2025failures
+  title: "Avoiding Common Failures in AI for Health and Medicine"
+  authors: "Olawale Salaudeen, Haoran Zhang, Marzyeh Ghassemi"
+  venue: "In Review"
+  year: 2025
+  status: preprint
+  featured: false
+  tags: [measurement, applications]
+
+- id: stempfle2025llms
+  title: "Who Said LLMs Are Better? The Missing Human Baseline and Judge"
+  authors: "Lena Stempfle, Lucia Huo, Sahal Ahmed, Marzyeh Ghassemi*, Olawale Salaudeen*"
+  venue: "In Review"
+  year: 2025
+  status: preprint
+  featured: false
+  tags: [measurement]
+
+# ── 2025 ────────────────────────────────────────────────────────────────────
+
+- id: salaudeen2025aggregation
+  title: "Aggregation Hides Out-of-Distribution Generalization Failures from Spurious Correlations"
+  authors: "Olawale Salaudeen, Haoran Zhang, Kumail Alhamoud, Sara Beery, Marzyeh Ghassemi"
+  venue: "NeurIPS 2025"
+  note: "Spotlight"
+  year: 2025
+  status: published
+  featured: true
+  tags: [measurement, generalization]
+  links:
+    paper: "https://arxiv.org/abs/2510.24884"
+    blog: "blogs/aggregation.html"
+    news: "https://news.mit.edu/2026/why-its-critical-to-move-beyond-overly-aggregated-machine-learning-metrics-0120"
+  abstract: >
+    Aggregate OOD metrics mask critical failures where models rely on spurious
+    correlations. We introduce OODSelect to reveal semantically coherent subsets
+    where accuracy-on-the-line breaks down.
+  bibtex: |
+    @inproceedings{salaudeen2025aggregation,
+      title={Aggregation Hides Out-of-Distribution Generalization Failures from Spurious Correlations},
+      author={Olawale Elijah Salaudeen and Haoran Zhang and Kumail Alhamoud and Sara Beery and Marzyeh Ghassemi},
+      booktitle={Advances in Neural Information Processing Systems},
+      year={2025}
+    }
+
+- id: salaudeen2025measurement
+  title: "Measurement to Meaning: A Validity-Centered Framework for AI Evaluation"
+  authors: "Olawale Salaudeen*, Anka Reuel*, Ahmed Ahmed, Suhana Bedi, Zachary Robertson, Sudharsan Sundar, Ben Domingue, Angelina Wang, Sanmi Koyejo"
+  venue: "In Review"
+  note: "preliminary in NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle"
+  year: 2025
+  status: published
+  featured: true
+  tags: [measurement]
+  links:
+    paper: "https://arxiv.org/abs/2505.10573"
+    blog: "blogs/measurement.html"
+    policy-brief: "https://hai.stanford.edu/policy/validating-claims-about-ai-a-policymakers-guide"
+  abstract: >
+    A framework for moving from raw measurements of AI behavior to validated
+    claims about what AI systems actually know and can do, grounded in validity
+    theory from psychometrics.
+  bibtex: |
+    @article{salaudeen2025measurement,
+      title={Measurement to Meaning: A Validity-Centered Framework for AI Evaluation},
+      author={Salaudeen, Olawale and Reuel, Anka and Ahmed, Ahmed and Bedi, Suhana and Robertson, Zachary and Sundar, Sudharsan and Domingue, Ben and Wang, Angelina and Koyejo, Sanmi},
+      journal={arXiv preprint arXiv:2505.10573},
+      year={2025}
+    }
+
+- id: salaudeen2025methods
+  title: "On Evaluating Methods vs. Evaluating Models"
+  authors: "Olawale Salaudeen, Florian E. Dorner, Peter Hase"
+  venue: "NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle"
+  note: "Oral + Best Paper"
+  year: 2025
+  status: published
+  featured: true
+  tags: [measurement]
+  links:
+    paper: "https://openreview.net/forum?id=8yg3XadfIZ"
+  abstract: >
+    Distinguishing the evaluation of methods from the evaluation of models
+    reveals overlooked failure modes in how the field benchmarks progress.
+  bibtex: |
+    @inproceedings{salaudeen2025methods,
+      title={On Evaluating Methods vs. Evaluating Models},
+      author={Salaudeen, Olawale and Dorner, Florian E. and Hase, Peter},
+      booktitle={NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle: Benchmarks, Emergent Abilities, and Scaling},
+      year={2025}
+    }
+
+- id: zhang2025sufficiency
+  title: "On Group Sufficiency Under Label Bias"
+  authors: "Haoran Zhang, Olawale Salaudeen, Marzyeh Ghassemi"
+  venue: "NeurIPS 2025"
+  year: 2025
+  status: published
+  featured: false
+  tags: [intervention, applications]
+  links:
+    paper: "https://openreview.net/forum?id=xRb0taq0pD"
+  bibtex: |
+    @inproceedings{zhang2025sufficiency,
+      title={On Group Sufficiency Under Label Bias},
+      author={Zhang, Haoran and Salaudeen, Olawale and Ghassemi, Marzyeh},
+      booktitle={Advances in Neural Information Processing Systems},
+      year={2025}
+    }
+
+- id: pfohl2025disaggregated
+  title: "Understanding Challenges to the Interpretation of Disaggregated Evaluations of Algorithmic Fairness"
+  authors: "Stephen R. Pfohl, Natalie Harris, Chirag Nagpal, David Madras, Vishwali Mhasawade, Olawale Salaudeen, Awa Dieng, Shannon Sequeira, Santiago Arciniegas, Lillian Sung, Nnamdi Ezeanochie, Heather Cole-Lewis, Katherine Heller, Sanmi Koyejo, Alexander D'Amour"
+  venue: "NeurIPS 2025"
+  note: "Preliminary version at NeurIPS 2022 Workshop on Distribution Shifts"
+  year: 2025
+  status: published
+  featured: false
+  tags: [measurement, applications]
+  links:
+    paper: "https://arxiv.org/abs/2506.04193"
+  bibtex: |
+    @inproceedings{pfohl2025disaggregated,
+      title={Understanding Challenges to the Interpretation of Disaggregated Evaluations of Algorithmic Fairness},
+      author={Pfohl, Stephen R. and Harris, Natalie and Nagpal, Chirag and Madras, David and Mhasawade, Vishwali and Salaudeen, Olawale and Dieng, Awa and Sequeira, Shannon and Arciniegas, Santiago and Sung, Lillian and Ezeanochie, Nnamdi and Cole-Lewis, Heather and Heller, Katherine and Koyejo, Sanmi and D'Amour, Alexander},
+      booktitle={Advances in Neural Information Processing Systems},
+      year={2025}
+    }
+
+- id: wang2025adaptation
+  title: "Improving Single-round Active Adaptation: A Prediction Variability Perspective"
+  authors: "Xiaoyang Wang, Yibo Jacky Zhang, Olawale Salaudeen, Mingyuan Wu, Hongpeng Guo, Chaoyang He, Klara Nahrstedt, Sanmi Koyejo"
+  venue: "TMLR 2025"
+  year: 2025
+  status: published
+  featured: false
+  tags: [intervention, generalization]
+  links:
+    paper: "https://openreview.net/forum?id=Vthqn5VE7L"
+  bibtex: |
+    @article{wang2025adaptation,
+      title={Improving Single-round Active Adaptation: A Prediction Variability Perspective},
+      author={Wang, Xiaoyang and Zhang, Yibo Jacky and Salaudeen, Olawale E and Wu, Mingyuan and Guo, Hongpeng and He, Chaoyang and Nahrstedt, Klara and Koyejo, Sanmi},
+      journal={Transactions on Machine Learning Research},
+      year={2025}
+    }
+
+- id: salaudeen2025aotl
+  title: "Are Domain Generalization Benchmarks with Accuracy on the Line Misspecified?"
+  authors: "Olawale Salaudeen, Nicole Chiou, Shiny Weng, Sanmi Koyejo"
+  venue: "TMLR 2025"
+  note: "J2C"
+  venue_suffix: "+ ICLR 2026 Journal Track"
+  year: 2025
+  status: published
+  featured: true
+  tags: [measurement, generalization]
+  links:
+    paper: "https://arxiv.org/abs/2504.00186"
+    code: "https://github.com/olawalesalaudeen/misspecified_DG_benchmarks"
+    blog: "blogs/aotl-misspecified.html"
+    news: "https://hai.stanford.edu/news/better-benchmarks-for-safety-critical-ai-applications"
+  abstract: >
+    Domain generalization benchmarks exhibiting accuracy-on-the-line may be
+    misspecified, rewarding stability over true robustness and obscuring the
+    harder distribution shifts the field aims to solve.
+  bibtex: |
+    @article{salaudeen2025aotl,
+      title={Are Domain Generalization Benchmarks with Accuracy on the Line Misspecified?},
+      author={Salaudeen, Olawale and Chiou, Nicole and Weng, Shiny and Koyejo, Sanmi},
+      journal={Transactions on Machine Learning Research},
+      year={2025}
+    }
+
+- id: suhr2025stop
+  title: "Stop Evaluating AI with Human Tests, Develop Principled, AI-specific Tests instead"
+  authors: "Tom Sühr, Florian E. Dorner, Olawale Salaudeen, Augustin Kelava, Samira Samadi"
+  venue: "In Review"
+  year: 2025
+  status: preprint
+  featured: false
+  tags: [measurement]
+  links:
+    paper: "https://arxiv.org/abs/2507.23009"
+  bibtex: |
+    @article{suhr2025stop,
+      title={Stop Evaluating AI with Human Tests, Develop Principled, AI-specific Tests instead},
+      author={S{\"u}hr, Tom and Dorner, Florian E. and Salaudeen, Olawale and Kelava, Augustin and Samadi, Samira},
+      journal={arXiv preprint arXiv:2507.23009},
+      year={2025}
+    }
+
+- id: weidinger2025evaluation
+  title: "Toward an Evaluation Science for Generative AI Systems"
+  authors: "Laura Weidinger, Inioluwa Deborah Raji, Hanna Wallach, Margaret Mitchell, Angelina Wang, Olawale Salaudeen, Rishi Bommasani, Deep Ganguli, Sanmi Koyejo, William Isaac"
+  venue: "The Bridge 2025, National Academy of Engineering"
+  year: 2025
+  status: published
+  featured: true
+  tags: [measurement]
+  links:
+    paper: "https://arxiv.org/abs/2503.05336"
+  abstract: >
+    A call for an evaluation science for generative AI, drawing on measurement
+    theory to build rigorous, reproducible assessment of AI capabilities.
+  bibtex: |
+    @article{weidinger2025evaluation,
+      title={Toward an Evaluation Science for Generative AI Systems},
+      author={Weidinger, Laura and Raji, Inioluwa Deborah and Wallach, Hanna and Mitchell, Margaret and Wang, Angelina and Salaudeen, Olawale and Bommasani, Rishi and Ganguli, Deep and Koyejo, Sanmi and Isaac, William},
+      journal={National Academy of Engineering: The Bridge},
+      volume={55},
+      number={1},
+      year={2025}
+    }
+
+- id: balagopalan2025query
+  title: "What's in a Query: Polarity-Aware Distribution-Based Fair Ranking"
+  authors: "Aparna Balagopalan, Kai Wang, Olawale Salaudeen, Asia Biega, Marzyeh Ghassemi"
+  venue: "WWW 2025"
+  year: 2025
+  status: published
+  featured: false
+  tags: [applications]
+  links:
+    paper: "https://arxiv.org/abs/2502.11429"
+  bibtex: |
+    @inproceedings{balagopalan2025query,
+      title={What's in a Query: Polarity-Aware Distribution-Based Fair Ranking},
+      author={Balagopalan, Aparna and Wang, Kai and Salaudeen, Olawale and Biega, Asia and Ghassemi, Marzyeh},
+      booktitle={Proceedings of the ACM Web Conference 2025},
+      year={2025}
+    }
+
+# ── 2024 ────────────────────────────────────────────────────────────────────
+
+- id: salaudeen2024proxy
+  title: "On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning"
+  authors: "Olawale Salaudeen, Nicole Chiou, Sanmi Koyejo"
+  venue: "NeurIPS 2024 Causal Representation Learning Workshop"
+  note: "Oral"
+  year: 2024
+  status: published
+  featured: false
+  tags: [measurement, generalization]
+  links:
+    paper: "https://openreview.net/pdf?id=LbFK9pUlA5"
+    blog: "blogs/proxy-benchmarks.html"
+  bibtex: |
+    @inproceedings{salaudeen2024proxy,
+      title={On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning},
+      author={Salaudeen, Olawale and Chiou, Nicole and Koyejo, Sanmi},
+      booktitle={NeurIPS 2024 Causal Representation Learning Workshop},
+      year={2024}
+    }
+
+- id: salaudeen2024imagenot
+  title: "ImageNot: A Contrast with ImageNet Preserves Model Rankings"
+  authors: "Olawale Salaudeen, Moritz Hardt"
+  venue: "TMLR 2026"
+  note: "To appear"
+  year: 2026
+  status: published
+  featured: true
+  tags: [measurement, generalization]
+  links:
+    paper: "https://arxiv.org/abs/2404.02112"
+    code: "https://github.com/olawalesalaudeen/imagenot"
+    blog: "blogs/imagenot.html"
+  abstract: >
+    ImageNot tests whether scientific advances on public benchmarks truly
+    generalize by constructing a counterfactual ImageNet—and finds surprising
+    external validity in model rankings.
+  bibtex: |
+    @article{salaudeen2024imagenot,
+      title={ImageNot: A contrast with ImageNet preserves model rankings},
+      author={Salaudeen, Olawale and Hardt, Moritz},
+      journal={Transactions on Machine Learning Research},
+      year={2026}
+    }
+
+- id: salaudeen2024causally
+  title: "Causally Inspired Regularization Enables Domain General Representations"
+  authors: "Olawale Salaudeen, Sanmi Koyejo"
+  venue: "AISTATS 2024"
+  note: "Preliminary version at NeurIPS 2021 Workshop on Distribution Shifts"
+  year: 2024
+  status: published
+  featured: true
+  tags: [intervention, generalization]
+  links:
+    paper: "https://arxiv.org/abs/2404.16277"
+    code: "https://github.com/olawalesalaudeen/tcri"
+    blog: "blogs/causally.html"
+  abstract: >
+    Causally inspired regularization promotes representations that generalize
+    across domains by encouraging models to capture stable, causally relevant
+    features rather than spurious patterns.
+  bibtex: |
+    @inproceedings{salaudeen2024causally,
+      title={Causally Inspired Regularization Enables Domain General Representations},
+      author={Salaudeen, Olawale and Koyejo, Sanmi},
+      booktitle={Proceedings of The 27th International Conference on Artificial Intelligence and Statistics},
+      pages={3124--3132},
+      year={2024},
+      volume={238},
+      series={Proceedings of Machine Learning Research},
+      publisher={PMLR}
+    }
+
+- id: tsai2024proxy
+  title: "Proxy Methods for Domain Adaptation"
+  authors: "Katherine Tsai, Stephen R. Pfohl, Olawale Salaudeen, Nicole Chiou, Matt J. Kusner, Alexander D'Amour, Sanmi Koyejo, Arthur Gretton"
+  venue: "AISTATS 2024"
+  note: "Preliminary version at ICML 2022 Workshop on Principles of Distribution Shift"
+  year: 2024
+  status: published
+  featured: false
+  tags: [intervention, generalization]
+  links:
+    paper: "https://arxiv.org/abs/2403.07442"
+    code: "https://github.com/stair-lab/ProxyDA"
+  bibtex: |
+    @inproceedings{tsai2024proxy,
+      title={Proxy Methods for Domain Adaptation},
+      author={Tsai, Katherine and Pfohl, Stephen R. and Salaudeen, Olawale and Chiou, Nicole and Kusner, Matt J. and D'Amour, Alexander and Koyejo, Sanmi and Gretton, Arthur},
+      booktitle={Proceedings of The 27th International Conference on Artificial Intelligence and Statistics},
+      pages={3961--3969},
+      year={2024},
+      volume={238},
+      series={Proceedings of Machine Learning Research},
+      publisher={PMLR}
+    }
+
+# ── 2023 ────────────────────────────────────────────────────────────────────
+
+- id: alabdulmohsin2023adapting
+  title: "Adapting to Latent Subgroup Shifts via Concepts and Proxies"
+  authors: "α-β Ibrahim Alabdulmohsin*, Nicole Chiou*, Alexander D'Amour*, Arthur Gretton*, Sanmi Koyejo*, Matt J. Kusner*, Stephen R. Pfohl*, Olawale Salaudeen*, Jessica Schrouff*, Katherine Tsai*"
+  venue: "AISTATS 2023"
+  year: 2023
+  status: published
+  featured: false
+  tags: [intervention, generalization]
+  links:
+    paper: "https://arxiv.org/abs/2212.11254"
+    code: "https://github.com/google-research/google-research/tree/master/latent_shift_adaptation"
+    blog: "blogs/adapting.html"
+  bibtex: |
+    @inproceedings{pmlr-v206-alabdulmohsin23a,
+      title={Adapting to Latent Subgroup Shifts via Concepts and Proxies},
+      author={Alabdulmohsin, Ibrahim and Chiou, Nicole and D'Amour, Alexander and Gretton, Arthur and Koyejo, Sanmi and Kusner, Matt J. and Pfohl, Stephen R. and Salaudeen, Olawale and Schrouff, Jessica and Tsai, Katherine},
+      booktitle={Proceedings of The 26th International Conference on Artificial Intelligence and Statistics},
+      pages={9637--9661},
+      year={2023},
+      volume={206},
+      series={Proceedings of Machine Learning Research},
+      publisher={PMLR}
+    }
+
+# ── 2022 ────────────────────────────────────────────────────────────────────
+
+- id: nagpal2022fairness
+  title: "Addressing Observational Biases in Algorithmic Fairness Assessments"
+  authors: "Chirag Nagpal, Olawale Salaudeen, Sanmi Koyejo, Stephen Pfohl"
+  venue: "NeurIPS 2022 Workshop on Algorithmic Fairness through the Lens of Causality and Privacy"
+  note: "Extended Abstract"
+  year: 2022
+  status: published
+  featured: false
+  tags: [measurement, applications]
+  bibtex: |
+    @inproceedings{nagpal2022fairness,
+      title={Addressing Observational Biases in Algorithmic Fairness Assessments},
+      author={Nagpal, Chirag and Salaudeen, Olawale and Koyejo, Sanmi and Pfohl, Stephen},
+      booktitle={NeurIPS 2022 Workshop on Algorithmic Fairness through the Lens of Causality and Privacy},
+      year={2022}
+    }
+
+- id: salaudeen2022fmri
+  title: "Enhancing fMRI Motion Denoising with ICA-AROMA and Causal Discovery"
+  authors: "Olawale Salaudeen, Paul Camacho, Aron Barbey, Brad Sutton, Sanmi Koyejo"
+  venue: "In Review"
+  year: 2022
+  status: preprint
+  featured: false
+  tags: [applications]
+  links:
+    code: "https://github.com/olawalesalaudeen/Causal-ICA-AROMA"
+  bibtex: |
+    @article{salaudeen2022enhancing,
+      title={Enhancing fMRI Motion Denoising with ICA-AROMA and Causal Discovery},
+      author={Salaudeen, Olawale and Camacho, Paul and Barbey, Aron and Sutton, Brad and Koyejo, Sanmi},
+      year={2022}
+    }
+
+- id: anderson2022fmri
+  title: "Ultra-fast 3D fMRI to Explore Cardiac-Induced Fluctuations in BOLD-Based Functional Imaging"
+  authors: "Brad Sutton, Aaron Anderson, Benjamin Zimmerman, Paul Camacho, Riwei Jin, Charles Marchini, Olawale Salaudeen, Natalie Ramsy, Davide Boido, Serge Charpak, Andrew Webb, Luisa Ciobanu"
+  venue: "International Society for Magnetic Resonance in Medicine (ISMRM) 2022"
+  note: "Abstract"
+  year: 2022
+  status: published
+  featured: false
+  tags: [applications]
+  links:
+    paper: "https://archive.ismrm.org/2022/2848.html"
+  bibtex: |
+    @inproceedings{anderson2022ultrafast,
+      title={Ultra-fast 3D fMRI to Explore Cardiac-Induced Fluctuations in BOLD-Based Functional Imaging},
+      author={Sutton, Brad and Anderson, Aaron and Zimmerman, Benjamin and Camacho, Paul and Jin, Riwei and Marchini, Charles and Salaudeen, Olawale and Ramsy, Natalie and Boido, Davide and Charpak, Serge and Webb, Andrew and Ciobanu, Luisa},
+      booktitle={Proceedings of the International Society for Magnetic Resonance in Medicine (ISMRM)},
+      year={2022}
+    }
+
+# ── 2021 ────────────────────────────────────────────────────────────────────
+
+- id: salaudeen2021exploiting
+  title: "Exploiting Causal Chains for Domain Generalization"
+  authors: "Olawale Salaudeen, Sanmi Koyejo"
+  venue: "NeurIPS 2021 Workshop on Distribution Shifts"
+  year: 2021
+  status: published
+  featured: false
+  tags: [intervention, generalization]
+  links:
+    paper: "https://openreview.net/pdf?id=IwpCCB_e1h"
+  bibtex: |
+    @inproceedings{salaudeen2021exploiting,
+      title={Exploiting Causal Chains for Domain Generalization},
+      author={Salaudeen, Olawale E. and Koyejo, Oluwasanmi O.},
+      booktitle={NeurIPS 2021 Workshop on Distribution Shifts: Connecting Methods and Applications},
+      year={2021}
+    }

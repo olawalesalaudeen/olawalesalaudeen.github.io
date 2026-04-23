@@ -1,0 +1,14 @@
+---
+title: "Papers"
+listing:
+  - id: pub-full-list
+    contents: data/publications.yml
+    template: _templates/pub-list.ejs.md
+---
+
+\* denotes equal contribution • α-β denotes alphabetical order
+
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=F-ytPfAAAAAJ&view_op=list_works&sortby=pubdate) may have a more updated list.
+
+:::{#pub-full-list}
+:::

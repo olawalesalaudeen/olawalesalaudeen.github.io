@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Olawale Salaudeen"
+  site-url: "https://olawalesalaudeen.github.io"
+  navbar:
+    background: light
+    foreground: "#1a1a2e"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Talks"
+        href: talks.qmd
+      - text: "Writing"
+        href: blogs.qmd
+      - text: "CV"
+        href: cv.qmd
+    right:
+      - icon: envelope
+        href: "mailto:olawale@mit.edu"
+        aria-label: Email
+      - icon: mortarboard
+        href: "https://scholar.google.com/citations?hl=en&user=F-ytPfAAAAAJ&view_op=list_works&sortby=pubdate"
+        aria-label: Google Scholar
+      - icon: github
+        href: "https://github.com/olawalesalaudeen"
+        aria-label: GitHub
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/olawalesalaudeen"
+        aria-label: LinkedIn
+  page-footer:
+    center: |
+      &copy; 2025 Olawale Salaudeen &middot; Built with [Quarto](https://quarto.org)
+    background: light
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/css/custom.scss]
+      dark: [darkly, assets/css/custom-dark.scss]
+    fontsize: "1.05rem"
+    linestretch: 1.6
+    mainfont: "Inter, system-ui, -apple-system, sans-serif"
+    toc: false
+    anchor-sections: false
+    smooth-scroll: true
+    page-layout: full

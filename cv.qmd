@@ -1,0 +1,119 @@
+---
+title: "Curriculum Vitae"
+---
+
+[Download CV (PDF)](https://drive.google.com/file/d/12GEEvpY18VRCxEgb1mrXxdZC5qV4KCir/view){.cv-download target="_blank"}
+
+::: {.cv-section}
+
+### Education
+
+::: {.cv-item}
+[2019--2024]{.cv-dates} • **Ph.D. in Computer Science**, University of Illinois at Urbana-Champaign (w/ Prof. Sanmi Koyejo)
+:::
+
+::: {.cv-item}
+[2022--2024]{.cv-dates} • **Visiting Ph.D. Student**, Stanford University
+:::
+
+::: {.cv-item}
+[2015--2019]{.cv-dates} • **B.S. with Honors in Mechanical Engineering** (Minors: Mathematics, Computer Science), Texas A&M University
+:::
+
+:::
+
+
+::: {.cv-section}
+
+### Appointments
+
+::: {.cv-item}
+[2025--present]{.cv-dates} • AI Center Fellow in Residence, Schmidt Sciences
+:::
+
+::: {.cv-item}
+[2024--present]{.cv-dates} • Postdoctoral Researcher, MIT (Healthy ML Lab, w/ Prof. Marzyeh Ghassemi)
+:::
+
+::: {.cv-item}
+[2025--present]{.cv-dates} • Postdoctoral Scholar, Eric and Wendy Schmidt Center, Broad Institute of MIT and Harvard
+:::
+
+:::
+
+
+::: {.cv-section}
+
+### Selected Industry & Lab Experience
+
+::: {.cv-item}
+[2023--2024]{.cv-dates} • Research Intern, Max Planck Institute for Intelligent Systems (w/ Dr. Moritz Hardt)
+:::
+
+::: {.cv-item}
+[2023]{.cv-dates} • Machine Learning Intern, Cruise LLC
+:::
+
+::: {.cv-item}
+[2022]{.cv-dates} • Student Researcher, Google Brain / Google DeepMind (w/ Dr. Alex D'Amour)
+:::
+
+::: {.cv-item}
+[2017--2022]{.cv-dates} • R&D Intern, Sandia National Laboratories (w/ Dr. Eric Goodman)
+:::
+
+:::
+
+
+::: {.cv-section}
+
+### Honors & Awards
+
+::: {.cv-item}
+Schmidt Sciences AI Center Fellowship • Best Paper, NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle • NeurIPS 2025 Top Area Chair • NYU Tandon Faculty First-Look Fellow • Georgia Tech FOCUS Fellow • Sloan Scholarship • Beckman Graduate Research Fellowship • GEM Associate Fellowship • NSF Miniature Brain Machinery Traineeship • ICML 2022 Top Reviewer (10%)
+:::
+
+:::
+
+
+::: {.cv-section}
+
+### Service
+
+::: {.cv-item}
+**Academic.**\
+– *Organizing:* Program Chair, EurIPS Workshop on the Science of Benchmarking and Evaluating AI (2025) • Program Chair, ML4H (2025)\
+– *Editing & Area Chairing:* Action Editor, TMLR (2026) • Area Chair, NeurIPS (2024--2026; Top AC 2025) • Area Chair, ICML (2025) • Area Chair, ICML TF2M (2024)\
+– *Reviewing:* NeurIPS (2022--2024) • NeurIPS Position Papers (2025) • NeurIPS LLM-eval Workshop (2025) • NeurIPS AFCP Workshop (2022) • NeurIPS BAI Workshop (2021) • ICML (2022--2024; Top Reviewer 2022) • AISTATS (2022) • JMLR (2023--2024) • Nature (2025) • Nature Medicine (2025) • NEJM (2024) • Oxford Handbook of Cognitive Enhancement and Brain Plasticity (2024)
+:::
+
+::: {.cv-item}
+**MIT.** Organizer, AI for Society Seminar (2024--present) • Organizer, LIDS Conference (2025) • Volunteer, Women in Data Science Worldwide (2025)
+:::
+
+::: {.cv-item}
+**Stanford.** Mentor, LINXS Program (2024)
+:::
+
+::: {.cv-item}
+**UIUC.** Executive Board, Black, Indigenous, and Latinx in Tech (2022--2024) • Mentor, Directed Reading Program (2022--2024) • Subcommittee Member, Broadening Participation in Computing (2021--2022) • Affiliate Member, IDEA Institute (2020--2024) • Graduate Student Representative, Graduate Study Committee (2022) • Mentor, Graduates Engineers Diversifying Illinois (2020--2022) • Mentor, DREU (2021)
+:::
+
+::: {.cv-item}
+**Texas A&M.** Chair, Brown Engineering Honors Program (2018--2019) • President, Robotics Team (2018--2019) • Mentor, Regents Scholar Program (2017--2019)
+:::
+
+::: {.cv-item}
+**Outreach.** Mentor, Black in AI: Emerging Leaders in AI Program (2024--present) • Mentor, iAAMCS (2023--present)
+:::
+
+:::
+
+
+::: {.cv-section}
+
+### Mentoring
+
+I am happy to mentor students with overlapping research interests. Particularly for undergrads at MIT, programs like [UROP](https://urop.mit.edu/) are a great mechanism for mentorship. I am also very happy to give advice on applying to and navigating graduate programs in computer science, especially for those to whom this type of guidance would be otherwise unavailable.
+
+:::
