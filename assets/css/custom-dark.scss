@@ -167,9 +167,15 @@ h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
   box-shadow: none !important;
   &::before { background: #7dd3fc !important; }
   h3 {
-    color: #ffffff !important;
-    border-bottom-color: rgba(125, 211, 252, 0.25) !important;
-    &::after { background: linear-gradient(90deg, #7dd3fc, #38bdf8) !important; }
+    color: #e0f2fe !important;
+    border-bottom-color: rgba(125, 211, 252, 0.35) !important;
+    text-shadow: 0 0 18px rgba(125, 211, 252, 0.25);
+    &::after {
+      background: linear-gradient(90deg, #7dd3fc, #38bdf8) !important;
+      height: 3px !important;
+      width: 56px !important;
+      box-shadow: 0 0 12px rgba(125, 211, 252, 0.6);
+    }
   }
   p { color: #dce0e6 !important; }
 }
