@@ -1059,7 +1059,28 @@ a {
     &::before { opacity: 1; width: 5px; }
   }
 
-  h3 { font-family: $headings-font-family; font-size: 1.1rem; font-weight: 600; margin-top: 0; margin-bottom: 0.6rem; color: $heading-accent; }
+  h3 {
+    font-family: $headings-font-family;
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+    margin-top: 0;
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.55rem;
+    color: $accent-blue-deep;
+    border-bottom: 2px solid rgba(37, 99, 235, 0.18);
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0; bottom: -2px;
+      width: 44px; height: 2px;
+      background: linear-gradient(90deg, $link-color, $accent-blue);
+      border-radius: 2px;
+    }
+  }
   p { font-size: 0.92rem; color: #3a3e4e; line-height: 1.65; margin-bottom: 0.8rem; }
 }
 
