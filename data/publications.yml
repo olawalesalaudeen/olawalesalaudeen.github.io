@@ -338,7 +338,6 @@
   title: "Proxy Methods for Domain Adaptation"
   authors: "Katherine Tsai, Stephen R. Pfohl, Olawale Salaudeen, Nicole Chiou, Matt J. Kusner, Alexander D'Amour, Sanmi Koyejo, Arthur Gretton"
   venue: "AISTATS 2024"
-  note: "Preliminary version at ICML 2022 Workshop on Principles of Distribution Shift"
   year: 2024
   status: published
   featured: false
@@ -364,6 +363,7 @@
   title: "Adapting to Latent Subgroup Shifts via Concepts and Proxies"
   authors: "α-β Ibrahim Alabdulmohsin*, Nicole Chiou*, Alexander D'Amour*, Arthur Gretton*, Sanmi Koyejo*, Matt J. Kusner*, Stephen R. Pfohl*, Olawale Salaudeen*, Jessica Schrouff*, Katherine Tsai*"
   venue: "AISTATS 2023"
+  note: "Preliminary version at ICML 2022 Workshop on Principles of Distribution Shift"
   year: 2023
   status: published
   featured: false
