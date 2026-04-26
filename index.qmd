@@ -114,7 +114,7 @@ AI systems exhibit jagged intelligence---they excel at some tasks but fail at ot
 - [Measurement to Meaning: A Validity-Centered Framework for AI Evaluation.](https://arxiv.org/abs/2505.10573) *In Review* [(preliminary in NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle)]{.pub-note-info}
 - [Toward an Evaluation Science for Generative AI Systems.](https://arxiv.org/abs/2503.05336) *The Bridge, NAE 2025*
 - [ImageNot: A Contrast with ImageNet Preserves Model Rankings.](https://arxiv.org/abs/2404.02112) *TMLR 2026* [(To appear)]{.pub-note}
-- [On Evaluating Methods vs. Evaluating Models.](publications.html#salaudeen2025methods) *NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle* [(Best Paper)]{.pub-note}
+- [On Evaluating Methods vs. Evaluating Models.](https://openreview.net/forum?id=8yg3XadfIZ) *NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle* [(Best Paper)]{.pub-note}
 :::
 :::
 
@@ -127,7 +127,7 @@ AI systems often rely on spurious correlations, performing well in training envi
 - [Aggregation Hides OOD Generalization Failures from Spurious Correlations.](https://arxiv.org/abs/2510.24884) *NeurIPS 2025* [(Spotlight)]{.pub-note}
 - [Are Domain Generalization Benchmarks with Accuracy on the Line Misspecified?](https://arxiv.org/abs/2504.00186) *TMLR 2025* [(J2C)]{.pub-note} *+ ICLR 2026 Journal Track*
 - [Causally Inspired Regularization Enables Domain General Representations.](https://arxiv.org/abs/2404.16277) *AISTATS 2024*
-- [On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning.](publications.html#salaudeen2024proxy) *NeurIPS 2024 CRL Workshop* [(Oral)]{.pub-note}
+- [On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning.](https://openreview.net/pdf?id=LbFK9pUlA5) *NeurIPS 2024 CRL Workshop* [(Oral)]{.pub-note}
 :::
 :::
 
@@ -138,8 +138,8 @@ AI behaviors often become unreliable when deployment conditions change. I develo
 
 ::: {.direction-papers}
 - [Adapting to Latent Subgroup Shifts via Concepts and Proxies.](https://proceedings.mlr.press/v206/alabdulmohsin23a.html) *AISTATS 2023*
-- [Proxy Methods for Domain Adaptation.](publications.html#tsai2024proxy) *AISTATS 2024*
-- [Improving Single-round Active Adaptation: A Prediction Variability Perspective.](publications.html#wang2025adaptation) *TMLR 2025*
+- [Proxy Methods for Domain Adaptation.](https://arxiv.org/abs/2403.07442) *AISTATS 2024*
+- [Improving Single-round Active Adaptation: A Prediction Variability Perspective.](https://openreview.net/forum?id=Vthqn5VE7L) *TMLR 2025*
 :::
 :::
 
