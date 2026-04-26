@@ -5,6 +5,7 @@ project:
 website:
   title: "Olawale Salaudeen"
   site-url: "https://olawalesalaudeen.github.io"
+  google-analytics: "G-QEE4Q14K2N"
   navbar:
     background: light
     foreground: "#1a1a2e"
