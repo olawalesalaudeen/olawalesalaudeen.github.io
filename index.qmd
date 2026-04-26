@@ -164,3 +164,11 @@ AI behaviors often become unreliable when deployment conditions change. I develo
 <p>I was born in Nigeria and moved to Dallas, Texas at a young age. I played basketball and water polo in high school. I'm a loyal (if perpetually disappointed) Dallas sports fan, a cinephile, a social dancer (Latin and swing mostly), and a regular at live standup comedy. I'm full of hot takes, most of which I wouldn't die on, but am always eager to share and defend for fun. I also once won an intramural cornhole championship.</p>
 </div>
 ```
+
+::: {.home-section}
+
+## Mentoring
+
+I am happy to mentor students with overlapping research interests. Particularly for undergrads at MIT, programs like [UROP](https://urop.mit.edu/) are a great mechanism for mentorship. I am also very happy to give advice on applying to and navigating graduate programs in computer science, especially for those to whom this type of guidance would be otherwise unavailable.
+
+:::
