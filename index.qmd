@@ -144,9 +144,9 @@ AI behaviors often become unreliable when deployment conditions change. I develo
 :::
 
 ::: {.direction-box}
-### Societal Impact of AI: Fairness and Equitable Deployment
+### Measuring and Mitigating Disparate AI Behavior
 
-AI systems can encode and amplify disparities, especially when subgroup labels are noisy, evaluations are misinterpreted, or ranking objectives are misaligned with user welfare. I study how to measure and mitigate these harms so AI is deployed equitably across populations.
+AI systems can behave inequitably across the populations they serve, through biased labels, misinterpreted subgroup evaluations, or ranking objectives misaligned with user welfare. I develop tools to measure these disparities and methods to mitigate them in deployed systems.
 
 ::: {.direction-papers}
 - [Understanding Challenges to the Interpretation of Disaggregated Evaluations of Algorithmic Fairness.](https://arxiv.org/abs/2506.04193) *NeurIPS 2025*
