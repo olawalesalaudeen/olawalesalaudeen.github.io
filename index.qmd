@@ -100,7 +100,7 @@ Schmidt Sciences AI Center Fellowship • Best Paper, NeurIPS 2025 Workshop on E
 
 ## Selected Research Directions
 
-My research develops the science of understanding, measuring, and improving the reliability of AI systems under real-world change. I work across three interconnected themes:
+My research develops the science of understanding, measuring, and improving the reliability of AI systems under real-world change. I work across these interconnected themes:
 
 ::: {.direction-grid}
 
