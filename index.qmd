@@ -143,6 +143,18 @@ AI behaviors often become unreliable when deployment conditions change. I develo
 :::
 :::
 
+::: {.direction-box}
+### Societal Impact of AI: Fairness and Equitable Deployment
+
+AI systems can encode and amplify disparities, especially when subgroup labels are noisy, evaluations are misinterpreted, or ranking objectives are misaligned with user welfare. I study how to measure and mitigate these harms so AI is deployed equitably across populations.
+
+::: {.direction-papers}
+- [Understanding Challenges to the Interpretation of Disaggregated Evaluations of Algorithmic Fairness.](https://arxiv.org/abs/2506.04193) *NeurIPS 2025*
+- [On Group Sufficiency Under Label Bias.](https://openreview.net/forum?id=xRb0taq0pD) *NeurIPS 2025*
+- [What's in a Query: Polarity-Aware Distribution-Based Fair Ranking.](https://arxiv.org/abs/2502.11429) *WWW 2025*
+:::
+:::
+
 :::
 
 [See all publications →](publications.qmd){.section-link}
