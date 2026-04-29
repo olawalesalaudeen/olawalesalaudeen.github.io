@@ -144,7 +144,7 @@ AI behaviors often become unreliable when deployment conditions change. I develo
 :::
 
 ::: {.direction-box}
-### Measuring and Mitigating Disparate AI Behavior
+### Measuring and Mitigating Disparate Impacts of AI
 
 AI systems can behave inequitably across the populations they serve, through biased data or learning objectives misaligned with user welfare. I develop tools to measure these disparities and methods to mitigate them in deployed systems.
 
