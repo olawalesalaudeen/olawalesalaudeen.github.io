@@ -201,7 +201,8 @@
 
 - id: zhang2026benchmarks
   title: "Benchmarks Do Not Measure Deployment Readiness in Clinical AI"
-  authors: "Haoran Zhang*, Hyewon Jeong*, Olawale Elijah Salaudeen*, Walter Gerych*, Nigam Shah, Marzyeh Ghassemi (* equal contribution; name order determined via a riveting random walk race simulator)"
+  authors: "Haoran Zhang*, Hyewon Jeong*, Olawale Elijah Salaudeen*, Walter Gerych*, Nigam Shah, Marzyeh Ghassemi"
+  author_note: "* equal contribution; name order determined via a riveting random walk race simulator"
   venue: "ICML 2026 Position Paper Track"
   note: "To appear"
   year: 2026

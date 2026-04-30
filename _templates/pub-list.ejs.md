@@ -42,6 +42,7 @@ function tagsAttr(p) {
   <div class="pub-entry<%= p.featured ? ' pub-featured' : '' %>" id="<%= p.id %>" data-tags="<%= tagsAttr(p) %>">
     <div class="pub-title"><%= p.title %></div>
     <div class="pub-authors"><%= p.authors %></div>
+    <% if (p.author_note) { %><div class="pub-author-note"><%= p.author_note %></div><% } %>
     <div class="pub-venue">
       <%= p.venue %><% if (p.note) { %>
         <% const noteLower = p.note.toLowerCase(); const isAward = !noteLower.startsWith('preliminary') && !noteLower.startsWith('extended') && !noteLower.startsWith('abstract') && !noteLower.includes('review'); %>
@@ -74,6 +75,7 @@ function tagsAttr(p) {
   <div class="pub-entry<%= p.featured ? ' pub-featured' : '' %>" id="<%= p.id %>" data-tags="<%= tagsAttr(p) %>">
     <div class="pub-title"><%= p.title %></div>
     <div class="pub-authors"><%= p.authors %></div>
+    <% if (p.author_note) { %><div class="pub-author-note"><%= p.author_note %></div><% } %>
     <div class="pub-venue">
       <%= p.venue %><% if (p.note) { %>
         <% const noteLower = p.note.toLowerCase(); const isAward = !noteLower.startsWith('preliminary') && !noteLower.startsWith('extended') && !noteLower.startsWith('abstract') && !noteLower.includes('review'); %>
