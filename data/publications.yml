@@ -199,12 +199,24 @@
       year={2025}
     }
 
+- id: zhang2026benchmarks
+  title: "Benchmarks Do Not Measure Deployment Readiness in Clinical AI"
+  authors: "Haoran Zhang*, Hyewon Jeong*, Olawale Elijah Salaudeen*, Walter Gerych*, Nigam Shah, Marzyeh Ghassemi (* equal contribution; name order determined via a riveting random walk race simulator)"
+  venue: "ICML 2026 Position Paper Track"
+  note: "To appear"
+  year: 2026
+  status: published
+  featured: false
+  tags: [measurement, applications]
+  links: {}
+
 - id: suhr2025stop
   title: "Stop Evaluating AI with Human Tests, Develop Principled, AI-specific Tests instead"
   authors: "Tom Sühr, Florian E. Dorner, Olawale Salaudeen, Augustin Kelava, Samira Samadi"
-  venue: "In Review"
-  year: 2025
-  status: preprint
+  venue: "ICML 2026 Position Paper Track"
+  note: "To appear"
+  year: 2026
+  status: published
   featured: false
   tags: [measurement]
   links:

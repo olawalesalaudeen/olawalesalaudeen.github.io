@@ -14,6 +14,12 @@
 
 # ── Recent News ─────────────────────────────────────────────────────────────
 
+- period: "Spring 2026"
+  text: 'Two papers accepted to the ICML 2026 Position Paper Track: (i) <a href="https://arxiv.org/abs/2507.23009">Stop Evaluating AI with Human Tests, Develop Principled, AI-specific Tests instead</a> and (ii) Benchmarks Do Not Measure Deployment Readiness in Clinical AI (preprint incoming).'
+  year: 2026
+  recent: true
+  type: paper
+
 - period: "Fall 2025"
   text: 'Our NeurIPS spotlight paper, <a href="https://arxiv.org/abs/2510.24884">Aggregation Hides OOD Generalization Failures from Spurious Correlations</a>, was featured in <a href="https://news.mit.edu/2026/why-its-critical-to-move-beyond-overly-aggregated-machine-learning-metrics-0120">MIT News</a>.'
   year: 2025
