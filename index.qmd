@@ -34,11 +34,6 @@ listing:
 
 ::: {.hero-bio}
 
-::: {.job-market}
-On the 2025–26 academic job market, seeking tenure-track positions beginning Fall 2026.\
-[[CV](cv.qmd)]{.jm-links} [[Research Statement](#)]{.jm-links}
-:::
-
 ::: {.hero-statement}
 I work on AI for society through the science of valid measurement and prediction of AI capabilities and risks, and the development of methods to ensure their reliability under real-world conditions. This enables us to anticipate failures before deployment and ensure reliable behavior under real-world distribution shifts, with translational impact in domains such as healthcare.
 :::
