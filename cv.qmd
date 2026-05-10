@@ -36,7 +36,7 @@ title: "Curriculum Vitae"
 :::
 
 ::: {.cv-item}
-[2025--present]{.cv-dates} • Postdoctoral Scholar, Eric and Wendy Schmidt Center, Broad Institute of MIT and Harvard
+[2025--2026]{.cv-dates} • Postdoctoral Scholar, Eric and Wendy Schmidt Center, Broad Institute of MIT and Harvard
 :::
 
 :::

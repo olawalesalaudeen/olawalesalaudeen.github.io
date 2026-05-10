@@ -16,7 +16,7 @@ listing:
 ::: {.hero-identity}
 [Olawale (Wale) Salaudeen]{.hero-name}
 
-[AI Center Fellow in Residence, Schmidt Sciences • Postdoctoral Researcher, MIT and the Broad Institute of MIT and Harvard]{.hero-title}
+[AI Center Fellow in Residence, Schmidt Sciences • Postdoctoral Researcher, MIT]{.hero-title}
 
 [olawale [at] mit [dot] edu]{.hero-email}
 
@@ -57,7 +57,7 @@ document.querySelectorAll('.bio-tabs-input').forEach(cb => {
 
 ::: {.bio-tabs-panel .bio-tabs-panel-1}
 
-Olawale (Wale) Salaudeen is an AI Center Fellow in Residence at [Schmidt Sciences](https://www.schmidtsciences.org/), a Postdoctoral Researcher at [MIT](https://www.mit.edu/) (Healthy ML Lab, led by Prof. [Marzyeh Ghassemi](https://healthyml.org/)), and a Postdoctoral Scholar at the [Eric and Wendy Schmidt Center](https://www.ericandwendyschmidtcenter.org/) at the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/). Before his postdoctoral positions, he earned a Ph.D. in Computer Science from the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/) and the [Stanford Trustworthy AI Research (STAIR) Lab](https://stair.cs.stanford.edu/) at [Stanford University](https://www.stanford.edu/), advised by Prof. [Sanmi Koyejo](https://cs.stanford.edu/~sanmi/).
+Olawale (Wale) Salaudeen is an AI Center Fellow in Residence at [Schmidt Sciences](https://www.schmidtsciences.org/) and a Postdoctoral Researcher at [MIT](https://www.mit.edu/) in the Healthy ML Lab led by Prof. [Marzyeh Ghassemi](https://healthyml.org/). He was previously a Postdoctoral Scholar at the [Eric and Wendy Schmidt Center](https://www.ericandwendyschmidtcenter.org/) at the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/). Before his postdoctoral positions, he earned a Ph.D. in Computer Science from the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/) and the [Stanford Trustworthy AI Research (STAIR) Lab](https://stair.cs.stanford.edu/) at [Stanford University](https://www.stanford.edu/), advised by Prof. [Sanmi Koyejo](https://cs.stanford.edu/~sanmi/).
 
 He works on AI for society through the science of valid measurement and prediction of AI capabilities and risks, and the development of methods to ensure their reliability under real-world conditions. This enables us to anticipate failures before deployment and ensure reliable behavior under real-world distribution shifts, with translational impact in domains such as healthcare.
 
@@ -69,13 +69,13 @@ He received a Bachelor of Science in Mechanical Engineering with minors in Compu
 
 ::: {.bio-tabs-panel .bio-tabs-panel-2}
 
-Olawale (Wale) Salaudeen is an AI Center Postdoctoral Fellow in Residence at [Schmidt Sciences](https://www.schmidtsciences.org/), a Postdoctoral Researcher at [MIT](https://www.mit.edu/) in the Healthy ML Lab led by Prof. [Marzyeh Ghassemi](https://healthyml.org/), and a Postdoctoral Scholar at the [Eric and Wendy Schmidt Center](https://www.ericandwendyschmidtcenter.org/) at the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/). He works on AI for society through the science of valid measurement and prediction of AI capabilities and risks, and the development of methods to ensure their reliability under real-world conditions. This enables us to anticipate failures before deployment and ensure reliable behavior under real-world distribution shifts, with translational impact in domains such as healthcare. He completed his Ph.D. in Computer Science at the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/) and the [Stanford STAIR Lab](https://stair.cs.stanford.edu/), advised by Prof. [Sanmi Koyejo](https://cs.stanford.edu/~sanmi/). His work has been supported by several honors, including the Sloan Scholarship, Beckman Graduate Research Fellowship, and GEM Associate Fellowship. He has interned at Google Brain, Cruise, and the [Max Planck Institute for Intelligent Systems](https://is.mpg.de/), and holds a B.S. in Mechanical Engineering from [Texas A&M University](https://www.tamu.edu/).
+Olawale (Wale) Salaudeen is an AI Center Postdoctoral Fellow in Residence at [Schmidt Sciences](https://www.schmidtsciences.org/) and a Postdoctoral Researcher at [MIT](https://www.mit.edu/) in the Healthy ML Lab led by Prof. [Marzyeh Ghassemi](https://healthyml.org/). He was previously a Postdoctoral Scholar at the [Eric and Wendy Schmidt Center](https://www.ericandwendyschmidtcenter.org/) at the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/). He works on AI for society through the science of valid measurement and prediction of AI capabilities and risks, and the development of methods to ensure their reliability under real-world conditions. This enables us to anticipate failures before deployment and ensure reliable behavior under real-world distribution shifts, with translational impact in domains such as healthcare. He completed his Ph.D. in Computer Science at the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/) and the [Stanford STAIR Lab](https://stair.cs.stanford.edu/), advised by Prof. [Sanmi Koyejo](https://cs.stanford.edu/~sanmi/). His work has been supported by several honors, including the Sloan Scholarship, Beckman Graduate Research Fellowship, and GEM Associate Fellowship. He has interned at Google Brain, Cruise, and the [Max Planck Institute for Intelligent Systems](https://is.mpg.de/), and holds a B.S. in Mechanical Engineering from [Texas A&M University](https://www.tamu.edu/).
 
 :::
 
 ::: {.bio-tabs-panel .bio-tabs-panel-3}
 
-Olawale (Wale) Salaudeen is an AI Center Postdoctoral Fellow in Residence at [Schmidt Sciences](https://www.schmidtsciences.org/), a Postdoctoral Researcher at [MIT](https://www.mit.edu/) and the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/). He works on AI for society through the measurement and control of AI capabilities and risks. He earned his Ph.D. in Computer Science from the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/) and the [Stanford STAIR Lab](https://stair.cs.stanford.edu/).
+Olawale (Wale) Salaudeen is an AI Center Postdoctoral Fellow in Residence at [Schmidt Sciences](https://www.schmidtsciences.org/) and a Postdoctoral Researcher at [MIT](https://www.mit.edu/). He works on AI for society through the measurement and control of AI capabilities and risks. He earned his Ph.D. in Computer Science from the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/) and the [Stanford STAIR Lab](https://stair.cs.stanford.edu/).
 
 :::
 
@@ -119,8 +119,8 @@ AI systems exhibit jagged intelligence---they excel at some tasks but fail at ot
 AI systems often rely on spurious correlations, performing well in training environments but failing when conditions shift. I develop algorithms to identify and disentangle causal from spurious mechanisms so models rely on stable, causal patterns instead.
 
 ::: {.direction-papers}
-- [Aggregation Hides OOD Generalization Failures from Spurious Correlations.](https://arxiv.org/abs/2510.24884) *NeurIPS 2025* [(Spotlight)]{.pub-note}
 - [Are Domain Generalization Benchmarks with Accuracy on the Line Misspecified?](https://arxiv.org/abs/2504.00186) *TMLR 2025* [(J2C)]{.pub-note} *+ ICLR 2026 Journal Track*
+- [Aggregation Hides OOD Generalization Failures from Spurious Correlations.](https://arxiv.org/abs/2510.24884) *NeurIPS 2025* [(Spotlight)]{.pub-note}
 - [Causally Inspired Regularization Enables Domain General Representations.](https://arxiv.org/abs/2404.16277) *AISTATS 2024*
 - [On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning.](https://openreview.net/pdf?id=LbFK9pUlA5) *NeurIPS 2024 CRL Workshop* [(Oral)]{.pub-note}
 :::
