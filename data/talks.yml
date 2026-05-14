@@ -12,6 +12,13 @@
 
 # ── Invited Talks (match olawalesalaudeen.com/presentations) ─────────────
 
+- title: "Measurement to Intervention: Reliable AI in Dynamic Environments"
+  kind: invited
+  venues:
+    - event: "Guest Lecture, Cornell Tech"
+      date: "2026"
+      year: 2026
+
 - title: "Building and Evaluating AI Systems for New Post-Deployment Tasks and Distributions"
   kind: invited
   venues:
