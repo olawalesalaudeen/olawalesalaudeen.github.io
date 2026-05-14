@@ -38,7 +38,7 @@ const labelMap = {
 
 <% if (older.length > 0) { %>
 <details class="older-news">
-  <summary>Older News</summary>
+  <summary><i class="bi bi-chevron-right older-news-caret"></i> Older News</summary>
   <div class="news-timeline">
   <% for (const n of older) {
     const icon = iconMap[n.type] || 'bi-circle';

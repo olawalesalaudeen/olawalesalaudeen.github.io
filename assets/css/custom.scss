@@ -845,9 +845,22 @@ a {
     cursor: pointer;
     padding: 0.6rem 0;
     transition: color 0.2s ease;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    &::-webkit-details-marker { display: none; }
+    &::marker { content: ''; }
     &:hover { color: $link-color; }
-    &::marker { color: $link-color; }
   }
+
+  .older-news-caret {
+    font-size: 0.85em;
+    color: $link-color;
+    transition: transform 0.2s ease;
+  }
+
+  &[open] .older-news-caret { transform: rotate(90deg); }
 }
 
 // ── Talk timeline ──────────────────────────────────────────────────────────

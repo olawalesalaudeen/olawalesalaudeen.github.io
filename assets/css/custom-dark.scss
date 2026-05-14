@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
 
 .older-news summary { color: #d6d3d1 !important; }
 .older-news summary:hover { color: #fda4af !important; }
-.older-news summary::marker { color: #fda4af !important; }
+.older-news .older-news-caret { color: #fda4af !important; }
 
 .home-section h2::after {
   background: linear-gradient(90deg, #fda4af, #f87171, rgba(253, 164, 175, 0.15)) !important;
