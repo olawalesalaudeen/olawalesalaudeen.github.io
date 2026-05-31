@@ -71,49 +71,49 @@
 - period: "Summer 2025"
   text: 'Our paper on the limitations of domain generalization benchmarks — <a href="https://arxiv.org/abs/2504.00186">Are Domain Generalization Benchmarks with Accuracy on the Line Misspecified?</a> — is accepted at TMLR with J2C certification (ICLR 2026 Journal Track).'
   year: 2025
-  recent: true
+  recent: false
   type: paper
 
 - period: "Summer 2025"
   text: 'Our preprint <a href="https://arxiv.org/abs/2507.23009">Stop Evaluating AI with Human Tests, Develop Principled, AI-specific Tests instead</a> is now available on arXiv.'
   year: 2025
-  recent: true
+  recent: false
   type: paper
 
 - period: "Summer 2025"
   text: 'Our preprint <a href="https://arxiv.org/abs/2506.04193">Understanding challenges to the interpretation of disaggregated evaluations of algorithmic fairness</a> is now available on arXiv.'
   year: 2025
-  recent: true
+  recent: false
   type: paper
 
 - period: "Summer 2025"
   text: 'I am serving as a program chair for the <a href="https://ahli.cc/ml4h/">Machine Learning for Health (ML4H) conference</a> in San Diego.'
   year: 2025
-  recent: true
+  recent: false
   type: service
 
 - period: "Summer 2025"
   text: 'I will spend the next year at <a href="https://www.schmidtsciences.org/">Schmidt Sciences</a> in NYC as a Visiting AI Scientist and AI Center Fellow in Residence.'
   year: 2025
-  recent: true
+  recent: false
   type: position
 
 - period: "Spring 2025"
   text: 'I joined the <a href="https://www.ericandwendyschmidtcenter.org/">Eric and Wendy Schmidt Center</a> at the <a href="https://www.broadinstitute.org/">Broad Institute</a> of MIT and Harvard as a postdoctoral scholar.'
   year: 2025
-  recent: true
+  recent: false
   type: position
 
 - period: "Spring 2025"
   text: 'Our paper <a href="https://arxiv.org/abs/2503.05336">Toward an Evaluation Science for Generative AI Systems</a> appeared in The Bridge (National Academy of Engineering).'
   year: 2025
-  recent: true
+  recent: false
   type: paper
 
 - period: "Spring 2025"
   text: 'I gave a talk on addressing distribution shifts at the MIT LIDS Postdoc NEXUS meeting.'
   year: 2025
-  recent: true
+  recent: false
   type: talk
 
 - period: "Winter 2025"

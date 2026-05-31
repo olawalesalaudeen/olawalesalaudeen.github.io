@@ -108,12 +108,3 @@ Schmidt Sciences AI Center Fellowship • Best Paper, NeurIPS 2025 Workshop on E
 :::
 
 :::
-
-
-::: {.cv-section}
-
-### Mentoring
-
-I am happy to mentor students with overlapping research interests. Particularly for undergrads at MIT, programs like [UROP](https://urop.mit.edu/) are a great mechanism for mentorship. I am also very happy to give advice on applying to and navigating graduate programs in computer science, especially for those to whom this type of guidance would be otherwise unavailable.
-
-:::
