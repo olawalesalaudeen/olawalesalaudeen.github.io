@@ -20,6 +20,12 @@
   recent: true
   type: position
 
+- period: "Summer 2026"
+  text: 'I will join the <a href="https://www.microsoft.com/en-us/research/group/fate/">FATE (Fairness, Accountability, Transparency, and Ethics in AI)</a> group at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/">Microsoft Research (NYC)</a> as a postdoctoral researcher in July 2026.'
+  year: 2026
+  recent: true
+  type: position
+
 - period: "Spring 2026"
   text: 'I will give guest lectures on the science of measurement and evaluation at Cornell Tech, Princeton, and Stanford.'
   year: 2026
