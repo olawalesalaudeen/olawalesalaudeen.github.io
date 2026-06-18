@@ -18,6 +18,8 @@ listing:
 
 [AI Center Fellow in Residence, Schmidt Sciences • Postdoctoral Researcher, MIT]{.hero-title}
 
+[Incoming Assistant Professor (August 2027), University of Illinois at Urbana-Champaign, Department of Electrical & Computer Engineering, with affiliate appointments in the Coordinated Science Laboratory and the Siebel School of Computing and Data Science]{.hero-appointment}
+
 [olawale [at] mit [dot] edu]{.hero-email}
 
 ::: {.hero-links}
