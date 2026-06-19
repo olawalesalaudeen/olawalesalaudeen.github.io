@@ -1181,6 +1181,23 @@ a {
   .cv-dates { display: inline-block; min-width: 9em; font-weight: 500; color: $text-secondary; }
 }
 
+.cv-list {
+  p { margin: 0 0 0.3rem; font-weight: 600; }
+
+  ul {
+    margin: 0.1rem 0 0;
+    padding-left: 1.25rem;
+    list-style-type: disc;
+  }
+
+  li { margin: 0.12rem 0; }
+
+  ul ul {
+    margin: 0.15rem 0 0.35rem;
+    list-style-type: circle;
+  }
+}
+
 .cv-appt {
   .cv-roles { display: inline-block; vertical-align: top; }
 

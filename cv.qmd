@@ -80,8 +80,17 @@ title: "Curriculum Vitae"
 
 ### Honors & Awards
 
-::: {.cv-item}
-Schmidt Sciences AI Center Fellowship • Best Paper, NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle • NeurIPS 2025 Top Area Chair • NYU Tandon Faculty First-Look Fellow • Georgia Tech FOCUS Fellow • Sloan Scholarship • Beckman Graduate Research Fellowship • GEM Associate Fellowship • NSF Miniature Brain Machinery Traineeship • ICML 2022 Top Reviewer (10%)
+::: {.cv-item .cv-list}
+- Schmidt Sciences AI Center Fellowship
+- Best Paper, NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle
+- NeurIPS 2025 Top Area Chair
+- NYU Tandon Faculty First-Look Fellow
+- Georgia Tech FOCUS Fellow
+- Sloan Scholarship
+- Beckman Graduate Research Fellowship
+- GEM Associate Fellowship
+- NSF Miniature Brain Machinery Traineeship
+- ICML 2022 Top Reviewer (10%)
 :::
 
 :::
@@ -91,31 +100,71 @@ Schmidt Sciences AI Center Fellowship • Best Paper, NeurIPS 2025 Workshop on E
 
 ### Service
 
-::: {.cv-item}
-**Academic.**\
-– *Organizing:* Program Chair, EurIPS Workshop on the Science of Benchmarking and Evaluating AI (2025) • Program Chair, ML4H (2025)\
-– *Editing & Area Chairing:* Action Editor, TMLR (2026) • Area Chair, NeurIPS (2024--2026; Top AC 2025) • Area Chair, ICML (2025) • Area Chair, ICML TF2M (2024)\
-– *Reviewing:* NeurIPS (2022--2024) • NeurIPS Position Papers (2025) • NeurIPS LLM-eval Workshop (2025) • NeurIPS AFCP Workshop (2022) • NeurIPS BAI Workshop (2021) • ICML (2022--2024; Top Reviewer 2022) • AISTATS (2022) • JMLR (2023--2024) • Nature (2025) • Nature Medicine (2025) • NEJM (2024) • Oxford Handbook of Cognitive Enhancement and Brain Plasticity (2024)
+::: {.cv-item .cv-list}
+**Academic**
+
+- *Organizing*
+    - Program Chair, EurIPS Workshop on the Science of Benchmarking and Evaluating AI (2025)
+    - Program Chair, ML4H (2025)
+- *Editing & Area Chairing*
+    - Action Editor, TMLR (2026)
+    - Area Chair, NeurIPS (2024--2026; Top AC 2025)
+    - Area Chair, ICML (2025)
+    - Area Chair, ICML TF2M (2024)
+- *Reviewing*
+    - NeurIPS (2022--2024)
+    - NeurIPS Position Papers (2025)
+    - NeurIPS LLM-eval Workshop (2025)
+    - NeurIPS AFCP Workshop (2022)
+    - NeurIPS BAI Workshop (2021)
+    - ICML (2022--2024; Top Reviewer 2022)
+    - AISTATS (2022)
+    - JMLR (2023--2024)
+    - Nature (2025)
+    - Nature Medicine (2025)
+    - NEJM (2024)
+    - Oxford Handbook of Cognitive Enhancement and Brain Plasticity (2024)
 :::
 
-::: {.cv-item}
-**MIT.** Organizer, AI for Society Seminar (2024--present) • Organizer, LIDS Conference (2025) • Volunteer, Women in Data Science Worldwide (2025)
+::: {.cv-item .cv-list}
+**MIT**
+
+- Organizer, AI for Society Seminar (2024--present)
+- Organizer, LIDS Conference (2025)
+- Volunteer, Women in Data Science Worldwide (2025)
 :::
 
-::: {.cv-item}
-**Stanford.** Mentor, LINXS Program (2024)
+::: {.cv-item .cv-list}
+**Stanford**
+
+- Mentor, LINXS Program (2024)
 :::
 
-::: {.cv-item}
-**UIUC.** Executive Board, Black, Indigenous, and Latinx in Tech (2022--2024) • Mentor, Directed Reading Program (2022--2024) • Subcommittee Member, Broadening Participation in Computing (2021--2022) • Affiliate Member, IDEA Institute (2020--2024) • Graduate Student Representative, Graduate Study Committee (2022) • Mentor, Graduates Engineers Diversifying Illinois (2020--2022) • Mentor, DREU (2021)
+::: {.cv-item .cv-list}
+**UIUC**
+
+- Executive Board, Black, Indigenous, and Latinx in Tech (2022--2024)
+- Mentor, Directed Reading Program (2022--2024)
+- Subcommittee Member, Broadening Participation in Computing (2021--2022)
+- Affiliate Member, IDEA Institute (2020--2024)
+- Graduate Student Representative, Graduate Study Committee (2022)
+- Mentor, Graduates Engineers Diversifying Illinois (2020--2022)
+- Mentor, DREU (2021)
 :::
 
-::: {.cv-item}
-**Texas A&M.** Chair, Brown Engineering Honors Program (2018--2019) • President, Robotics Team (2018--2019) • Mentor, Regents Scholar Program (2017--2019)
+::: {.cv-item .cv-list}
+**Texas A&M**
+
+- Chair, Brown Engineering Honors Program (2018--2019)
+- President, Robotics Team (2018--2019)
+- Mentor, Regents Scholar Program (2017--2019)
 :::
 
-::: {.cv-item}
-**Outreach.** Mentor, Black in AI: Emerging Leaders in AI Program (2024--present) • Mentor, iAAMCS (2023--present)
+::: {.cv-item .cv-list}
+**Outreach**
+
+- Mentor, Black in AI: Emerging Leaders in AI Program (2024--present)
+- Mentor, iAAMCS (2023--present)
 :::
 
 :::
