@@ -410,9 +410,9 @@
 - id: salaudeen2022fmri
   title: "Enhancing fMRI Motion Denoising with ICA-AROMA and Causal Discovery"
   authors: "Olawale Salaudeen, Paul Camacho, Aron Barbey, Brad Sutton, Sanmi Koyejo"
-  venue: "In Review"
-  year: 2022
-  status: preprint
+  venue: ""
+  year: 2023
+  status: published
   featured: false
   tags: [applications]
   links:
@@ -421,7 +421,7 @@
     @article{salaudeen2022enhancing,
       title={Enhancing fMRI Motion Denoising with ICA-AROMA and Causal Discovery},
       author={Salaudeen, Olawale and Camacho, Paul and Barbey, Aron and Sutton, Brad and Koyejo, Sanmi},
-      year={2022}
+      year={2023}
     }
 
 - id: anderson2022fmri
