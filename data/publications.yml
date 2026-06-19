@@ -34,15 +34,6 @@
   featured: false
   tags: [measurement, applications]
 
-- id: stempfle2025llms
-  title: "Who Said LLMs Are Better? The Missing Human Baseline and Judge"
-  authors: "Lena Stempfle, Lucia Huo, Sahal Ahmed, Marzyeh Ghassemi*, Olawale Salaudeen*"
-  venue: "In Review"
-  year: 2025
-  status: preprint
-  featured: false
-  tags: [measurement]
-
 # ── 2025 ────────────────────────────────────────────────────────────────────
 
 - id: salaudeen2025aggregation
