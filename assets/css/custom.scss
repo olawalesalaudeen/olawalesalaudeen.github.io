@@ -1181,6 +1181,17 @@ a {
   .cv-dates { display: inline-block; min-width: 9em; font-weight: 500; color: $text-secondary; }
 }
 
+.cv-appt {
+  .cv-roles { display: inline-block; vertical-align: top; }
+
+  .cv-role {
+    display: block;
+    padding-left: 1.1em;
+    text-indent: -1.1em;
+    &::before { content: "\2022\00a0"; }
+  }
+}
+
 // ── Page-level overrides ────────────────────────────────────────────────────
 
 #title-block-header.quarto-title-block:not(.default) { display: none; }

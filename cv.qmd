@@ -27,16 +27,27 @@ title: "Curriculum Vitae"
 
 ### Appointments
 
+```{=html}
+<div class="cv-item cv-appt">
+<span class="cv-dates">Fall 2027</span>
+<span class="cv-roles">
+<span class="cv-role"><strong>Incoming Assistant Professor</strong>, Department of Electrical and Computer Engineering, UIUC</span>
+<span class="cv-role">Affiliate, Coordinated Science Laboratory</span>
+<span class="cv-role">Affiliate, Siebel School of Computing and Data Science</span>
+</span>
+</div>
+```
+
 ::: {.cv-item}
-[2025--present]{.cv-dates} • AI Center Fellow in Residence, Schmidt Sciences
+[2025--present]{.cv-dates} • **AI Center Fellow in Residence**, Schmidt Sciences
 :::
 
 ::: {.cv-item}
-[2024--present]{.cv-dates} • Postdoctoral Researcher, MIT (Healthy ML Lab, w/ Prof. Marzyeh Ghassemi)
+[2024--present]{.cv-dates} • **Postdoctoral Researcher**, MIT (Healthy ML Lab, w/ Prof. Marzyeh Ghassemi)
 :::
 
 ::: {.cv-item}
-[2025--2026]{.cv-dates} • Postdoctoral Scholar, Eric and Wendy Schmidt Center, Broad Institute of MIT and Harvard
+[2025--2026]{.cv-dates} • **Postdoctoral Scholar**, Eric and Wendy Schmidt Center, Broad Institute of MIT and Harvard
 :::
 
 :::
@@ -47,19 +58,19 @@ title: "Curriculum Vitae"
 ### Selected Industry & Lab Experience
 
 ::: {.cv-item}
-[2023--2024]{.cv-dates} • Research Intern, Max Planck Institute for Intelligent Systems (w/ Dr. Moritz Hardt)
+[2023--2024]{.cv-dates} • **Research Intern**, Max Planck Institute for Intelligent Systems (w/ Dr. Moritz Hardt)
 :::
 
 ::: {.cv-item}
-[2023]{.cv-dates} • Machine Learning Intern, Cruise LLC
+[2023]{.cv-dates} • **Machine Learning Intern**, Cruise LLC
 :::
 
 ::: {.cv-item}
-[2022]{.cv-dates} • Student Researcher, Google Brain / Google DeepMind (w/ Dr. Alex D'Amour)
+[2022]{.cv-dates} • **Student Researcher**, Google Brain / Google DeepMind (w/ Dr. Alex D'Amour)
 :::
 
 ::: {.cv-item}
-[2017--2022]{.cv-dates} • R&D Intern, Sandia National Laboratories (w/ Dr. Eric Goodman)
+[2017--2022]{.cv-dates} • **R&D Intern**, Sandia National Laboratories (w/ Dr. Eric Goodman)
 :::
 
 :::
