@@ -110,7 +110,7 @@ AI systems exhibit jagged intelligence---they excel at some tasks but fail at ot
 - [AI Construct Lexis](https://aiconstructlexis.github.io/)
 - [Measurement to Meaning: A Validity-Centered Framework for AI Evaluation.](https://arxiv.org/abs/2505.10573) *In Review* [(preliminary in NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle)]{.pub-note-info}
 - [Toward an Evaluation Science for Generative AI Systems.](https://arxiv.org/abs/2503.05336) *The Bridge, NAE 2025*
-- [ImageNot: A Contrast with ImageNet Preserves Model Rankings.](https://arxiv.org/abs/2404.02112) *TMLR 2026* [(To appear)]{.pub-note}
+- [ImageNot: A Contrast with ImageNet Preserves Model Rankings.](https://arxiv.org/abs/2404.02112) *TMLR 2026*
 - [On Evaluating Methods vs. Evaluating Models.](https://openreview.net/forum?id=8yg3XadfIZ) *NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle* [(Best Paper)]{.pub-note}
 :::
 :::
