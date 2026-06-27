@@ -1021,6 +1021,11 @@ a {
 }
 
 .direction-box {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+  row-gap: 0;
+  align-content: start;
   border: 1px solid $rule;
   border-top: 2px solid $ink;
   border-radius: 0;
