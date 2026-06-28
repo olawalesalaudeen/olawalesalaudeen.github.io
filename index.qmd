@@ -11,16 +11,6 @@ listing:
 ::: {.hero-photo}
 <!-- TODO: Replace with your profile photo -->
 ![](assets/img/profile.jpg)
-:::
-
-::: {.hero-identity}
-[Olawale (Wale) Salaudeen]{.hero-name}
-
-[AI Center Fellow in Residence, Schmidt Sciences • Postdoctoral Researcher, MIT]{.hero-title}
-
-[Incoming Assistant Professor (August 2027), University of Illinois at Urbana-Champaign, Department of Electrical & Computer Engineering, with affiliate appointments in the Coordinated Science Laboratory and the Siebel School of Computing and Data Science]{.hero-appointment}
-
-[olawale [at] mit [dot] edu]{.hero-email}
 
 ::: {.hero-links}
 [{{< iconify bi envelope-fill >}}](mailto:olawale@mit.edu){aria-label="Email"}
@@ -29,6 +19,17 @@ listing:
 [{{< iconify bi linkedin >}}](https://www.linkedin.com/in/olawalesalaudeen/){aria-label="LinkedIn"}
 [{{< iconify bi file-earmark-text >}}](cv.qmd){aria-label="CV"}
 :::
+
+:::
+
+::: {.hero-identity}
+[Olawale (Wale) Salaudeen]{.hero-name}
+
+[AI Center Fellow in Residence, Schmidt Sciences • Postdoctoral Researcher, MIT]{.hero-title}
+
+[Incoming Assistant Professor at the University of Illinois at Urbana-Champaign in Fall 2027]{.hero-title .hero-incoming}
+
+[I will be recruiting PhD students and postdocs this coming cycle through [ECE](https://ece.illinois.edu/) or [CS](https://siebelschool.illinois.edu/).]{.hero-recruit}
 
 :::
 
