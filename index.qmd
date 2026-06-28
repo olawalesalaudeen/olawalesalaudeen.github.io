@@ -39,7 +39,7 @@ listing:
 ::: {.hero-statement}
 I work on AI for society through the science of valid measurement and prediction of AI capabilities and risks, and the development of methods to ensure their reliability under real-world conditions. This enables us to anticipate failures before deployment and ensure reliable behavior under real-world distribution shifts, with translational impact in domains such as healthcare.
 
-I received my PhD in Computer Science from the University of Illinois Urbana-Champaign and spent a few years of my PhD as a visiting PhD student at Stanford, both with [Sanmi Koyejo](https://cs.stanford.edu/~sanmi/). I was a postdoctoral associate at MIT in the Healthy ML Lab with [Marzyeh Ghassemi](https://healthyml.org/), and previously interned at Google Brain (now Google DeepMind) with [Alex D'Amour](https://www.alexdamour.com/) and at the Max Planck Institute for Intelligent Systems with [Moritz Hardt](https://mrtz.org/).
+I received my PhD in Computer Science from the University of Illinois Urbana-Champaign and spent a few years of my PhD as a visiting PhD student at Stanford, both with [Sanmi Koyejo](https://cs.stanford.edu/~sanmi/). I was a postdoctoral associate at MIT in the Healthy ML Lab with [Marzyeh Ghassemi](https://healthyml.org/) and a postdoctoral scholar at the [Eric and Wendy Schmidt Center](https://www.ericandwendyschmidtcenter.org/) at the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/). I previously interned at Google Brain (now Google DeepMind) with [Alex D'Amour](https://www.alexdamour.com/) and at the Max Planck Institute for Intelligent Systems with [Moritz Hardt](https://mrtz.org/).
 :::
 
 ::: {.bio-tabs}
