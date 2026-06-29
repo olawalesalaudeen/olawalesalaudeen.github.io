@@ -119,6 +119,18 @@ h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
 .hero-statement {
   background: rgba(255, 255, 255, 0.04) !important;
   &::before { background: #fda4af !important; }
+
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+  a:hover { color: inherit !important; text-decoration: none !important; }
+}
+
+.honor-chips li {
+  color: #e7e5e4 !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
 }
 
 .job-market {

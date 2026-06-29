@@ -78,10 +78,11 @@ title: "Curriculum Vitae"
 
 ::: {.cv-section}
 
-### Honors & Awards
+### Selected Honors & Awards
 
 ::: {.cv-item .cv-list}
 - Schmidt Sciences AI Center Fellowship
+- Eric and Wendy Schmidt Scholar, Broad Institute
 - Best Paper, NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle
 - NeurIPS 2025 Top Area Chair
 - NYU Tandon Faculty First-Look Fellow

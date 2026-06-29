@@ -404,6 +404,16 @@ a {
     box-shadow: none;
     border-left: 3px solid $accent;
     position: relative;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
   }
 }
 
@@ -420,6 +430,30 @@ a {
     border-bottom: 1px solid $ink;
     display: block;
     position: relative;
+  }
+}
+
+.honor-chips {
+  ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin: 0;
+    padding: 0.45rem 0.8rem;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    color: $ink;
+    background: #faf9f7;
+    border: 1px solid #e7e5e4;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
   }
 }
 

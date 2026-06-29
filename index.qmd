@@ -90,17 +90,7 @@ Olawale (Wale) Salaudeen is an AI Center Postdoctoral Fellow in Residence at [Sc
 
 ::: {.home-section}
 
-## Selected Honors
-
-Schmidt Sciences AI Center Fellowship • Best Paper, NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle • NeurIPS 2025 Top Area Chair • NYU Tandon Faculty First-Look Fellow • Georgia Tech FOCUS Fellow • Sloan Scholarship • Beckman Graduate Research Fellowship • GEM Associate Fellowship • NSF Miniature Brain Machinery Traineeship • ICML 2022 Top Reviewer (10%)
-
-:::
-
-::: {.home-section}
-
 ## Selected Research Directions
-
-My research develops the science of understanding, measuring, and improving the reliability of AI systems under real-world change. I work across these interconnected themes:
 
 ::: {.direction-grid}
 
@@ -158,6 +148,26 @@ AI systems can behave inequitably across the populations they serve, through bia
 :::
 
 [See all publications →](publications.qmd){.section-link}
+
+:::
+
+::: {.home-section}
+
+## Selected Honors
+
+::: {.honor-chips}
+- Schmidt Sciences AI Center Fellowship
+- Eric and Wendy Schmidt Scholar, Broad Institute
+- Best Paper, NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle
+- NeurIPS 2025 Top Area Chair
+- NYU Tandon Faculty First-Look Fellow
+- Georgia Tech FOCUS Fellow
+- Sloan Scholarship
+- Beckman Graduate Research Fellowship
+- GEM Associate Fellowship
+- NSF Miniature Brain Machinery Traineeship
+- ICML 2022 Top Reviewer (10%)
+:::
 
 :::
 
