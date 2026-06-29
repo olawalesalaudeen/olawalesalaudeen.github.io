@@ -17,7 +17,7 @@ listing:
 [{{< iconify bi mortarboard >}}](https://scholar.google.com/citations?hl=en&user=F-ytPfAAAAAJ&view_op=list_works&sortby=pubdate){aria-label="Google Scholar"}
 [{{< iconify bi github >}}](https://github.com/olawalesalaudeen){aria-label="GitHub"}
 [{{< iconify bi linkedin >}}](https://www.linkedin.com/in/olawalesalaudeen/){aria-label="LinkedIn"}
-[{{< iconify bi file-earmark-text >}}](cv.qmd){aria-label="CV"}
+[{{< iconify bi file-earmark-text >}}](https://drive.google.com/file/d/12GEEvpY18VRCxEgb1mrXxdZC5qV4KCir/view){aria-label="CV" target="_blank"}
 :::
 
 :::
