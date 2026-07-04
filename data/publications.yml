@@ -28,9 +28,10 @@
 - id: salaudeen2025failures
   title: "Avoiding Common Failures in AI for Health and Medicine"
   authors: "Olawale Salaudeen, Haoran Zhang, Eileen Kim, Karandeep Singh, Marzyeh Ghassemi"
-  venue: "In Review"
-  year: 2025
-  status: preprint
+  venue: "Cell 2026 Review Article"
+  note: "To appear"
+  year: 2026
+  status: published
   featured: false
   tags: [measurement, applications]
 
@@ -195,7 +196,6 @@
   authors: "Haoran Zhang*, Hyewon Jeong*, Olawale Elijah Salaudeen*, Walter Gerych*, Nigam Shah, Marzyeh Ghassemi"
   author_note: "* equal contribution; name order determined via a riveting random walk race simulator"
   venue: "ICML 2026 Position Paper Track"
-  note: "To appear"
   year: 2026
   status: published
   featured: false
@@ -207,7 +207,6 @@
   title: "Stop Evaluating AI with Human Tests, Develop Principled, AI-specific Tests instead"
   authors: "Tom Sühr, Florian E. Dorner, Olawale Salaudeen, Augustin Kelava, Samira Samadi"
   venue: "ICML 2026 Position Paper Track"
-  note: "To appear"
   year: 2026
   status: published
   featured: false
