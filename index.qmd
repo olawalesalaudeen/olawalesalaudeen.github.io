@@ -139,6 +139,7 @@ AI behaviors often become unreliable when deployment conditions change. I develo
 AI systems can behave inequitably across the populations they serve, through biased data or learning objectives misaligned with user welfare. I develop tools to measure these disparities and methods to mitigate them in deployed systems.
 
 ::: {.direction-papers}
+- Avoiding Common Failures in AI for Health and Medicine. *Cell 2026* [(Review Article, To appear)]{.pub-note-info}
 - [Understanding Challenges to the Interpretation of Disaggregated Evaluations of Algorithmic Fairness.](https://arxiv.org/abs/2506.04193) *NeurIPS 2025*
 - [On Group Sufficiency Under Label Bias.](https://openreview.net/forum?id=xRb0taq0pD) *NeurIPS 2025*
 - [What's in a Query: Polarity-Aware Distribution-Based Fair Ranking.](https://arxiv.org/abs/2502.11429) *WWW 2025*
