@@ -114,7 +114,7 @@ listing:
       <a class="timeline-link" href="https://www.broadinstitute.org/" target="_blank" rel="noopener" title="Postdoctoral Scholar, Eric and Wendy Schmidt Center, Broad Institute (2025–2026)">
         <span class="timeline-logo"><img src="assets/img/logos/broad.png" alt="Broad Institute"></span>
         <span class="timeline-year">2025–26</span>
-        <span class="timeline-org">Broad</span>
+        <span class="timeline-org">Broad Institute</span>
         <span class="timeline-role">Postdoc</span>
       </a>
     </div>
