@@ -25,9 +25,11 @@ listing:
 ::: {.hero-identity}
 [Olawale (Wale) Salaudeen]{.hero-name}
 
-[AI Center Fellow in Residence, Schmidt Sciences • Postdoctoral Researcher, MIT]{.hero-title}
+[Postdoc, Microsoft Research]{.hero-title .hero-msr}
 
 [Incoming Assistant Professor at the University of Illinois at Urbana-Champaign in Fall 2027]{.hero-title .hero-incoming}
+
+[My research develops the science of valid measurement, prediction, and intervention for AI capabilities and risks, combining theory and algorithms to anticipate failures before they occur and improve reliability under real-world conditions and distribution shift.]{.hero-research}
 
 [I will be recruiting PhD students and postdocs this coming cycle through [ECE](https://ece.illinois.edu/) or [CS](https://siebelschool.illinois.edu/).]{.hero-recruit}
 
@@ -35,13 +37,116 @@ listing:
 
 :::
 
+```{=html}
+<div class="career-timeline" aria-label="Career timeline">
+  <div class="timeline-track">
+    <div class="timeline-line"></div>
+    <div class="timeline-item">
+      <a class="timeline-link" href="https://www.tamu.edu/" target="_blank" rel="noopener" title="B.S., Texas A&M University (2015–2019)">
+        <span class="timeline-logo"><img src="assets/img/logos/tamu.svg" alt="Texas A&M University"></span>
+        <span class="timeline-year">2015–19</span>
+        <span class="timeline-org">Texas A&M</span>
+        <span class="timeline-role">B.S.</span>
+      </a>
+    </div>
+    <div class="timeline-item">
+      <a class="timeline-link" href="https://www.sandia.gov/" target="_blank" rel="noopener" title="R&D Intern, Sandia National Laboratories (2017–2022)">
+        <span class="timeline-logo"><img src="assets/img/logos/sandia.svg" alt="Sandia National Laboratories"></span>
+        <span class="timeline-year">2017–22</span>
+        <span class="timeline-org">Sandia</span>
+        <span class="timeline-role">R&D Intern</span>
+      </a>
+    </div>
+    <div class="timeline-item">
+      <a class="timeline-link" href="https://illinois.edu/" target="_blank" rel="noopener" title="Ph.D. in Computer Science, University of Illinois Urbana-Champaign (2019–2024)">
+        <span class="timeline-logo"><img src="assets/img/logos/uiuc.svg" alt="University of Illinois Urbana-Champaign"></span>
+        <span class="timeline-year">2019–24</span>
+        <span class="timeline-org">Illinois</span>
+        <span class="timeline-role">PhD</span>
+      </a>
+      <span class="timeline-mentor">w/ <a href="https://cs.stanford.edu/~sanmi/" target="_blank" rel="noopener">Sanmi Koyejo</a></span>
+    </div>
+    <div class="timeline-item">
+      <a class="timeline-link" href="https://research.google/" target="_blank" rel="noopener" title="Student Researcher, Google Brain / Google DeepMind (2022)">
+        <span class="timeline-logo"><img src="assets/img/logos/google.svg" alt="Google Brain / DeepMind"></span>
+        <span class="timeline-year">2022</span>
+        <span class="timeline-org">Google Brain</span>
+        <span class="timeline-role">Student Researcher</span>
+      </a>
+      <span class="timeline-mentor">w/ <a href="https://www.alexdamour.com/" target="_blank" rel="noopener">Alex D'Amour</a></span>
+    </div>
+    <div class="timeline-item">
+      <a class="timeline-link" href="https://www.stanford.edu/" target="_blank" rel="noopener" title="Visiting Ph.D. Student, Stanford University (2022–2024)">
+        <span class="timeline-logo"><img src="assets/img/logos/stanford.svg" alt="Stanford University"></span>
+        <span class="timeline-year">2022–24</span>
+        <span class="timeline-org">Stanford</span>
+        <span class="timeline-role">PhD</span>
+      </a>
+      <span class="timeline-mentor">w/ <a href="https://cs.stanford.edu/~sanmi/" target="_blank" rel="noopener">Sanmi Koyejo</a></span>
+    </div>
+    <div class="timeline-item">
+      <a class="timeline-link" href="https://getcruise.com/" target="_blank" rel="noopener" title="Machine Learning Intern, Cruise (2023)">
+        <span class="timeline-logo"><img src="assets/img/logos/cruise.svg" alt="Cruise"></span>
+        <span class="timeline-year">2023</span>
+        <span class="timeline-org">Cruise</span>
+        <span class="timeline-role">ML Intern</span>
+      </a>
+    </div>
+    <div class="timeline-item">
+      <a class="timeline-link" href="https://is.mpg.de/" target="_blank" rel="noopener" title="Research Intern, Max Planck Institute for Intelligent Systems (2023–2024)">
+        <span class="timeline-logo"><img src="assets/img/logos/mpi.png" alt="Max Planck Institute for Intelligent Systems"></span>
+        <span class="timeline-year">2023–24</span>
+        <span class="timeline-org">Max Planck</span>
+        <span class="timeline-role">Research Intern</span>
+      </a>
+      <span class="timeline-mentor">w/ <a href="https://mrtz.org/" target="_blank" rel="noopener">Moritz Hardt</a></span>
+    </div>
+    <div class="timeline-item">
+      <a class="timeline-link" href="https://www.mit.edu/" target="_blank" rel="noopener" title="Postdoctoral Researcher, MIT (2024–present)">
+        <span class="timeline-logo"><img src="assets/img/logos/mit.svg" alt="MIT"></span>
+        <span class="timeline-year">2024–</span>
+        <span class="timeline-org">MIT</span>
+        <span class="timeline-role">Postdoc</span>
+      </a>
+      <span class="timeline-mentor">w/ <a href="https://healthyml.org/" target="_blank" rel="noopener">Marzyeh Ghassemi</a></span>
+    </div>
+    <div class="timeline-item">
+      <a class="timeline-link" href="https://www.broadinstitute.org/" target="_blank" rel="noopener" title="Postdoctoral Scholar, Eric and Wendy Schmidt Center, Broad Institute (2025–2026)">
+        <span class="timeline-logo"><img src="assets/img/logos/broad.png" alt="Broad Institute"></span>
+        <span class="timeline-year">2025–26</span>
+        <span class="timeline-org">Broad</span>
+        <span class="timeline-role">Postdoc</span>
+      </a>
+    </div>
+    <div class="timeline-item">
+      <a class="timeline-link" href="https://www.schmidtsciences.org/" target="_blank" rel="noopener" title="AI Center Fellow in Residence, Schmidt Sciences (2025–2026)">
+        <span class="timeline-logo"><img src="assets/img/logos/schmidt.svg" alt="Schmidt Sciences"></span>
+        <span class="timeline-year">2025–26</span>
+        <span class="timeline-org">Schmidt Sciences</span>
+        <span class="timeline-role">AI Center Fellow</span>
+      </a>
+    </div>
+    <div class="timeline-item">
+      <a class="timeline-link" href="https://www.microsoft.com/en-us/research/group/fate/" target="_blank" rel="noopener" title="Postdoctoral Researcher, Microsoft Research (2026–present)">
+        <span class="timeline-logo"><img src="assets/img/logos/microsoft.svg" alt="Microsoft Research"></span>
+        <span class="timeline-year">2026–</span>
+        <span class="timeline-org">Microsoft Research</span>
+        <span class="timeline-role">Postdoc</span>
+      </a>
+    </div>
+    <div class="timeline-item timeline-item--future">
+      <a class="timeline-link" href="https://illinois.edu/" target="_blank" rel="noopener" title="Incoming Assistant Professor, University of Illinois Urbana-Champaign (Fall 2027)">
+        <span class="timeline-logo"><img src="assets/img/logos/uiuc.svg" alt="University of Illinois Urbana-Champaign"></span>
+        <span class="timeline-year">2027</span>
+        <span class="timeline-org">Illinois</span>
+        <span class="timeline-role">Incoming<br>Faculty</span>
+      </a>
+    </div>
+  </div>
+</div>
+```
+
 ::: {.hero-bio}
-
-::: {.hero-statement}
-My research develops the science of valid measurement, prediction, and intervention for AI capabilities and risks, combining theory and algorithms to anticipate failures before deployment and improve reliability under real-world distribution shift.
-
-I received my PhD in Computer Science from the University of Illinois Urbana-Champaign and spent a few years of my PhD as a visiting PhD student at Stanford, both with [Sanmi Koyejo](https://cs.stanford.edu/~sanmi/). I was a postdoctoral associate at MIT in the Healthy ML Lab with [Marzyeh Ghassemi](https://healthyml.org/) and a postdoctoral scholar at the [Eric and Wendy Schmidt Center](https://www.ericandwendyschmidtcenter.org/) at the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/). I previously interned at Google Brain (now Google DeepMind) with [Alex D'Amour](https://www.alexdamour.com/) and at the Max Planck Institute for Intelligent Systems with [Moritz Hardt](https://mrtz.org/).
-:::
 
 ::: {.bio-tabs}
 
@@ -64,7 +169,7 @@ document.querySelectorAll('.bio-tabs-input').forEach(cb => {
 
 Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University of Illinois at Urbana-Champaign](https://illinois.edu/) and a Postdoctoral Researcher at [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/) on the [FATE](https://www.microsoft.com/en-us/research/group/fate/) team. He was previously an AI Center Fellow in Residence at [Schmidt Sciences](https://www.schmidtsciences.org/), a Postdoctoral Researcher at [MIT](https://www.mit.edu/) in the [Healthy ML Lab](https://healthyml.org/), and a Postdoctoral Scholar at the [Eric and Wendy Schmidt Center](https://www.ericandwendyschmidtcenter.org/) at the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/). Before his postdoctoral positions, he earned a Ph.D. in Computer Science from the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/) and the [Stanford Trustworthy AI Research (STAIR) Lab](https://stair.cs.stanford.edu/) at [Stanford University](https://www.stanford.edu/).
 
-His research develops the science of valid measurement, prediction, and intervention for AI capabilities and risks, combining theory and algorithms to anticipate failures before deployment and improve reliability under real-world distribution shift. His work has been published in leading AI and ML venues and recognized with paper awards, including a Best Paper Award at the NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle, as well as media coverage.
+His research develops the science of valid measurement, prediction, and intervention for AI capabilities and risks, combining theory and algorithms to anticipate failures before they occur and improve reliability under real-world conditions and distribution shift. His work has been published in leading AI and ML venues and recognized with paper awards, including a Best Paper Award at the NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle, as well as media coverage.
 
 He has received a Sloan Scholarship, a Beckman Graduate Research Fellowship, a GEM Associate Fellowship, and an NSF Miniature Brain Machinery Traineeship. He has interned at Sandia National Laboratories, Google Brain, Cruise LLC, and the [Max Planck Institute for Intelligent Systems](https://is.mpg.de/). He received a Bachelor of Science in Mechanical Engineering with minors in Computer Science and Mathematics from [Texas A&M University](https://www.tamu.edu/).
 
@@ -74,7 +179,7 @@ He has received a Sloan Scholarship, a Beckman Graduate Research Fellowship, a G
 
 Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University of Illinois at Urbana-Champaign](https://illinois.edu/) and a Postdoctoral Researcher at [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/) on the [FATE](https://www.microsoft.com/en-us/research/group/fate/) team. He was previously an AI Center Fellow in Residence at [Schmidt Sciences](https://www.schmidtsciences.org/), a Postdoctoral Researcher at [MIT](https://www.mit.edu/), and a Postdoctoral Scholar at the [Eric and Wendy Schmidt Center](https://www.ericandwendyschmidtcenter.org/) at the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/). He earned his Ph.D. in Computer Science at the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/) and the [Stanford STAIR Lab](https://stair.cs.stanford.edu/).
 
-His research develops the science of valid measurement, prediction, and intervention for AI capabilities and risks, combining theory and algorithms to anticipate failures before deployment and improve reliability under real-world distribution shift. His work has been recognized with paper awards, including a Best Paper Award at the NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle, and media coverage.
+His research develops the science of valid measurement, prediction, and intervention for AI capabilities and risks, combining theory and algorithms to anticipate failures before they occur and improve reliability under real-world conditions and distribution shift. His work has been recognized with paper awards, including a Best Paper Award at the NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle, and media coverage.
 
 :::
 

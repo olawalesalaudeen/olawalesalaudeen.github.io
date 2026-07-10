@@ -104,6 +104,12 @@ h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
 .hero-identity .hero-email { color: #d6d3d1 !important; }
 
 .hero-identity .hero-title.hero-incoming { color: #ff8a4c !important; }
+.hero-identity .hero-title.hero-msr { color: #4db2e6 !important; }
+
+.hero-identity .hero-research {
+  color: #e7e5e4 !important;
+  border-left-color: #8ab4f0 !important;
+}
 
 .hero-recruit { color: #ff8a4c !important; }
 .hero-recruit a { color: #ff8a4c !important; }
@@ -202,6 +208,26 @@ h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
 
 .home-section h2::after {
   background: linear-gradient(90deg, #8ab4f0, #5a86c8, rgba(138, 180, 240, 0.15)) !important;
+}
+
+.career-timeline::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.2) !important; }
+
+.timeline-item {
+  color: #a8a29e !important;
+  .timeline-logo {
+    background: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+  }
+  .timeline-year { color: #e7e5e4 !important; }
+  .timeline-org { color: #e7e5e4 !important; }
+  .timeline-role { color: #a8a29e !important; }
+  .timeline-mentor { color: #a8a29e !important; a { color: #8ab4f0 !important; } }
+  &:hover {
+    .timeline-logo { border-color: #8ab4f0 !important; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5) !important; }
+    .timeline-org { color: #8ab4f0 !important; }
+  }
+  &.timeline-item--future .timeline-logo { border-color: #ff8a4c !important; border-style: dashed !important; }
 }
 
 .direction-box {
