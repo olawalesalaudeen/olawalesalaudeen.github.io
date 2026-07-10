@@ -205,10 +205,10 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
 AI systems exhibit jagged intelligence---they excel at some tasks but fail at others that share a common human capability. I develop the science of identifying and measuring AI-specific latent traits, capabilities, and risks to enable less jagged, more predictable behaviors across real-world settings.
 
 ::: {.direction-papers}
-- [AI Construct Lexis](https://aiconstructlexis.github.io/)
+- [AI Construct Lexis.](https://aiconstructlexis.github.io/) *In Review*
 - [Measurement to Meaning: A Validity-Centered Framework for AI Evaluation.](https://arxiv.org/abs/2505.10573) *In Review* [(preliminary in NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle)]{.pub-note-info}
+- [Stop Evaluating AI with Human Tests, Develop Principled, AI-specific Tests instead.](https://arxiv.org/abs/2507.23009) *ICML 2026 (Position Paper Track)*
 - [Toward an Evaluation Science for Generative AI Systems.](https://arxiv.org/abs/2503.05336) *The Bridge, NAE 2025*
-- [ImageNot: A Contrast with ImageNet Preserves Model Rankings.](https://arxiv.org/abs/2404.02112) *TMLR 2026*
 - [On Evaluating Methods vs. Evaluating Models.](https://openreview.net/forum?id=8yg3XadfIZ) *NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle* [(Best Paper)]{.pub-note}
 :::
 :::
@@ -220,6 +220,7 @@ AI systems often rely on spurious correlations, performing well in training envi
 
 ::: {.direction-papers}
 - [Are Domain Generalization Benchmarks with Accuracy on the Line Misspecified?](https://arxiv.org/abs/2504.00186) *TMLR 2025* [(J2C)]{.pub-note} *+ ICLR 2026 Journal Track*
+- [ImageNot: A Contrast with ImageNet Preserves Model Rankings.](https://arxiv.org/abs/2404.02112) *TMLR 2026*
 - [Aggregation Hides OOD Generalization Failures from Spurious Correlations.](https://arxiv.org/abs/2510.24884) *NeurIPS 2025* [(Spotlight)]{.pub-note}
 - [Causally Inspired Regularization Enables Domain General Representations.](https://arxiv.org/abs/2404.16277) *AISTATS 2024*
 - [On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning.](https://openreview.net/pdf?id=LbFK9pUlA5) *NeurIPS 2024 CRL Workshop* [(Oral)]{.pub-note}

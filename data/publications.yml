@@ -206,10 +206,10 @@
 - id: suhr2025stop
   title: "Stop Evaluating AI with Human Tests, Develop Principled, AI-specific Tests instead"
   authors: "Tom Sühr, Florian E. Dorner, Olawale Salaudeen, Augustin Kelava, Samira Samadi"
-  venue: "ICML 2026 Position Paper Track"
+  venue: "ICML 2026 (Position Paper Track)"
   year: 2026
   status: published
-  featured: false
+  featured: true
   tags: [measurement]
   links:
     paper: "https://arxiv.org/abs/2507.23009"
@@ -290,7 +290,7 @@
   venue: "TMLR 2026"
   year: 2026
   status: published
-  featured: true
+  featured: false
   tags: [measurement, generalization]
   links:
     paper: "https://arxiv.org/abs/2404.02112"
