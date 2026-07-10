@@ -228,7 +228,7 @@ AI systems often rely on spurious correlations, performing well in training envi
 :::
 
 ::: {.direction-box}
-### Inference-Time Adaptation of AI Systems
+### Statistical Foundations of Inference-Time Adaptation of AI Systems
 
 AI behaviors often become unreliable when deployment conditions change. I develop methods that use proxy variables and concept-based representations to adapt model behavior at inference time, without retraining.
 
