@@ -25,7 +25,7 @@ title: "Curriculum Vitae"
 
 ::: {.cv-section}
 
-### Appointments
+### Academic Appointments
 
 ```{=html}
 <div class="cv-item cv-appt">
@@ -37,10 +37,6 @@ title: "Curriculum Vitae"
 </span>
 </div>
 ```
-
-::: {.cv-item}
-[2025--present]{.cv-dates} • **AI Center Fellow in Residence**, Schmidt Sciences
-:::
 
 ::: {.cv-item}
 [2024--present]{.cv-dates} • **Postdoctoral Researcher**, MIT (Healthy ML Lab, w/ Prof. Marzyeh Ghassemi)
@@ -55,7 +51,15 @@ title: "Curriculum Vitae"
 
 ::: {.cv-section}
 
-### Selected Industry & Lab Experience
+### Selected Professional Experience
+
+::: {.cv-item}
+[2026--present]{.cv-dates} • **Postdoctoral Researcher**, Microsoft Research (FATE)
+:::
+
+::: {.cv-item}
+[2025--2026]{.cv-dates} • **AI Center Fellow in Residence**, Schmidt Sciences
+:::
 
 ::: {.cv-item}
 [2023--2024]{.cv-dates} • **Research Intern**, Max Planck Institute for Intelligent Systems (w/ Dr. Moritz Hardt)

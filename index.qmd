@@ -31,7 +31,7 @@ listing:
 
 [My research develops the science of valid measurement, prediction, and intervention for AI capabilities and risks, combining theory and algorithms to anticipate failures before they occur and improve reliability under real-world conditions and distribution shift.]{.hero-research}
 
-[I will be recruiting PhD students and postdocs this coming cycle through [ECE](https://ece.illinois.edu/) or [CS](https://siebelschool.illinois.edu/).]{.hero-recruit}
+[I am recruiting PhD students and postdocs for this coming cycle in [ECE](https://ece.illinois.edu/) or [CS](https://siebelschool.illinois.edu/)!]{.hero-recruit}
 
 :::
 
@@ -86,7 +86,7 @@ listing:
     </div>
     <div class="timeline-item">
       <a class="timeline-link" href="https://getcruise.com/" target="_blank" rel="noopener" title="Machine Learning Intern, Cruise (2023)">
-        <span class="timeline-logo"><img src="assets/img/logos/cruise.svg" alt="Cruise"></span>
+        <span class="timeline-logo timeline-logo--fill"><img src="assets/img/logos/cruise.png" alt="Cruise"></span>
         <span class="timeline-year">2023</span>
         <span class="timeline-org">Cruise</span>
         <span class="timeline-role">ML Intern</span>
