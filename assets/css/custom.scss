@@ -8,8 +8,8 @@ $headings-font-family: 'Newsreader', 'Source Serif 4', Georgia, 'Times New Roman
 $font-family-monospace: 'JetBrains Mono', 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
 
 // Colors — Newsprint palette (cream paper + warm ink + Illinois accents)
-$paper:           #faf7f2;     // warm cream page background
-$paper-shade:     #f3efe6;     // one shade darker for subtle blocks
+$paper:           #ffffff;     // white page background
+$paper-shade:     #f5f5f4;     // one shade darker for subtle blocks
 $surface:         #ffffff;     // card / panel surface
 $ink:             #1c1917;     // deep warm near-black
 $ink-2:           #292524;     // secondary ink
@@ -449,7 +449,7 @@ a {
     font-size: 0.9rem;
     line-height: 1.3;
     color: $ink;
-    background: #faf9f7;
+    background: #f5f5f4;
     border: 1px solid #e7e5e4;
     border-radius: 0.5rem;
     display: flex;
@@ -958,7 +958,7 @@ a {
   top: -1px;
 
   &.talk-type--invited { color: $accent-blue; background: $accent-blue-bg; }
-  &.talk-type--contributed { color: $link-color; background: #f3efe6; }
+  &.talk-type--contributed { color: $link-color; background: #f5f5f4; }
 }
 
 .talk-year-entries {
@@ -1118,6 +1118,18 @@ a {
   p { font-size: 0.93rem; color: $ink-2; line-height: 1.6; margin-bottom: 0.7rem; }
 }
 
+// Checkerboard very-light Illinois orange / blue backgrounds
+.direction-box:nth-child(1),
+.direction-box:nth-child(4) {
+  background: rgba(255, 95, 5, 0.05);
+  &:hover { background: rgba(255, 95, 5, 0.09); }
+}
+.direction-box:nth-child(2),
+.direction-box:nth-child(3) {
+  background: rgba(19, 41, 75, 0.05);
+  &:hover { background: rgba(19, 41, 75, 0.09); }
+}
+
 .direction-papers {
   margin-top: 0.6rem;
   padding-top: 0.6rem;
@@ -1165,7 +1177,7 @@ a {
 .bib-dropdown {
   display: none;
   margin-top: 0.5rem;
-  background: #faf7f2;
+  background: #f5f5f4;
   border: 1px solid #d6d3d1;
   border-radius: 6px;
   padding: 1rem 1.2rem;

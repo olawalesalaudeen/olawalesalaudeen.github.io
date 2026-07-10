@@ -226,6 +226,18 @@ h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
   p { color: #e7e5e4 !important; }
 }
 
+// Checkerboard very-light Illinois orange / blue backgrounds (dark)
+.direction-box:nth-child(1),
+.direction-box:nth-child(4) {
+  background: rgba(255, 122, 46, 0.10) !important;
+  &:hover { background: rgba(255, 122, 46, 0.16) !important; }
+}
+.direction-box:nth-child(2),
+.direction-box:nth-child(3) {
+  background: rgba(138, 180, 240, 0.10) !important;
+  &:hover { background: rgba(138, 180, 240, 0.16) !important; }
+}
+
 .direction-papers { border-top-color: rgba(255, 255, 255, 0.08) !important; }
 .direction-papers li { color: #e7e5e4 !important; }
 .direction-papers li a { color: #8ab4f0 !important; }
