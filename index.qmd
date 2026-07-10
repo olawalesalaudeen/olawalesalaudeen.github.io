@@ -29,7 +29,7 @@ listing:
 
 [Incoming Assistant Professor at the University of Illinois at Urbana-Champaign in Fall 2027]{.hero-title .hero-incoming}
 
-[My research develops the science of valid measurement, prediction, and intervention for AI capabilities and risks, combining theory and algorithms to anticipate failures before they occur and improve reliability under real-world conditions and distribution shift.]{.hero-research}
+[I am broadly interested in ensuring a future in which AI reliably advances human well-being. My research develops the science of valid measurement, prediction, and intervention for AI capabilities and risks, combining theory and algorithms to anticipate failures before they occur and improve reliability under real-world conditions and distribution shift. One application area of particular interest is in health and medicine.]{.hero-research}
 
 [I am recruiting PhD students and postdocs for this coming cycle in [ECE](https://ece.illinois.edu/) or [CS](https://siebelschool.illinois.edu/)!]{.hero-recruit}
 
