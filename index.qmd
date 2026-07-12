@@ -40,7 +40,7 @@ listing:
 ```{=html}
 <div class="career-timeline" aria-label="Career timeline">
   <div class="timeline-track">
-    <div class="timeline-line"></div>
+    <svg class="timeline-rails" aria-hidden="true"></svg>
     <div class="timeline-item">
       <a class="timeline-link" href="https://www.tamu.edu/" target="_blank" rel="noopener" title="B.S., Texas A&M University (2015–2019)">
         <span class="timeline-logo"><img src="assets/img/logos/tamu.svg" alt="Texas A&M University"></span>
@@ -144,6 +144,86 @@ listing:
     </div>
   </div>
 </div>
+<script>
+(function () {
+  function drawTimelineRails() {
+    var track = document.querySelector('.timeline-track');
+    var svg = track && track.querySelector('.timeline-rails');
+    if (!track || !svg) return;
+    var logos = Array.prototype.slice.call(track.querySelectorAll('.timeline-logo'));
+    if (!logos.length) return;
+
+    var tRect = track.getBoundingClientRect();
+    var W = track.clientWidth;
+    var H = track.clientHeight;
+
+    // Center of each logo, relative to the track.
+    var pts = logos.map(function (el) {
+      var r = el.getBoundingClientRect();
+      return { x: r.left - tRect.left + r.width / 2, y: r.top - tRect.top + r.height / 2 };
+    });
+
+    // Group into rows by similar vertical center.
+    var rows = [];
+    pts.forEach(function (p) {
+      var row = rows.find(function (g) { return Math.abs(g.y - p.y) < 12; });
+      if (!row) { row = { y: p.y, items: [] }; rows.push(row); }
+      row.items.push(p);
+      row.y = (row.y * (row.items.length - 1) + p.y) / row.items.length;
+    });
+    rows.sort(function (a, b) { return a.y - b.y; });
+
+    var ns = 'http://www.w3.org/2000/svg';
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    svg.setAttribute('width', W);
+    svg.setAttribute('height', H);
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+
+    // Shared left→right gradient so colors stay consistent across rows.
+    var defs = document.createElementNS(ns, 'defs');
+    var grad = document.createElementNS(ns, 'linearGradient');
+    grad.setAttribute('id', 'tl-grad');
+    grad.setAttribute('gradientUnits', 'userSpaceOnUse');
+    grad.setAttribute('x1', 0); grad.setAttribute('y1', 0);
+    grad.setAttribute('x2', W); grad.setAttribute('y2', 0);
+    [['0', 'rgba(255,95,5,0.55)'], ['1', 'rgba(19,41,75,0.55)']].forEach(function (s) {
+      var stop = document.createElementNS(ns, 'stop');
+      stop.setAttribute('offset', s[0]); stop.setAttribute('stop-color', s[1]);
+      grad.appendChild(stop);
+    });
+    defs.appendChild(grad);
+    svg.appendChild(defs);
+
+    rows.forEach(function (row, r) {
+      var xStart = (r === 0) ? row.items[0].x : 0;
+      var xEnd = (r === rows.length - 1) ? row.items[row.items.length - 1].x : W;
+      var line = document.createElementNS(ns, 'line');
+      line.setAttribute('x1', xStart); line.setAttribute('y1', row.y);
+      line.setAttribute('x2', xEnd); line.setAttribute('y2', row.y);
+      line.setAttribute('stroke', 'url(#tl-grad)');
+      line.setAttribute('stroke-width', '2');
+      line.setAttribute('stroke-linecap', 'round');
+      svg.appendChild(line);
+    });
+  }
+
+  var scheduled = false;
+  function schedule() {
+    if (scheduled) return;
+    scheduled = true;
+    requestAnimationFrame(function () { scheduled = false; drawTimelineRails(); });
+  }
+
+  if (document.readyState !== 'loading') schedule();
+  else document.addEventListener('DOMContentLoaded', schedule);
+  window.addEventListener('load', schedule);
+  window.addEventListener('resize', schedule);
+  if (window.ResizeObserver) {
+    var t = document.querySelector('.timeline-track');
+    if (t) new ResizeObserver(schedule).observe(t);
+  }
+})();
+</script>
 ```
 
 ::: {.hero-bio}

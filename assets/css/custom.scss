@@ -432,40 +432,43 @@ a {
 
 .career-timeline {
   margin: 0.5rem 0 2rem;
-  overflow-x: auto;
-  overflow-y: hidden;
-  padding-bottom: 0.4rem;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: thin;
-
-  &::-webkit-scrollbar { height: 6px; }
-  &::-webkit-scrollbar-thumb { background: $rule; border-radius: 3px; }
 }
 
 .timeline-track {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: flex-start;
-  gap: 0.25rem;
+  column-gap: 0.4rem;
+  row-gap: 1.1rem;
   width: 100%;
   padding: 0.3rem 0.2rem 0;
 }
 
 .timeline-line {
-  position: absolute;
-  left: 0.2rem;
-  right: 0.2rem;
-  top: 30px;                 // vertical center of the logo tile (padding + half tile)
-  height: 2px;
-  background: linear-gradient(90deg, rgba(255, 95, 5, 0.55), rgba(19, 41, 75, 0.55));
-  z-index: 0;
+  display: none;             // old single-row line; connector now drawn as SVG rails
 }
+
+// Racetrack rails: an SVG overlay drawn behind the logos. A script lays out one
+// line per wrapped row (exiting the right edge and re-entering at the left on the
+// next row), so the track "wraps" like text. Logos sit on top and mask it.
+.timeline-rails {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: visible;
+}
+
+.timeline-item .timeline-link { position: relative; z-index: 1; }
 
 .timeline-item {
   position: relative;
   z-index: 1;
-  flex: 1 1 0;
-  min-width: 0;
+  flex: 0 0 auto;
+  width: 82px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -564,9 +567,8 @@ a {
 }
 
 @media (max-width: 640px) {
-  .timeline-item { min-width: 76px; }
+  .timeline-item { width: 72px; }
   .timeline-item .timeline-logo { width: 46px; height: 46px; }
-  .timeline-line { top: 27px; }
 }
 
 // ── Section styling ─────────────────────────────────────────────────────────
