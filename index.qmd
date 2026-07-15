@@ -282,7 +282,7 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
 ::: {.direction-box}
 ### Valid Measurement and Prediction of AI Capabilities and Risks
 
-AI systems exhibit jagged intelligence---they excel at some tasks but fail at others that share a common human capability. I develop the science of identifying and measuring AI-specific latent traits, capabilities, and risks to enable less jagged, more predictable behaviors across real-world settings.
+AI systems exhibit jagged intelligence---they excel at some tasks but fail at others that share a common human capability, exhibiting seemingly incongruous behaviors. I develop the science of identifying and measuring AI-specific latent traits, capabilities, and risks to enable less jagged, more predictable behaviors across real-world settings.
 
 ::: {.direction-papers}
 - [AI Construct Lexis.](https://aiconstructlexis.github.io/) *In Review*
@@ -296,7 +296,7 @@ AI systems exhibit jagged intelligence---they excel at some tasks but fail at ot
 ::: {.direction-box}
 ### Characterizing and Intervening on Causal and Spurious Mechanisms of AI Behavior
 
-AI systems often rely on spurious correlations, performing well in training environments but failing when conditions shift. I develop algorithms to identify and disentangle causal from spurious mechanisms so models rely on stable, causal patterns instead.
+AI systems often rely on spurious, unexpected mechanisms of behavior, performing well in training environments but failing when conditions shift. I develop algorithms to identify and disentangle causal from spurious mechanisms so models rely on stable, causal patterns instead.
 
 ::: {.direction-papers}
 - [Are Domain Generalization Benchmarks with Accuracy on the Line Misspecified?](https://arxiv.org/abs/2504.00186) *TMLR 2025* [(J2C)]{.pub-note} *+ ICLR 2026 Journal Track*
