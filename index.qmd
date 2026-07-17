@@ -320,7 +320,7 @@ AI behaviors often become unreliable when deployment conditions change. I develo
 :::
 
 ::: {.direction-box}
-### Measuring and Mitigating Disparate Societal Impacts of AI
+### Measuring and Steering Societal Impacts
 
 AI systems can behave inequitably across the populations they serve, through biased data or learning objectives misaligned with user welfare. I develop tools to measure these disparities and methods to mitigate them in deployed systems.
 
