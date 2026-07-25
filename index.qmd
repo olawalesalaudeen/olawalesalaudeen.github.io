@@ -338,7 +338,7 @@ I am recruiting PhD students and postdocs for this coming cycle. Please apply th
 ```{=html}
 <ul class="honor-list">
   <li>Schmidt Sciences AI Center Fellowship</li>
-  <li>Eric and Wendy Schmidt Scholar, Broad Institute</li>
+  <li>Postdoc Scholar, Eric and Wendy Schmidt Center, Broad Institute</li>
   <li>Best Paper, NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle</li>
 </ul>
 <details class="honor-more">
