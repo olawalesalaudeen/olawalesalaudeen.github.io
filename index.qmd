@@ -238,6 +238,7 @@ I am recruiting PhD students and postdocs for Fall 2027. Please apply through [E
         <span class="timeline-org">Microsoft Research</span>
         <span class="timeline-role">Postdoc</span>
       </a>
+      <span class="timeline-mentor">w/ <a href="https://solon.barocas.org/" target="_blank" rel="noopener">Solon Barocas</a>, <a href="https://www.microsoft.com/en-us/research/people/wallach/" target="_blank" rel="noopener">Hanna Wallach</a> &amp; <a href="http://www.jennwv.com/" target="_blank" rel="noopener">Jenn Wortman Vaughan</a></span>
     </div>
     <div class="timeline-item timeline-item--future">
       <a class="timeline-link" href="https://illinois.edu/" target="_blank" rel="noopener" title="Incoming Assistant Professor, University of Illinois Urbana-Champaign (Fall 2027)">
