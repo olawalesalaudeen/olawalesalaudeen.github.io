@@ -464,6 +464,12 @@ a {
 
   p { margin: 0; }
 
+  .recruit-secondary {
+    display: block;
+    font-weight: 400;
+    margin-top: 0.35rem;
+  }
+
   a {
     color: $accent;
     text-decoration: underline;
