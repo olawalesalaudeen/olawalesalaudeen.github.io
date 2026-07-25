@@ -229,6 +229,27 @@ a {
   }
 }
 
+// Vertical, centered variant: photo on top, then name/positions, then icons.
+.hero-header--stacked {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  margin: 3rem 0 1.25rem;
+
+  .hero-identity {
+    align-items: center;
+    max-width: 720px;
+  }
+
+  .hero-links {
+    justify-content: center;
+    font-size: 1.6rem;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+}
+
 .hero-photo {
   flex-shrink: 0;
   position: relative;
@@ -426,6 +447,199 @@ a {
       }
     }
   }
+}
+
+// ── Recruiting banner ────────────────────────────────────────────────────────
+
+.recruit-banner {
+  margin: 0 0 1.5rem;
+  padding: 0.85rem 1.25rem;
+  background: rgba(255, 95, 5, 0.08);
+  color: $accent;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.4;
+
+  p { margin: 0; }
+
+  a {
+    color: $accent;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    &:hover { color: $accent-warm; }
+  }
+
+  @media (max-width: 640px) {
+    font-size: 0.85rem;
+  }
+}
+
+// ── Research intro + areas (home) ────────────────────────────────────────────
+
+// Standalone research statement (moved out of .hero-identity).
+.quarto-container .hero-research,
+.hero-research {
+  display: block;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: $accent;
+  margin: 0.25rem 0 1.4rem;
+  padding-left: 0.9rem;
+  border-left: 3px solid $accent;
+}
+
+.research-areas {
+  margin: 0 0 1rem;
+
+  .area {
+    border-bottom: 1px solid $rule;
+
+    &:first-child { border-top: 1px solid $rule; }
+
+    > summary {
+      list-style: none;
+      cursor: pointer;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.6rem;
+      padding: 0.7rem 0.2rem;
+      font-family: $headings-font-family;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: $ink;
+      transition: color 0.2s ease;
+
+      &::-webkit-details-marker { display: none; }
+
+      &::before {
+        content: "\203A"; // ›
+        display: inline-block;
+        flex: 0 0 auto;
+        width: 0.9rem;
+        color: $accent-warm;
+        font-weight: 700;
+        transform: rotate(0deg);
+        transition: transform 0.2s ease;
+      }
+
+      &:hover { color: $accent; }
+    }
+
+    &[open] > summary::before { transform: rotate(90deg); }
+  }
+
+  .area-body {
+    padding: 0 0.2rem 0.9rem 1.5rem;
+
+    p {
+      margin: 0 0 0.7rem;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: $text-secondary;
+    }
+  }
+
+  .area-pubs {
+    list-style: disc;
+    margin: 0;
+    padding-left: 1.2rem;
+
+    li {
+      font-size: 0.9rem;
+      line-height: 1.45;
+      color: $text-secondary;
+      margin: 0.25rem 0;
+    }
+
+    a,
+    .pub-title {
+      font-weight: 600;
+      color: $accent;
+      border-bottom: none;
+    }
+
+    a:hover { color: $accent-warm; text-decoration: underline; }
+  }
+
+  .pub-award,
+  .pub-tag {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 0.05rem 0.4rem;
+    border-radius: 4px;
+    vertical-align: middle;
+  }
+
+  .pub-award {
+    color: #fff;
+    background: $accent-warm;
+  }
+
+  .pub-tag {
+    color: $accent;
+    background: rgba(19, 41, 75, 0.08);
+  }
+}
+
+// ── Selected honors (with show-more dropdown) ────────────────────────────────
+
+.honor-list {
+  margin: 0;
+  padding-left: 1.2rem;
+
+  li {
+    margin: 0.15rem 0;
+    line-height: 1.5;
+  }
+}
+
+.honor-more {
+  margin-top: 0.5rem;
+
+  > summary {
+    list-style: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.35rem 0.95rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: $accent;
+    border: 1px solid rgba(19, 41, 75, 0.3);
+    border-radius: 999px;
+    background: rgba(19, 41, 75, 0.04);
+    transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+
+    &::-webkit-details-marker { display: none; }
+
+    &::before {
+      content: "\203A";
+      display: inline-block;
+      color: $accent-warm;
+      font-weight: 700;
+      transform: rotate(0deg);
+      transition: transform 0.2s ease;
+    }
+
+    .honor-toggle::after { content: "Show more"; }
+
+    &:hover {
+      color: $accent-warm;
+      border-color: rgba(255, 95, 5, 0.5);
+      background: rgba(255, 95, 5, 0.06);
+    }
+  }
+
+  &[open] > summary::before { transform: rotate(90deg); }
+  &[open] > summary { margin-bottom: 0.4rem; }
+  &[open] > summary .honor-toggle::after { content: "Show less"; }
+
+  .honor-list { margin-top: 0.2rem; }
 }
 
 // ── Career timeline (institution logos) ──────────────────────────────────────
@@ -768,11 +982,12 @@ a {
 .pub-venue, .featured-venue { font-size: 0.88rem; color: $text-secondary; font-style: italic; }
 
 // ── Publication tags + filter bar ───────────────────────────────────────────
-.pub-filter {
+.pub-bar {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
   margin: 0.75rem 0 1.25rem;
   padding: 0.5rem 0;
   border-bottom: 1px solid $rule;
@@ -780,6 +995,47 @@ a {
   top: 0;
   z-index: 20;
   background: $paper;
+}
+
+.pub-search-input {
+  flex: 1 1 200px;
+  max-width: 280px;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.88rem;
+  font-family: $font-family-sans-serif;
+  color: $ink;
+  background: $paper;
+  border: 1px solid $rule;
+  border-radius: 999px;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &::placeholder { color: $ink-faint; }
+
+  &:focus {
+    border-color: $accent;
+    box-shadow: 0 0 0 3px rgba(19, 41, 75, 0.12);
+  }
+
+  @media (max-width: 640px) {
+    flex-basis: 100%;
+    max-width: none;
+  }
+}
+
+.pub-no-results {
+  color: $text-secondary;
+  font-style: italic;
+  margin: 1rem 0;
+
+  &.pub-hidden { display: none; }
+}
+
+.pub-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0;
 
   .pub-filter-chip {
     appearance: none;
@@ -1052,33 +1308,47 @@ a {
   }
 }
 
+// Styled to match the other dropdowns (research areas, honors "Show more").
 .older-news {
   margin-top: 1.5rem;
 
   summary {
-    font-family: $headings-font-family;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: 600;
-    color: $text-secondary;
+    color: $accent;
     cursor: pointer;
-    padding: 0.6rem 0;
-    transition: color 0.2s ease;
+    padding: 0.35rem 0.95rem;
+    border: 1px solid rgba(19, 41, 75, 0.3);
+    border-radius: 999px;
+    background: rgba(19, 41, 75, 0.04);
+    transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
     list-style: none;
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.4rem;
     &::-webkit-details-marker { display: none; }
     &::marker { content: ''; }
-    &:hover { color: $link-color; }
+
+    &::before {
+      content: "\203A";
+      display: inline-block;
+      color: $accent-warm;
+      font-weight: 700;
+      transform: rotate(0deg);
+      transition: transform 0.2s ease;
+    }
+
+    &:hover {
+      color: $accent-warm;
+      border-color: rgba(255, 95, 5, 0.5);
+      background: rgba(255, 95, 5, 0.06);
+    }
   }
 
-  .older-news-caret {
-    font-size: 0.85em;
-    color: $link-color;
-    transition: transform 0.2s ease;
-  }
+  .older-news-caret { display: none; }
 
-  &[open] .older-news-caret { transform: rotate(90deg); }
+  &[open] summary::before { transform: rotate(90deg); }
+  &[open] summary { margin-bottom: 0.6rem; }
 }
 
 // ── Talk timeline ──────────────────────────────────────────────────────────

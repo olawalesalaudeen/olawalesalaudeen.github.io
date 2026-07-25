@@ -6,11 +6,19 @@ listing:
     template: _templates/news-list.ejs.md
 ---
 
-::: {.hero-header}
+::: {.hero-header .hero-header--stacked}
 
 ::: {.hero-photo}
 <!-- TODO: Replace with your profile photo -->
 ![](assets/img/profile.jpg)
+:::
+
+::: {.hero-identity}
+[Olawale (Wale) Salaudeen]{.hero-name}
+
+[Postdoc, Microsoft Research]{.hero-title .hero-msr}
+
+[Incoming Assistant Professor at the University of Illinois at Urbana-Champaign in Fall 2027]{.hero-title .hero-incoming}
 
 ::: {.hero-links}
 [{{< iconify bi envelope-fill >}}](mailto:olawale@mit.edu){aria-label="Email"}
@@ -21,20 +29,118 @@ listing:
 
 :::
 
-::: {.hero-identity}
-[Olawale (Wale) Salaudeen]{.hero-name}
+:::
 
-[Postdoc, Microsoft Research]{.hero-title .hero-msr}
+::: {.hero-bio}
 
-[Incoming Assistant Professor at the University of Illinois at Urbana-Champaign in Fall 2027]{.hero-title .hero-incoming}
+::: {.bio-tabs}
 
-[I am broadly interested in ensuring a future in which AI reliably advances human well-being. My research develops the science of valid measurement, prediction, and intervention for AI capabilities and risks, combining theory and algorithms to anticipate failures before they occur and improve reliability under real-world conditions and distribution shift. One application area of particular interest is in health and medicine.]{.hero-research}
+```{=html}
+<input type="checkbox" id="biotab-1" class="bio-tabs-input"><label for="biotab-1" class="bio-tabs-label">Bio <span class="bio-wc">~250 words</span></label><input type="checkbox" id="biotab-2" class="bio-tabs-input"><label for="biotab-2" class="bio-tabs-label">Short Bio <span class="bio-wc">~150 words</span></label><input type="checkbox" id="biotab-3" class="bio-tabs-input"><label for="biotab-3" class="bio-tabs-label">Minimal Bio <span class="bio-wc">~100 words</span></label>
+<script>
+document.querySelectorAll('.bio-tabs-input').forEach(cb => {
+  cb.addEventListener('change', () => {
+    if (cb.checked) {
+      document.querySelectorAll('.bio-tabs-input').forEach(other => {
+        if (other !== cb) other.checked = false;
+      });
+    }
+  });
+});
+</script>
+```
 
-[I am recruiting PhD students and postdocs for this coming cycle in [ECE](https://ece.illinois.edu/) or [CS](https://siebelschool.illinois.edu/)! More details to come.]{.hero-recruit}
+::: {.bio-tabs-panel .bio-tabs-panel-1}
+
+Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University of Illinois at Urbana-Champaign](https://illinois.edu/) and a Postdoctoral Researcher at [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/) on the [FATE](https://www.microsoft.com/en-us/research/group/fate/) team. He was previously an AI Center Fellow in Residence at [Schmidt Sciences](https://www.schmidtsciences.org/), a Postdoctoral Researcher at [MIT](https://www.mit.edu/) in the [Healthy ML Lab](https://healthyml.org/), and a Postdoctoral Scholar at the [Eric and Wendy Schmidt Center](https://www.ericandwendyschmidtcenter.org/) at the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/). Before his postdoctoral positions, he earned a Ph.D. in Computer Science from the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/) and the [Stanford Trustworthy AI Research (STAIR) Lab](https://stair.cs.stanford.edu/) at [Stanford University](https://www.stanford.edu/).
+
+His research develops the science of valid measurement and prediction of AI capabilities and risks, advances our understanding of the mechanisms underlying AI behavior and generalization, and develops algorithms and interventions that yield greater reliability under dynamic real-world conditions and distribution shift. His work has been published in leading AI and ML venues and recognized with paper awards, including a Best Paper Award at the NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle, as well as media coverage.
+
+He has received a Sloan Scholarship, a Beckman Graduate Research Fellowship, a GEM Associate Fellowship, and an NSF Miniature Brain Machinery Traineeship. He has interned at Sandia National Laboratories, Google Brain, Cruise LLC, and the [Max Planck Institute for Intelligent Systems](https://is.mpg.de/). He received a Bachelor of Science in Mechanical Engineering with minors in Computer Science and Mathematics from [Texas A&M University](https://www.tamu.edu/).
+
+:::
+
+::: {.bio-tabs-panel .bio-tabs-panel-2}
+
+Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University of Illinois at Urbana-Champaign](https://illinois.edu/) and a Postdoctoral Researcher at [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/) on the [FATE](https://www.microsoft.com/en-us/research/group/fate/) team. He was previously an AI Center Fellow in Residence at [Schmidt Sciences](https://www.schmidtsciences.org/), a Postdoctoral Researcher at [MIT](https://www.mit.edu/), and a Postdoctoral Scholar at the [Eric and Wendy Schmidt Center](https://www.ericandwendyschmidtcenter.org/) at the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/). He earned his Ph.D. in Computer Science at the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/) and the [Stanford STAIR Lab](https://stair.cs.stanford.edu/).
+
+His research develops the science of valid measurement and prediction of AI capabilities and risks, advances our understanding of the mechanisms underlying AI behavior and generalization, and develops algorithms and interventions that yield greater reliability under dynamic real-world conditions and distribution shift. His work has been recognized with paper awards, including a Best Paper Award at the NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle, and media coverage.
+
+:::
+
+::: {.bio-tabs-panel .bio-tabs-panel-3}
+
+Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University of Illinois at Urbana-Champaign](https://illinois.edu/) and a Postdoctoral Researcher at [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/) on the [FATE](https://www.microsoft.com/en-us/research/group/fate/) team. He earned his Ph.D. in Computer Science from the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/) and the [Stanford STAIR Lab](https://stair.cs.stanford.edu/). His research develops the science of valid measurement and prediction of AI capabilities and risks, advances understanding of the mechanisms underlying AI behavior and generalization, and develops algorithms and interventions for reliability under real-world distribution shift.
 
 :::
 
 :::
+
+:::
+
+::: {.recruit-banner}
+I am recruiting PhD students and postdocs for this coming cycle. Please apply through [ECE](https://ece.illinois.edu/) and/or [CS](https://siebelschool.illinois.edu/). I unfortunately cannot respond to emails regarding admissions.
+:::
+
+[I am broadly interested in ensuring a future in which AI is a source of positive societal impact. My research develops the science of valid measurement and prediction of AI capabilities and risks, advances our understanding of the mechanisms underlying AI behavior and generalization, and develops algorithms and interventions that yield greater reliability under dynamic real-world conditions and distribution shift. One application area of particular interest is health and medicine.]{.hero-research}
+
+```{=html}
+<div class="research-areas">
+  <details class="area">
+    <summary><span class="area-title">Valid Measurement and Prediction of AI Capabilities and Risks</span></summary>
+    <div class="area-body">
+      <p>AI systems exhibit jagged intelligence&mdash;they excel at some tasks but fail at others that share a common human capability, exhibiting seemingly incongruous behaviors. I develop the science of identifying and measuring AI-specific latent traits, capabilities, and risks to enable less jagged, more predictable behaviors across real-world settings.</p>
+      <ul class="area-pubs">
+        <li><a href="https://aiconstructlexis.github.io/" target="_blank" rel="noopener">AI Construct Lexis.</a> <em>In Review</em></li>
+        <li><a href="https://arxiv.org/abs/2505.10573" target="_blank" rel="noopener">Measurement to Meaning: A Validity-Centered Framework for AI Evaluation.</a> <em>In Review</em> <span class="pub-tag">preliminary in NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle</span></li>
+        <li><a href="https://arxiv.org/abs/2507.23009" target="_blank" rel="noopener">Stop Evaluating AI with Human Tests, Develop Principled, AI-specific Tests instead.</a> <em>ICML 2026 (Position Paper Track)</em></li>
+        <li><a href="https://arxiv.org/abs/2503.05336" target="_blank" rel="noopener">Toward an Evaluation Science for Generative AI Systems.</a> <em>The Bridge, NAE 2025</em></li>
+        <li><a href="https://openreview.net/forum?id=8yg3XadfIZ" target="_blank" rel="noopener">On Evaluating Methods vs. Evaluating Models.</a> <em>NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle</em> <span class="pub-award">Best Paper</span></li>
+      </ul>
+    </div>
+  </details>
+  <details class="area">
+    <summary><span class="area-title">Characterizing and Intervening on Causal and Spurious Mechanisms of AI Behavior</span></summary>
+    <div class="area-body">
+      <p>AI systems often rely on spurious, unexpected mechanisms of behavior, performing well in training environments but failing when conditions shift. I develop algorithms to identify and disentangle causal from spurious mechanisms so models rely on stable, generalizable, and causal patterns instead.</p>
+      <ul class="area-pubs">
+        <li><a href="https://arxiv.org/abs/2504.00186" target="_blank" rel="noopener">Are Domain Generalization Benchmarks with Accuracy on the Line Misspecified?</a> <em>TMLR 2025</em> <span class="pub-award">J2C</span> <em>+ ICLR 2026 Journal Track</em></li>
+        <li><a href="https://arxiv.org/abs/2404.02112" target="_blank" rel="noopener">ImageNot: A Contrast with ImageNet Preserves Model Rankings.</a> <em>TMLR 2026</em></li>
+        <li><a href="https://arxiv.org/abs/2510.24884" target="_blank" rel="noopener">Aggregation Hides OOD Generalization Failures from Spurious Correlations.</a> <em>NeurIPS 2025</em> <span class="pub-award">Spotlight</span></li>
+        <li><a href="https://arxiv.org/abs/2404.16277" target="_blank" rel="noopener">Causally Inspired Regularization Enables Domain General Representations.</a> <em>AISTATS 2024</em></li>
+        <li><a href="https://openreview.net/pdf?id=LbFK9pUlA5" target="_blank" rel="noopener">On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning.</a> <em>NeurIPS 2024 CRL Workshop</em> <span class="pub-award">Oral</span></li>
+      </ul>
+    </div>
+  </details>
+  <details class="area">
+    <summary><span class="area-title">Statistical Foundations of Inference-Time Adaptation of AI Systems</span></summary>
+    <div class="area-body">
+      <p>AI behaviors often become unreliable when deployment conditions change. I develop methods that use proxy variables and concept-based representations to adapt model behavior at inference time, without retraining.</p>
+      <ul class="area-pubs">
+        <li><a href="https://proceedings.mlr.press/v206/alabdulmohsin23a.html" target="_blank" rel="noopener">Adapting to Latent Subgroup Shifts via Concepts and Proxies.</a> <em>AISTATS 2023</em></li>
+        <li><a href="https://arxiv.org/abs/2403.07442" target="_blank" rel="noopener">Proxy Methods for Domain Adaptation.</a> <em>AISTATS 2024</em></li>
+        <li><a href="https://openreview.net/forum?id=Vthqn5VE7L" target="_blank" rel="noopener">Improving Single-round Active Adaptation: A Prediction Variability Perspective.</a> <em>TMLR 2025</em></li>
+      </ul>
+    </div>
+  </details>
+  <details class="area">
+    <summary><span class="area-title">Measuring and Steering Societal Impacts</span></summary>
+    <div class="area-body">
+      <p>AI systems can behave inequitably across the populations they serve, through biased data or learning objectives misaligned with user welfare. I develop tools to measure these disparities and methods to mitigate them in deployed systems.</p>
+      <ul class="area-pubs">
+        <li><span class="pub-title">Avoiding Common Failures in AI for Health and Medicine.</span> <em>Cell 2026</em> <span class="pub-tag">Review Article, To appear</span></li>
+        <li><a href="https://arxiv.org/abs/2506.04193" target="_blank" rel="noopener">Understanding Challenges to the Interpretation of Disaggregated Evaluations of Algorithmic Fairness.</a> <em>NeurIPS 2025</em></li>
+        <li><a href="https://openreview.net/forum?id=xRb0taq0pD" target="_blank" rel="noopener">On Group Sufficiency Under Label Bias.</a> <em>NeurIPS 2025</em></li>
+        <li><a href="https://arxiv.org/abs/2502.11429" target="_blank" rel="noopener">What's in a Query: Polarity-Aware Distribution-Based Fair Ranking.</a> <em>WWW 2025</em></li>
+      </ul>
+    </div>
+  </details>
+</div>
+```
+
+[See all publications →](publications.qmd){.section-link}
+
+## Experience
 
 ```{=html}
 <div class="career-timeline" aria-label="Career timeline">
@@ -225,135 +331,30 @@ listing:
 </script>
 ```
 
-::: {.hero-bio}
-
-::: {.bio-tabs}
-
-```{=html}
-<input type="checkbox" id="biotab-1" class="bio-tabs-input"><label for="biotab-1" class="bio-tabs-label">Bio <span class="bio-wc">~225 words</span></label><input type="checkbox" id="biotab-2" class="bio-tabs-input"><label for="biotab-2" class="bio-tabs-label">Short Bio <span class="bio-wc">~150 words</span></label><input type="checkbox" id="biotab-3" class="bio-tabs-input"><label for="biotab-3" class="bio-tabs-label">Minimal Bio <span class="bio-wc">~60 words</span></label>
-<script>
-document.querySelectorAll('.bio-tabs-input').forEach(cb => {
-  cb.addEventListener('change', () => {
-    if (cb.checked) {
-      document.querySelectorAll('.bio-tabs-input').forEach(other => {
-        if (other !== cb) other.checked = false;
-      });
-    }
-  });
-});
-</script>
-```
-
-::: {.bio-tabs-panel .bio-tabs-panel-1}
-
-Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University of Illinois at Urbana-Champaign](https://illinois.edu/) and a Postdoctoral Researcher at [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/) on the [FATE](https://www.microsoft.com/en-us/research/group/fate/) team. He was previously an AI Center Fellow in Residence at [Schmidt Sciences](https://www.schmidtsciences.org/), a Postdoctoral Researcher at [MIT](https://www.mit.edu/) in the [Healthy ML Lab](https://healthyml.org/), and a Postdoctoral Scholar at the [Eric and Wendy Schmidt Center](https://www.ericandwendyschmidtcenter.org/) at the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/). Before his postdoctoral positions, he earned a Ph.D. in Computer Science from the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/) and the [Stanford Trustworthy AI Research (STAIR) Lab](https://stair.cs.stanford.edu/) at [Stanford University](https://www.stanford.edu/).
-
-His research develops the science of valid measurement, prediction, and intervention for AI capabilities and risks, combining theory and algorithms to anticipate failures before they occur and improve reliability under real-world conditions and distribution shift. His work has been published in leading AI and ML venues and recognized with paper awards, including a Best Paper Award at the NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle, as well as media coverage.
-
-He has received a Sloan Scholarship, a Beckman Graduate Research Fellowship, a GEM Associate Fellowship, and an NSF Miniature Brain Machinery Traineeship. He has interned at Sandia National Laboratories, Google Brain, Cruise LLC, and the [Max Planck Institute for Intelligent Systems](https://is.mpg.de/). He received a Bachelor of Science in Mechanical Engineering with minors in Computer Science and Mathematics from [Texas A&M University](https://www.tamu.edu/).
-
-:::
-
-::: {.bio-tabs-panel .bio-tabs-panel-2}
-
-Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University of Illinois at Urbana-Champaign](https://illinois.edu/) and a Postdoctoral Researcher at [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/) on the [FATE](https://www.microsoft.com/en-us/research/group/fate/) team. He was previously an AI Center Fellow in Residence at [Schmidt Sciences](https://www.schmidtsciences.org/), a Postdoctoral Researcher at [MIT](https://www.mit.edu/), and a Postdoctoral Scholar at the [Eric and Wendy Schmidt Center](https://www.ericandwendyschmidtcenter.org/) at the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/). He earned his Ph.D. in Computer Science at the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/) and the [Stanford STAIR Lab](https://stair.cs.stanford.edu/).
-
-His research develops the science of valid measurement, prediction, and intervention for AI capabilities and risks, combining theory and algorithms to anticipate failures before they occur and improve reliability under real-world conditions and distribution shift. His work has been recognized with paper awards, including a Best Paper Award at the NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle, and media coverage.
-
-:::
-
-::: {.bio-tabs-panel .bio-tabs-panel-3}
-
-Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University of Illinois at Urbana-Champaign](https://illinois.edu/) and a Postdoctoral Researcher at [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/) on the [FATE](https://www.microsoft.com/en-us/research/group/fate/) team. He earned his Ph.D. in Computer Science from the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/) and the [Stanford STAIR Lab](https://stair.cs.stanford.edu/). His research develops the science of valid measurement, prediction, and intervention for AI capabilities and risks.
-
-:::
-
-:::
-
-:::
-
-::: {.home-section}
-
-## Selected Research Directions
-
-::: {.direction-grid}
-
-::: {.direction-box}
-### Valid Measurement and Prediction of AI Capabilities and Risks
-
-AI systems exhibit jagged intelligence---they excel at some tasks but fail at others that share a common human capability, exhibiting seemingly incongruous behaviors. I develop the science of identifying and measuring AI-specific latent traits, capabilities, and risks to enable less jagged, more predictable behaviors across real-world settings.
-
-::: {.direction-papers}
-- [AI Construct Lexis.](https://aiconstructlexis.github.io/) *In Review*
-- [Measurement to Meaning: A Validity-Centered Framework for AI Evaluation.](https://arxiv.org/abs/2505.10573) *In Review* [(preliminary in NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle)]{.pub-note-info}
-- [Stop Evaluating AI with Human Tests, Develop Principled, AI-specific Tests instead.](https://arxiv.org/abs/2507.23009) *ICML 2026 (Position Paper Track)*
-- [Toward an Evaluation Science for Generative AI Systems.](https://arxiv.org/abs/2503.05336) *The Bridge, NAE 2025*
-- [On Evaluating Methods vs. Evaluating Models.](https://openreview.net/forum?id=8yg3XadfIZ) *NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle* [(Best Paper)]{.pub-note}
-:::
-:::
-
-::: {.direction-box}
-### Characterizing and Intervening on Causal and Spurious Mechanisms of AI Behavior
-
-AI systems often rely on spurious, unexpected mechanisms of behavior, performing well in training environments but failing when conditions shift. I develop algorithms to identify and disentangle causal from spurious mechanisms so models rely on stable, causal patterns instead.
-
-::: {.direction-papers}
-- [Are Domain Generalization Benchmarks with Accuracy on the Line Misspecified?](https://arxiv.org/abs/2504.00186) *TMLR 2025* [(J2C)]{.pub-note} *+ ICLR 2026 Journal Track*
-- [ImageNot: A Contrast with ImageNet Preserves Model Rankings.](https://arxiv.org/abs/2404.02112) *TMLR 2026*
-- [Aggregation Hides OOD Generalization Failures from Spurious Correlations.](https://arxiv.org/abs/2510.24884) *NeurIPS 2025* [(Spotlight)]{.pub-note}
-- [Causally Inspired Regularization Enables Domain General Representations.](https://arxiv.org/abs/2404.16277) *AISTATS 2024*
-- [On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning.](https://openreview.net/pdf?id=LbFK9pUlA5) *NeurIPS 2024 CRL Workshop* [(Oral)]{.pub-note}
-:::
-:::
-
-::: {.direction-box}
-### Statistical Foundations of Inference-Time Adaptation of AI Systems
-
-AI behaviors often become unreliable when deployment conditions change. I develop methods that use proxy variables and concept-based representations to adapt model behavior at inference time, without retraining.
-
-::: {.direction-papers}
-- [Adapting to Latent Subgroup Shifts via Concepts and Proxies.](https://proceedings.mlr.press/v206/alabdulmohsin23a.html) *AISTATS 2023*
-- [Proxy Methods for Domain Adaptation.](https://arxiv.org/abs/2403.07442) *AISTATS 2024*
-- [Improving Single-round Active Adaptation: A Prediction Variability Perspective.](https://openreview.net/forum?id=Vthqn5VE7L) *TMLR 2025*
-:::
-:::
-
-::: {.direction-box}
-### Measuring and Steering Societal Impacts
-
-AI systems can behave inequitably across the populations they serve, through biased data or learning objectives misaligned with user welfare. I develop tools to measure these disparities and methods to mitigate them in deployed systems.
-
-::: {.direction-papers}
-- Avoiding Common Failures in AI for Health and Medicine. *Cell 2026* [(Review Article, To appear)]{.pub-note-info}
-- [Understanding Challenges to the Interpretation of Disaggregated Evaluations of Algorithmic Fairness.](https://arxiv.org/abs/2506.04193) *NeurIPS 2025*
-- [On Group Sufficiency Under Label Bias.](https://openreview.net/forum?id=xRb0taq0pD) *NeurIPS 2025*
-- [What's in a Query: Polarity-Aware Distribution-Based Fair Ranking.](https://arxiv.org/abs/2502.11429) *WWW 2025*
-:::
-:::
-
-:::
-
-[See all publications →](publications.qmd){.section-link}
-
-:::
-
 ::: {.home-section}
 
 ## Selected Honors
 
-::: {.honor-chips}
-- Schmidt Sciences AI Center Fellowship
-- Eric and Wendy Schmidt Scholar, Broad Institute
-- Best Paper, NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle
-- NeurIPS 2025 Top Area Chair
-- NYU Tandon Faculty First-Look Fellow
-- Georgia Tech FOCUS Fellow
-- Sloan Scholarship
-- Beckman Graduate Research Fellowship
-- GEM Associate Fellowship
-- NSF Miniature Brain Machinery Traineeship
-- ICML 2022 Top Reviewer (10%)
-:::
+```{=html}
+<ul class="honor-list">
+  <li>Schmidt Sciences AI Center Fellowship</li>
+  <li>Eric and Wendy Schmidt Scholar, Broad Institute</li>
+  <li>Best Paper, NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle</li>
+</ul>
+<details class="honor-more">
+  <summary><span class="honor-toggle"></span></summary>
+  <ul class="honor-list">
+    <li>NeurIPS 2025 Top Area Chair</li>
+    <li>NYU Tandon Faculty First-Look Fellow</li>
+    <li>Georgia Tech FOCUS Fellow</li>
+    <li>Sloan Scholarship</li>
+    <li>Beckman Graduate Research Fellowship</li>
+    <li>GEM Associate Fellowship</li>
+    <li>NSF Miniature Brain Machinery Traineeship</li>
+    <li>ICML 2022 Top Reviewer (10%)</li>
+  </ul>
+</details>
+```
 
 :::
 
@@ -372,11 +373,3 @@ AI systems can behave inequitably across the populations they serve, through bia
 <p>I was born in Nigeria and moved to Dallas, Texas at a young age. I played basketball and water polo in high school. I'm a loyal (if perpetually disappointed) Dallas sports fan, a cinephile, a social dancer (Latin and swing mostly), and a regular at live standup comedy. I'm full of hot takes, most of which I wouldn't die on, but am always eager to share and defend for fun. I also once won an intramural cornhole championship.</p>
 </div>
 ```
-
-::: {.home-section}
-
-## Mentoring
-
-I am happy to mentor students with overlapping research interests. Particularly for undergrads at MIT, programs like [UROP](https://urop.mit.edu/) are a great mechanism for mentorship. I am also very happy to give advice on applying to and navigating graduate programs in computer science, especially for those to whom this type of guidance would be otherwise unavailable.
-
-:::

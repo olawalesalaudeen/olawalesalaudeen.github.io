@@ -26,12 +26,15 @@ function tagsAttr(p) {
 }
 %>
 
-<div class="pub-filter" role="group" aria-label="Filter papers by area">
-  <button type="button" class="pub-filter-chip is-active" data-filter="all">All</button>
-  <button type="button" class="pub-filter-chip" data-filter="measurement">Measurement</button>
-  <button type="button" class="pub-filter-chip" data-filter="generalization">Generalization</button>
-  <button type="button" class="pub-filter-chip" data-filter="intervention">Intervention</button>
-  <button type="button" class="pub-filter-chip" data-filter="applications">Applications</button>
+<div class="pub-bar">
+  <div class="pub-filter" role="group" aria-label="Filter papers by area">
+    <button type="button" class="pub-filter-chip is-active" data-filter="all">All</button>
+    <button type="button" class="pub-filter-chip" data-filter="measurement">Measurement</button>
+    <button type="button" class="pub-filter-chip" data-filter="generalization">Generalization</button>
+    <button type="button" class="pub-filter-chip" data-filter="intervention">Intervention</button>
+    <button type="button" class="pub-filter-chip" data-filter="applications">Applications</button>
+  </div>
+  <input type="search" id="pub-search-input" class="pub-search-input" placeholder="Search title, author, venue&hellip;" aria-label="Search publications" autocomplete="off">
 </div>
 
 <div class="pub-list">
@@ -104,20 +107,48 @@ function tagsAttr(p) {
 
 </div>
 
+<p class="pub-no-results pub-hidden">No papers match your search.</p>
+
 <script>
 (function() {
   const filterBar = document.querySelector('.pub-filter');
   const list = document.querySelector('.pub-list');
+  const searchInput = document.getElementById('pub-search-input');
   if (!filterBar || !list) return;
 
   const chips = filterBar.querySelectorAll('.pub-filter-chip');
   const entries = list.querySelectorAll('.pub-entry');
   const yearHeaders = list.querySelectorAll('.pub-year');
 
-  function applyFilter(filter) {
+  // Precompute the searchable text (title, authors, venue, year/section) per entry.
+  entries.forEach(e => {
+    const parts = [];
+    ['.pub-title', '.pub-authors', '.pub-venue', '.pub-tags'].forEach(sel => {
+      const el = e.querySelector(sel);
+      if (el) parts.push(el.textContent);
+    });
+    let h = e.previousElementSibling;
+    while (h && !h.classList.contains('pub-year')) h = h.previousElementSibling;
+    if (h) parts.push(h.textContent);
+    e.dataset.search = parts.join(' ').toLowerCase();
+  });
+
+  // Multiple topic chips can be active at once and combine with AND logic;
+  // a non-empty search overrides the chips and matches every typed term.
+  const activeTags = new Set();
+  let query = '';
+
+  function apply() {
+    const terms = query ? query.split(/\s+/) : [];
     entries.forEach(e => {
-      const tags = (e.getAttribute('data-tags') || '').split(/\s+/).filter(Boolean);
-      const show = filter === 'all' || tags.includes(filter);
+      let show;
+      if (terms.length) {
+        const hay = e.dataset.search || '';
+        show = terms.every(t => hay.includes(t));
+      } else {
+        const tags = (e.getAttribute('data-tags') || '').split(/\s+/).filter(Boolean);
+        show = activeTags.size === 0 || Array.from(activeTags).every(t => tags.includes(t));
+      }
       e.classList.toggle('pub-hidden', !show);
     });
     yearHeaders.forEach(h => {
@@ -131,21 +162,56 @@ function tagsAttr(p) {
       }
       h.classList.toggle('pub-hidden', !hasVisible);
     });
+    const noResults = document.querySelector('.pub-no-results');
+    if (noResults) {
+      const anyVisible = Array.prototype.some.call(entries, e => !e.classList.contains('pub-hidden'));
+      noResults.classList.toggle('pub-hidden', anyVisible);
+    }
+  }
+
+  function syncChips() {
+    chips.forEach(c => {
+      const f = c.getAttribute('data-filter');
+      if (f === 'all') c.classList.toggle('is-active', activeTags.size === 0);
+      else c.classList.toggle('is-active', activeTags.has(f));
+    });
+  }
+
+  function clearSearch() {
+    if (searchInput) searchInput.value = '';
+    query = '';
   }
 
   chips.forEach(chip => {
     chip.addEventListener('click', () => {
-      chips.forEach(c => c.classList.remove('is-active'));
-      chip.classList.add('is-active');
-      applyFilter(chip.getAttribute('data-filter'));
+      clearSearch();
+      const f = chip.getAttribute('data-filter');
+      if (f === 'all') {
+        activeTags.clear();
+      } else {
+        if (activeTags.has(f)) activeTags.delete(f);
+        else activeTags.add(f);
+      }
+      syncChips();
+      apply();
     });
   });
 
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      query = searchInput.value.trim().toLowerCase();
+      apply();
+    });
+  }
+
+  // Clicking a tag on a paper filters to just that topic.
   list.querySelectorAll('.pub-tag').forEach(tag => {
     tag.addEventListener('click', () => {
-      const t = tag.getAttribute('data-tag');
-      const target = filterBar.querySelector('.pub-filter-chip[data-filter="' + t + '"]');
-      if (target) target.click();
+      clearSearch();
+      activeTags.clear();
+      activeTags.add(tag.getAttribute('data-tag'));
+      syncChips();
+      apply();
     });
   });
 })();

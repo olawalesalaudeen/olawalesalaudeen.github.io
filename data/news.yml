@@ -47,43 +47,43 @@
 - period: "Fall 2025"
   text: 'Our NeurIPS spotlight paper, <a href="https://arxiv.org/abs/2510.24884">Aggregation Hides OOD Generalization Failures from Spurious Correlations</a>, was featured in <a href="https://news.mit.edu/2026/why-its-critical-to-move-beyond-overly-aggregated-machine-learning-metrics-0120">MIT News</a>.'
   year: 2025
-  recent: true
+  recent: false
   type: paper
 
 - period: "Fall 2025"
   text: 'Our work <a href="https://openreview.net/forum?id=8yg3XadfIZ">On Evaluating Methods vs. Evaluating Models</a> received a best paper award at the NeurIPS Workshop on Evaluating the Evolving LLM Lifecycle.'
   year: 2025
-  recent: true
+  recent: false
   type: paper
 
 - period: "Fall 2025"
   text: 'Our <a href="https://hai.stanford.edu/policy/validating-claims-about-ai-a-policymakers-guide">policy brief</a> on validating claims about AI is now available.'
   year: 2025
-  recent: true
+  recent: false
   type: paper
 
 - period: "Fall 2025"
   text: 'Three papers accepted to NeurIPS 2025 (main track), including one spotlight: (i) <a href="https://arxiv.org/abs/2510.24884">Aggregation Hides OOD Generalization Failures from Spurious Correlations</a> (Spotlight), (ii) <a href="https://openreview.net/forum?id=xRb0taq0pD">On Group Sufficiency Under Label Bias</a>, and (iii) <a href="https://arxiv.org/abs/2506.04193">Understanding challenges to the interpretation of disaggregated evaluations of algorithmic fairness</a>.'
   year: 2025
-  recent: true
+  recent: false
   type: paper
 
 - period: "Fall 2025"
   text: 'Two papers accepted at the NeurIPS Workshop on Evaluating the Evolving LLM Lifecycle, including one oral: (i) <a href="https://openreview.net/forum?id=8yg3XadfIZ">On Evaluating Methods vs. Evaluating Models</a> (Oral) and (ii) <a href="https://arxiv.org/abs/2505.10573">Measurement to Meaning: A Validity-Centered Framework for AI Evaluation</a>.'
   year: 2025
-  recent: true
+  recent: false
   type: paper
 
 - period: "Fall 2025"
   text: 'I am co-organizing the <a href="https://sites.google.com/view/benchmarking-and-evaluating-ai">workshop on The Science of Benchmarking and Evaluating AI</a> at EurIPS 25 in Copenhagen.'
   year: 2025
-  recent: true
+  recent: false
   type: service
 
 - period: "Fall 2025"
   text: 'Our paper <a href="https://openreview.net/forum?id=Vthqn5VE7L">Improving Single-round Active Adaptation: A Prediction Variability Perspective</a> is accepted at TMLR.'
   year: 2025
-  recent: true
+  recent: false
   type: paper
 
 - period: "Summer 2025"

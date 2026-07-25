@@ -106,10 +106,53 @@ h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
 .hero-identity .hero-title.hero-incoming { color: #ff8a4c !important; }
 .hero-identity .hero-title.hero-msr { color: #4db2e6 !important; }
 
-.hero-identity .hero-research {
+.hero-identity .hero-research,
+.hero-research {
   color: #e7e5e4 !important;
   border-left-color: #8ab4f0 !important;
 }
+
+.research-areas .area { border-color: #3a3a3a !important; }
+.research-areas .area:first-child { border-top-color: #3a3a3a !important; }
+.research-areas .area > summary { color: #f5f5f4 !important; }
+.research-areas .area > summary::before { color: #ff8a4c !important; }
+.research-areas .area > summary:hover { color: #8ab4f0 !important; }
+.research-areas .area-body p { color: #c9c7c4 !important; }
+.research-areas .area-pubs li { color: #c9c7c4 !important; }
+.research-areas .area-pubs a,
+.research-areas .area-pubs .pub-title { color: #8ab4f0 !important; }
+.research-areas .area-pubs a:hover { color: #ff8a4c !important; }
+.research-areas .pub-award { color: #1a1a1a !important; background: #ff8a4c !important; }
+.research-areas .pub-tag { color: #8ab4f0 !important; background: rgba(138, 180, 240, 0.14) !important; }
+
+.pub-search-input {
+  color: #f5f5f4 !important;
+  background: #262626 !important;
+  border-color: #3a3a3a !important;
+}
+.pub-search-input::placeholder { color: #78716c !important; }
+.pub-search-input:focus {
+  border-color: #8ab4f0 !important;
+  box-shadow: 0 0 0 3px rgba(138, 180, 240, 0.15) !important;
+}
+.pub-no-results { color: #c9c7c4 !important; }
+.pub-no-results.pub-hidden { display: none !important; }
+
+.honor-more > summary {
+  color: #8ab4f0 !important;
+  border-color: rgba(138, 180, 240, 0.35) !important;
+  background: rgba(138, 180, 240, 0.08) !important;
+}
+.honor-more > summary::before { color: #ff8a4c !important; }
+.honor-more > summary:hover {
+  color: #ff8a4c !important;
+  border-color: rgba(255, 138, 76, 0.5) !important;
+  background: rgba(255, 138, 76, 0.1) !important;
+}
+
+.recruit-banner { background: rgba(255, 122, 46, 0.12) !important; color: #8ab4f0 !important; }
+.recruit-banner a { color: #8ab4f0 !important; }
+.recruit-banner a:hover { color: #ff8a4c !important; }
 
 .hero-recruit { color: #ff8a4c !important; }
 .hero-recruit a { color: #ff8a4c !important; }
@@ -202,9 +245,17 @@ h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
 .news-type--service { color: #c084fc !important; background: rgba(192, 132, 252, 0.15) !important; }
 .news-type--talk { color: #fb7185 !important; background: rgba(251, 113, 133, 0.15) !important; }
 
-.older-news summary { color: #d6d3d1 !important; }
-.older-news summary:hover { color: #8ab4f0 !important; }
-.older-news .older-news-caret { color: #8ab4f0 !important; }
+.older-news summary {
+  color: #8ab4f0 !important;
+  border-color: rgba(138, 180, 240, 0.35) !important;
+  background: rgba(138, 180, 240, 0.08) !important;
+}
+.older-news summary::before { color: #ff8a4c !important; }
+.older-news summary:hover {
+  color: #ff8a4c !important;
+  border-color: rgba(255, 138, 76, 0.5) !important;
+  background: rgba(255, 138, 76, 0.1) !important;
+}
 
 .home-section h2::after {
   background: linear-gradient(90deg, #8ab4f0, #5a86c8, rgba(138, 180, 240, 0.15)) !important;
@@ -292,10 +343,12 @@ h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
 .pub-note-info { color: #d6d3d1 !important; }
 
 // ── Publication tags + filter bar (dark) ────────────────────────────────────
-.pub-filter {
+.pub-bar {
   border-bottom-color: rgba(255, 255, 255, 0.08) !important;
   background: rgba(28, 25, 23, 0.92) !important;
+}
 
+.pub-filter {
   .pub-filter-chip {
     color: #d6d3d1 !important;
     background: transparent !important;
@@ -743,11 +796,11 @@ a {
   margin-top: 1.5rem;
 
   summary {
-    font-family: $headings-font-family;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: 600;
     cursor: pointer;
-    padding: 0.6rem 0;
+    padding: 0.35rem 0.95rem;
+    border-radius: 999px;
   }
 }
 
