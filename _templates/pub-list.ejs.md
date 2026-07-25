@@ -48,8 +48,8 @@ function tagsAttr(p) {
     <% if (p.author_note) { %><div class="pub-author-note"><%= p.author_note %></div><% } %>
     <div class="pub-venue">
       <%= p.venue %><% if (p.note) { %>
-        <% const noteLower = p.note.toLowerCase(); const isAward = !noteLower.startsWith('preliminary') && !noteLower.startsWith('extended') && !noteLower.startsWith('abstract') && !noteLower.includes('review'); %>
-        <span class="<%= isAward ? 'pub-note' : 'pub-note-info' %>">(<%= p.note %>)</span>
+        <% const noteLower = p.note.toLowerCase(); const isAward = !noteLower.startsWith('preliminary') && !noteLower.startsWith('extended') && !noteLower.startsWith('abstract') && !noteLower.includes('review') && !noteLower.includes('to appear'); %>
+        <span class="<%= isAward ? 'pub-note' : 'pub-note-info' %>"><%= p.note %></span>
       <% } %><% if (p.venue_suffix) { %> <%= p.venue_suffix %><% } %>
     </div>
     <% if (p.tags && p.tags.length > 0) { %><div class="pub-tags"><% for (const t of p.tags) { %><span class="pub-tag pub-tag--<%= t %>" data-tag="<%= t %>"><%= tagLabels[t] || t %></span><% } %></div><% } %>
@@ -81,8 +81,8 @@ function tagsAttr(p) {
     <% if (p.author_note) { %><div class="pub-author-note"><%= p.author_note %></div><% } %>
     <div class="pub-venue">
       <%= p.venue %><% if (p.note) { %>
-        <% const noteLower = p.note.toLowerCase(); const isAward = !noteLower.startsWith('preliminary') && !noteLower.startsWith('extended') && !noteLower.startsWith('abstract') && !noteLower.includes('review'); %>
-        <span class="<%= isAward ? 'pub-note' : 'pub-note-info' %>">(<%= p.note %>)</span>
+        <% const noteLower = p.note.toLowerCase(); const isAward = !noteLower.startsWith('preliminary') && !noteLower.startsWith('extended') && !noteLower.startsWith('abstract') && !noteLower.includes('review') && !noteLower.includes('to appear'); %>
+        <span class="<%= isAward ? 'pub-note' : 'pub-note-info' %>"><%= p.note %></span>
       <% } %><% if (p.venue_suffix) { %> <%= p.venue_suffix %><% } %>
     </div>
     <% if (p.tags && p.tags.length > 0) { %><div class="pub-tags"><% for (const t of p.tags) { %><span class="pub-tag pub-tag--<%= t %>" data-tag="<%= t %>"><%= tagLabels[t] || t %></span><% } %></div><% } %>
