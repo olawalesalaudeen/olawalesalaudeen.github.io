@@ -12,7 +12,7 @@ const contributed = items.filter(t => talkKind(t) === 'contributed');
 
 <% if (invited.length) { %>
 <div class="talk-section">
-  <h2 class="talk-section-title"><span class="talk-type-badge talk-type--invited">Invited</span> Talks</h2>
+  <h2 class="talk-section-title"><span class="talk-type-badge talk-type--invited">Invited</span> Selected Talks</h2>
   <div class="talk-year-entries">
   <% for (const t of invited) { %>
     <div class="talk-entry">
@@ -38,7 +38,7 @@ const contributed = items.filter(t => talkKind(t) === 'contributed');
 
 <% if (contributed.length) { %>
 <div class="talk-section">
-  <h2 class="talk-section-title"><span class="talk-type-badge talk-type--contributed">Contributed</span> Talks</h2>
+  <h2 class="talk-section-title"><span class="talk-type-badge talk-type--contributed">Contributed</span> Selected Talks</h2>
   <div class="talk-year-entries">
   <% for (const t of contributed) { %>
     <div class="talk-entry">
