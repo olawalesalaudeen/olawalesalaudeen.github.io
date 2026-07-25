@@ -79,7 +79,7 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
 :::
 
 ::: {.recruit-banner}
-I am recruiting PhD students and postdocs for this coming cycle. Please apply through [ECE](https://ece.illinois.edu/) and/or [CS](https://siebelschool.illinois.edu/). I unfortunately cannot respond to emails regarding admissions. [*I am also very interested in working with students from a wide range of academic backgrounds, including the social sciences (e.g., psychology and sociology), philosophy, policy, statistics, physics, mathematics, and related fields.*]{.recruit-secondary}
+I am recruiting PhD students and postdocs for this coming cycle. Please apply through [ECE](https://ece.illinois.edu/) and/or [CS](https://siebelschool.illinois.edu/). I unfortunately cannot respond to emails regarding admissions. [*I am also very interested in working with students from a wide range of academic backgrounds, including the social sciences (e.g., psychology and sociology), policy, philosophy, statistics, mathematics, physics, and related fields.*]{.recruit-secondary}
 :::
 
 [I am broadly interested in ensuring a future in which AI is a source of positive societal impact. My research develops the science of valid measurement and prediction of AI capabilities and risks, advances our understanding of the mechanisms underlying AI behavior and generalization, and develops algorithms and interventions that yield greater reliability under dynamic real-world conditions and distribution shift. One application area of particular interest is health and medicine.]{.hero-research}
