@@ -15,13 +15,19 @@
 # ── Recent News ─────────────────────────────────────────────────────────────
 
 - period: "Summer 2026"
+  text: 'I will give a guest lecture at the Harvard T.H. Chan School of Public Health Program in Clinical Effectiveness.'
+  year: 2026
+  recent: true
+  type: talk
+
+- period: "Summer 2026"
   text: 'I will join the <a href="https://www.uiuc.edu/">University of Illinois at Urbana-Champaign</a> as an Assistant Professor in the <a href="https://ece.illinois.edu/">Department of Electrical and Computer Engineering</a>, with affiliate appointments in the <a href="https://csl.illinois.edu/">Coordinated Science Laboratory</a> and the <a href="https://siebelschool.illinois.edu/">Siebel School of Computing and Data Science</a>, beginning Fall 2027.'
   year: 2026
   recent: true
   type: position
 
 - period: "Summer 2026"
-  text: 'I will join the <a href="https://www.microsoft.com/en-us/research/group/fate/">FATE</a> group at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/">Microsoft Research (NYC)</a> as a postdoctoral researcher in July 2026.'
+  text: 'I joined the <a href="https://www.microsoft.com/en-us/research/group/fate/">FATE</a> group at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/">Microsoft Research (NYC)</a> as a postdoctoral researcher.'
   year: 2026
   recent: true
   type: position

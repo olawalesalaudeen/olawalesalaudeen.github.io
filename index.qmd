@@ -124,7 +124,7 @@ I am recruiting PhD students and postdocs for Fall 2027. Please apply through [E
     </div>
   </details>
   <details class="area">
-    <summary><span class="area-title">Measuring and Steering Societal Impacts</span></summary>
+    <summary><span class="area-title">Measuring and Steering AI's Societal Impacts</span></summary>
     <div class="area-body">
       <p>AI systems can behave inequitably across the populations they serve, through biased data or learning objectives misaligned with user welfare. I develop tools to measure these disparities and methods to mitigate them in deployed systems.</p>
       <ul class="area-pubs">
@@ -139,6 +139,15 @@ I am recruiting PhD students and postdocs for Fall 2027. Please apply through [E
 ```
 
 [See all publications →](publications.qmd){.section-link}
+
+::: {.home-section}
+
+## Selected Recent News
+
+:::{#news-feed}
+:::
+
+:::
 
 ## Experience
 
@@ -356,15 +365,6 @@ I am recruiting PhD students and postdocs for Fall 2027. Please apply through [E
   </ul>
 </details>
 ```
-
-:::
-
-::: {.home-section}
-
-## Selected Recent News
-
-:::{#news-feed}
-:::
 
 :::
 
