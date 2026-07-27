@@ -603,6 +603,41 @@ a {
   }
 }
 
+// ── Random Thoughts takes (emoji bullets) ────────────────────────────────────
+
+.takes ul {
+  list-style: none !important;
+  margin: 0;
+  padding-left: 0;
+
+  li {
+    list-style: none !important;
+    margin: 0.6rem 0;
+    padding-left: 1.9rem;
+    text-indent: -1.9rem;
+    line-height: 1.6;
+  }
+
+  li::marker { content: none; }
+}
+
+.take-date {
+  color: #8a8a97;
+  font-size: 0.85em;
+  font-style: italic;
+}
+
+.take-pyramid {
+  display: block;
+  width: fit-content;
+  margin: 0.4rem auto;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.9em;
+  text-align: left;
+  text-indent: 0;
+  line-height: 1.9;
+}
+
 .honor-more {
   margin-top: 0.5rem;
 

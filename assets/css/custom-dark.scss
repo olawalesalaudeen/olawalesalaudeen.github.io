@@ -138,6 +138,36 @@ h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
 .pub-no-results { color: #c9c7c4 !important; }
 .pub-no-results.pub-hidden { display: none !important; }
 
+.takes ul {
+  list-style: none !important;
+  margin: 0;
+  padding-left: 0;
+}
+.takes ul li {
+  list-style: none !important;
+  margin: 0.6rem 0;
+  padding-left: 1.9rem;
+  text-indent: -1.9rem;
+  line-height: 1.6;
+}
+.takes ul li::marker { content: none; }
+.take-date {
+  color: #9aa0ab !important;
+  font-size: 0.85em;
+  font-style: italic;
+}
+
+.take-pyramid {
+  display: block;
+  width: fit-content;
+  margin: 0.4rem auto;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.9em;
+  text-align: left;
+  text-indent: 0;
+  line-height: 1.9;
+}
+
 .honor-more > summary {
   color: #8ab4f0 !important;
   border-color: rgba(138, 180, 240, 0.35) !important;

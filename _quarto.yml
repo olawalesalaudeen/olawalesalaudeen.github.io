@@ -18,6 +18,8 @@ website:
         href: talks.qmd
       - text: "Writing"
         href: blogs.qmd
+      - text: "Misc"
+        href: misc.qmd
     right:
       - icon: envelope
         href: "mailto:olawale@mit.edu"
