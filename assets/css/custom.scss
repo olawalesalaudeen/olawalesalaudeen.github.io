@@ -489,20 +489,23 @@ a {
 .hero-research {
   display: block;
   font-size: 1.05rem;
+  font-weight: 600;
   line-height: 1.65;
-  color: $accent;
+  color: $ink;
   margin: 0.25rem 0 1.4rem;
-  padding-left: 0.9rem;
-  border-left: 3px solid $accent;
+  padding: 0.8rem 1rem;
+  border: 1px solid $ink;
+  border-radius: 10px;
+  background: rgba(28, 25, 23, 0.03);
 }
 
 .research-areas {
   margin: 0 0 1rem;
 
   .area {
-    border-bottom: 1px solid $rule;
-
-    &:first-child { border-top: 1px solid $rule; }
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    padding: 0 0.7rem;
 
     > summary {
       list-style: none;
@@ -510,9 +513,9 @@ a {
       display: flex;
       align-items: flex-start;
       gap: 0.6rem;
-      padding: 0.7rem 0.2rem;
-      font-family: $headings-font-family;
-      font-size: 1.05rem;
+      padding: 0.4rem 0.2rem;
+      font-family: $font-family-sans-serif;
+      font-size: 1rem;
       font-weight: 600;
       color: $ink;
       transition: color 0.2s ease;
@@ -534,6 +537,17 @@ a {
     }
 
     &[open] > summary::before { transform: rotate(90deg); }
+
+    // Alternate Illinois orange / blue background tints
+    &:nth-of-type(odd) {
+      background: $accent-warm-bg;
+      > summary::before { color: $accent-warm; }
+    }
+
+    &:nth-of-type(even) {
+      background: $accent-blue-bg;
+      > summary::before { color: $accent; }
+    }
   }
 
   .area-body {

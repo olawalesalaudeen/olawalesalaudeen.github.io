@@ -109,14 +109,16 @@ h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
 .hero-identity .hero-research,
 .hero-research {
   color: #e7e5e4 !important;
-  border-left-color: #8ab4f0 !important;
+  border-color: #e7e5e4 !important;
+  background: rgba(245, 245, 244, 0.05) !important;
 }
 
-.research-areas .area { border-color: #3a3a3a !important; }
-.research-areas .area:first-child { border-top-color: #3a3a3a !important; }
 .research-areas .area > summary { color: #f5f5f4 !important; }
-.research-areas .area > summary::before { color: #ff8a4c !important; }
-.research-areas .area > summary:hover { color: #8ab4f0 !important; }
+.research-areas .area > summary:hover { color: #ffffff !important; }
+.research-areas .area:nth-of-type(odd) { background: rgba(255, 138, 76, 0.1) !important; }
+.research-areas .area:nth-of-type(odd) > summary::before { color: #ff8a4c !important; }
+.research-areas .area:nth-of-type(even) { background: rgba(138, 180, 240, 0.1) !important; }
+.research-areas .area:nth-of-type(even) > summary::before { color: #8ab4f0 !important; }
 .research-areas .area-body p { color: #c9c7c4 !important; }
 .research-areas .area-pubs li { color: #c9c7c4 !important; }
 .research-areas .area-pubs a,
