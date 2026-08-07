@@ -378,6 +378,37 @@ I am recruiting PhD students and postdocs for Fall 2027. Please apply through [E
 
 :::
 
+::: {.home-section}
+
+## Research Mentoring
+
+### Current
+
+```{=html}
+<ul class="honor-list">
+  <li><a href="https://www.awadieng.me/" target="_blank" rel="noopener">Awa Dieng</a> (Ph.D. Student @ MIT, 2025&ndash;Present)</li>
+  <li><a href="https://abinithago.github.io/" target="_blank" rel="noopener">Abinitha Gourabathina</a> (Ph.D. Student @ MIT, 2025&ndash;Present)</li>
+</ul>
+```
+
+### Previous
+
+```{=html}
+<ul class="honor-list">
+  <li><a href="https://lenastempfle.github.io/lenastempfle/" target="_blank" rel="noopener">Lena Stempfle</a> (Visiting Ph.D. Student @ MIT, 2024&ndash;25) &rarr; Postdoc, MIT</li>
+  <li><a href="https://www.linkedin.com/in/lucia-huo" target="_blank" rel="noopener">Lucia Huo</a> (Master&rsquo;s Student @ MIT, 2024&ndash;25)</li>
+  <li><a href="https://www.linkedin.com/in/odahleh" target="_blank" rel="noopener">Omar Dahleh</a> (MEng @ MIT, 2024&ndash;25) &rarr; Software Engineer, Lumos</li>
+  <li><a href="https://www.linkedin.com/in/sahalahmed" target="_blank" rel="noopener">Sahal Ahmed</a> (UROP @ MIT, 2024&ndash;25)</li>
+  <li><a href="https://www.linkedin.com/in/shinyweng/" target="_blank" rel="noopener">Shiny Weng</a> (M.S. @ Stanford, 2024&ndash;25)</li>
+  <li><a href="https://www.broadinstitute.org/bios/vivien-jiang" target="_blank" rel="noopener">Vivien Jiang</a> (BSRP @ the Broad Institute of MIT and Harvard, summer 2025)</li>
+  <li><a href="https://uzmahamid.netlify.app/" target="_blank" rel="noopener">Uzma Hamid</a> (LINXS @ Stanford University, summer 2024)</li>
+  <li><a href="https://www.linkedin.com/in/vikram-duvvur" target="_blank" rel="noopener">Vikram Duvvur</a> (Undergrad @ UIUC, 2021&ndash;22) &rarr; MS in Machine Learning @ CMU</li>
+  <li><a href="https://www.linkedin.com/in/elsayeaa" target="_blank" rel="noopener">Ahmed Elsayed</a> (DREU @ UIUC, summer 2021) &rarr; Software Engineer, Microsoft</li>
+</ul>
+```
+
+:::
+
 ```{=html}
 <div class="home-section">
 <h2>Fun Facts</h2>
