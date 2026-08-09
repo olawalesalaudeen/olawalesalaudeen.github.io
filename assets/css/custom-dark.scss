@@ -185,6 +185,20 @@ h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
 .recruit-banner { background: rgba(255, 122, 46, 0.12) !important; color: #8ab4f0 !important; }
 .recruit-banner a { color: #8ab4f0 !important; }
 .recruit-banner a:hover { color: #ff8a4c !important; }
+.recruit-dropdown-btn {
+  color: #8ab4f0 !important;
+  border-color: rgba(138, 180, 240, 0.35) !important;
+  background: rgba(138, 180, 240, 0.08) !important;
+}
+.recruit-dropdown-btn::before { color: #ff8a4c !important; }
+.recruit-dropdown-btn:hover,
+.recruit-dropdown-btn[aria-expanded="true"] {
+  color: #ff8a4c !important;
+  border-color: rgba(255, 138, 76, 0.5) !important;
+  background: rgba(255, 138, 76, 0.1) !important;
+}
+.recruit-details,
+.research-details { color: #e7e5e4 !important; }
 
 .hero-recruit { color: #ff8a4c !important; }
 .hero-recruit a { color: #ff8a4c !important; }

@@ -459,7 +459,7 @@ a {
   border-radius: 10px;
   text-align: center;
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.4;
 
   p { margin: 0; }
@@ -468,6 +468,78 @@ a {
     display: block;
     font-weight: 400;
     margin-top: 0.35rem;
+  }
+
+  .recruit-dropdowns {
+    margin-top: 0.55rem;
+  }
+
+  .recruit-dropdown-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem 0.65rem;
+  }
+
+  .recruit-dropdown-btn {
+    list-style: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0.35rem 0.95rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-family: inherit;
+    color: $accent;
+    border: 1px solid rgba(19, 41, 75, 0.3);
+    border-radius: 999px;
+    background: rgba(19, 41, 75, 0.04);
+    transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+
+    &::before {
+      content: "\203A";
+      display: inline-block;
+      color: $accent-warm;
+      font-weight: 700;
+      transform: rotate(0deg);
+      transition: transform 0.2s ease;
+    }
+
+    &:hover {
+      color: $accent-warm;
+      border-color: rgba(255, 95, 5, 0.5);
+      background: rgba(255, 95, 5, 0.06);
+    }
+
+    &[aria-expanded="true"] {
+      color: $accent-warm;
+      border-color: rgba(255, 95, 5, 0.5);
+      background: rgba(255, 95, 5, 0.06);
+
+      &::before { transform: rotate(90deg); }
+    }
+  }
+
+  .recruit-dropdown-panel {
+    margin-top: 0.55rem;
+  }
+
+  .recruit-details,
+  .research-details {
+    margin: 0 auto;
+    max-width: 52rem;
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.55;
+    text-align: left;
+  }
+
+  .research-details p {
+    margin: 0 0 0.75rem;
+
+    &:last-child { margin-bottom: 0; }
   }
 
   a {

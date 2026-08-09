@@ -79,7 +79,68 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
 :::
 
 ::: {.recruit-banner}
-I am recruiting PhD students and postdocs for Fall 2027. Please apply through [ECE](https://ece.illinois.edu/) and/or [CS](https://siebelschool.illinois.edu/). I unfortunately cannot respond to emails regarding admissions. [*I am very interested in working with students from a wide range of academic backgrounds on the topic of AI and Society, including the social sciences (e.g., psychology and sociology), policy, philosophy, statistics, mathematics, physics, and related fields.*]{.recruit-secondary}
+
+**I am recruiting PhD students and postdocs for Fall 2027!** PhD applicants should apply through [ECE](https://ece.illinois.edu/)/[CS](https://siebelschool.illinois.edu/). I unfortunately cannot respond to emails regarding PhD admissions. Postdoc applicants should reach out via email with their CV and a short intro and high-level description of the type of work they hope to do together.
+
+```{=html}
+<div class="recruit-dropdowns">
+  <div class="recruit-dropdown-buttons">
+    <button type="button" class="recruit-dropdown-btn" aria-expanded="false" aria-controls="recruit-panel-prospective" id="recruit-btn-prospective">
+      <span class="recruit-toggle">You?</span>
+    </button>
+    <button type="button" class="recruit-dropdown-btn" aria-expanded="false" aria-controls="recruit-panel-research" id="recruit-btn-research">
+      <span class="research-toggle">Me</span>
+    </button>
+    <button type="button" class="recruit-dropdown-btn" aria-expanded="false" aria-controls="recruit-panel-working" id="recruit-btn-working">
+      <span class="working-toggle">Us?</span>
+    </button>
+  </div>
+  <div class="recruit-dropdown-panel" id="recruit-panel-prospective" hidden>
+    <div class="research-details">
+      <p>I am looking for self-motivated, passionate students who care about problems at the intersection of AI and society. I welcome students from a wide range of backgrounds, including computer science and engineering, the social sciences (e.g., psychology and sociology), policy, philosophy, statistics, mathematics, physics, and related fields.</p>
+      <p>A strong fit brings at least one core strength, such as theory, algorithm and method development, empirical research, software engineering, or domain expertise relevant to translational impact, and is motivated to actively develop complementary skills. I am also looking for interests that complement rather than duplicate my own. I am especially excited to work with students whose backgrounds open research directions that would be difficult or impossible to pursue otherwise.</p>
+    </div>
+  </div>
+  <div class="recruit-dropdown-panel" id="recruit-panel-research" hidden>
+    <div class="research-details">
+      <p>I am drawn to research questions where there is still real room to shape how a problem is framed, studied, and solved. I gravitate toward problems that are foundational yet have clear implications for how AI systems are developed, evaluated, deployed, and used, especially in consequential domains like health and medicine. Depending on the question, my work spans theory, method development, large-scale empirical studies, and translational efforts.</p>
+      <p>Technically, I draw on tools from machine learning and statistics, including causal inference, representation learning, optimization, experimental design, and measurement theory, and from further afield when the problem calls for it. A central goal is to understand when, why, and how well machine learning systems work, and to make them reliable under the dynamic conditions in which they are actually used. The projects I like most connect these modes of inquiry rather than treating them as separate.</p>
+    </div>
+  </div>
+  <div class="recruit-dropdown-panel" id="recruit-panel-working" hidden>
+    <div class="research-details">
+      <p>Above all, I care about my students' success, and I see my role as helping them define their own goals and reach them. I like to work closely with students on problems we both find exciting and impactful. The best collaborations are ones where we learn from each other: you bring your own ideas, expertise, and perspective, and we think through uncertainty together rather than waiting until everything is figured out.</p>
+      <p>I value curiosity, careful thinking, openness to feedback, and a willingness to engage seriously with ideas, including pushing back on mine. My goal is for the experience to be fun, intellectually serious, and genuinely rewarding, even through the failed ideas and frustrations that come with ambitious research.</p>
+      <p>I also believe research should not come at the expense of your health or life outside work. There will sometimes be periods that require especially hard work, but I do not want that intensity to become the baseline. Research should be a source of joy, not undue stress.</p>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  const root = document.querySelector('.recruit-dropdowns');
+  if (!root) return;
+
+  const buttons = root.querySelectorAll('.recruit-dropdown-btn');
+  const panels = root.querySelectorAll('.recruit-dropdown-panel');
+
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      const panel = document.getElementById(btn.getAttribute('aria-controls'));
+      const isOpen = btn.getAttribute('aria-expanded') === 'true';
+
+      buttons.forEach(function (b) { b.setAttribute('aria-expanded', 'false'); });
+      panels.forEach(function (p) { p.hidden = true; });
+
+      if (!isOpen && panel) {
+        btn.setAttribute('aria-expanded', 'true');
+        panel.hidden = false;
+      }
+    });
+  });
+})();
+</script>
+```
+
 :::
 
 ::: {.home-section}
