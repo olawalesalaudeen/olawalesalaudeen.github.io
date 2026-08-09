@@ -110,7 +110,7 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
   </div>
   <div class="recruit-dropdown-panel" id="recruit-panel-working" hidden>
     <div class="research-details">
-      <p>Above all, I care about my students' success, and I see my role as helping them define their own goals and reach them. I like to work closely with students on problems we both find exciting and impactful. The best collaborations are ones where we learn from each other: you bring your own ideas, expertise, and perspective, and we think through uncertainty together rather than waiting until everything is figured out.</p>
+      <p>Above all, I care about my students' success, and I see my role as helping them define their own goals and reach them. I like to work closely with students on problems we both find exciting and impactful. The best collaborations are ones where we learn from each other: you bring your own ideas, expertise, and perspective, and we think through questions and decisions together.</p>
       <p>I value curiosity, careful thinking, openness to feedback, and a willingness to engage seriously with ideas, including pushing back on mine. My goal is for the experience to be fun, intellectually serious, and genuinely rewarding, even through the failed ideas and frustrations that come with ambitious research.</p>
       <p>I also believe research should not come at the expense of your health or life outside work. There will sometimes be periods that require especially hard work, but I do not want that intensity to become the baseline. Research should be a source of joy, not undue stress.</p>
     </div>
