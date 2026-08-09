@@ -98,13 +98,13 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
   <div class="recruit-dropdown-panel" id="recruit-panel-prospective" hidden>
     <div class="research-details">
       <p>I am looking for self-motivated, passionate students who care about problems at the intersection of AI and society.</p>
-      <p>A strong fit brings at least one core strength, such as theory, algorithm and method development, empirical research, software engineering, or domain expertise relevant to translational impact, and is motivated to actively develop complementary skills. I am also looking for interests that complement rather than duplicate my own. I am especially excited to work with students whose backgrounds open research directions that would be difficult or impossible to pursue otherwise.</p>
+      <p>A strong fit brings at least one core strength, such as theory, algorithm and method development, empirical research, or domain expertise relevant to translational impact, and is motivated to actively develop complementary skills. I am also looking for interests that complement rather than duplicate my own. I am especially excited to work with students whose backgrounds open research directions that would be difficult or impossible to pursue otherwise.</p>
       <p>I welcome students from a wide range of backgrounds, including computer science and engineering, the social sciences (e.g., psychology and sociology), policy, philosophy, statistics, mathematics, physics, and related fields.</p>
     </div>
   </div>
   <div class="recruit-dropdown-panel" id="recruit-panel-research" hidden>
     <div class="research-details">
-      <p>I am drawn to research questions where there is still real room to shape how a problem is framed, studied, and solved. I gravitate toward problems that are foundational yet have clear implications for how AI systems are developed, evaluated, deployed, and used, especially in consequential domains like health and medicine. Depending on the question, my work spans theory, method development, large-scale empirical studies, and translational efforts.</p>
+      <p>I am drawn to research questions where there is still real room to shape how a problem is framed, studied, and solved. I gravitate toward problems that are foundational yet have clear implications for how modern AI systems are developed, evaluated, deployed, and used, especially in consequential domains like health and medicine. Depending on the question, my work spans theory, method development, large-scale empirical studies, and translational efforts.</p>
       <p>Technically, I draw on tools from machine learning and statistics, including causal inference, representation learning, optimization, experimental design, and measurement theory, and from further afield when the problem calls for it. A central goal is to understand when, why, and how well machine learning systems work, and to make them reliable under the dynamic conditions in which they are actually used. The projects I like most connect these modes of inquiry rather than treating them as separate.</p>
     </div>
   </div>
