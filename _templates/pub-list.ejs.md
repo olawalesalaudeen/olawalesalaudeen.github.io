@@ -24,6 +24,13 @@ const tagLabels = {
 function tagsAttr(p) {
   return Array.isArray(p.tags) ? p.tags.join(' ') : '';
 }
+
+function linkLabel(label, p) {
+  if (label.toLowerCase() === 'paper' && String(p.venue || '').toLowerCase().includes('workshop')) {
+    return 'workshop paper';
+  }
+  return label;
+}
 %>
 
 <div class="pub-bar">
@@ -57,7 +64,7 @@ function tagsAttr(p) {
     <% if (p.links && typeof p.links === 'object') {
       const linkEntries = Object.entries(p.links).filter(([k, v]) => v && v !== '#');
       for (const [label, url] of linkEntries) { %>
-        <a href="<%= url %>" class="pub-link" target="_blank" rel="noopener"><%= label %></a>
+        <a href="<%= url %>" class="pub-link" target="_blank" rel="noopener"><%= linkLabel(label, p) %></a>
     <% } } %>
     <% if (p.bibtex) { %>
       <button class="pub-link bib-toggle" onclick="document.getElementById('bib-<%= bibIdx %>').classList.toggle('bib-visible')" aria-label="Toggle BibTeX">bib</button>
@@ -90,7 +97,7 @@ function tagsAttr(p) {
     <% if (p.links && typeof p.links === 'object') {
       const linkEntries = Object.entries(p.links).filter(([k, v]) => v && v !== '#');
       for (const [label, url] of linkEntries) { %>
-        <a href="<%= url %>" class="pub-link" target="_blank" rel="noopener"><%= label %></a>
+        <a href="<%= url %>" class="pub-link" target="_blank" rel="noopener"><%= linkLabel(label, p) %></a>
     <% } } %>
     <% if (p.bibtex) { %>
       <button class="pub-link bib-toggle" onclick="document.getElementById('bib-<%= bibIdx %>').classList.toggle('bib-visible')" aria-label="Toggle BibTeX">bib</button>
