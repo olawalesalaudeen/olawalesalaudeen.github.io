@@ -148,7 +148,7 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
 
 ## Research
 
-[I am broadly interested in ensuring a future in which AI is a source of positive societal impact. My research develops the science of valid measurement and prediction of AI capabilities and risks, advances our understanding of the mechanisms underlying AI behavior and generalization, and develops algorithms and interventions that yield greater reliability under dynamic real-world conditions and distribution shift. One application area of particular interest is health and medicine.]{.hero-research}
+[I am broadly interested in the scientific foundations of AI systems that have positive societal impact. Currently, this means developing the science of valid measurement and prediction of AI capabilities and risks, advancing our understanding of the mechanisms underlying AI behavior and generalization, and developing algorithms and interventions that yield greater reliability under dynamic real-world conditions, that is, under distribution shift. One application area of particular interest is health and medicine.]{.hero-research}
 
 ```{=html}
 <div class="research-areas">
