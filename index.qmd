@@ -148,7 +148,7 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
 
 ## Research
 
-[I am broadly interested in the scientific foundations of **AI systems that have positive societal impact**. **A central question underlying this goal is one of generalization: when can we know/ensure that an AI system can do something we have never directly observed it do?** I approach this question from several directions, including developing the science of valid measurement and prediction of AI capabilities and risks, understanding the mechanisms that govern AI behavior and generalization, and developing algorithms and interventions that help AI systems remain reliable as real-world conditions change. One application area of particular interest is health and medicine.]{.hero-research}
+[I am broadly interested in the scientific foundations of **AI systems that have positive societal impact**. **A central question underlying this goal is one of generalization: when can we know/ensure that an AI system can/will do something we have never directly observed it do in a specific desired context?** I approach this question from several directions, including developing the science of valid measurement and prediction of AI capabilities and risks, understanding the mechanisms that govern AI behavior and generalization, and developing algorithms and interventions that help AI systems remain reliable as real-world conditions change. One application area of particular interest is health and medicine.]{.hero-research}
 
 ```{=html}
 <div class="research-areas">
