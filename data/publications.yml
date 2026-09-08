@@ -118,7 +118,7 @@
   featured: false
   tags: [intervention, applications]
   links:
-    paper: "https://openreview.net/forum?id=xRb0taq0pD"
+    paper: "https://openreview.net/pdf?id=xRb0taq0pD"
   bibtex: |
     @inproceedings{zhang2025sufficiency,
       title={On Group Sufficiency Under Label Bias},
@@ -281,7 +281,7 @@
   featured: false
   tags: [measurement, generalization]
   links:
-    paper: "https://openreview.net/pdf?id=LbFK9pUlA5"
+    paper: "https://openreview.net/forum?id=LbFK9pUlA5"
     blog: "blogs/proxy-benchmarks.html"
   bibtex: |
     @inproceedings{salaudeen2024proxy,

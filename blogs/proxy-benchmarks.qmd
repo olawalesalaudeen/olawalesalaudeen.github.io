@@ -69,7 +69,7 @@ A dataset with accuracy on the line isn't doing what most of us think it's doing
 
 ## Interested in the details?
 
-- Read the full paper [here](https://openreview.net/pdf?id=LbFK9pUlA5)
+- Read the full paper [here](https://openreview.net/forum?id=LbFK9pUlA5)
 
 ### Cite
 

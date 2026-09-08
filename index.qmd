@@ -186,7 +186,7 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
         <li><a href="https://arxiv.org/abs/2404.02112" target="_blank" rel="noopener">ImageNot: A Contrast with ImageNet Preserves Model Rankings.</a> <em>TMLR 2026</em></li>
         <li><a href="https://arxiv.org/abs/2510.24884" target="_blank" rel="noopener">Aggregation Hides OOD Generalization Failures from Spurious Correlations.</a> <em>NeurIPS 2025</em> <span class="pub-award">Spotlight</span></li>
         <li><a href="https://arxiv.org/abs/2404.16277" target="_blank" rel="noopener">Causally Inspired Regularization Enables Domain General Representations.</a> <em>AISTATS 2024</em></li>
-        <li><a href="https://openreview.net/pdf?id=LbFK9pUlA5" target="_blank" rel="noopener">On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning.</a> <em>NeurIPS 2024 CRL Workshop</em> <span class="pub-award">Oral</span></li>
+        <li><a href="https://openreview.net/forum?id=LbFK9pUlA5" target="_blank" rel="noopener">On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning.</a> <em>NeurIPS 2024 CRL Workshop</em> <span class="pub-award">Oral</span></li>
       </ul>
     </div>
   </details>
@@ -195,7 +195,7 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
     <div class="area-body">
       <p>AI behaviors often become unreliable when deployment conditions change. I develop methods that use proxy variables and concept-based representations to adapt model behavior at inference time, without retraining.</p>
       <ul class="area-pubs">
-        <li><a href="https://proceedings.mlr.press/v206/alabdulmohsin23a.html" target="_blank" rel="noopener">Adapting to Latent Subgroup Shifts via Concepts and Proxies.</a> <em>AISTATS 2023</em></li>
+        <li><a href="https://arxiv.org/abs/2212.11254" target="_blank" rel="noopener">Adapting to Latent Subgroup Shifts via Concepts and Proxies.</a> <em>AISTATS 2023</em></li>
         <li><a href="https://arxiv.org/abs/2403.07442" target="_blank" rel="noopener">Proxy Methods for Domain Adaptation.</a> <em>AISTATS 2024</em></li>
         <li><a href="https://openreview.net/forum?id=Vthqn5VE7L" target="_blank" rel="noopener">Improving Single-round Active Adaptation: A Prediction Variability Perspective.</a> <em>TMLR 2025</em></li>
       </ul>
@@ -208,7 +208,7 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
       <ul class="area-pubs">
         <li><span class="pub-title">Avoiding Common Failures in AI for Health and Medicine.</span> <em>Cell 2026</em> <span class="pub-tag">Review Article, To appear</span></li>
         <li><a href="https://arxiv.org/abs/2506.04193" target="_blank" rel="noopener">Understanding Challenges to the Interpretation of Disaggregated Evaluations of Algorithmic Fairness.</a> <em>NeurIPS 2025</em></li>
-        <li><a href="https://openreview.net/forum?id=xRb0taq0pD" target="_blank" rel="noopener">On Group Sufficiency Under Label Bias.</a> <em>NeurIPS 2025</em></li>
+        <li><a href="https://openreview.net/pdf?id=xRb0taq0pD" target="_blank" rel="noopener">On Group Sufficiency Under Label Bias.</a> <em>NeurIPS 2025</em></li>
         <li><a href="https://arxiv.org/abs/2502.11429" target="_blank" rel="noopener">What's in a Query: Polarity-Aware Distribution-Based Fair Ranking.</a> <em>WWW 2025</em></li>
       </ul>
     </div>
