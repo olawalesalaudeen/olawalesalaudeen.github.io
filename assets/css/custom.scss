@@ -381,6 +381,84 @@ a {
   }
 }
 
+.name-pronunciation {
+  margin: 0.15rem 0 0.7rem;
+  max-width: 40rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: $ink-muted;
+
+  strong {
+    font-weight: 600;
+    color: $ink;
+  }
+
+  em {
+    font-style: italic;
+    color: $ink;
+  }
+
+  >summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.35rem;
+    padding: 0.15rem 0;
+    font-size: inherit;
+    font-weight: 400;
+    color: inherit;
+    line-height: inherit;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::marker {
+      content: "";
+    }
+
+    &::before {
+      content: "\203A";
+      display: inline-block;
+      flex: 0 0 auto;
+      color: $accent-warm;
+      font-weight: 700;
+      transform: rotate(0deg);
+      transition: transform 0.2s ease;
+    }
+
+    &:hover {
+      color: $accent;
+    }
+  }
+
+  &[open]>summary::before {
+    transform: rotate(90deg);
+  }
+}
+
+.name-pronunciation-body {
+  margin-top: 0.55rem;
+  text-align: left;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid $rule;
+  border-radius: 10px;
+  background: rgba(28, 25, 23, 0.03);
+
+  p {
+    margin: 0 0 0.7rem;
+    font-size: 0.92rem;
+    line-height: 1.7;
+    color: $ink-2;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .hero-links {
   display: flex;
   gap: 1.1rem;

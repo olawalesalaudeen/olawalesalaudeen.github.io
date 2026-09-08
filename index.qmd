@@ -16,6 +16,18 @@ listing:
 ::: {.hero-identity}
 [Olawale (Wale) Salaudeen]{.hero-name}
 
+```{=html}
+<details class="name-pronunciation">
+  <summary><strong>Pronouncing my name (roughly):</strong> <em>oh-la-wah-ley</em> (Olawale) or <em>wah-ley</em> (Wale).</summary>
+  <div class="name-pronunciation-body">
+    <p>My full name is <strong>Olawale Salaudeen</strong>; effectively everyone calls me Wale. Generally speaking, if you are writing my name down in any non-conversational setting, I prefer Olawale. My last name is pronounced roughly <em>sah-lah-oo-deen</em>.</p>
+    <p>I share my first name, at least colloquially, with the incredible rapper and lyricist <a href="https://en.wikipedia.org/wiki/Wale_(rapper)" target="_blank" rel="noopener">Wale</a>, although our full first names are technically different: Olawale vs. Olubowale.</p>
+    <p>Correct pronunciation is entirely optional, as long as I know you're referring to me. The pronunciation someone uses often reflects how we know each other, where they first encountered my name, or who they learned it from, which I find kind of fun.</p>
+    <p>Some people nevertheless feel compelled to work very hard to pronounce it &ldquo;correctly.&rdquo; I should note that I cannot quite pronounce my first name correctly in my English accent either. I have to switch to my Yoruba accent. Do with that what you will :)</p>
+  </div>
+</details>
+```
+
 [Postdoc, Microsoft Research]{.hero-title .hero-msr}
 
 [Incoming Assistant Professor at the University of Illinois at Urbana-Champaign in Fall 2027]{.hero-title .hero-incoming}
