@@ -576,6 +576,10 @@ a {
     margin: 0;
   }
 
+  p+p {
+    margin-top: 0.45rem;
+  }
+
   .recruit-secondary {
     display: block;
     font-weight: 400;
@@ -586,10 +590,24 @@ a {
     margin-top: 0.55rem;
   }
 
+  .recruit-dropdowns+.recruit-dropdowns {
+    margin-top: 0.7rem;
+  }
+
+  .recruit-row-label {
+    font-weight: 400;
+    font-size: 0.85rem;
+    color: $accent;
+    opacity: 0.78;
+    white-space: nowrap;
+    padding: 0.2rem 0;
+  }
+
   .recruit-dropdown-buttons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 0.5rem 0.65rem;
   }
 

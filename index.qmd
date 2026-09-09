@@ -92,19 +92,49 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
 
 ::: {.recruit-banner}
 
-**I am recruiting PhD students and postdocs for Fall 2027!** PhD applicants should apply through [ECE](https://ece.illinois.edu/)/[CS](https://siebelschool.illinois.edu/). I unfortunately cannot respond to emails regarding PhD admissions. Postdoc applicants should reach out via email with their CV and a short intro and high-level description of the type of work they hope to do together.
+**I am recruiting PhD students and postdocs for Fall 2027!**
 
 ```{=html}
+<div class="recruit-dropdowns recruit-audience">
+  <div class="recruit-dropdown-buttons">
+    <span class="recruit-row-label">Read if prospective:</span>
+    <button type="button" class="recruit-dropdown-btn" aria-expanded="false" aria-controls="recruit-panel-phd" id="recruit-btn-phd">
+      PhD student
+    </button>
+    <button type="button" class="recruit-dropdown-btn" aria-expanded="false" aria-controls="recruit-panel-postdoc" id="recruit-btn-postdoc">
+      Postdoc
+    </button>
+    <button type="button" class="recruit-dropdown-btn" aria-expanded="false" aria-controls="recruit-panel-uiuc" id="recruit-btn-uiuc">
+      Already at UIUC
+    </button>
+  </div>
+  <div class="recruit-dropdown-panel" id="recruit-panel-phd" hidden>
+    <div class="research-details">
+      <p>PhD students should apply through <a href="https://ece.illinois.edu/">ECE</a>/<a href="https://siebelschool.illinois.edu/">CS</a>, indicate their interest in working with me, and describe how their research interests align with my work in their application materials. I unfortunately cannot respond to emails regarding PhD admissions.</p>
+    </div>
+  </div>
+  <div class="recruit-dropdown-panel" id="recruit-panel-postdoc" hidden>
+    <div class="research-details">
+      <p>Postdoc applicants should reach out via email with their CV and a short intro and high-level description of the type of work they hope to do together.</p>
+    </div>
+  </div>
+  <div class="recruit-dropdown-panel" id="recruit-panel-uiuc" hidden>
+    <div class="research-details">
+      <p>PhD, master's, and undergraduate students already at UIUC should email me directly with a brief description of their background and the kinds of questions or projects they are interested in pursuing.</p>
+    </div>
+  </div>
+</div>
 <div class="recruit-dropdowns">
   <div class="recruit-dropdown-buttons">
+    <span class="recruit-row-label">More details on:</span>
     <button type="button" class="recruit-dropdown-btn" aria-expanded="false" aria-controls="recruit-panel-prospective" id="recruit-btn-prospective">
-      <span class="recruit-toggle">You?</span>
+      You?
     </button>
     <button type="button" class="recruit-dropdown-btn" aria-expanded="false" aria-controls="recruit-panel-research" id="recruit-btn-research">
-      <span class="research-toggle">Me</span>
+      Me
     </button>
     <button type="button" class="recruit-dropdown-btn" aria-expanded="false" aria-controls="recruit-panel-working" id="recruit-btn-working">
-      <span class="working-toggle">Us?</span>
+      Us?
     </button>
   </div>
   <div class="recruit-dropdown-panel" id="recruit-panel-prospective" hidden>
@@ -130,24 +160,23 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
 </div>
 <script>
 (function () {
-  const root = document.querySelector('.recruit-dropdowns');
-  if (!root) return;
+  document.querySelectorAll('.recruit-dropdowns').forEach(function (root) {
+    const buttons = root.querySelectorAll('.recruit-dropdown-btn');
+    const panels = root.querySelectorAll('.recruit-dropdown-panel');
 
-  const buttons = root.querySelectorAll('.recruit-dropdown-btn');
-  const panels = root.querySelectorAll('.recruit-dropdown-panel');
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        const panel = document.getElementById(btn.getAttribute('aria-controls'));
+        const isOpen = btn.getAttribute('aria-expanded') === 'true';
 
-  buttons.forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      const panel = document.getElementById(btn.getAttribute('aria-controls'));
-      const isOpen = btn.getAttribute('aria-expanded') === 'true';
+        buttons.forEach(function (b) { b.setAttribute('aria-expanded', 'false'); });
+        panels.forEach(function (p) { p.hidden = true; });
 
-      buttons.forEach(function (b) { b.setAttribute('aria-expanded', 'false'); });
-      panels.forEach(function (p) { p.hidden = true; });
-
-      if (!isOpen && panel) {
-        btn.setAttribute('aria-expanded', 'true');
-        panel.hidden = false;
-      }
+        if (!isOpen && panel) {
+          btn.setAttribute('aria-expanded', 'true');
+          panel.hidden = false;
+        }
+      });
     });
   });
 })();
