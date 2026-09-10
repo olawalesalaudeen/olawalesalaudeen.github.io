@@ -189,7 +189,7 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
 
 ## Research
 
-I am broadly interested in the scientific foundations of AI systems that have positive societal impact. Much of my work centers on generalization in modern AI: when and why systems generalize, what properties of a system tell us about how it will behave in settings we have not directly tested, how we can develop methods that cause systems to generalize according to the objectives and principles we intend, and how all of this informs consequential decisions about the roles AI systems play in society.
+I am broadly interested in the scientific foundations of AI systems that have positive societal impact. Much of my work centers on understanding generalization in modern AI, or how systems behave beyond the examples, environments, and conditions on which they were developed or directly evaluated. I study when and why systems generalize, what properties of a system tell us about generalization, how we can develop methods that cause systems to generalize according to the objectives and principles we intend, and how these questions inform consequential decisions about the roles AI systems play in society.
 
 I'm especially excited about:
 
