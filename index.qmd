@@ -199,74 +199,55 @@ I'm especially excited about:
     <summary><span class="area-title">Algorithms for improved generalization</span></summary>
     <div class="area-body">
       <p>I'm interested in pre- and post-training methods that push models to generalize according to the underlying objectives, principles, or mechanisms we care about, rather than relying on surface-level cues or exploitable proxies. For example, how can we train systems to infer and pursue the intent behind a reward rather than merely optimize for the easiest way to obtain it? More broadly, I want to understand how training objectives, representations, environments, and interventions shape the kinds of generalization that emerge. I'm especially interested in how and if tools from causal representation learning and mechanism identification, distributionally robust optimization, and information theory can help address these questions.</p>
+      <details class="related-work">
+        <summary>Relevant work on Characterizing and Intervening on Causal and Spurious Mechanisms of AI Behavior</summary>
+        <ul class="area-pubs">
+          <li><a href="https://arxiv.org/abs/2504.00186" target="_blank" rel="noopener">Are Domain Generalization Benchmarks with Accuracy on the Line Misspecified?</a> <em>TMLR 2025</em> <span class="pub-award">J2C</span> <em>+ ICLR 2026 Journal Track</em></li>
+          <li><a href="https://arxiv.org/abs/2404.02112" target="_blank" rel="noopener">ImageNot: A Contrast with ImageNet Preserves Model Rankings.</a> <em>TMLR 2026</em></li>
+          <li><a href="https://arxiv.org/abs/2510.24884" target="_blank" rel="noopener">Aggregation Hides OOD Generalization Failures from Spurious Correlations.</a> <em>NeurIPS 2025</em> <span class="pub-award">Spotlight</span></li>
+          <li><a href="https://arxiv.org/abs/2404.16277" target="_blank" rel="noopener">Causally Inspired Regularization Enables Domain General Representations.</a> <em>AISTATS 2024</em></li>
+          <li><a href="https://openreview.net/forum?id=LbFK9pUlA5" target="_blank" rel="noopener">On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning.</a> <em>NeurIPS 2024 CRL Workshop</em> <span class="pub-award">Oral</span></li>
+        </ul>
+      </details>
+      <details class="related-work">
+        <summary>Relevant work on Statistical Foundations of Inference-Time Adaptation of AI Systems</summary>
+        <ul class="area-pubs">
+          <li><a href="https://arxiv.org/abs/2212.11254" target="_blank" rel="noopener">Adapting to Latent Subgroup Shifts via Concepts and Proxies.</a> <em>AISTATS 2023</em></li>
+          <li><a href="https://arxiv.org/abs/2403.07442" target="_blank" rel="noopener">Proxy Methods for Domain Adaptation.</a> <em>AISTATS 2024</em></li>
+          <li><a href="https://openreview.net/forum?id=Vthqn5VE7L" target="_blank" rel="noopener">Improving Single-round Active Adaptation: A Prediction Variability Perspective.</a> <em>TMLR 2025</em></li>
+        </ul>
+      </details>
     </div>
   </details>
   <details class="area">
-    <summary><span class="area-title">New paradigms for AI evaluation</span></summary>
+    <summary><span class="area-title">New paradigms of generalizable AI evaluation</span></summary>
     <div class="area-body">
       <p>I'm interested in rethinking how we study AI systems, rather than primarily studying the limitations of existing benchmarks or other mechanisms for hill-climbing within current evaluation paradigms. Many of our evaluation norms were developed for very different kinds of systems and use cases, and it is not obvious that their underlying assumptions should continue to hold. This means developing new technical approaches that engage directly with what is distinctive about modern AI systems. For example: evaluation through intervention rather than observation alone, adaptive experiments tailored to each individual system being studied, methods for mapping spaces of possible behavior rather than performance on a fixed task distribution, and approaches that combine observational and interventional evidence.</p>
+      <details class="related-work">
+        <summary>Relevant work on Valid Measurement and Prediction of AI Capabilities and Risks</summary>
+        <ul class="area-pubs">
+          <li><a href="https://aiconstructlexis.github.io/" target="_blank" rel="noopener">AI Construct Lexis.</a> <em>In Review</em></li>
+          <li><a href="https://arxiv.org/abs/2505.10573" target="_blank" rel="noopener">Measurement to Meaning: A Validity-Centered Framework for AI Evaluation.</a> <em>In Review</em> <span class="pub-tag">preliminary in NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle</span></li>
+          <li><a href="https://arxiv.org/abs/2507.23009" target="_blank" rel="noopener">Stop Evaluating AI with Human Tests, Develop Principled, AI-specific Tests instead.</a> <em>ICML 2026 (Position Paper Track)</em></li>
+          <li><a href="https://arxiv.org/abs/2503.05336" target="_blank" rel="noopener">Toward an Evaluation Science for Generative AI Systems.</a> <em>The Bridge, NAE 2025</em></li>
+          <li><a href="https://openreview.net/forum?id=8yg3XadfIZ" target="_blank" rel="noopener">On Evaluating Methods vs. Evaluating Models.</a> <em>NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle</em> <span class="pub-award">Best Paper</span></li>
+        </ul>
+      </details>
     </div>
   </details>
   <details class="area">
     <summary><span class="area-title">AI and society</span></summary>
     <div class="area-body">
       <p>I'm interested in how our understanding of generalization should inform consequential decisions about AI systems: when we should trust models outside the settings in which they were developed, how uncertainty about generalization should shape deployment and policy decisions, and what technical, institutional, and monitoring infrastructure is needed to mitigate the effects of generalization failures in high-stakes domains such as health and medicine.</p>
-    </div>
-  </details>
-</div>
-```
-
-### Supporting Previous Work
-
-```{=html}
-<div class="research-areas">
-  <details class="area">
-    <summary><span class="area-title">Valid Measurement and Prediction of AI Capabilities and Risks</span></summary>
-    <div class="area-body">
-      <p>AI systems exhibit jagged intelligence&mdash;they excel at some tasks but fail at others that share a common human capability, exhibiting seemingly incongruous behaviors. I develop the science of identifying and measuring AI-specific latent traits, capabilities, and risks to enable less jagged, more predictable behaviors across real-world settings.</p>
-      <ul class="area-pubs">
-        <li><a href="https://aiconstructlexis.github.io/" target="_blank" rel="noopener">AI Construct Lexis.</a> <em>In Review</em></li>
-        <li><a href="https://arxiv.org/abs/2505.10573" target="_blank" rel="noopener">Measurement to Meaning: A Validity-Centered Framework for AI Evaluation.</a> <em>In Review</em> <span class="pub-tag">preliminary in NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle</span></li>
-        <li><a href="https://arxiv.org/abs/2507.23009" target="_blank" rel="noopener">Stop Evaluating AI with Human Tests, Develop Principled, AI-specific Tests instead.</a> <em>ICML 2026 (Position Paper Track)</em></li>
-        <li><a href="https://arxiv.org/abs/2503.05336" target="_blank" rel="noopener">Toward an Evaluation Science for Generative AI Systems.</a> <em>The Bridge, NAE 2025</em></li>
-        <li><a href="https://openreview.net/forum?id=8yg3XadfIZ" target="_blank" rel="noopener">On Evaluating Methods vs. Evaluating Models.</a> <em>NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle</em> <span class="pub-award">Best Paper</span></li>
-      </ul>
-    </div>
-  </details>
-  <details class="area">
-    <summary><span class="area-title">Characterizing and Intervening on Causal and Spurious Mechanisms of AI Behavior</span></summary>
-    <div class="area-body">
-      <p>AI systems often rely on spurious, unexpected mechanisms of behavior, performing well in training environments but failing when conditions shift. I develop algorithms to identify and disentangle causal from spurious mechanisms so models rely on stable, generalizable, and causal patterns instead.</p>
-      <ul class="area-pubs">
-        <li><a href="https://arxiv.org/abs/2504.00186" target="_blank" rel="noopener">Are Domain Generalization Benchmarks with Accuracy on the Line Misspecified?</a> <em>TMLR 2025</em> <span class="pub-award">J2C</span> <em>+ ICLR 2026 Journal Track</em></li>
-        <li><a href="https://arxiv.org/abs/2404.02112" target="_blank" rel="noopener">ImageNot: A Contrast with ImageNet Preserves Model Rankings.</a> <em>TMLR 2026</em></li>
-        <li><a href="https://arxiv.org/abs/2510.24884" target="_blank" rel="noopener">Aggregation Hides OOD Generalization Failures from Spurious Correlations.</a> <em>NeurIPS 2025</em> <span class="pub-award">Spotlight</span></li>
-        <li><a href="https://arxiv.org/abs/2404.16277" target="_blank" rel="noopener">Causally Inspired Regularization Enables Domain General Representations.</a> <em>AISTATS 2024</em></li>
-        <li><a href="https://openreview.net/forum?id=LbFK9pUlA5" target="_blank" rel="noopener">On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning.</a> <em>NeurIPS 2024 CRL Workshop</em> <span class="pub-award">Oral</span></li>
-      </ul>
-    </div>
-  </details>
-  <details class="area">
-    <summary><span class="area-title">Statistical Foundations of Inference-Time Adaptation of AI Systems</span></summary>
-    <div class="area-body">
-      <p>AI behaviors often become unreliable when deployment conditions change. I develop methods that use proxy variables and concept-based representations to adapt model behavior at inference time, without retraining.</p>
-      <ul class="area-pubs">
-        <li><a href="https://arxiv.org/abs/2212.11254" target="_blank" rel="noopener">Adapting to Latent Subgroup Shifts via Concepts and Proxies.</a> <em>AISTATS 2023</em></li>
-        <li><a href="https://arxiv.org/abs/2403.07442" target="_blank" rel="noopener">Proxy Methods for Domain Adaptation.</a> <em>AISTATS 2024</em></li>
-        <li><a href="https://openreview.net/forum?id=Vthqn5VE7L" target="_blank" rel="noopener">Improving Single-round Active Adaptation: A Prediction Variability Perspective.</a> <em>TMLR 2025</em></li>
-      </ul>
-    </div>
-  </details>
-  <details class="area">
-    <summary><span class="area-title">Measuring and Steering AI's Societal Impacts</span></summary>
-    <div class="area-body">
-      <p>AI systems can behave inequitably across the populations they serve, through biased data or learning objectives misaligned with user welfare. I develop tools to measure these disparities and methods to mitigate them in deployed systems.</p>
-      <ul class="area-pubs">
-        <li><span class="pub-title">Avoiding Common Failures in AI for Health and Medicine.</span> <em>Cell 2026</em> <span class="pub-tag">Review Article, To appear</span></li>
-        <li><a href="https://arxiv.org/abs/2506.04193" target="_blank" rel="noopener">Understanding Challenges to the Interpretation of Disaggregated Evaluations of Algorithmic Fairness.</a> <em>NeurIPS 2025</em></li>
-        <li><a href="https://openreview.net/pdf?id=xRb0taq0pD" target="_blank" rel="noopener">On Group Sufficiency Under Label Bias.</a> <em>NeurIPS 2025</em></li>
-        <li><a href="https://arxiv.org/abs/2502.11429" target="_blank" rel="noopener">What's in a Query: Polarity-Aware Distribution-Based Fair Ranking.</a> <em>WWW 2025</em></li>
-      </ul>
+      <details class="related-work">
+        <summary>Relevant work on Measuring and Steering AI's Societal Impacts</summary>
+        <ul class="area-pubs">
+          <li><span class="pub-title">Avoiding Common Failures in AI for Health and Medicine.</span> <em>Cell 2026</em> <span class="pub-tag">Review Article, To appear</span></li>
+          <li><a href="https://arxiv.org/abs/2506.04193" target="_blank" rel="noopener">Understanding Challenges to the Interpretation of Disaggregated Evaluations of Algorithmic Fairness.</a> <em>NeurIPS 2025</em></li>
+          <li><a href="https://openreview.net/pdf?id=xRb0taq0pD" target="_blank" rel="noopener">On Group Sufficiency Under Label Bias.</a> <em>NeurIPS 2025</em></li>
+          <li><a href="https://arxiv.org/abs/2502.11429" target="_blank" rel="noopener">What's in a Query: Polarity-Aware Distribution-Based Fair Ranking.</a> <em>WWW 2025</em></li>
+        </ul>
+      </details>
     </div>
   </details>
 </div>

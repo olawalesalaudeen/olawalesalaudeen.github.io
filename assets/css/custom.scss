@@ -809,6 +809,70 @@ a {
     }
   }
 
+  .related-work {
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    padding: 0 0.7rem;
+
+    &:nth-of-type(odd) {
+      background: $accent-warm-bg;
+
+      > summary::before {
+        color: $accent-warm;
+      }
+    }
+
+    &:nth-of-type(even) {
+      background: $accent-blue-bg;
+
+      > summary::before {
+        color: $accent;
+      }
+    }
+
+    > summary {
+      list-style: none;
+      cursor: pointer;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.6rem;
+      padding: 0.4rem 0.2rem;
+      font-family: inherit;
+      font-size: 0.95rem;
+      font-weight: 400;
+      line-height: 1.75;
+      color: $ink;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &::before {
+        content: "\203A";
+        display: inline-block;
+        flex: 0 0 auto;
+        width: 0.9rem;
+        color: $accent-warm;
+        font-weight: 700;
+        transform: rotate(0deg);
+        transition: transform 0.2s ease;
+      }
+
+      &:hover {
+        color: $accent;
+      }
+    }
+
+    &[open] > summary::before {
+      transform: rotate(90deg);
+    }
+
+    .area-pubs {
+      padding: 0 0.2rem 0.75rem 1.5rem;
+      margin-bottom: 0.15rem;
+    }
+  }
+
   .area-pubs {
     list-style: disc;
     margin: 0;
