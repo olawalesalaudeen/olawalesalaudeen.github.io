@@ -131,6 +131,11 @@ h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
 .research-areas .area:nth-of-type(odd) > summary::before { color: #ff8a4c !important; }
 .research-areas .area:nth-of-type(even) { background: rgba(138, 180, 240, 0.1) !important; }
 .research-areas .area:nth-of-type(even) > summary::before { color: #8ab4f0 !important; }
+.research-areas.research-directions .area,
+.research-areas.research-directions .area:nth-of-type(odd),
+.research-areas.research-directions .area:nth-of-type(even) {
+  background: none !important;
+}
 .research-areas .area-body p { color: #c9c7c4 !important; }
 .research-areas .area-pubs li { color: #c9c7c4 !important; }
 .research-areas .area-pubs a,

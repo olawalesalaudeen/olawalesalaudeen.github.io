@@ -715,6 +715,28 @@ a {
 .research-areas {
   margin: 0 0 1rem;
 
+  &.research-directions .area {
+    background: none;
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 0;
+
+    &:nth-of-type(odd),
+    &:nth-of-type(even) {
+      background: none;
+    }
+
+    >summary {
+      padding-top: 0.05rem;
+      padding-bottom: 0.05rem;
+      font-weight: 400;
+
+      .area-title {
+        font-weight: 400;
+      }
+    }
+  }
+
   .area {
     border-radius: 8px;
     margin-bottom: 0.5rem;
@@ -1113,6 +1135,14 @@ a {
     border-bottom: 1px solid $ink;
     display: block;
     position: relative;
+  }
+
+  h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 1.75rem 0 0.75rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid $rule;
   }
 }
 

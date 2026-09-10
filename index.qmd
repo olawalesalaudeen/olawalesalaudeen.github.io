@@ -189,7 +189,34 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
 
 ## Research
 
-[I am broadly interested in the scientific foundations of **AI systems that have positive societal impact**. **A central question underlying this goal is one of generalization: when can we know/ensure that an AI system can/will do something we have never directly observed it do in a specific context?** I approach this question from several directions, including developing the science of valid measurement and prediction of AI capabilities and risks, understanding the mechanisms that govern AI behavior and generalization, and developing algorithms and interventions that help AI systems remain reliable as real-world conditions change. One application area of particular interest is health and medicine.]{.hero-research}
+I'm broadly interested in generalization in modern AI: when and why systems generalize, what properties of a system tell us about how it will behave in settings we have not directly tested, how we can develop methods that cause systems to generalize according to the objectives and principles we intend, and how all of this informs consequential decisions about the roles AI systems play in society.
+
+I'm especially excited about:
+
+```{=html}
+<div class="research-areas research-directions">
+  <details class="area">
+    <summary><span class="area-title">Algorithms for improved generalization</span></summary>
+    <div class="area-body">
+      <p>I'm interested in pre- and post-training methods that push models to generalize according to the underlying objectives, principles, or mechanisms we care about, rather than relying on surface-level cues or exploitable proxies. For example, how can we train systems to infer and pursue the intent behind a reward rather than merely optimize for the easiest way to obtain it? More broadly, I want to understand how training objectives, representations, environments, and interventions shape the kinds of generalization that emerge. I'm especially interested in how and if tools from causal representation learning and mechanism identification, distributionally robust optimization, and information theory can help address these questions.</p>
+    </div>
+  </details>
+  <details class="area">
+    <summary><span class="area-title">New paradigms for AI evaluation</span></summary>
+    <div class="area-body">
+      <p>I'm interested in rethinking how we study AI systems, rather than primarily studying the limitations of existing benchmarks or other mechanisms for hill-climbing within current evaluation paradigms. Many of our evaluation norms were developed for very different kinds of systems and use cases, and it is not obvious that their underlying assumptions should continue to hold. This means developing new technical approaches that engage directly with what is distinctive about modern AI systems. For example: evaluation through intervention rather than observation alone, adaptive experiments tailored to each individual system being studied, methods for mapping spaces of possible behavior rather than performance on a fixed task distribution, and approaches that combine observational and interventional evidence.</p>
+    </div>
+  </details>
+  <details class="area">
+    <summary><span class="area-title">AI and society</span></summary>
+    <div class="area-body">
+      <p>I'm interested in how our understanding of generalization should inform consequential decisions about AI systems: when we should trust models outside the settings in which they were developed, how uncertainty about generalization should shape deployment and policy decisions, and what technical, institutional, and monitoring infrastructure is needed to mitigate the effects of generalization failures in high-stakes domains such as health and medicine.</p>
+    </div>
+  </details>
+</div>
+```
+
+### Supporting Previous Work
 
 ```{=html}
 <div class="research-areas">
