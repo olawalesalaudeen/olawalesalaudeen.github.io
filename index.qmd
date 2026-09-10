@@ -115,7 +115,7 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
   </div>
   <div class="recruit-dropdown-panel" id="recruit-panel-postdoc" hidden>
     <div class="research-details">
-      <p>Postdoc applicants should reach out via email with their CV and a short intro and high-level description of the type of work they hope to do together.</p>
+      <p>Postdoc applicants should email me directly with a brief description of their background and the kinds of questions or projects they are interested in pursuing.</p>
     </div>
   </div>
   <div class="recruit-dropdown-panel" id="recruit-panel-uiuc" hidden>
