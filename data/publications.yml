@@ -28,12 +28,14 @@
 - id: salaudeen2025failures
   title: "Avoiding Common Failures in AI for Health and Medicine"
   authors: "Olawale Salaudeen, Haoran Zhang, Eileen Kim, Karandeep Singh, Marzyeh Ghassemi"
-  venue: "Cell 2026 Review Article"
-  note: "To appear"
+  venue: "Cell 2026"
+  note: "Review Article, Special Issue on AI in Biology"
   year: 2026
   status: published
   featured: false
   tags: [measurement, applications]
+  links:
+    paper: "https://www.cell.com/cell/fulltext/S0092-8674(26)00823-8"
 
 # ── 2025 ────────────────────────────────────────────────────────────────────
 
