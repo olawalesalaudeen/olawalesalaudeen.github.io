@@ -107,13 +107,28 @@ h3 {
 }
 
 a {
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.2s ease, color 0.2s ease;
+  color: $link-color;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+  text-decoration-color: rgba(19, 41, 75, 0.45);
+  border-bottom: none;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
 
   &:hover {
-    border-bottom-color: $link-color;
+    color: $accent-deep;
+    text-decoration-color: $accent;
   }
+}
+
+.navbar a,
+.navbar-brand,
+.nav-link,
+.quarto-color-scheme-toggle,
+.hero-links a,
+.group-member-links a,
+.btn {
+  text-decoration: none;
 }
 
 // ── Navbar ──────────────────────────────────────────────────────────────────
@@ -569,7 +584,7 @@ a {
   border-radius: 10px;
   text-align: center;
   font-size: 0.9rem;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.4;
 
   p {
@@ -688,6 +703,102 @@ a {
 
   @media (max-width: 640px) {
     font-size: 0.85rem;
+  }
+}
+
+.joining-note {
+  color: $accent;
+  font-style: italic;
+}
+
+// ── Group members ────────────────────────────────────────────────────────────
+
+.group-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.75rem 1.5rem;
+  justify-items: center;
+  margin: 0.25rem 0 0.5rem;
+}
+
+.group-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  width: 200px;
+  gap: 0.28rem;
+
+  .quarto-figure,
+  .quarto-float,
+  figure,
+  .figure,
+  p {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  img {
+    display: block;
+    width: 168px !important;
+    max-width: 168px !important;
+    height: 168px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 25%;
+    filter: grayscale(15%) contrast(1.02);
+    border: 1px solid $rule;
+  }
+}
+
+.group-member-name {
+  display: block;
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: $ink;
+}
+
+.group-member-role {
+  display: block;
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: $ink-muted;
+}
+
+.group-member-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.15rem;
+  margin: 0;
+  line-height: 1;
+
+  p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  a {
+    color: $text-secondary;
+    border-bottom: none !important;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $link-color;
+      border-bottom: none !important;
+    }
   }
 }
 
@@ -2559,11 +2670,14 @@ a {
       line-height: 1.35;
 
       a {
-        color: $heading-accent;
+        color: $link-color;
+        text-decoration: underline;
+        text-decoration-color: rgba(19, 41, 75, 0.4);
         border-bottom: none !important;
 
         &:hover {
-          color: $link-color;
+          color: $accent-deep;
+          text-decoration-color: $accent;
         }
       }
     }
@@ -2610,8 +2724,10 @@ a {
       line-height: 1.65;
 
       a {
+        color: $link-color;
+        text-decoration: underline;
+        text-decoration-color: rgba(19, 41, 75, 0.4);
         border-bottom: none !important;
-        color: inherit;
       }
 
       p {
@@ -2684,6 +2800,14 @@ a {
 }
 
 // ── Code & BibTeX blocks ───────────────────────────────────────────────────
+
+:not(pre) > code {
+  color: $accent-warm;
+  background: $accent-warm-bg;
+  font-weight: 600;
+  padding: 0.08em 0.32em;
+  border-radius: 4px;
+}
 
 pre.sourceCode,
 pre code {

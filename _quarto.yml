@@ -16,6 +16,8 @@ website:
         href: publications.qmd
       - text: "Talks"
         href: talks.qmd
+      - text: "Group"
+        href: group.qmd
     right:
       - icon: envelope
         href: "mailto:olawale@mit.edu"

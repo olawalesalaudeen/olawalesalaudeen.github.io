@@ -208,6 +208,8 @@ h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
 .recruit-banner { background: rgba(255, 122, 46, 0.12) !important; color: #8ab4f0 !important; }
 .recruit-banner a { color: #8ab4f0 !important; }
 .recruit-banner a:hover { color: #ff8a4c !important; }
+
+.joining-note { color: #8ab4f0 !important; }
 .recruit-dropdown-btn {
   color: #8ab4f0 !important;
   border-color: rgba(138, 180, 240, 0.35) !important;
@@ -229,6 +231,9 @@ h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
 
 .hero-links a { color: #d6d3d1 !important; }
 .hero-links a:hover { color: #ffffff !important; }
+
+.group-member-links a { color: #d6d3d1 !important; }
+.group-member-links a:hover { color: #ffffff !important; }
 
 .hero-bio p,
 .hero-bio .hero-statement,
@@ -575,8 +580,32 @@ h2 { font-size: 1.6rem; margin-top: 1rem; }
 h3 { font-size: 1.25rem; }
 
 a {
+  color: #8ab4f0;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+  text-decoration-color: rgba(138, 180, 240, 0.55);
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+
+  &:hover {
+    color: #ffffff;
+    text-decoration-color: #8ab4f0;
+  }
+}
+
+.navbar a,
+.navbar-brand,
+.nav-link,
+.quarto-color-scheme-toggle,
+.hero-links a,
+.group-member-links a,
+.btn {
   text-decoration: none;
-  transition: color 0.2s ease;
+}
+
+:not(pre) > code {
+  color: #ff8a4c !important;
+  background: rgba(255, 122, 46, 0.14) !important;
 }
 
 // ── Hero ────────────────────────────────────────────────────────────────────

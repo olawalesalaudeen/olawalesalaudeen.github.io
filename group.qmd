@@ -1,0 +1,73 @@
+---
+title: "Group"
+---
+
+::: {.home-section}
+
+::: {.group-members}
+
+::: {.group-member}
+![](assets/img/profile.jpg){fig-alt="Olawale Salaudeen"}
+
+[Olawale Salaudeen]{.group-member-name}
+
+[Incoming Assistant Professor]{.group-member-role}
+
+::: {.group-member-links}
+[{{< iconify bi globe >}}](https://www.olawalesalaudeen.com){target="_blank" rel="noopener" aria-label="Webpage"}
+[{{< iconify bi mortarboard >}}](https://scholar.google.com/citations?hl=en&user=F-ytPfAAAAAJ&view_op=list_works&sortby=pubdate){target="_blank" rel="noopener" aria-label="Google Scholar"}
+:::
+
+:::
+
+:::
+
+:::
+
+::: {.home-section}
+
+## Joining
+
+::: {.recruit-banner}
+
+I am recruiting PhD students and postdocs for Fall 2027 at UIUC [ECE](https://ece.illinois.edu/)/[CS](https://siebelschool.illinois.edu/)!
+
+:::
+
+**Prospective PhD Student:** Please apply through [ECE](https://ece.illinois.edu/)/[CS](https://siebelschool.illinois.edu/), indicate your interest in working with me, and describe how your research interests align with my work in your application materials. [Emailing me does not materially increase your chances of admission, and for fairness I cannot comment on individual applications or admissions likelihood. Due to volume, I am generally unable to respond to emails before you are admitted. Once you are admitted, please start your subject line with **`[Admitted PhD Student]`**. If there is a specific reason you need to email me anyway, please start your subject line with **`[Prospective PhD Student]`**; I am unlikely to see emails without it. Please do not use AI to generate your message.]{.joining-note}
+
+**Prospective Postdoc:** Please email me directly with a CV and a brief description of your background and the kinds of questions or projects you are interested in pursuing. Please start your subject line with **`[Prospective Postdoc]`**; I am unlikely to see emails without it. Please do not use AI to generate your message.
+
+**Already at UIUC:** PhD, master’s, and undergraduate students should email me directly with a CV, a transcript, and a brief description of their background and the kinds of questions or projects they are interested in pursuing. Please start your subject line with **`[Current UIUC Student]`**; I am unlikely to see emails without it. Please do not use AI to generate your message.
+
+Learn more about:
+
+```{=html}
+<div class="research-areas research-directions joining-more">
+  <details class="area">
+    <summary><span class="area-title">the types of students I look for</span></summary>
+    <div class="area-body">
+      <p>I am looking for self-motivated, passionate students who care about problems at the intersection of AI and society.</p>
+      <p>A strong fit brings at least one core strength, such as theory, algorithm and method development, empirical research, or domain expertise relevant to translational impact, and is motivated to actively develop complementary skills. I am also looking for interests that complement rather than duplicate my own. I am especially excited to work with students whose backgrounds open research directions that would be difficult or impossible to pursue otherwise.</p>
+      <p>I welcome students from a wide range of backgrounds, including computer science and engineering, the social sciences (e.g., psychology and sociology), policy, philosophy, statistics, mathematics, physics, and related fields.</p>
+    </div>
+  </details>
+  <details class="area">
+    <summary><span class="area-title">the kinds of research I pursue</span></summary>
+    <div class="area-body">
+      <p>I am drawn to research questions where there is still real room to shape how a problem is framed, studied, and solved. I gravitate toward problems that are foundational yet have clear implications for how modern AI systems are developed, evaluated, deployed, and used, especially in consequential domains like health and medicine. Depending on the question, my work spans theory, method development, large-scale empirical studies, and translational efforts.</p>
+      <p>Technically, I draw on tools from machine learning and statistics, including causal inference, representation learning, optimization, experimental design, and measurement theory, and from further afield when the problem calls for it. A central goal is to understand when, why, and how well machine learning systems work, and to make them reliable under the dynamic conditions in which they are actually used. The projects I like most connect these modes of inquiry rather than treating them as separate.</p>
+    </div>
+  </details>
+  <details class="area">
+    <summary><span class="area-title">how we work together</span></summary>
+    <div class="area-body">
+      <p>I care about my students' success, and I see my role as helping them define their own goals and reach them. I like to work closely with students on problems we both find exciting and impactful. The best collaborations are ones where we learn from each other: you bring your own ideas, expertise, and perspective, and we think through questions and decisions together.</p>
+      <p>I value curiosity, careful thinking, openness to feedback, and a willingness to engage seriously with ideas, including pushing back on mine. My goal is for the experience to be fun, intellectually serious, and genuinely rewarding, even through the failed ideas and frustrations that come with ambitious research.</p>
+      <p>I also believe research should not come at the expense of your health or life outside work. There will sometimes be periods that require especially hard work, but I do not want that intensity to become the baseline. Research should be a source of joy, not undue stress.</p>
+    </div>
+  </details>
+</div>
+```
+
+:::
