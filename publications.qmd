@@ -8,7 +8,7 @@ listing:
 
 \* denotes equal contribution • α-β denotes alphabetical order
 
-[Google Scholar](https://scholar.google.com/citations?hl=en&user=F-ytPfAAAAAJ&view_op=list_works&sortby=pubdate) may have a more updated list.
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=F-ytPfAAAAAJ&view_op=list_works&sortby=pubdate) may have a more up to date list.
 
 :::{#pub-full-list}
 :::
