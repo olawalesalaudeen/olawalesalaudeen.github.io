@@ -149,16 +149,24 @@ I'm especially excited about:
     </div>
   </details>
   <details class="area">
-    <summary><span class="area-title">AI and society</span></summary>
+    <summary><span class="area-title">AI and society <em>(incl. AI for Health and Medicine)</em></span></summary>
     <div class="area-body">
       <p>I'm interested in how our understanding of generalization should inform consequential decisions about AI systems: when we should trust models outside the settings in which they were developed, how uncertainty about generalization should shape deployment and policy decisions, and what technical, institutional, and monitoring infrastructure is needed to mitigate the effects of generalization failures in high-stakes domains such as health and medicine.</p>
       <details class="related-work">
         <summary>Relevant work on Measuring and Steering AI's Societal Impacts</summary>
         <ul class="area-pubs">
-          <li><a href="https://www.cell.com/cell/fulltext/S0092-8674(26)00823-8" target="_blank" rel="noopener">Avoiding Common Failures in AI for Health and Medicine.</a> <em>Cell 2026</em> <span class="pub-tag">Review Article, Special Issue on AI in Biology</span></li>
           <li><a href="https://arxiv.org/abs/2506.04193" target="_blank" rel="noopener">Understanding Challenges to the Interpretation of Disaggregated Evaluations of Algorithmic Fairness.</a> <em>NeurIPS 2025</em></li>
           <li><a href="https://openreview.net/pdf?id=xRb0taq0pD" target="_blank" rel="noopener">On Group Sufficiency Under Label Bias.</a> <em>NeurIPS 2025</em></li>
           <li><a href="https://arxiv.org/abs/2502.11429" target="_blank" rel="noopener">What's in a Query: Polarity-Aware Distribution-Based Fair Ranking.</a> <em>WWW 2025</em></li>
+        </ul>
+      </details>
+      <details class="related-work">
+        <summary>Relevant work on AI for Health and Medicine</summary>
+        <ul class="area-pubs">
+          <li><a href="https://www.cell.com/cell/fulltext/S0092-8674(26)00823-8" target="_blank" rel="noopener">Avoiding Common Failures in AI for Health and Medicine.</a> <em>Cell 2026</em> <span class="pub-tag">Review Article, Special Issue on AI in Biology</span></li>
+          <li><a href="https://openreview.net/attachment?id=gen7rBkGOu&name=pdf" target="_blank" rel="noopener">Benchmarks Cannot Establish Deployment Readiness of Clinical AI.</a> <em>ICML 2026 (Position Paper Track)</em></li>
+          <li><a href="https://github.com/olawalesalaudeen/Causal-ICA-AROMA" target="_blank" rel="noopener">Enhancing fMRI Motion Denoising with ICA-AROMA and Causal Discovery.</a> <em>2023</em></li>
+          <li><a href="https://archive.ismrm.org/2022/2848.html" target="_blank" rel="noopener">Ultra-fast 3D fMRI to Explore Cardiac-Induced Fluctuations in BOLD-Based Functional Imaging.</a> <em>ISMRM 2022</em> <span class="pub-tag">Abstract</span></li>
         </ul>
       </details>
     </div>
