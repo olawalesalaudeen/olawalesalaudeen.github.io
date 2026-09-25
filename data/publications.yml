@@ -25,6 +25,22 @@
 
 # ── In Review / In Preparation ─────────────────────────────────────────────
 
+- id: salaudeen2026lexis
+  title: "AI Construct Lexis"
+  authors: "Olawale Elijah Salaudeen, Florian E. Dorner, Tom Sühr, Sang T. Truong, Haoran Zhang, Patrick G. Bissett, James Fox, Marzyeh Ghassemi, Thomas Hartvigsen, Peter Hase, Augustin Kelava, Suhas Mahesh, Margaret Mitchell, Jamelle Watson-Daniels, Sanmi Koyejo, Angelina Wang"
+  venue: "NeurIPS 2026 Evaluations and Datasets Track"
+  note: "to appear"
+  year: 2026
+  status: published
+  featured: true
+  tags: [measurement]
+  links:
+    webpage: "https://aiconstructlexis.github.io/"
+  abstract: >
+    A collaborative effort to map AI constructs, valid measurement instruments,
+    and related behaviors and tasks—building toward a nomological network for
+    evaluating AI systems.
+
 - id: salaudeen2025failures
   title: "Avoiding Common Failures in AI for Health and Medicine"
   authors: "Olawale Salaudeen, Haoran Zhang, Eileen Kim, Karandeep Singh, Marzyeh Ghassemi"

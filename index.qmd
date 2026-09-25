@@ -139,7 +139,7 @@ I'm especially excited about:
       <details class="related-work">
         <summary>Relevant work on Valid Measurement and Prediction of AI Capabilities and Risks</summary>
         <ul class="area-pubs">
-          <li><a href="https://aiconstructlexis.github.io/" target="_blank" rel="noopener">AI Construct Lexis.</a> <em>In Review</em></li>
+          <li><a href="https://aiconstructlexis.github.io/" target="_blank" rel="noopener">AI Construct Lexis.</a> <em>NeurIPS 2026 Evaluations and Datasets Track</em> <span class="pub-tag">to appear</span></li>
           <li><a href="https://arxiv.org/abs/2505.10573" target="_blank" rel="noopener">Measurement to Meaning: A Validity-Centered Framework for AI Evaluation.</a> <em>In Review</em> <span class="pub-tag">preliminary in NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle</span></li>
           <li><a href="https://arxiv.org/abs/2507.23009" target="_blank" rel="noopener">Stop Evaluating AI with Human Tests, Develop Principled, AI-specific Tests instead.</a> <em>ICML 2026 (Position Paper Track)</em></li>
           <li><a href="https://arxiv.org/abs/2503.05336" target="_blank" rel="noopener">Toward an Evaluation Science for Generative AI Systems.</a> <em>The Bridge, NAE 2025</em></li>

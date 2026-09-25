@@ -15,6 +15,12 @@
 # ── Recent News ─────────────────────────────────────────────────────────────
 
 - period: "Fall 2026"
+  text: 'Our paper <a href="https://aiconstructlexis.github.io/">AI Construct Lexis</a> was accepted to the NeurIPS 2026 Evaluations and Datasets Track (to appear).'
+  year: 2026
+  recent: true
+  type: paper
+
+- period: "Fall 2026"
   text: 'Our review article <a href="https://www.cell.com/cell/fulltext/S0092-8674(26)00823-8">Avoiding Common Failures in AI for Health and Medicine</a> was accepted to <em>Cell</em> (Special Issue on AI in Biology).'
   year: 2026
   recent: true
