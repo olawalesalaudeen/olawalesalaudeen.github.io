@@ -354,6 +354,12 @@ a {
       color: $accent-warm;
     }
 
+    &.hero-incoming-stack {
+      display: block;
+      margin-bottom: 0.4rem;
+      line-height: 1.45;
+    }
+
     &.hero-msr {
       color: #0067b8;
     }

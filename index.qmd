@@ -30,7 +30,9 @@ listing:
 
 [Postdoc, Microsoft Research]{.hero-title .hero-msr}
 
-[Incoming Assistant Professor at the University of Illinois at Urbana-Champaign in Fall 2027]{.hero-title .hero-incoming}
+```{=html}
+<div class="hero-title hero-incoming hero-incoming-stack">Incoming Assistant Professor (Fall 2027)<br>Electrical and Computer Engineering and <em>(by courtesy)</em> Computer Science<br>University of Illinois at Urbana-Champaign</div>
+```
 
 ::: {.hero-links}
 [{{< iconify bi envelope-fill >}}](mailto:olawale@mit.edu){aria-label="Email"}
@@ -180,15 +182,6 @@ I'm especially excited about:
 
 ::: {.home-section}
 
-## Selected Recent News
-
-:::{#news-feed}
-:::
-
-:::
-
-::: {.home-section}
-
 ## Experience
 
 ```{=html}
@@ -256,9 +249,9 @@ I'm especially excited about:
       <span class="timeline-mentor">w/ <a href="https://mrtz.org/" target="_blank" rel="noopener">Moritz Hardt</a></span>
     </div>
     <div class="timeline-item">
-      <a class="timeline-link" href="https://www.mit.edu/" target="_blank" rel="noopener" title="Postdoctoral Researcher, MIT (2024–present)">
+      <a class="timeline-link" href="https://www.mit.edu/" target="_blank" rel="noopener" title="Postdoctoral Researcher, MIT (2024–2026)">
         <span class="timeline-logo"><img src="assets/img/logos/mit.svg" alt="MIT"></span>
-        <span class="timeline-year">2024–</span>
+        <span class="timeline-year">2024–26</span>
         <span class="timeline-org">MIT</span>
         <span class="timeline-role">Postdoc</span>
       </a>
@@ -380,6 +373,15 @@ I'm especially excited about:
 })();
 </script>
 ```
+
+:::
+
+::: {.home-section}
+
+## Selected Recent News
+
+:::{#news-feed}
+:::
 
 :::
 
