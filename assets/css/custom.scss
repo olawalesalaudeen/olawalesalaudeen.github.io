@@ -710,6 +710,37 @@ a {
   @media (max-width: 640px) {
     font-size: 0.85rem;
   }
+
+  +.project-banner {
+    margin-top: -0.85rem;
+  }
+}
+
+.project-banner {
+  margin: 0 0 1.5rem;
+  padding: 0.85rem 1.25rem;
+  background: rgba(19, 41, 75, 0.06);
+  color: $accent;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.45;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: $accent;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 0.12em;
+
+    &:hover {
+      color: $accent-warm;
+    }
+  }
 }
 
 .joining-note {
