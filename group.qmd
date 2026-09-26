@@ -30,11 +30,11 @@ title: "Group"
 
 ::: {.recruit-banner}
 
-I am recruiting PhD students and postdocs for Fall 2027 at UIUC [ECE](https://ece.illinois.edu/)/[CS](https://siebelschool.illinois.edu/)!
+I am recruiting PhD students and postdocs for Fall 2027 at UIUC [ECE](https://ece.illinois.edu/) (Due 01/15)/[CS](https://siebelschool.illinois.edu/) (Due 12/01)!
 
 :::
 
-**Prospective PhD Student:** Please apply through [ECE](https://ece.illinois.edu/)/[CS](https://siebelschool.illinois.edu/), indicate your interest in working with me, and describe how your research interests align with my work in your application materials. [Emailing me does not materially increase your chances of admission, and for fairness I cannot comment on individual applications or admissions likelihood. Due to volume, I am generally unable to respond to emails before you are admitted. Once you are admitted, please start your subject line with **`[Admitted PhD Student]`**. If there is a specific reason you need to email me anyway, please start your subject line with **`[Prospective PhD Student]`**; I am unlikely to see emails without it. Please do not use AI to generate your message.]{.joining-note}
+**Prospective PhD Student:** Please apply through [ECE](https://ece.illinois.edu/) (Due 01/15)/[CS](https://siebelschool.illinois.edu/) (Due 12/01), indicate your interest in working with me, and describe how your research interests align with my work in your application materials. [Emailing me does not materially increase your chances of admission, and for fairness I cannot comment on individual applications or admissions likelihood. Due to volume, I am generally unable to respond to emails before you are admitted. Once you are admitted, please start your subject line with **`[Admitted PhD Student]`**. If there is a specific reason you need to email me anyway, please start your subject line with **`[Prospective PhD Student]`**; I am unlikely to see emails without it. Please do not use AI to generate your message.]{.joining-note}
 
 **Prospective Postdoc:** Please email me directly with a CV and contact information for three references. Please start your subject line with **`[Prospective Postdoc]`**; I am unlikely to see emails without it. Please do not use AI to generate your message.
 
