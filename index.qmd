@@ -34,11 +34,17 @@ listing:
 <div class="hero-title hero-incoming hero-incoming-stack">Incoming Assistant Professor (Fall 2027)<br>Electrical and Computer Engineering and <em>(by courtesy)</em> Computer Science<br>University of Illinois at Urbana-Champaign</div>
 ```
 
+::: {.hero-links-block}
+
 ::: {.hero-links}
-[{{< iconify bi envelope-fill >}}](mailto:olawale@mit.edu){aria-label="Email"}
+[{{< iconify bi envelope-fill >}}](mailto:olawale@illinois.edu){aria-label="Email"}
 [{{< iconify bi mortarboard >}}](https://scholar.google.com/citations?hl=en&user=F-ytPfAAAAAJ&view_op=list_works&sortby=pubdate){aria-label="Google Scholar"}
 [{{< iconify bi github >}}](https://github.com/olawalesalaudeen){aria-label="GitHub"}
 [{{< iconify bi linkedin >}}](https://www.linkedin.com/in/olawalesalaudeen/){aria-label="LinkedIn"}
+:::
+
+[please note new email]{.hero-email-note}
+
 :::
 
 :::

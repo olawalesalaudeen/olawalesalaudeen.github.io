@@ -278,6 +278,10 @@ a {
     gap: 1rem;
     margin-top: 0.5rem;
   }
+
+  .hero-links-block {
+    align-items: center;
+  }
 }
 
 .hero-photo {
@@ -505,6 +509,26 @@ a {
   @media (max-width: 640px) {
     justify-content: center;
   }
+}
+
+.hero-links-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+
+  @media (max-width: 640px) {
+    align-items: center;
+  }
+}
+
+.hero-email-note {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #c62828;
+  letter-spacing: 0.01em;
 }
 
 .job-market {

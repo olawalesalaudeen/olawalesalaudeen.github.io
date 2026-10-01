@@ -20,7 +20,7 @@ website:
         href: group.qmd
     right:
       - icon: envelope
-        href: "mailto:olawale@mit.edu"
+        href: "mailto:olawale@illinois.edu"
         aria-label: Email
       - icon: mortarboard
         href: "https://scholar.google.com/citations?hl=en&user=F-ytPfAAAAAJ&view_op=list_works&sortby=pubdate"
