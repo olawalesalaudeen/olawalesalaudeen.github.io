@@ -38,6 +38,7 @@ listing:
 
 ::: {.hero-links}
 [{{< iconify bi envelope-fill >}}](mailto:olawale@illinois.edu){aria-label="Email"}
+[{{< iconify bi file-earmark-text >}}](https://drive.google.com/file/d/12GEEvpY18VRCxEgb1mrXxdZC5qV4KCir/view?usp=sharing){target="_blank" rel="noopener" aria-label="CV"}
 [{{< iconify bi mortarboard >}}](https://scholar.google.com/citations?hl=en&user=F-ytPfAAAAAJ&view_op=list_works&sortby=pubdate){aria-label="Google Scholar"}
 [{{< iconify bi github >}}](https://github.com/olawalesalaudeen){aria-label="GitHub"}
 [{{< iconify bi linkedin >}}](https://www.linkedin.com/in/olawalesalaudeen/){aria-label="LinkedIn"}
