@@ -765,6 +765,28 @@ a {
       color: $accent-warm;
     }
   }
+
+  +.colm-banner {
+    margin-top: -0.85rem;
+  }
+}
+
+.colm-banner {
+  margin: 0 0 1.5rem;
+  padding: 0.85rem 1.25rem;
+  background: rgba(255, 95, 5, 0.08);
+  color: $accent;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.45;
+
+  p {
+    margin: 0;
+    font-weight: 700;
+    color: $accent;
+  }
 }
 
 .joining-note {

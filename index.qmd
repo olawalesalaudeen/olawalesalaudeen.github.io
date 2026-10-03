@@ -113,6 +113,12 @@ Check out the [AI Construct Lexis](https://aiconstructlexis.github.io/) demo: ma
 
 :::
 
+::: {.colm-banner}
+
+I will be at COLM 2026 in SF; please reach out if you'd like to chat.
+
+:::
+
 ::: {.home-section}
 
 ## Research
