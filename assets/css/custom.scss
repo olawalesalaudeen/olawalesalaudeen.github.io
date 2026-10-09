@@ -2123,6 +2123,15 @@ a {
 
 // ── Talk timeline ──────────────────────────────────────────────────────────
 
+.talks-note {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: $ink-muted;
+  margin: -0.35rem 0 1.25rem;
+  line-height: 1.4;
+}
+
 .talk-timeline {
   position: relative;
   padding-top: 0.5rem;

@@ -6,5 +6,7 @@ listing:
     template: _templates/talk-list.ejs.md
 ---
 
+[Happy to share slides upon request (via email).]{.talks-note}
+
 :::{#talk-full-list}
 :::
