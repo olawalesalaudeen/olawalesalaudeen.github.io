@@ -20,6 +20,18 @@ title: "Group"
 
 :::
 
+::: {.group-member}
+
+::: {.group-member-emoji}
+🫵❓
+:::
+
+[You?]{.group-member-name}
+
+[undergrad/masters/PhD/Postdoc]{.group-member-role}
+
+:::
+
 :::
 
 :::

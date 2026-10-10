@@ -897,6 +897,21 @@ a {
     filter: grayscale(15%) contrast(1.02);
     border: 1px solid $rule;
   }
+
+  .group-member-emoji {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+    height: 168px;
+    border-radius: 50%;
+    border: 1px solid $rule;
+    background: rgba(19, 41, 75, 0.04);
+    font-size: 3.4rem;
+    line-height: 1;
+    letter-spacing: 0.08em;
+    user-select: none;
+  }
 }
 
 .group-member-name {
