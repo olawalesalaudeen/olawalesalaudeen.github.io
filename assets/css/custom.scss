@@ -909,7 +909,8 @@ a {
     background: rgba(19, 41, 75, 0.04);
     font-size: 3.4rem;
     line-height: 1;
-    letter-spacing: 0.08em;
+    letter-spacing: 0;
+    padding-left: 0.2em;
     user-select: none;
   }
 }
