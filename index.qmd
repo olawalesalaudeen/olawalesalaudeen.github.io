@@ -398,22 +398,13 @@ I'm especially excited about:
 
 ::: {.home-section}
 
-## Selected Recent News {#selected-recent-news}
-
-:::{#news-feed}
-:::
-
-:::
-
-::: {.home-section}
-
 ## Selected Honors
 
 ```{=html}
 <ul class="honor-list">
+  <li>Best Paper, NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle</li>
   <li>Schmidt Sciences AI Center Fellowship</li>
   <li>Postdoc Scholar, Eric and Wendy Schmidt Center, Broad Institute</li>
-  <li>Best Paper, NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle</li>
 </ul>
 <details class="honor-more">
   <summary><span class="honor-toggle"></span></summary>
@@ -429,6 +420,15 @@ I'm especially excited about:
   </ul>
 </details>
 ```
+
+:::
+
+::: {.home-section}
+
+## Selected Recent News {#selected-recent-news}
+
+:::{#news-feed}
+:::
 
 :::
 
