@@ -95,7 +95,6 @@ Learn more about:
 ```{=html}
 <ul class="honor-list">
   <li><a href="https://www.awadieng.me/" target="_blank" rel="noopener">Awa Dieng</a>: Ph.D. Student @ MIT (2025&ndash;Present)</li>
-  <li><a href="https://abinithago.github.io/" target="_blank" rel="noopener">Abinitha Gourabathina</a>: Ph.D. Student @ MIT (2025&ndash;Present)</li>
 </ul>
 ```
 
@@ -103,6 +102,7 @@ Learn more about:
 
 ```{=html}
 <ul class="honor-list">
+  <li><a href="https://abinithago.github.io/" target="_blank" rel="noopener">Abinitha Gourabathina</a>: Ph.D. Student @ MIT (2025&ndash;26)</li>
   <li><a href="https://lenastempfle.github.io/lenastempfle/" target="_blank" rel="noopener">Lena Stempfle</a>: Visiting Ph.D. Student @ MIT (2024&ndash;25) &rarr; Postdoc, MIT</li>
   <li><a href="https://www.linkedin.com/in/lucia-huo" target="_blank" rel="noopener">Lucia Huo</a>: Master&rsquo;s Student @ MIT (2024&ndash;25)</li>
   <li><a href="https://www.linkedin.com/in/odahleh" target="_blank" rel="noopener">Omar Dahleh</a>: MEng @ MIT (2024&ndash;25) &rarr; Software Engineer, Lumos</li>
