@@ -15,6 +15,12 @@
 # ── Recent News ─────────────────────────────────────────────────────────────
 
 - period: "Fall 2026"
+  text: 'I gave a talk at the <a href="https://ai.engin.umich.edu/events/causal-ai-for-decision-making-workshop/">Causal AI for Decision Making Workshop</a> at the University of Michigan.'
+  year: 2026
+  recent: true
+  type: talk
+
+- period: "Fall 2026"
   text: 'Our paper <a href="https://aiconstructlexis.github.io/">AI Construct Lexis</a> was accepted to the NeurIPS 2026 Evaluations and Datasets Track (to appear).'
   year: 2026
   recent: true

@@ -12,6 +12,14 @@
 
 # ── Invited Talks (match olawalesalaudeen.com/presentations) ─────────────
 
+- title: "Causality as the Unit of Analysis for AI Evaluation: Identification, Representation, and Intervention"
+  kind: invited
+  venues:
+    - event: "Causal AI for Decision Making Workshop, University of Michigan"
+      date: "2026"
+      year: 2026
+      link: "https://ai.engin.umich.edu/events/causal-ai-for-decision-making-workshop/"
+
 - title: "On Evaluating AI Methods vs. Models"
   kind: invited
   venues:
