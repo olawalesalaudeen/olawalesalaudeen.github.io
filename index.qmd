@@ -131,7 +131,7 @@ I'm especially excited about:
 ```{=html}
 <div class="research-areas research-directions">
   <details class="area">
-    <summary><span class="area-title">Algorithms for improved generalization in AI <em>(incl. causality)</em></span></summary>
+    <summary><span class="area-title">Algorithms for improved generalization in AI <em>(incl. causality and compositional generalization)</em></span></summary>
     <div class="area-body">
       <p>I'm interested in pre- and post-training methods that push models to generalize according to the underlying objectives, principles, or mechanisms we care about, rather than relying on surface-level cues or exploitable proxies. For example, how can we train systems to infer and pursue the intent behind a reward rather than merely optimize for the easiest way to obtain it? More broadly, I want to understand how training objectives, representations, environments, and interventions shape the kinds of generalization that emerge. I'm especially interested in how and if tools from causal representation learning and mechanism identification, distributionally robust optimization, and information theory can help address these questions.</p>
       <details class="related-work">
