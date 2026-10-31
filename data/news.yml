@@ -15,6 +15,18 @@
 # ── Recent News ─────────────────────────────────────────────────────────────
 
 - period: "Fall 2026"
+  text: 'I will speak at the <a href="https://evalscience.org/2026fall-nyc/">Agent Evaluation Science</a> symposium in New York City.'
+  year: 2026
+  recent: true
+  type: talk
+
+- period: "Fall 2026"
+  text: 'I gave a talk in the <a href="https://hai.stanford.edu/events">AI Measurement Science (AIMS) Seminar Series</a> at Stanford HAI.'
+  year: 2026
+  recent: true
+  type: talk
+
+- period: "Fall 2026"
   text: 'I gave a talk at the <a href="https://ai.engin.umich.edu/events/causal-ai-for-decision-making-workshop/">Causal AI for Decision Making Workshop</a> at the University of Michigan.'
   year: 2026
   recent: true

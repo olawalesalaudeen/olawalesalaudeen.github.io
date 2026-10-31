@@ -12,6 +12,22 @@
 
 # ── Invited Talks (match olawalesalaudeen.com/presentations) ─────────────
 
+- title: "On Construct Validity in AI: The Scientific Work We Have Yet to Do"
+  kind: invited
+  venues:
+    - event: "AI Measurement Science (AIMS) Seminar Series, Stanford HAI"
+      date: "2026"
+      year: 2026
+      link: "https://hai.stanford.edu/events"
+
+- title: "Agent Evaluation Science"
+  kind: invited
+  venues:
+    - event: "Agent Evaluation Science Symposium, New York City"
+      date: "2026"
+      year: 2026
+      link: "https://evalscience.org/2026fall-nyc/"
+
 - title: "Causality as the Unit of Analysis for AI Evaluation: Identification, Representation, and Intervention"
   kind: invited
   venues:
