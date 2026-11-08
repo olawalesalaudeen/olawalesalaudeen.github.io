@@ -150,7 +150,7 @@ I'm especially excited about:
     <ul class="area-pubs">
       <li><a href="https://aiconstructlexis.github.io/" target="_blank" rel="noopener">AI Construct Lexis.</a> <em>NeurIPS 2026</em> <span class="pub-tag">to appear</span></li>
       <li><a href="https://arxiv.org/abs/2505.10573" target="_blank" rel="noopener">Measurement to Meaning: A Validity-Centered Framework for AI Evaluation.</a> <em>In Review</em></li>
-      <li><a href="https://openreview.net/forum?id=8yg3XadfIZ" target="_blank" rel="noopener">On Evaluating Methods vs. Evaluating Models.</a> <em>NeurIPS 2025 Workshop</em> <span class="pub-award">Best Paper</span></li>
+      <li><a href="https://openreview.net/forum?id=8yg3XadfIZ" target="_blank" rel="noopener">On Evaluating Methods vs. Evaluating Models.</a> <em>NeurIPS 2025 LLM-Eval Workshop</em> <span class="pub-award">Best Paper</span></li>
     </ul>
     <details class="area-summary">
       <summary>Summary</summary>
