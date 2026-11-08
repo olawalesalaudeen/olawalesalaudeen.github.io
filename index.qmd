@@ -133,8 +133,8 @@ I'm especially excited about:
   <div class="area">
     <div class="area-title">Algorithms for improved generalization in AI <em>(incl. causality and compositional generalization)</em></div>
     <ul class="area-pubs">
-      <li><a href="https://arxiv.org/abs/2510.24884" target="_blank" rel="noopener">Aggregation Hides OOD Generalization Failures from Spurious Correlations.</a> <em>NeurIPS 2025</em> <span class="pub-award">Spotlight</span></li>
       <li><a href="https://arxiv.org/abs/2504.00186" target="_blank" rel="noopener">Are Domain Generalization Benchmarks with Accuracy on the Line Misspecified?</a> <em>TMLR 2025</em> <span class="pub-award">J2C</span> <em>+ ICLR 2026 Journal Track</em></li>
+      <li><a href="https://arxiv.org/abs/2510.24884" target="_blank" rel="noopener">Aggregation Hides OOD Generalization Failures from Spurious Correlations.</a> <em>NeurIPS 2025</em> <span class="pub-award">Spotlight</span></li>
       <li><a href="https://arxiv.org/abs/2403.07442" target="_blank" rel="noopener">Proxy Methods for Domain Adaptation.</a> <em>AISTATS 2024</em></li>
       <li><a href="https://openreview.net/forum?id=LbFK9pUlA5" target="_blank" rel="noopener">On Domain Generalization Datasets as Proxy Benchmarks for Causal Representation Learning.</a> <em>NeurIPS 2024 CRL Workshop</em> <span class="pub-award">Oral</span></li>
     </ul>
