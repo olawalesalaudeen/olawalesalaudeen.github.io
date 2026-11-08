@@ -990,24 +990,81 @@ a {
   margin: 0 0 1rem;
 
   &.research-directions .area {
-    background: none;
-    border-radius: 0;
-    padding: 0;
-    margin-bottom: 0;
+    border-radius: 8px;
+    padding: 0.75rem 0.9rem 0.65rem;
+    margin: 0 0 0.75rem;
 
-    &:nth-of-type(odd),
-    &:nth-of-type(even) {
-      background: none;
+    &:nth-of-type(odd) {
+      background: $accent-warm-bg;
+      border: 1px solid rgba(255, 95, 5, 0.22);
     }
 
-    >summary {
-      padding-top: 0.05rem;
-      padding-bottom: 0.05rem;
-      font-weight: 400;
+    &:nth-of-type(even) {
+      background: $accent-blue-bg;
+      border: 1px solid rgba(19, 41, 75, 0.18);
+    }
 
-      .area-title {
-        font-weight: 400;
+    .area-title {
+      display: block;
+      padding: 0.05rem 0 0.3rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      line-height: 1.5;
+      color: $ink;
+    }
+
+    .area-pubs {
+      margin: 0.1rem 0 0.4rem;
+      padding-left: 1.2rem;
+    }
+
+    .area-summary {
+      margin: 0.1rem 0 0;
+
+      > summary {
+        list-style: none;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        padding: 0.15rem 0;
+        font-family: inherit;
+        font-size: 0.9rem;
+        font-weight: 500;
+        line-height: 1.5;
+        color: $accent;
+        transition: color 0.2s ease;
+
+        &::-webkit-details-marker {
+          display: none;
+        }
+
+        &::before {
+          content: "\203A";
+          display: inline-block;
+          flex: 0 0 auto;
+          width: 0.9rem;
+          font-weight: 700;
+          transform: rotate(0deg);
+          transition: transform 0.2s ease;
+        }
+
+        &:hover {
+          color: $accent-warm;
+        }
       }
+
+      &[open] > summary::before {
+        transform: rotate(90deg);
+      }
+    }
+
+    &:nth-of-type(odd) .area-summary > summary::before {
+      color: $accent-warm;
+    }
+
+    &:nth-of-type(even) .area-summary > summary::before {
+      color: $accent;
     }
   }
 
@@ -1073,7 +1130,7 @@ a {
   }
 
   .area-body {
-    padding: 0 0.2rem 0.9rem 1.5rem;
+    padding: 0.15rem 0 0.5rem 1.35rem;
 
     p {
       margin: 0 0 0.7rem;
