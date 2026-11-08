@@ -16,7 +16,7 @@ website:
         href: publications.qmd
       - text: "Talks"
         href: talks.qmd
-      - text: "Group"
+      - text: "Lab"
         href: group.qmd
     right:
       - icon: envelope

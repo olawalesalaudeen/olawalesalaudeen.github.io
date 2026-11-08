@@ -104,7 +104,7 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
   <span class="banner-bell" aria-hidden="true"><iconify-icon inline icon="bi:bell-fill"></iconify-icon></span>
   <div class="recruit-banner">
     <p>I am recruiting PhD students and postdocs for Fall 2027 at UIUC <a href="https://ece.illinois.edu/">ECE</a> (Due 01/15)/<a href="https://siebelschool.illinois.edu/">CS</a> (Due 12/01)!</p>
-    <p><a href="group.html" class="recruit-secondary">See the group page for more details →</a></p>
+    <p><a href="group.html" class="recruit-secondary">See the lab page for more details →</a></p>
   </div>
   <div class="project-banner">
     <p>Check out the <a href="https://aiconstructlexis.github.io/">AI Construct Lexis</a> demo: mapping claimed AI constructs, measurement instruments, and related behaviors/tasks (<strong>NeurIPS 2026</strong>).</p>
