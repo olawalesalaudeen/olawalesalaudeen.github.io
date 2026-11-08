@@ -52,6 +52,11 @@ $content-max-width: 1200px;
 
 // ── Global ──────────────────────────────────────────────────────────────────
 
+html {
+  // Prevent horizontal jump when filters shorten the page and the scrollbar vanishes.
+  scrollbar-gutter: stable;
+}
+
 ::selection {
   background: rgba(19, 41, 75, 0.12);
   color: $body-color;
@@ -236,6 +241,16 @@ a {
   padding: 0 clamp(1rem, 4vw, 2rem);
 }
 
+// Quarto's page-columns grid + margin:auto on .content shrink-wraps the
+// column to the widest visible child. Filtering pubs then jumps the page width.
+.page-columns > .content {
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+  justify-self: stretch;
+}
+
 #quarto-content {
   max-width: $content-max-width;
   margin: 0 auto;
@@ -400,91 +415,6 @@ a {
         color: #cc4c04;
       }
     }
-  }
-}
-
-.name-pronunciation {
-  margin: 0.1rem 0 0.55rem;
-  max-width: 28rem;
-  font-size: 0.82rem;
-  line-height: 1.45;
-  color: $ink-muted;
-
-  strong {
-    font-weight: 600;
-    color: $ink;
-  }
-
-  em {
-    font-style: italic;
-    color: $ink;
-  }
-
-  > summary {
-    list-style: none;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
-    padding: 0.1rem 0;
-    font-size: 0.82rem;
-    font-weight: 500;
-    color: $accent;
-    line-height: 1.35;
-
-    &::-webkit-details-marker {
-      display: none;
-    }
-
-    &::marker {
-      content: "";
-    }
-
-    &::before {
-      content: "\203A";
-      display: inline-block;
-      flex: 0 0 auto;
-      color: $accent-warm;
-      font-weight: 700;
-      transform: rotate(0deg);
-      transition: transform 0.2s ease;
-    }
-
-    &:hover {
-      color: $accent-warm;
-    }
-  }
-
-  &[open] > summary::before {
-    transform: rotate(90deg);
-  }
-
-  @media (max-width: 640px) {
-    max-width: none;
-
-    > summary {
-      justify-content: center;
-    }
-  }
-}
-
-.name-pronunciation-body {
-  margin-top: 0.45rem;
-  text-align: left;
-  padding: 0.7rem 0.85rem;
-  border: 1px solid $rule;
-  border-radius: 8px;
-  background: rgba(28, 25, 23, 0.03);
-
-  p {
-    margin: 0 0 0.65rem;
-    font-size: 0.88rem;
-    line-height: 1.6;
-    color: $ink-2;
-  }
-
-  p:last-child {
-    margin-bottom: 0;
   }
 }
 
@@ -1705,6 +1635,12 @@ a {
 
 // ── Publication entries ─────────────────────────────────────────────────────
 
+.pub-list {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
 .pub-list,
 .featured-work,
 .theme-pubs {
@@ -1715,7 +1651,9 @@ a {
     margin: 2.5rem 0 1rem;
     padding-bottom: 0.3rem;
     border-bottom: 2px solid $border-light;
-    display: inline-block;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
 
@@ -1732,6 +1670,9 @@ a {
   box-shadow: none;
   transition: background 0.12s ease, box-shadow 0.12s ease;
   position: relative;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 
   &::after {
     content: '';
@@ -1801,10 +1742,13 @@ a {
   top: 0;
   z-index: 20;
   background: $paper;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .pub-search-input {
-  flex: 1 1 200px;
+  flex: 0 0 280px;
+  width: 280px;
   max-width: 280px;
   padding: 0.4rem 0.9rem;
   font-size: 0.88rem;
@@ -1826,7 +1770,8 @@ a {
   }
 
   @media (max-width: 640px) {
-    flex-basis: 100%;
+    flex: 1 1 100%;
+    width: 100%;
     max-width: none;
   }
 }
@@ -1845,21 +1790,22 @@ a {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: 0;
+  gap: 0.35rem;
 
   .pub-filter-chip {
     appearance: none;
     font-family: $font-family-sans-serif;
     font-size: 0.85rem;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 0.005em;
     color: $ink-muted;
     background: transparent;
     border: 0;
-    padding: 0.4rem 0.85rem;
+    border-bottom: 3px solid transparent;
+    padding: 0.4rem 0.65rem;
     border-radius: 0;
     cursor: pointer;
-    transition: color 0.12s ease, box-shadow 0.12s ease;
+    transition: color 0.12s ease, border-color 0.12s ease;
 
     &:hover {
       color: $ink;
@@ -1869,8 +1815,7 @@ a {
     &.is-active {
       color: $ink;
       background: transparent;
-      font-weight: 600;
-      box-shadow: inset 0 -3px 0 $accent;
+      border-bottom-color: $accent;
     }
   }
 }
