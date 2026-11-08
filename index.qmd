@@ -100,17 +100,12 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
 :::
 
 ```{=html}
-<div class="banner-row">
+<div class="banner-row banner-row--paired">
   <span class="banner-bell" aria-hidden="true"><iconify-icon inline icon="bi:bell-fill"></iconify-icon></span>
   <div class="recruit-banner">
     <p>I am recruiting PhD students and postdocs for Fall 2027 at UIUC <a href="https://ece.illinois.edu/">ECE</a> (Due 01/15)/<a href="https://siebelschool.illinois.edu/">CS</a> (Due 12/01)!</p>
     <p><a href="group.html" class="recruit-secondary">See the group page for more details →</a></p>
   </div>
-  <span class="banner-bell" aria-hidden="true"><iconify-icon inline icon="bi:bell-fill"></iconify-icon></span>
-</div>
-
-<div class="banner-row">
-  <span class="banner-bell" aria-hidden="true"><iconify-icon inline icon="bi:bell-fill"></iconify-icon></span>
   <div class="project-banner">
     <p>Check out the <a href="https://aiconstructlexis.github.io/">AI Construct Lexis</a> demo: mapping claimed AI constructs, measurement instruments, and related behaviors/tasks (<strong>NeurIPS 2026</strong>, to appear).</p>
   </div>
@@ -124,7 +119,7 @@ Olawale (Wale) Salaudeen is an incoming Assistant Professor at the [University o
 
 ## Research
 
-I am broadly interested in the scientific foundations of AI systems that have positive societal impact. Much of my work centers on understanding generalization in modern AI, or how systems behave beyond the examples, environments, and conditions on which they were developed or directly evaluated. I study when and why systems generalize, what properties of a system tell us about generalization, how we can develop methods that cause systems to generalize according to the objectives and principles we intend, and how these questions inform consequential decisions about the roles AI systems play in society.
+I am broadly interested in the scientific foundations of AI systems that have positive societal impact. Much of my work centers on understanding generalization in modern AI: how systems behave beyond the examples, environments, and conditions on which they were developed or directly evaluated. I study when and why systems generalize, what properties of a system tell us about generalization, how we can develop methods that cause systems to generalize according to the objectives and principles we intend, and how these questions inform consequential decisions about the roles AI systems play in society.
 
 I'm especially excited about:
 
