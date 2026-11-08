@@ -148,7 +148,7 @@ I'm especially excited about:
   <div class="area">
     <div class="area-title">New paradigms of generalizable AI evaluation</div>
     <ul class="area-pubs">
-      <li><a href="https://aiconstructlexis.github.io/" target="_blank" rel="noopener">AI Construct Lexis.</a> <em>NeurIPS 2026</em></li>
+      <li><a href="https://aiconstructlexis.github.io/" target="_blank" rel="noopener">AI Construct Lexis: A Network of Constructs and Measurement Instruments Used in AI Evaluation.</a> <em>NeurIPS 2026</em></li>
       <li><a href="https://arxiv.org/abs/2505.10573" target="_blank" rel="noopener">Measurement to Meaning: A Validity-Centered Framework for AI Evaluation.</a> <em>In Review</em></li>
       <li><a href="https://openreview.net/forum?id=8yg3XadfIZ" target="_blank" rel="noopener">On Evaluating Methods vs. Evaluating Models.</a> <em>NeurIPS 2025 LLM-Eval Workshop</em> <span class="pub-award">Best Paper</span></li>
     </ul>
