@@ -6,33 +6,10 @@ listing:
     template: _templates/news-list.ejs.md
 ---
 
-::: {.hero-header .hero-header--stacked}
+::: {.hero-header}
 
 ::: {.hero-photo}
-<!-- TODO: Replace with your profile photo -->
 ![](assets/img/profile.jpg)
-:::
-
-::: {.hero-identity}
-[Olawale (Wale) Salaudeen]{.hero-name}
-
-```{=html}
-<details class="name-pronunciation">
-  <summary><strong>Pronouncing my name (roughly):</strong> <em>oh-la-wah-ley</em> (Olawale) or <em>wah-ley</em> (Wale).</summary>
-  <div class="name-pronunciation-body">
-    <p>My full name is <strong>Olawale Salaudeen</strong>; effectively everyone calls me Wale. Generally speaking, if you are writing my name down in any non-conversational setting, I prefer Olawale. My last name is pronounced roughly <em>sah-lah-oo-deen</em>.</p>
-    <p>I share my first name, at least colloquially, with the incredible rapper and lyricist <a href="https://en.wikipedia.org/wiki/Wale_(rapper)" target="_blank" rel="noopener">Wale</a>, although our full first names are technically different: Olawale vs. Olubowale.</p>
-    <p>Correct pronunciation is entirely optional, as long as I know you're referring to me. The pronunciation someone uses often reflects how we know each other, where they first encountered my name, or who they learned it from, which I find kind of fun.</p>
-    <p>Some people nevertheless feel compelled to work very hard to pronounce it &ldquo;correctly.&rdquo; I should note that I cannot quite pronounce my first name correctly in my English accent either. I have to switch to my Yoruba accent. Do with that what you will :)</p>
-  </div>
-</details>
-```
-
-[Postdoc, Microsoft Research]{.hero-title .hero-msr}
-
-```{=html}
-<div class="hero-title hero-incoming hero-incoming-stack">Incoming Assistant Professor (Fall 2027)<br>Electrical and Computer Engineering and <em>(by courtesy)</em> Computer Science<br>University of Illinois at Urbana-Champaign</div>
-```
 
 ::: {.hero-links-block}
 
@@ -44,9 +21,31 @@ listing:
 [{{< iconify bi linkedin >}}](https://www.linkedin.com/in/olawalesalaudeen/){aria-label="LinkedIn"}
 :::
 
-[please note new email]{.hero-email-note}
+:::
 
 :::
+
+::: {.hero-identity}
+[Olawale (Wale) Salaudeen]{.hero-name}
+
+```{=html}
+<details class="name-pronunciation">
+  <summary>Name Pronunciation</summary>
+  <div class="name-pronunciation-body">
+    <p><strong>Roughly:</strong> <em>oh-la-wah-ley</em> (Olawale) or <em>wah-ley</em> (Wale). Last name: <em>sah-lah-oo-deen</em>.</p>
+    <p>My full name is <strong>Olawale Salaudeen</strong>; effectively everyone calls me Wale. Generally speaking, if you are writing my name down in any non-conversational setting, I prefer Olawale.</p>
+    <p>I share my first name, at least colloquially, with the incredible rapper and lyricist <a href="https://en.wikipedia.org/wiki/Wale_(rapper)" target="_blank" rel="noopener">Wale</a>, although our full first names are technically different: Olawale vs. Olubowale.</p>
+    <p>Correct pronunciation is entirely optional, as long as I know you're referring to me. The pronunciation someone uses often reflects how we know each other, where they first encountered my name, or who they learned it from, which I find kind of fun.</p>
+    <p>Some people nevertheless feel compelled to work very hard to pronounce it &ldquo;correctly.&rdquo; I should note that I cannot quite pronounce my first name correctly in my English accent either. I have to switch to my Yoruba accent. Do with that what you will :)</p>
+  </div>
+</details>
+```
+
+[Postdoc, Microsoft Research]{.hero-title .hero-msr}
+
+```{=html}
+<div class="hero-title hero-incoming-stack"><span class="hero-incoming">Incoming Assistant Professor (Fall 2027)</span><br><span class="hero-illinois">Electrical and Computer Engineering and<br><em>(by courtesy)</em> Computer Science</span><br><span class="hero-incoming">University of Illinois at Urbana-Champaign</span></div>
+```
 
 :::
 

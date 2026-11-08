@@ -41,7 +41,7 @@ format:
     theme:
       light: [cosmo, assets/css/custom.scss]
       dark: [darkly, assets/css/custom-dark.scss]
-    fontsize: "1.05rem"
+    fontsize: "1rem"
     linestretch: 1.6
     mainfont: "Inter, system-ui, -apple-system, sans-serif"
     toc: false

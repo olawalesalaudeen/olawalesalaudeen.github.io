@@ -103,7 +103,9 @@ h1, h2, h3, h4, h5, h6 { color: #ffffff !important; }
 .hero-identity .hero-title,
 .hero-identity .hero-email { color: #d6d3d1 !important; }
 
-.hero-identity .hero-title.hero-incoming { color: #ff8a4c !important; }
+.hero-identity .hero-title.hero-incoming,
+.hero-identity .hero-title .hero-incoming { color: #ff8a4c !important; }
+.hero-identity .hero-title .hero-illinois { color: #8ab4f0 !important; }
 .hero-identity .hero-title.hero-msr { color: #4db2e6 !important; }
 
 .name-pronunciation { color: #c9c7c4 !important; }
