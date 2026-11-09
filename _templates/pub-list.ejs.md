@@ -17,7 +17,7 @@ let bibIdx = 0;
 const tagLabels = {
   measurement: 'Measurement',
   generalization: 'Generalization',
-  intervention: 'Intervention',
+  intervention: 'Algorithms',
   applications: 'Applications'
 };
 
@@ -38,7 +38,7 @@ function linkLabel(label, p) {
     <button type="button" class="pub-filter-chip is-active" data-filter="all">All</button>
     <button type="button" class="pub-filter-chip" data-filter="measurement">Measurement</button>
     <button type="button" class="pub-filter-chip" data-filter="generalization">Generalization</button>
-    <button type="button" class="pub-filter-chip" data-filter="intervention">Intervention</button>
+    <button type="button" class="pub-filter-chip" data-filter="intervention">Algorithms</button>
     <button type="button" class="pub-filter-chip" data-filter="applications">Applications</button>
   </div>
   <input type="search" id="pub-search-input" class="pub-search-input" placeholder="Search title, author, venue&hellip;" aria-label="Search publications" autocomplete="off">

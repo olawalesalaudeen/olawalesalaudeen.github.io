@@ -15,7 +15,7 @@
 #   note       : optional extra (e.g. "Spotlight", "Oral", "Best Paper")
 #   year       : publication year (used for grouping)
 #   featured   : true to show on homepage Research Directions
-#   tags       : list from [measurement, generalization, intervention, applications]
+#   tags       : list from [measurement, generalization, intervention (shown as Algorithms), applications]
 #   links      : map of label → URL (paper, code, webpage, slides, etc.)
 #   abstract   : short description (optional)
 #   bibtex     : BibTeX citation string (shown in dropdown)
