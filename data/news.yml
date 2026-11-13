@@ -45,6 +45,12 @@
   type: talk
 
 - period: "Fall 2026"
+  text: 'I gave a talk at the <a href="https://www.nationalacademies.org/units/CHPP-LSB-25-P-708/event/47085">Science of Evaluation of Artificial Intelligence for Life Sciences and Biotechnology Meeting of Experts</a> at the National Academies.'
+  year: 2026
+  recent: true
+  type: talk
+
+- period: "Fall 2026"
   text: 'Our paper <a href="https://aiconstructlexis.github.io/">AI Construct Lexis</a> was accepted to the NeurIPS 2026 Evaluations and Datasets Track (to appear).'
   year: 2026
   recent: true

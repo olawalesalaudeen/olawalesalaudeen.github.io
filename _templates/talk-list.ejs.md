@@ -19,7 +19,7 @@ const contributed = items.filter(t => talkKind(t) === 'contributed');
       <div class="talk-dot"></div>
       <div class="talk-content">
         <div class="talk-header">
-          <div class="talk-title"><%= t.title %></div>
+          <% if (t.title) { %><div class="talk-title"><%= t.title %></div><% } %>
           <% if (t.note && talkKind(t) === 'invited') { %><span class="talk-note"><%= t.note %></span><% } %>
         </div>
         <div class="talk-venues">
@@ -45,7 +45,7 @@ const contributed = items.filter(t => talkKind(t) === 'contributed');
       <div class="talk-dot"></div>
       <div class="talk-content">
         <div class="talk-header">
-          <div class="talk-title"><%= t.title %></div>
+          <% if (t.title) { %><div class="talk-title"><%= t.title %></div><% } %>
           <% if (t.note && talkKind(t) === 'invited') { %><span class="talk-note"><%= t.note %></span><% } %>
         </div>
         <div class="talk-venues">

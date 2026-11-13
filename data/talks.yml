@@ -28,6 +28,14 @@
       year: 2026
       link: "https://ai.engin.umich.edu/events/causal-ai-for-decision-making-workshop/"
 
+- title: ""
+  kind: invited
+  venues:
+    - event: "Science of Evaluation of Artificial Intelligence for Life Sciences and Biotechnology Meeting of Experts, National Academies"
+      date: "2026"
+      year: 2026
+      link: "https://www.nationalacademies.org/units/CHPP-LSB-25-P-708/event/47085"
+
 - title: "On Evaluating AI Methods vs. Models"
   kind: invited
   venues:
