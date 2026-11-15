@@ -19,6 +19,10 @@
       date: "2026"
       year: 2026
       link: "https://hai.stanford.edu/events"
+    - event: "Canadian AI Safety Institute workshop on AI evaluation"
+      date: "2026"
+      year: 2026
+      link: "https://events.cifar.ca/website/99821/"
 
 - title: "Causality as the Unit of Analysis for AI Evaluation: Identification, Representation, and Intervention"
   kind: invited
