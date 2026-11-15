@@ -63,7 +63,7 @@
   year: 2025
   status: published
   featured: true
-  tags: [measurement, generalization]
+  tags: [measurement, generalization, intervention]
   links:
     paper: "https://arxiv.org/abs/2510.24884"
     blog: "blogs/aggregation.html"
@@ -191,7 +191,7 @@
   year: 2025
   status: published
   featured: true
-  tags: [measurement, generalization]
+  tags: [measurement, generalization, intervention]
   links:
     paper: "https://arxiv.org/abs/2504.00186"
     code: "https://github.com/olawalesalaudeen/misspecified_DG_benchmarks"
@@ -297,7 +297,7 @@
   year: 2024
   status: published
   featured: false
-  tags: [measurement, generalization]
+  tags: [measurement, generalization, intervention]
   links:
     paper: "https://openreview.net/forum?id=LbFK9pUlA5"
     blog: "blogs/proxy-benchmarks.html"
