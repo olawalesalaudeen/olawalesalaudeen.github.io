@@ -51,15 +51,17 @@ function linkLabel(label, p) {
   <% for (const p of preprints) { bibIdx++; %>
   <div class="pub-entry<%= p.featured ? ' pub-featured' : '' %>" id="<%= p.id %>" data-tags="<%= tagsAttr(p) %>">
     <div class="pub-title"><%= p.title %></div>
-    <div class="pub-authors"><%= p.authors %></div>
-    <% if (p.author_note) { %><div class="pub-author-note"><%= p.author_note %></div><% } %>
+    <div class="pub-authors">
+      <%= p.authors %><% if (p.author_note) { %> <span class="pub-author-note">(<%= p.author_note %>)</span><% } %>
+    </div>
+    <% if (p.venue || p.note || p.venue_suffix) { %>
     <div class="pub-venue">
       <strong><%= p.venue %></strong><% if (p.note) { %>
         <% const noteLower = p.note.toLowerCase(); const isAward = !noteLower.startsWith('preliminary') && !noteLower.startsWith('extended') && !noteLower.startsWith('abstract') && !noteLower.includes('review') && !noteLower.includes('to appear'); %>
         <span class="<%= isAward ? 'pub-note' : 'pub-note-info' %>"><%= p.note %></span>
       <% } %><% if (p.venue_suffix) { %> <strong><%= p.venue_suffix %></strong><% } %>
     </div>
-    <% if (p.tags && p.tags.length > 0) { %><div class="pub-tags"><% for (const t of p.tags) { %><span class="pub-tag pub-tag--<%= t %>" data-tag="<%= t %>"><%= tagLabels[t] || t %></span><% } %></div><% } %>
+    <% } %>
     <div class="pub-links">
     <% if (p.links && typeof p.links === 'object') {
       const linkEntries = Object.entries(p.links).filter(([k, v]) => v && v !== '#');
@@ -84,15 +86,17 @@ function linkLabel(label, p) {
   <% for (const p of byYear[year]) { bibIdx++; %>
   <div class="pub-entry<%= p.featured ? ' pub-featured' : '' %>" id="<%= p.id %>" data-tags="<%= tagsAttr(p) %>">
     <div class="pub-title"><%= p.title %></div>
-    <div class="pub-authors"><%= p.authors %></div>
-    <% if (p.author_note) { %><div class="pub-author-note"><%= p.author_note %></div><% } %>
+    <div class="pub-authors">
+      <%= p.authors %><% if (p.author_note) { %> <span class="pub-author-note">(<%= p.author_note %>)</span><% } %>
+    </div>
+    <% if (p.venue || p.note || p.venue_suffix) { %>
     <div class="pub-venue">
       <strong><%= p.venue %></strong><% if (p.note) { %>
         <% const noteLower = p.note.toLowerCase(); const isAward = !noteLower.startsWith('preliminary') && !noteLower.startsWith('extended') && !noteLower.startsWith('abstract') && !noteLower.includes('review') && !noteLower.includes('to appear'); %>
         <span class="<%= isAward ? 'pub-note' : 'pub-note-info' %>"><%= p.note %></span>
       <% } %><% if (p.venue_suffix) { %> <strong><%= p.venue_suffix %></strong><% } %>
     </div>
-    <% if (p.tags && p.tags.length > 0) { %><div class="pub-tags"><% for (const t of p.tags) { %><span class="pub-tag pub-tag--<%= t %>" data-tag="<%= t %>"><%= tagLabels[t] || t %></span><% } %></div><% } %>
+    <% } %>
     <div class="pub-links">
     <% if (p.links && typeof p.links === 'object') {
       const linkEntries = Object.entries(p.links).filter(([k, v]) => v && v !== '#');
@@ -126,14 +130,17 @@ function linkLabel(label, p) {
   const chips = filterBar.querySelectorAll('.pub-filter-chip');
   const entries = list.querySelectorAll('.pub-entry');
   const yearHeaders = list.querySelectorAll('.pub-year');
+  const tagLabels = <%= JSON.stringify(tagLabels) %>;
 
-  // Precompute the searchable text (title, authors, venue, year/section) per entry.
+  // Precompute the searchable text (title, authors, venue, topics, year/section).
   entries.forEach(e => {
     const parts = [];
-    ['.pub-title', '.pub-authors', '.pub-venue', '.pub-tags'].forEach(sel => {
+    ['.pub-title', '.pub-authors', '.pub-venue'].forEach(sel => {
       const el = e.querySelector(sel);
       if (el) parts.push(el.textContent);
     });
+    const tags = (e.dataset.tags || '').split(/\s+/).filter(Boolean);
+    parts.push(...tags.map(t => tagLabels[t] || t));
     let h = e.previousElementSibling;
     while (h && !h.classList.contains('pub-year')) h = h.previousElementSibling;
     if (h) parts.push(h.textContent);
@@ -211,16 +218,6 @@ function linkLabel(label, p) {
     });
   }
 
-  // Clicking a tag on a paper filters to just that topic.
-  list.querySelectorAll('.pub-tag').forEach(tag => {
-    tag.addEventListener('click', () => {
-      clearSearch();
-      activeTags.clear();
-      activeTags.add(tag.getAttribute('data-tag'));
-      syncChips();
-      apply();
-    });
-  });
 })();
 </script>
 ```

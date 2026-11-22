@@ -1697,6 +1697,49 @@ a {
   }
 }
 
+.pub-list .pub-entry {
+  margin-bottom: 0;
+  padding: 0.4rem 0.6rem;
+
+  .pub-title,
+  .pub-authors,
+  .pub-venue {
+    line-height: 1.4;
+    margin-bottom: 0.1rem;
+    overflow-wrap: anywhere;
+  }
+
+  .pub-title {
+    font-size: 0.95rem;
+  }
+
+  .pub-authors,
+  .pub-venue {
+    font-size: 0.82rem;
+  }
+
+  .pub-venue {
+    font-style: normal;
+  }
+
+  .pub-author-note {
+    font-size: 0.75rem;
+  }
+
+  .pub-links {
+    margin-top: 0.25rem;
+    align-items: center;
+  }
+
+  .pub-link {
+    font-size: 0.75rem;
+    line-height: 1.4;
+    min-height: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
 .pub-title,
 .featured-title {
   font-family: $headings-font-family;
