@@ -26,32 +26,53 @@
 # ── In Review / In Preparation ─────────────────────────────────────────────
 
 - id: salaudeen2026lexis
-  title: "AI Construct Lexis"
+  title: "AI Construct Lexis: A Network of Constructs and Measurement Instruments Used in AI Evaluation"
   authors: "Olawale Elijah Salaudeen, Florian E. Dorner, Tom Sühr, Sang T. Truong, Haoran Zhang, Patrick G. Bissett, James Fox, Marzyeh Ghassemi, Thomas Hartvigsen, Peter Hase, Augustin Kelava, Suhas Mahesh, Margaret Mitchell, Jamelle Watson-Daniels, Sanmi Koyejo, Angelina Wang"
-  venue: "NeurIPS 2026 Evaluations and Datasets Track"
+  venue: "NeurIPS 2026"
   note: "to appear"
   year: 2026
   status: published
   featured: true
   tags: [measurement]
   links:
+    paper: "https://openreview.net/pdf/6ee8c5903e92842e3761fb5c12b7da6caf9113c4.pdf"
+    code: "https://github.com/aiconstructlexis/aiconstructlexis.github.io"
     webpage: "https://aiconstructlexis.github.io/"
   abstract: >
     A collaborative effort to map AI constructs, valid measurement instruments,
     and related behaviors and tasks—building toward a nomological network for
     evaluating AI systems.
+  bibtex: |
+    @inproceedings{salaudeen2026lexis,
+      title={{AI} Construct Lexis: A Network of Constructs and Measurement Instruments Used in {AI} Evaluation},
+      author={Salaudeen, Olawale Elijah and Dorner, Florian E. and S{\"u}hr, Tom and Truong, Sang T. and Zhang, Haoran and Bissett, Patrick G. and Fox, James and Ghassemi, Marzyeh and Hartvigsen, Thomas and Hase, Peter and Kelava, Augustin and Mahesh, Suhas and Mitchell, Margaret and Watson-Daniels, Jamelle and Koyejo, Sanmi and Wang, Angelina},
+      booktitle={Advances in Neural Information Processing Systems},
+      year={2026},
+      note={Evaluations and Datasets Track, to appear},
+      url={https://openreview.net/pdf/6ee8c5903e92842e3761fb5c12b7da6caf9113c4.pdf}
+    }
 
 - id: salaudeen2025failures
   title: "Avoiding Common Failures in AI for Health and Medicine"
   authors: "Olawale Salaudeen, Haoran Zhang, Eileen Kim, Karandeep Singh, Marzyeh Ghassemi"
   venue: "Cell 2026"
-  note: "Review Article, Special Issue on AI in Biology"
   year: 2026
   status: published
   featured: false
   tags: [measurement, applications]
   links:
     paper: "https://www.cell.com/cell/fulltext/S0092-8674(26)00823-8"
+  bibtex: |
+    @article{salaudeen2026failures,
+      title={Avoiding common failures in {AI} for health and medicine},
+      author={Salaudeen, Olawale and Zhang, Haoran and Kim, Eileen and Singh, Karandeep and Ghassemi, Marzyeh},
+      journal={Cell},
+      volume={189},
+      number={19},
+      pages={5893--5904},
+      year={2026},
+      doi={10.1016/j.cell.2026.07.025}
+    }
 
 # ── 2025 ────────────────────────────────────────────────────────────────────
 
@@ -210,10 +231,10 @@
     }
 
 - id: zhang2026benchmarks
-  title: "Benchmarks Cannot Establish Deployment Readiness of Clinical AI"
+  title: "Position: Benchmarks Cannot Establish Deployment Readiness of Clinical AI"
   authors: "Haoran Zhang*, Hyewon Jeong*, Olawale Elijah Salaudeen*, Walter Gerych*, Nigam Shah, Marzyeh Ghassemi"
   author_note: "* equal contribution; name order determined via a riveting random walk race simulator"
-  venue: "ICML 2026 (Position Paper Track)"
+  venue: "ICML 2026"
   year: 2026
   status: published
   featured: false
@@ -229,9 +250,9 @@
     }
 
 - id: suhr2025stop
-  title: "Stop Evaluating AI with Human Tests, Develop Principled, AI-specific Tests instead"
+  title: "Position: Stop Evaluating AI with Human Tests, Develop Principled, AI-specific Tests instead"
   authors: "Tom Sühr, Florian E. Dorner, Olawale Salaudeen, Augustin Kelava, Samira Samadi"
-  venue: "ICML 2026 (Position Paper Track)"
+  venue: "ICML 2026"
   year: 2026
   status: published
   featured: true
